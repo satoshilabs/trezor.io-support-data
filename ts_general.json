@@ -1,0 +1,1110 @@
+[
+	{
+		"id": 0,
+		"text": "General questions (main selection)",
+		"content": "<p>Please select the category you are interested in.</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 4688.275520324707,
+		"fy": -3560.249626159668,
+		"connections": [
+			{
+				"target": 174,
+				"title": "General information",
+				"description": "Information about supported cryptocurrencies, product specification, security principles and legal stuff related to our company and services.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 172,
+				"title": "Requests for integration",
+				"description": "Information and rules related to the integration of the new cryptocurrencies, platforms, services/apps and features.\n",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 173,
+				"title": "Business Inquiries",
+				"description": "Everything related to sponsorship, conference invitations, offers for reviews etc.\n",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 175,
+				"title": "List of official resellers",
+				"description": "Complete list of official resellers.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 176,
+				"title": "Coinmap",
+				"description": "Information and instructions related to Coinmap.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 172,
+		"text": "Integration request (selection)",
+		"content": "<p>Please let us know what you would like to integrate.</p>\n<p>You can check our <a href=\"https://wiki.trezor.io/Roadmap\">roadmap</a>, to see what is planned for each respective Trezor model.</p>\n<p>Developers also may take a look <a href=\"https://wiki.trezor.io/Developers_guide\">here</a> before choosing one of the categories.</p>\n<p><br></p>",
+		"metadata": "integration",
+		"nosearch": "",
+		"fx": 3061.217903137207,
+		"fy": -3201.1909103393555,
+		"connections": [
+			{
+				"target": 192,
+				"title": "New cryptocurrencies",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 178,
+				"title": "Services/Apps",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 179,
+				"title": "Support for new platforms/browsers",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 180,
+				"title": "New features",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 173,
+		"text": "Business Inquiries (selection)",
+		"content": "<p>Please select the category that reflects your needs.</p>",
+		"metadata": "cooperation, sponsorship, review, press, conference, partner, venture, promote",
+		"nosearch": "",
+		"fx": 3705.543098449707,
+		"fy": -3182.923942565918,
+		"connections": [
+			{
+				"target": 181,
+				"title": "Press",
+				"description": "Do you want to review our products?",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 178,
+				"title": "Integration proposal",
+				"description": "Are you running or developing an interesting service/application you want integrate with our products?",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 183,
+				"title": "Sales ",
+				"description": "Do you have some business with our sales department? They can help you with bulk orders, affiliate accounts and everything else related to sales matters.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 184,
+				"title": "Conferences & Events",
+				"description": "Do you plan some interesting conference and want us to invite there?",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 185,
+				"title": "Partnerships",
+				"description": "Do you want to start some form of partnership/cooperation with us?",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 174,
+		"text": "General information (selection)",
+		"content": "<p>From what area do you request the information?</p>",
+		"metadata": "general",
+		"nosearch": "",
+		"fx": 4757.705451965332,
+		"fy": -3229.421501159668,
+		"connections": [
+			{
+				"target": 186,
+				"title": "Cryptocurrencies",
+				"description": "Everything regarding supported coins (forks, ICO, Airdrops).",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 188,
+				"title": "Product information",
+				"description": "Information about Trezor models and the relevant software.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 187,
+				"title": "Security principles",
+				"description": "The security philosophy of our company and of our products.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 189,
+				"title": "Company and legal matters",
+				"description": "Legal, warranty and similar information.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 175,
+		"text": "List of official resellers",
+		"content": "<p>For the list of our official resellers, please click <a href=\"https://trezor.io/resellers/\">here</a>.</p>\n<p>Please be aware that we have also official stores on <a href=\"https://www.amazon.com/s?me=A25Z0IAI215API&amp;merchant=A25Z0IAI215API&amp;qid=1538137583\">Amazon US</a>, <a href=\"https://www.amazon.de/s?marketplaceID=A1PA6795UKMFR9&amp;me=A2EXJ3435A8YY5&amp;merchant=A2EXJ3435A8YY5\">Amazon DE</a> and Newegg (<a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2312&amp;ignorebbr=1\">Trezor One</a>, <a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2308&amp;cm_re=trezor-_-1BK-00UB-00004-_-Product?cm_sp=NeweggInsider-_-Article-_-Trezor\">Trezor Model T</a>).</p>\n<p>Dodat odkazy a později ještě rozlišit resellery s námi autorizovaným supportem&nbsp;(zeptat se sales jak to vypadá)</p>",
+		"metadata": "reseller, authorized, legal, original, valid",
+		"nosearch": "",
+		"fx": 5085.528450012207,
+		"fy": -3237.724967956543,
+		"connections": []
+	},
+	{
+		"id": 176,
+		"text": "Coinmap (selection)",
+		"content": "<p><a href=\"https://coinmap.org/welcome/\">Coinmap</a> is a website project which shows a map of venues where Bitcoin is accepted as a payment. More information about Coinmap can be also found on our <a href=\"https://wiki.trezor.io/Apps:Coinmap\">wiki</a>.</p>\n<p>What do you need to perform with the Coinmap?</p>",
+		"metadata": "coinmap, venue, edit, remove, add, create",
+		"nosearch": "",
+		"fx": 6209.776985168457,
+		"fy": -3207.833366394043,
+		"connections": [
+			{
+				"target": 212,
+				"title": "Creating a venue",
+				"description": "How to add a place that is accepting Bitcoin to Coinmap.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 213,
+				"title": "Deleting a venue",
+				"description": "How to remove a place created on Coinmap.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 214,
+				"title": "Updating a venue",
+				"description": "How to update a place created on Coinmap.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 215,
+				"title": "Complete list of venues/API usage",
+				"description": "How to obtain the list of all places added on Coinmap.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 178,
+		"text": "Services/App (Integration process)",
+		"content": "<p>The list of the compatible services/applications can be found <a href=\"https://wiki.trezor.io/Apps\">here</a>.</p>\n<p><strong>For customers:</strong></p>\n<p>In case you would like to see some service or application integrated with our products, please contact their developer team and ask them to start the integration process with us.</p>\n<p><strong>For developers:</strong></p>\n<p>Developers can take a look at our <a href=\"https://github.com/trezor/\">GitHub repository</a> and start the integration process from here with all necessary details. It may take some time until your request is answered, so please be patient.</p>\n<p><strong>For all:</strong></p>\n<p>You can subscribe to our newsletter through our form that is located at the bottom of our <a href=\"http://trezor.io\">website</a> and check out our <a href=\"https://blog.trezor.io\">blog</a> to be on top of the news!</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 2855.661506652832,
+		"fy": -2988.2678146362305,
+		"connections": []
+	},
+	{
+		"id": 179,
+		"text": "Support for new platforms/browsers (Integration process)",
+		"content": "<p>Here you can find the information about what operating systems and browsers are currently supported: <a href=\"https://wiki.trezor.io/Operating_system\">Operating systems</a></p>\n<p><a href=\"https://wiki.trezor.io/Supported_browsers\">Browsers</a></p>\n<p><strong>For customers:</strong></p>\n<p>Once the support for the new platform/browser is released, the information&nbsp;is announcened via our social media (<a href=\"https://blog.trezor.io/\">Blog</a>, <a href=\"https://twitter.com/trezor\">Twitter</a>, <a href=\"https://www.reddit.com/r/TREZOR/\">Reddit</a>).&nbsp;</p>\n<p><strong>For developers:</strong></p>\n<p>Developers can take a look at our <a href=\"https://github.com/trezor/\">GitHub repository</a> and start the integration process from there.</p>\n<p><strong>For all:</strong></p>\n<p>You can subscribe to our newsletter via the form located at the bottom of our <a href=\"http://trezor.io\">website</a> and check out our <a href=\"https://blog.trezor.io\">blog</a> to be on top of the news!</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 3058.258918762207,
+		"fy": -2971.6616134643555,
+		"connections": []
+	},
+	{
+		"id": 180,
+		"text": "New features (Integration process)",
+		"content": "<p><strong>For customers:</strong></p>\n<p><strong>Please do not include the requests for support of new cryptocurrencies here. The correct category for these requests is \"</strong><em><strong>I want more cryptocurrencies to be supported</strong></em><strong>\" with its rules and conditions.</strong></p>\n<p>In case you want to see a particular feature in one of our products, please provide us with details. The feature can be considered anything that improves or add functionality to our hardware or software products.</p>\n<p><strong>For developers:</strong></p>\n<p>Developers can take a look at our <a href=\"https://github.com/trezor/\">GitHub repository</a> and start the integration process from here.</p>\n<p><strong>For all:</strong></p>\n<p>Before introducing an idea or request for a new feature, please take a look on \"<em><strong>Available features</strong></em>\" category, to check whether that feature was not implemented already.</p>\n<p>You can also subscribe to our newsletter through our form that is located at the bottom of our <a href=\"http://trezor.io\">website</a> and check out our <a href=\"https://blog.trezor.io\">blog</a> to be on top of the news!</p>",
+		"metadata": "",
+		"nosearch": true,
+		"fx": 3240.928596496582,
+		"fy": -2988.267936706543,
+		"connections": [
+			{
+				"target": 218,
+				"title": "I have new interesting feature to add",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://satoshilabs.kayako.com/conversation/new/13",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 192,
+				"title": "I want more cryptocurrencies to be supported",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 201,
+				"title": "Available features",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 181,
+		"text": "Press (contact)",
+		"content": "<p>Please contact our Marketing department for press inquiries at press@satoshilabs.com.</p>",
+		"metadata": "",
+		"nosearch": false,
+		"fx": 3509.950569152832,
+		"fy": -2988.2678146362305,
+		"connections": []
+	},
+	{
+		"id": 183,
+		"text": "Sales Partners (contact)",
+		"content": "<p>Help us spread Trezor security worldwide.</p>\n<p>Become a reseller or join the affiliate program to earn interesting commissions!</p>\n<p>Please use the official <a href=\"https://shop.trezor.io/sales/\">sales page</a> for the contact and resolving your needs there.</p>",
+		"metadata": "sale, bulk, affiliate, trade",
+		"nosearch": "",
+		"fx": 3674.477668762207,
+		"fy": -3006.6923751831055,
+		"connections": []
+	},
+	{
+		"id": 184,
+		"text": "Conferences & Events (contact)",
+		"content": "<p>SatoshiLabs generally prepares its conference and events attendance schedule a year ahead. It is therefore advised to send in the promotion materials well ahead of schedule for timely evaluation by the responsible SatoshiLabs team.</p>\n<p>Please send your materials to press@satoshilabs.com.</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 3835.659065246582,
+		"fy": -3003.168571472168,
+		"connections": []
+	},
+	{
+		"id": 185,
+		"text": "Partnerships (description)",
+		"content": "<p>We are always looking to expand our reach and partner up with interesting and innovative companies. If you believe that you have the product or service that is well-aligned with our mission, please fill out the following form and we will get back to you!nstruction.&nbsp;</p>\n<p>Instead of developer contact, you can enter the email of your Business Development Manager.</p>",
+		"metadata": "",
+		"nosearch": true,
+		"fx": 3996.897834777832,
+		"fy": -3000.691764831543,
+		"connections": [
+			{
+				"target": 219,
+				"title": "Send us a message",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://satoshilabs.kayako.com/conversation/new/13",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 186,
+		"text": "Cryptocurrencies (selection)",
+		"content": "<p>Please select the corresponding category.</p>",
+		"metadata": "coin, crypto, currency, tokens, blockchain, erc, fork, split",
+		"nosearch": "",
+		"fx": 4177.524543762207,
+		"fy": -2986.6071701049805,
+		"connections": [
+			{
+				"target": 190,
+				"title": "Supported cryptocurrency",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 191,
+				"title": "Supported forks",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 193,
+				"title": "ICO/Airdrop",
+				"description": "When you need to extract your private keys.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 192,
+				"title": "I want Trezor to support new cryptocurrencies",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 187,
+		"text": "Security principles",
+		"content": "<p>Our <strong>Security Principles</strong> are summarized <a href=\"https://wiki.trezor.io/User_manual:Security_philosophy\">here</a></p>\n<p>Please take a look at this <a href=\"https://wiki.trezor.io/User_manual:Security_best_practices\">link</a> for <strong>Security Best Practices.</strong></p>\n<p>Information about our <strong>Bug bounty program</strong> can be found <a href=\"https://trezor.io/security/\">here</a>.</p>",
+		"metadata": "security, philosophy, bug, bounty, protection",
+		"nosearch": "",
+		"fx": 4569.434211730957,
+		"fy": -2963.358757019043,
+		"connections": [
+			{
+				"target": 211,
+				"title": "What if your company suddenly shuts down?",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 188,
+		"text": "Product information (selection)",
+		"content": "<p>Please select the corresponding category.</p>",
+		"metadata": "T1, T2, TT, trezor, product",
+		"nosearch": "",
+		"fx": 5021.037239074707,
+		"fy": -2963.728385925293,
+		"connections": [
+			{
+				"target": 197,
+				"title": "Hardware",
+				"description": "Trezor One and Trezor Model T",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 199,
+				"title": "Software",
+				"description": "Interfaces and services compatible with Trezor.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 206,
+				"title": "Comparison between products",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 217,
+				"title": "How do I know that my Trezor is genuine?",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 189,
+		"text": "Company and legal matters (selection)",
+		"content": "<p>For general overview concerning legal matters please visit our <a href=\"https://shop.trezor.io/about/#legal\">e-shop</a> or specify the category.</p>",
+		"metadata": "legal",
+		"nosearch": "",
+		"fx": 5595.705696105957,
+		"fy": -2970.000602722168,
+		"connections": [
+			{
+				"target": 209,
+				"title": "Warranty",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 210,
+				"title": "Licence (copyright)",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 211,
+				"title": "What if your company suddenly shuts down?",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 190,
+		"text": "Supported cryptocurrency",
+		"content": "<p>You can find the list of all supported coins and tokens <a href=\"trezor.io/coins\">here</a>.</p>\n<p><strong>Please be aware that there is a different set of supported cryptocurrencies for each model (Trezor One and Trezor Model T) and some are supported only by the firmware.&nbsp;</strong></p>\n<p><strong>Supported only by the firmware means, that the cryptocurrency is ready to use with the respective model, but there is no wallet (interface) to operate with it yet.</strong></p>\n<p><a href=\"https://wallet.trezor.io\">Trezor Wallet interface</a> directly supports <a href=\"https://wiki.trezor.io/Bitcoin_(BTC)\">Bitcoin</a>, <a href=\"https://wiki.trezor.io/Bitcoin_Cash_(BCH)\">Bitcoin Cash</a>, <a href=\"https://wiki.trezor.io/Bitcoin_Gold_(BTG)\">Bitcoin Gold</a>, <a href=\"https://wiki.trezor.io/Dash_(DASH)\">Dash</a>, <a href=\"https://wiki.trezor.io/DigiByte_(DGB)\">Digibyte</a>, <a href=\"https://wiki.trezor.io/Dogecoin_(DOGE)\">Dogecoin</a>, <a href=\"https://wiki.trezor.io/Ethereum_(ETH)\">Ethereum</a>, <a href=\"https://wiki.trezor.io/Ethereum_Classic_(ETC)\">Ethereum Classic</a>, <a href=\"https://wiki.trezor.io/ERC20_tokens\">ERC20 tokens</a>, <a href=\"https://wiki.trezor.io/Litecoin_(LTC)\">Litecoin</a>, <a href=\"https://wiki.trezor.io/Namecoin_(NMC)\">Namecoin</a>, <a href=\"https://wiki.trezor.io/Vertcoin_(VTC)\">Vertcoin</a> and <a href=\"https://wiki.trezor.io/Zcash_(ZEC)\">Zcash</a> (<strong>only transparent transactions</strong>).&nbsp;</p>\n<p><strong>Some supported cryptocurrencies can be accessed through 3rd-party wallets </strong>(for example, <a href=\"https://www.myetherwallet.com/\">MyEtherWallet</a> or <a href=\"https://mycrypto.com/account\">MyCrypto</a> has the integration with Trezor for using Ethereum/Ethereum Classic/ERC20 tokens).&nbsp;</p>\n<p>You can refer to our Wiki for more <a href=\"https://wiki.trezor.io/Apps#Third-party_cryptocurrency_wallets\">details</a> regarding all recommended 3rd-party wallets.</p>\n<p><strong>All supported coins for the respective model can be stored using one Trezor device (you do not need any additional devices).</strong></p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 3966.986213684082,
+		"fy": -2798.593620300293,
+		"connections": [
+			{
+				"target": 192,
+				"title": "I want more cryptocurrencies to be supported",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 191,
+		"text": "Supported forks (selection)",
+		"content": "<p>Trezor officially supports these forks:</p>\n<p><strong>Bitcoin Cash</strong> (please click on the links for more information) - <a href=\"https://wiki.trezor.io/Bitcoin_Cash_(BCH)#Claiming_Bitcoin_Cash\">Wiki</a>, <a href=\"https://blog.trezor.io/claim-bcash-bitcoin-cash-bch-bcc-trezor-wallet-f0a810d5864a\">Blog</a>&nbsp;</p>\n<p><strong>Bitcoin Gold</strong> (please click on the links for more information) - <a href=\"https://wiki.trezor.io/Bitcoin_Gold_(BTG)#Claiming_Bitcoin_Gold\">Wiki</a>, <a href=\"https://blog.trezor.io/claim-bitcoin-gold-bgold-btg-f66969e7f2c0\">Blog</a></p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 4152.977424621582,
+		"fy": -2795.2724533081055,
+		"connections": [
+			{
+				"target": 195,
+				"title": "Conditions for supporting a new fork",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 216,
+				"title": "What about Bitcoin SV (BSV) fork?",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 194,
+				"title": "I have encountered an issue while claiming the fork",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 192,
+		"text": "Support for new cryptocurrencies (Integration process)",
+		"content": "<p><strong>For customers:</strong></p>\n<p>If you would like to expand the list of the cryptocurrencies supported by our devices, please address this wish to the developers of said cryptocurrency, as we do not have the resources to develop all integrations by ourselves. It is impossible for us to have up-to-date information and to understand every existing cryptocurrency, after all.</p>\n<p>Otherwise, please wait for our official announcement via our social media (<a href=\"https://blog.trezor.io/\">Blog</a>, <a href=\"https://twitter.com/trezor\">Twitter</a>, <a href=\"https://www.reddit.com/r/TREZOR/\">Reddit</a>). Until then, the answer is going to be the same, even if you contact our support.&nbsp;</p>\n<p><em><strong>This answer applies to all questions regarding the unsupported cryptocurrencies.</strong></em></p>\n<p><strong>For developers:</strong></p>\n<p>Developers can contact our integration specialist at <u>integration[at]satoshilabs.com</u> (musí se upravit na samostatnou form pod tímto emailem, jinak zcela z textu vypustit a dát link na github). Since the number of the requests is high, it may take some time until your email is answered. Thank you for your patience.</p>\n<p><strong>For all:</strong></p>\n<p>Please subscribe to our newsletter via the form that is located at the bottom of our <a href=\"http://trezor.io\">website</a> and check out our <a href=\"https://blog.trezor.io\">blog</a> to be on top of the news!</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 4317.379768371582,
+		"fy": -2777.005485534668,
+		"connections": []
+	},
+	{
+		"id": 193,
+		"text": "ICO/Airdrop (description)",
+		"content": "<p>Trezor is not supporting any ICO or Airdrops.</p>\n<p><strong>Private key extraction:</strong></p>\n<p>There is no way to access your private keys unless they are exported directly from your recovery seed (<a href=\"https://wiki.trezor.io/Recovery_seed\">https://wiki.trezor.io/Recovery_seed</a>) (12, 18 or 24 words generated with your Trezor device). The fact that Trezor keeps these private keys isolated is actually an important security feature.</p>\n<p>There are third-party tools capable of deriving the individual private keys from your recovery seed. However, we are not able to evaluate or guarantee the safety of such services. Therefore, we cannot recommend using them. We do not encourage Trezor users to export any private keys from the recovery seed, as it can be compromised this way.</p>\n<p>We are afraid you will have to do your own research and make a judgment on your behalf.</p>\n<p><strong>In case you decide to export your seed in order to claim your individual private keys, please do so only after sending all your funds from the wallet associated with your current seed to the newly generated wallet (new seed). Afterwards. stop using that seed to avoid unnecessary risk.</strong></p>",
+		"metadata": "private, extract, ico, airdrop",
+		"nosearch": "",
+		"fx": 4500.049201965332,
+		"fy": -2781.987419128418,
+		"connections": []
+	},
+	{
+		"id": 194,
+		"text": "Redirection to the Technical section",
+		"content": "<p>Please click <a href=\"https://trezor.io/support/#t275\">here</a> for the possible explanations.</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 3959.718635559082,
+		"fy": -2621.6213302612305,
+		"connections": []
+	},
+	{
+		"id": 195,
+		"text": "Conditions for supporting a fork",
+		"content": "<p>In order to evaluate the support for more forks, there are several conditions that must be fulfilled by the team of developers standing behind the respective fork.</p>\n<p>Our conditions are as follows:</p>\n<p>1. The forked currency must be open-source, to be verifiably safe to use alongside other currencies.&nbsp;</p>\n<p>2. The Bitcoin fork must have a strong, two-way replay protection. Without replay protection, you could lose your cryptocurrency when trying to use the fork.&nbsp;</p>\n<p>3. The blockchain of the fork must be online, active and running. This requirement effectively means that miners are working to keep the blockchain alive and that the blocks are created at a regular period.&nbsp;</p>\n<p>4. The forked coin must be backed by a development team, which regularly updates the codebase. Without this assurance, the fork might just be a quick-to-get-rich scheme at the expense of investors into the coin.&nbsp;</p>\n<p>5. The cryptocurrency must be supported by reputable services, such as exchanges or wallets. No-name or previously unknown exchanges are not considered reputable.</p>\n<p><strong>SatoshiLabs reserve the right not to support a fork even if it addresses all the needed conditions, when we think that the support is not appropriate.</strong></p>\n<p>Basically, all forks that we want to support are announced through our social media. Please subscribe to our newsletter via the form that is located at the bottom of our website (http://trezor.io) and check out our blog at https://blog.trezor.io to be on top of the news!</p>\n<p><strong>Asking our Support Team will lead to the same answer as described here.&nbsp;</strong></p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 4141.535041809082,
+		"fy": -2618.8832931518555,
+		"connections": []
+	},
+	{
+		"id": 197,
+		"text": "Trezor Model (selection)",
+		"content": "<p>Please select the respective model.</p>",
+		"metadata": "hardware, model, specs, technical, characteristics",
+		"nosearch": "",
+		"fx": 4666.111946105957,
+		"fy": -2778.666130065918,
+		"connections": [
+			{
+				"target": 202,
+				"title": "Trezor One",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 203,
+				"title": "Trezor Model T",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 199,
+		"text": "Software (selection)",
+		"content": "<p>Please specify the category.</p>",
+		"metadata": "software, interface",
+		"nosearch": "",
+		"fx": 4908.565071105957,
+		"fy": -2788.629753112793,
+		"connections": [
+			{
+				"target": 204,
+				"title": "Official",
+				"description": "Our official software.\n",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 205,
+				"title": "3rd-party",
+				"description": "Compatible third-party software.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 201,
+		"text": "Available features",
+		"content": "<p>The list of the Trezor Wallet features can be found on our <a href=\"https://wiki.trezor.io/Apps:Trezor_Wallet\">wiki</a>.</p>",
+		"metadata": "feature",
+		"nosearch": "",
+		"fx": 4875.437141418457,
+		"fy": -2517.301139831543,
+		"connections": []
+	},
+	{
+		"id": 202,
+		"text": "Trezor One (specification)",
+		"content": "<p>The technical specification for Trezor One can be found <a href=\"https://wiki.trezor.io/Trezor_One\">here</a>. For more detailed information please use this <a href=\"https://wiki.trezor.io/index.php?title=Security%3AHardware&amp;ModelType=1\">link</a>.</p>\n<p>You can also visit our <a href=\"https://github.com/trezor/trezor-hw\">GitHub page</a>.</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 4548.130989074707,
+		"fy": -2630.4201583862305,
+		"connections": []
+	},
+	{
+		"id": 203,
+		"text": "Trezor Model T (specification)",
+		"content": "<p>The technical specification for Trezor Model T can be found <a href=\"https://wiki.trezor.io/Trezor_Model_T\">here</a>. For more detailed information please use this <a href=\"https://wiki.trezor.io/index.php?title=Security%3AHardware&amp;ModelType=2\">link</a>.</p>\n<p>You can also visit our <a href=\"https://github.com/trezor/trezor-core/blob/master/docs/hardware.md\">GitHub page</a>.&nbsp;</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 4710.330696105957,
+		"fy": -2624.8879318237305,
+		"connections": []
+	},
+	{
+		"id": 204,
+		"text": "Official Apps",
+		"content": "<p>For the complete list of our official apps, please refer to this <a href=\"https://wiki.trezor.io/Apps#Trezor_wallets_and_services\">link</a>.</p>",
+		"metadata": "",
+		"nosearch": false,
+		"fx": 4866.894660949707,
+		"fy": -2635.670280456543,
+		"connections": [
+			{
+				"target": 201,
+				"title": "Available features",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 205,
+		"text": "3rd-party software",
+		"content": "<p>For the complete list of the 3rd-party compatible software please refer to this <a href=\"https://wiki.trezor.io/Apps#Third-party_cryptocurrency_wallets\">link</a>.</p>",
+		"metadata": "",
+		"nosearch": false,
+		"fx": 5018.382942199707,
+		"fy": -2631.428337097168,
+		"connections": []
+	},
+	{
+		"id": 206,
+		"text": "Comparison between products (selection)",
+		"content": "<p>Please specify the category.</p>",
+		"metadata": "comparison, difference",
+		"nosearch": "",
+		"fx": 5125.478645324707,
+		"fy": -2766.8610763549805,
+		"connections": [
+			{
+				"target": 207,
+				"title": "Trezor Models comparison",
+				"description": "Trezor One vs Trezor Model T.\n",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 208,
+				"title": "Production vs Beta vs Old",
+				"description": "Trezor Wallet vs Trezor Beta Wallet vs Old Wallet interface.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 207,
+		"text": "Comparison between Trezor One and Trezor Model T",
+		"content": "<p>What are the differences between the original Trezor One and the new Trezor Model T?</p>\n<p><strong>Trezor Model T features/improvements</strong></p>\n<p><strong>Hardware&nbsp;</strong></p>\n<p>- Big touchscreen with vibrant colors (no need for physical buttons, safer recovery and entering PIN/Passphrase directly on the screen.)</p>\n<p>- Slot for a microSD card (it will be possible to encrypt data stored on it)</p>\n<p>- USB-C connector</p>\n<p>- Faster CPU</p>\n<p><strong>Software</strong></p>\n<p>- Trezor Model T runs on entirely new firmware called Trezor Core. It will allow much faster development for new features, some of which will be portable back to Trezor One.</p>\n<p>- New software stack means easier integration for new coins (more supported cryptocurrencies).</p>\n<p><em><strong>For a more detailed comparison please click on this </strong></em><a href=\"https://trezor.io/#comparison\"><em><strong>link</strong></em></a><em><strong>.</strong></em></p>\n<p><strong>Links to technical specification:</strong></p>\n<p><a href=\"https://wiki.trezor.io/Trezor_One\">Trezor One</a></p>\n<p><a href=\"https://wiki.trezor.io/Trezor_Model_T\">Trezor Model T</a></p>\n<p><strong>What happens to Trezor One in the future?</strong></p>\n<p>We will keep selling Trezor One alongside with its newer counterpart Trezor Model T.</p>\n<p>Those two models are focusing different market segments and should do not compete.</p>\n<p>We will keep supporting Trezor One, including security updates.</p>",
+		"metadata": "model, new, old",
+		"nosearch": "",
+		"fx": 5175.590461730957,
+		"fy": -2598.405143737793,
+		"connections": []
+	},
+	{
+		"id": 208,
+		"text": "Production vs Beta vs Old",
+		"content": "<p><a href=\"https://wallet.trezor.io\"><strong>Trezor Wallet</strong></a><strong> </strong>(wallet.trezor.io)&nbsp;</p>\n<p>It is the official production-level, battle-tested version <u>of the web wallet </u>interface provided by SatoshiLabs. It is feature-conservative, meaning new functions are added at a slower pace and only after they are thoroughly tested, to ensure the highest reliability of the wallet. The purpose of this wallet is to provide a continuous and stable access to Trezor device.&nbsp;</p>\n<p><a href=\"https://beta-wallet.trezor.io\"><strong>Trezor Beta Wallet</strong></a> (beta-wallet.trezor.io)</p>\n<p>It is a less-tested version <u>of the web wallet</u> interface. New features are first released here, before we consider them to be sufficiently reliable for the production wallet. It serves as a public feature-testing platform for the Trezor community, providing power users with quick access to new features.&nbsp;Even though it is mainly for testing purposes, this wallet is safe to use as in all cases, your private keys are protected by Trezor device.</p>\n<p><a href=\"https://old-wallet.trezor.io\"><strong>Old Wallet</strong></a> (old-wallet.trezor.io)</p>\n<p>It is an older version of the interface intended for backwards compatibility when a new version is released to Trezor Wallet (wallet.trezor.io) (production) web wallet interface. It is useful when some significant changes are applied. In other words, the previous Trezor Wallet ends here when it is replaced by the newer version.</p>\n<p><strong>Wallets can be used interchangeably, as they are just the interface for your Trezor device.</strong></p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 5342.944465637207,
+		"fy": -2625.155632019043,
+		"connections": []
+	},
+	{
+		"id": 209,
+		"text": "Warranty",
+		"content": "<p>Our warranty conditions and refund policy can be found <a href=\"https://shop.trezor.io/static/shared/warranty-refund-policy.pdf\">here</a>.</p>",
+		"metadata": "warranty, return conditions",
+		"nosearch": "",
+		"fx": 5433.325325012207,
+		"fy": -2793.6115646362305,
+		"connections": []
+	},
+	{
+		"id": 210,
+		"text": "Licence (copyright)",
+		"content": "<p>Our products are running under the <strong>LGPL 3.0</strong> licence.</p>\n<p>Please use this <a href=\"https://opensource.org/licenses/lgpl-3.0.html\">link</a> for more details regarding the licence.</p>\n<p>For more information related to legal matters, you can use the general overview on our <a href=\"https://shop.trezor.io/about/#legal\">e-shop</a>.</p>",
+		"metadata": "licence, copyright",
+		"nosearch": false,
+		"fx": 5576.140266418457,
+		"fy": -2777.0051193237305,
+		"connections": []
+	},
+	{
+		"id": 211,
+		"text": "Company shutdown concerns",
+		"content": "<p><strong>First of all, we certainly do not plan to stop our business, but even if something unexpected happens, you can use Trezor with a variety of compatible third-party services. Some of these services can be used for the recovery process, letting you access your funds directly in the respective wallet.</strong></p>\n<p>Here is the complete <a href=\"https://wiki.trezor.io/Apps#Active_wallets\">list</a>.</p>\n<p>Moreover, since our code is <strong>open-source</strong>, developers from around the world can maintain it and add new functionalities.</p>\n<p>Advanced users can run their own local instance of Trezor Wallet interface in combination with the local blockbook. More details can be found <a href=\"https://wiki.trezor.io/User_manual:Running_a_local_instance_of_Trezor_Wallet\">here</a>.</p>",
+		"metadata": "shutdown, company, end, bankrupt, closed",
+		"nosearch": "",
+		"fx": 5745.524055480957,
+		"fy": -2768.7021408081055,
+		"connections": []
+	},
+	{
+		"id": 212,
+		"text": "Creating a venue (description)",
+		"content": "<p>We are very pleased that you have decided to place your business on Coinmap.</p>\n<p>Adding a venue on Coinmap is a very simple process. Everything you need to do is summarized in this workflow:</p>\n<p>1. Visit <a href=\"https://coinmap.org/welcome/\">coinmap.org</a></p>\n<p>2. Click on <em><strong>Go To Map</strong></em></p>\n<p>3. Click on the left bottom corner of the website and select a preferred login method (needless to say, that Trezor connect is very secure and user-friendly option)</p>\n<p>4. After a successful login locate the desired area</p>\n<p>5. Right click on the area and fill in all the requested information</p>\n<p>6. By clicking on <em><strong>Save</strong></em>, the venue will be created</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 5932.813606262207,
+		"fy": -2976.643424987793,
+		"connections": []
+	},
+	{
+		"id": 213,
+		"text": "Deleting a venue (description)",
+		"content": "<p>The venues can be removed only by Coinmap admins. First, you need to send your request (report) for evaluation whether it is eligible.</p>\n<p>Please take a look at these instructions how to send us a report about the venue you want to delete:</p>\n<p>1. Visit <a href=\"https://coinmap.org/welcome/\">coinmap.org</a></p>\n<p>2. Click on <em><strong>Go To Map</strong></em></p>\n<p>3. Click on the left bottom corner of the website and select a preferred login method (needless to say, that Trezor connect is very secure and user-friendly option)</p>\n<p>4. After a successful login, locate the venue you want to remove (report)</p>\n<p>5. Click on the desired venue, you will see the <em><strong>Actions</strong></em> menu</p>\n<p>6. From the <em><strong>Actions</strong></em> menu select the <em><strong>Report Venue</strong></em> option (you can leave a comment about why you want to remove this particular venue - the subject of the email should remain the same to locate the venue in our system).</p>\n<p>7. Send the email</p>\n<p>All done! Once our admins get to your report, the request will be analyzed and if it is eligible, the venue will be removed.</p>\n<p>It may take some time, so thank you for your patience.&nbsp;</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 6125.446907043457,
+		"fy": -2979.964714050293,
+		"connections": []
+	},
+	{
+		"id": 214,
+		"text": "Updating a venue (description)",
+		"content": "<p>The venues can be updated directly by the owner of the venue with one <strong>exception</strong> described below.</p>\n<p>Please take a look at these instructions how to edit your venue:</p>\n<p>1. Visit <a href=\"https://coinmap.org/welcome/\">coinmap.org</a></p>\n<p>2. Click on <em><strong>Go To Map</strong></em></p>\n<p>3. Click on the left bottom corner of the website and select a preferred login method (needless to say, that Trezor connect is very secure and user-friendly option)</p>\n<p>3. After a successful login, locate your venue you want to update</p>\n<p>4. Click on the respective venue, you will see the <em><strong>Actions</strong></em> menu</p>\n<p>5. From the <em><strong>Actions</strong></em> menu, select the <em><strong>Edit Venue</strong></em> option and update the desired information</p>\n<p>6. Click on <em><strong>SAVE</strong></em></p>\n<p><strong>Exception:</strong></p>\n<p>If you want to change the location of your venue, you need to create a new venue in the correct location and report the older venue from Coinmap (see <strong>Deleting a venue</strong> section).</p>\n<p>This procedure needs to be done due to the limitations of the Coinmap interface.</p>",
+		"metadata": "",
+		"nosearch": "",
+		"fx": 6303.134895324707,
+		"fy": -2978.3041915893555,
+		"connections": [
+			{
+				"target": 213,
+				"title": "Deleting a venue",
+				"description": "How to remove a place created on Coinmap.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 215,
+		"text": "Complete list of venues (API usage)",
+		"content": "<p>Unfortunately, there is no easy way to obtain it, but the advanced users have an opportunity to get the needed information with the help of our <a href=\"https://coinmap.org/api/\">Coinmap API</a>.</p>\n<p>Please read the included documentation to understand what parameters should be used and what else can by done with the help of the Coinmap API.</p>",
+		"metadata": "api, list",
+		"nosearch": "",
+		"fx": 6487.464485168457,
+		"fy": -2981.6252365112305,
+		"connections": []
+	},
+	{
+		"id": 216,
+		"text": "Bitcoin SV (BSV) fork",
+		"content": "<p>Please take a look at this <a href=\"https://wiki.trezor.io/How_to_split_and_send_your_Bitcoin_Cash_forks\">guide</a> how to split and send your Bitcoin Cash forks.</p>\n<p><strong>We are not planning to add any official claiming tool for Bitcoin SV (BSV) fork at the moment.</strong></p>\n<p>See also \"<em><strong>Conditions for supporting a fork</strong></em>\" section (you need to go back), if you're interested in knowing our policy for adding the support for the forks.</p>",
+		"metadata": "bsv, bitcoin sv",
+		"nosearch": false,
+		"fx": 4309.193240434695,
+		"fy": -2636.0604529747598,
+		"connections": []
+	},
+	{
+		"id": 217,
+		"text": "Real vs Fake Trezor ",
+		"content": "<p>If you have concerns whether your Trezor is a genuine product from our company, please refer to this <a href=\"https://blog.trezor.io/psa-non-genuine-trezor-devices-979b64e359a7\">blog article</a>, where you will find the information about how to distinguish between the original and fake Trezor.</p>",
+		"metadata": "fake, original, authentic, real, copy, genuine",
+		"nosearch": false,
+		"fx": 5296.4022216796875,
+		"fy": -2778.9609602588716,
+		"connections": []
+	},
+	{
+		"id": 218,
+		"text": "Form",
+		"content": "<p><br>\nPlease send your proposals <a href=\"https://satoshilabs.kayako.com/conversation/new/2\">here</a>.</p>",
+		"metadata": "",
+		"nosearch": true,
+		"fx": 3243.0203457359503,
+		"fy": -2860.100009437368,
+		"connections": []
+	},
+	{
+		"id": 219,
+		"text": "Form",
+		"content": "<p><br></p>",
+		"metadata": "",
+		"nosearch": false,
+		"fx": 3989.664240432998,
+		"fy": -2901.3185642048466,
+		"connections": []
+	}
+]
