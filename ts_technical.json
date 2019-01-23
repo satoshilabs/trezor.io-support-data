@@ -1011,7 +1011,7 @@
 	},
 	{
 		"id": 50,
-		"text": "3rd-party (selection)",
+		"text": "3rd-party",
 		"content": "<p><u>Please specify the selection.</u></p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1072,7 +1072,7 @@
 	},
 	{
 		"id": 52,
-		"text": "Trezor Password Manager (selection)",
+		"text": "Trezor Password Manager",
 		"content": "<p>Please choose the category that reflects your issue.</p>",
 		"metadata": "password, tpm, entri, manager",
 		"nosearch": "",
