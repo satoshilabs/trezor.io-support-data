@@ -1,7 +1,7 @@
 [
 	{
 		"id": 0,
-		"text": "Product selection",
+		"text": "Product Selection",
 		"content": "<p>Please select the product you have encountered the problem with.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -38,7 +38,7 @@
 	},
 	{
 		"id": 2,
-		"text": "Trezor device",
+		"text": "Trezor Device",
 		"content": "<p>Please select appropriate category related to your problem.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -109,7 +109,7 @@
 	},
 	{
 		"id": 6,
-		"text": "Hardware issue",
+		"text": "Hardware Issue",
 		"content": "<p>Please select the corresponding issue.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -160,7 +160,7 @@
 	{
 		"id": 7,
 		"text": "Interface issue",
-		"content": "<p>What interface/service are you using with your Trezor device?</p>\n<p>The list of official software/services can be found <a href=\"https://wiki.trezor.io/Apps#Trezor_wallets_and_services\">here</a>.</p>\n<p>The list of compatible 3rd party software/services can be found <a href=\"https://wiki.trezor.io/Apps#Third-party_cryptocurrency_wallets\">here</a>.</p>",
+		"content": "<p>What interface/service are you using with your Trezor device?</p>\n<p>The list of the official software/services can be found <a href=\"https://wiki.trezor.io/Apps#Trezor_wallets_and_services\">here</a>.</p>\n<p>The list of the compatible 3rd party software/services can be found <a href=\"https://wiki.trezor.io/Apps#Third-party_cryptocurrency_wallets\">here</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2970.335235595703,
@@ -181,7 +181,7 @@
 			},
 			{
 				"target": 50,
-				"title": "3rd party",
+				"title": " Third-Party Apps",
 				"description": "Electrum, Mycelium, MyEtherWallet and others",
 				"image": "",
 				"isLink": false,
@@ -196,7 +196,7 @@
 	},
 	{
 		"id": 10,
-		"text": "Basic troubleshooting (USB cable)",
+		"text": "Basic Troubleshooting - USB Cable",
 		"content": "<p>Please try to use your Trezor device with <strong>several different USB cables</strong> (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>",
 		"metadata": "dead, power, turning up, not working, bricked",
 		"nosearch": "",
@@ -220,7 +220,7 @@
 	},
 	{
 		"id": 11,
-		"text": "Physical damage",
+		"text": "Physical Damage",
 		"content": "<p>Please specify the nature of the damage.</p>",
 		"metadata": "damage, scratch, broken, destroy",
 		"nosearch": "",
@@ -283,7 +283,7 @@
 	},
 	{
 		"id": 12,
-		"text": "U2F problems",
+		"text": "U2F Problems",
 		"content": "<p>Could you please confirm that you saw the error message &nbsp;”<em><strong>Another U2F device was used to register in this application.</strong></em>” Only when you were trying to use your Trezor device as a <a href=\"https://wiki.trezor.io/U2F\">U2F token</a> with a web service?</p>",
 		"metadata": "u2f, 2fa, registered",
 		"nosearch": "",
@@ -368,7 +368,7 @@
 	},
 	{
 		"id": 20,
-		"text": "Final suggestion",
+		"text": "Final Suggestion",
 		"content": "<p>Please try the <a href=\"https://wiki.trezor.io/index.php?title=User+manual%3ARecovery&amp;ModelType=1\">recovery procedure</a> with your Trezor.&nbsp;</p>\n<p><strong>Never start the recovery procedure without making sure that your recovery seed is available and written down correctly.&nbsp;</strong></p>\n<p>To verify if your recovery seed is correct, please use the <a href=\"https://blog.trezor.io/test-your-seed-backup-dry-run-recovery-df9f2e9889\">dry-run feature</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -392,12 +392,12 @@
 	},
 	{
 		"id": 21,
-		"text": "U2F error form",
+		"text": "U2F Error Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
-		"fx": -139.67631912231445,
-		"fy": 710.2695055007935,
+		"fx": -140.66933059692383,
+		"fy": 709.2765245437622,
 		"connections": [
 			{
 				"target": 407,
@@ -416,7 +416,7 @@
 	},
 	{
 		"id": 22,
-		"text": "Description of the issue",
+		"text": "Description Of The Issue",
 		"content": "<p>The problem is usually caused by some application that <strong>sends U2F requests everywhere</strong> or a <strong>web with a faulty login form</strong>.&nbsp;</p>\n<p>We have had reports that there were some problems with Etherdelta, Metamask and <u>Ledger</u> (because of their broken implementation of U2F protocol)<u>,</u> for example.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -440,8 +440,8 @@
 	},
 	{
 		"id": 23,
-		"text": "Possible solution",
-		"content": "<ol>\n  <li>Please check whether on your computer are installed extensions related to Etherdelta, Metamask or Ledger and <strong>uninstall/disable</strong> them. This should be certainly your first step.</li>\n  <li>Since the issue is probably related to your configuration, we would suggest <strong>clearing the cache</strong> of your browser or <strong>completely uninstalling and then reinstalling it</strong>.</li>\n</ol>\n<p>Here are some links describing how to clear the cache of your browser:</p>\n<p><em>Chrome </em>- https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=en</p>\n<p><em>Firefox </em>- https://support.mozilla.org/en-US/kb/how-clear-firefox-cache</p>",
+		"text": "Possible Solution",
+		"content": "<ol>\n  <li>Please check whether on your computer are installed extensions related to Etherdelta, Metamask or Ledger and <strong>uninstall/disable</strong> them. This should be certainly your first step.</li>\n  <li>Since the issue is probably related to your configuration, we would suggest <strong>clearing the cache</strong> of your browser or <strong>completely uninstalling and then reinstalling it</strong>.</li>\n</ol>\n<p>Here are some links describing how to clear the cache of your browser:</p>\n<p><a href=\"https://support.google.com/accounts/answer/9098093?co=GENIE.Platform=Desktop&amp;hl=en&amp;visit_id=636838448994624638-3619277477&amp;rd=1\"><em>Google Chrome</em></a></p>\n<p><a href=\"https://support.mozilla.org/en-US/kb/how-clear-firefox-cache\"><em>Mozzila Firefox</em></a></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": -48.336978912353516,
@@ -464,7 +464,7 @@
 	},
 	{
 		"id": 29,
-		"text": "Basic troubleshooting (computer/configuration)",
+		"text": "Basic Troubleshooting - Computer/Configuration",
 		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -488,7 +488,7 @@
 	},
 	{
 		"id": 30,
-		"text": "Device not working (Trezor Model selection)",
+		"text": "Device Not Working - Trezor Model Selection",
 		"content": "<p>Please let us know with that Trezor Model you're experiencing your issues.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -525,7 +525,7 @@
 	},
 	{
 		"id": 31,
-		"text": "The origin of the product",
+		"text": "The Origin Of The Product",
 		"content": "<p>How did you purchase the product?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -562,7 +562,7 @@
 	},
 	{
 		"id": 32,
-		"text": "The origin of the product",
+		"text": "The Origin Of The Product",
 		"content": "<p>How did you purchase the product?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -571,7 +571,7 @@
 		"connections": [
 			{
 				"target": 35,
-				"title": "Official trezor e-shop",
+				"title": "Official Trezor e-shop",
 				"description": "The product was purchased from shop.trezor.io.",
 				"image": "",
 				"isLink": false,
@@ -599,7 +599,7 @@
 	},
 	{
 		"id": 33,
-		"text": "RMA Bricked device form",
+		"text": "RMA Bricked Device form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -623,7 +623,7 @@
 	},
 	{
 		"id": 34,
-		"text": "Reseller purchase",
+		"text": "Reseller Purchase",
 		"content": "<p>In case you purchased the product from one of our resellers (not from our official e-shop at shop.trezor.io), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -647,7 +647,7 @@
 	},
 	{
 		"id": 35,
-		"text": "RMA Not powered up form",
+		"text": "RMA Not Powering Up Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -671,8 +671,8 @@
 	},
 	{
 		"id": 36,
-		"text": "Reseller purchase",
-		"content": "<p>In case you purchased the product from one of our resellers (not from our official e-shop at shop.trezor.io), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
+		"text": "Reseller Purchase",
+		"content": "<p>In case you purchased the product from one of our <a href=\"https://trezor.io/resellers/\">resellers</a> (not from our <a href=\"https://shop.trezor.io/\">official e-shop</a>), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
 		"metadata": "",
 		"nosearch": true,
 		"fx": -683.2399253845215,
@@ -695,7 +695,7 @@
 	},
 	{
 		"id": 37,
-		"text": "RMA reseller Bricked device form",
+		"text": "RMA Reseller Bricked Device Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -719,7 +719,7 @@
 	},
 	{
 		"id": 38,
-		"text": "RMA reseller Not powered up form",
+		"text": "RMA Reseller Not Powered Up Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -743,7 +743,7 @@
 	},
 	{
 		"id": 39,
-		"text": "Display problem (Trezor Model selection)",
+		"text": "Display Problem - Trezor Model Selection",
 		"content": "<p>Since there are differences in our Trezor Models (<strong>Trezor screen vs touchscreen</strong>) that may lead to a different kind of problems, please let us know with that Trezor Model you're experiencing your issues.</p>",
 		"metadata": "display, pixel, screen, touch, flickering, blink",
 		"nosearch": "",
@@ -780,7 +780,7 @@
 	},
 	{
 		"id": 40,
-		"text": "Button problem",
+		"text": "Button Problem",
 		"content": "<p>The functionality of the buttons can be easily tested by&nbsp;confirming/canceling the basic functions of your Trezor device.</p>",
 		"metadata": "button, press",
 		"nosearch": "",
@@ -804,7 +804,7 @@
 	},
 	{
 		"id": 41,
-		"text": "Micro USB port problem",
+		"text": "Micro USB Port Problem",
 		"content": "<p>This issue could be sometimes clearly visible or perceived when plugging the USB cable into the port. If the issue is visible, it is recommended to take some photos of the damage.</p>",
 		"metadata": "port, slot, micro, usb",
 		"nosearch": "",
@@ -828,7 +828,7 @@
 	},
 	{
 		"id": 43,
-		"text": "The origin of the product",
+		"text": "The Origin Of The Product",
 		"content": "<p>How did you purchase the product?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -865,7 +865,7 @@
 	},
 	{
 		"id": 45,
-		"text": "RMA Damage form",
+		"text": "RMA Damage Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -889,7 +889,7 @@
 	},
 	{
 		"id": 46,
-		"text": "Reseller purchase",
+		"text": "Reseller Purchase",
 		"content": "<p>In case you purchased the product from one of our resellers (not from our official e-shop at shop.trezor.io), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -913,7 +913,7 @@
 	},
 	{
 		"id": 47,
-		"text": "RMA Damage form",
+		"text": "RMA Damage Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -937,7 +937,7 @@
 	},
 	{
 		"id": 48,
-		"text": "Disclaimer regarding the product damage",
+		"text": "Disclaimer Regarding The Product Damage",
 		"content": "<p>Please note that the physical defects (broken display, scratches, damaged lanyard loop etc) created by the inappropriate use will not lead to accepting your RMA (replacement) request.</p>\n<p>More details can be found in the <a href=\"https://shop.trezor.io/static/shared/warranty-refund-policy.pdf\">warranty section</a>.</p>",
 		"metadata": "plastic, lanyard, rattling, noise",
 		"nosearch": "",
@@ -961,7 +961,7 @@
 	},
 	{
 		"id": 49,
-		"text": "Wallet interface/Service (selection)",
+		"text": "Wallet interface/Service",
 		"content": "<p>Please select the corresponding interface/service you have problem with.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -971,7 +971,7 @@
 			{
 				"target": 51,
 				"title": "Trezor Wallet interface",
-				"description": "wallet.trezor.io, beta-wallet.trezor.io or old-wallet.trezor.io.",
+				"description": "wallet.trezor.io, beta-wallet.trezor.io, old-wallet.trezor.io & beta-wallet.trezor.io/next",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -1048,8 +1048,8 @@
 	},
 	{
 		"id": 51,
-		"text": "Beta and Old Wallet disclaimer",
-		"content": "<p>If you have problems with old-wallet.trezor.io or beta-wallet.trezor.io, please use primarily wallet.trezor.io.&nbsp;</p>\n<p>It is the main and updated version of Trezor Wallet interface (feature consistent and most reliable).</p>",
+		"text": "Beta, Next & Old Wallet disclaimer",
+		"content": "<p>If you have problems with old-wallet.trezor.io or beta-wallet.trezor.io or beta-wallet.trezor.io/next, please use primarily wallet.trezor.io.&nbsp;</p>\n<p>It is the main and updated version of Trezor Wallet interface (feature consistent and most reliable).</p>",
 		"metadata": "wallet, interface, service",
 		"nosearch": "",
 		"fx": 2800.0455932617188,
@@ -1074,7 +1074,7 @@
 		"id": 52,
 		"text": "Trezor Password Manager",
 		"content": "<p>Please choose the category that reflects your issue.</p>",
-		"metadata": "password, tpm, entri, manager",
+		"metadata": "password, tpm, manager",
 		"nosearch": "",
 		"fx": 2971.0976791381836,
 		"fy": -200.31218099594116,
@@ -1122,7 +1122,7 @@
 	},
 	{
 		"id": 53,
-		"text": "Our other apps and tools (selection)",
+		"text": "Our Other Apps And Tools",
 		"content": "<p>Please select the corresponding application.</p>",
 		"metadata": "tool, app",
 		"nosearch": "",
@@ -1172,7 +1172,7 @@
 	},
 	{
 		"id": 54,
-		"text": "Main selection of the issue",
+		"text": "Main Selection Of The Issue",
 		"content": "<p>Please choose the category that reflects your issue.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1222,7 +1222,7 @@
 	},
 	{
 		"id": 55,
-		"text": "Trezor Wallet interface does not work",
+		"text": "Trezor Wallet Interface Does Not Work",
 		"content": "<p>Please specify the issue.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1259,7 +1259,7 @@
 	},
 	{
 		"id": 56,
-		"text": "Unable to use a specific functionality",
+		"text": "Unable To Use a Specific Functionality",
 		"content": "<p>Please specify the issue.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1346,9 +1346,9 @@
 	},
 	{
 		"id": 58,
-		"text": "Cannot use the Trezor Wallet interface",
+		"text": "Can Not Use The Trezor Wallet interface",
 		"content": "<p>Please provide details to your issue, by clicking on section that describes the problem, so we can direct you to the appropriate suggestions that may solve your situation.&nbsp;</p>",
-		"metadata": "cannot use",
+		"metadata": "cannot use, cant, can't",
 		"nosearch": "",
 		"fx": 452.39663219451904,
 		"fy": 704.4736618995667,
@@ -1356,7 +1356,7 @@
 			{
 				"target": 62,
 				"title": "Trezor Wallet interface is not detecting the device",
-				"description": "You see only “Connect TREZOR to continue” in Trezor  Wallet interface (wallet.trezor.io), even though the device lights up when plugged in.",
+				"description": "You see only “Connect Trezor to continue” in Trezor  Wallet interface (wallet.trezor.io), even though the device lights up when plugged in.",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -1396,7 +1396,7 @@
 	},
 	{
 		"id": 59,
-		"text": "Trezor Wallet interface issues (selection)",
+		"text": "Trezor Wallet Interface issues",
 		"content": "<p>Please provide details to your issue, by clicking on section that describes the problem, so we can direct you to the appropriate suggestions that may solve your situation.&nbsp;</p>",
 		"metadata": "glitch, rate, graph, dialog, field",
 		"nosearch": "",
@@ -1533,7 +1533,7 @@
 	},
 	{
 		"id": 62,
-		"text": "Selection of the operating system",
+		"text": "Selection Of The Operating System",
 		"content": "<p>Please select the operating system you're using with Trezor.</p>",
 		"metadata": "connect, detect, recognize, disconnected",
 		"nosearch": "",
@@ -1583,7 +1583,7 @@
 	},
 	{
 		"id": 63,
-		"text": "Basic troubleshooting (USB cable)",
+		"text": "Basic Troubleshooting (USB cable)",
 		"content": "<p>Please try to use your device with <strong>several different USB cables</strong> (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>",
 		"metadata": "freeze, random, stop",
 		"nosearch": "",
@@ -1607,7 +1607,7 @@
 	},
 	{
 		"id": 64,
-		"text": "Cannot access accounts",
+		"text": "Can Not Access Accounts",
 		"content": "<p>Please select the option that matches your problem.</p>",
 		"metadata": "access, account, enter, stuck",
 		"nosearch": "",
@@ -1657,7 +1657,7 @@
 	},
 	{
 		"id": 65,
-		"text": "Windows user (firmware update)",
+		"text": "Windows User (Firmware Update)",
 		"content": "<p>Did you perform the <a href=\"https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+the+Trezor+device+firmware&amp;ModelType=1\">firmware update</a> before this problem occurred?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1694,7 +1694,7 @@
 	},
 	{
 		"id": 66,
-		"text": "Mac OS user (terminal)",
+		"text": "Mac OS User Terminal",
 		"content": "<p>Please check whether you see the Trezor device in the list of USB devices after typing and executing this command in the terminal (command line): <strong>ioreg -p IOUSB</strong></p>\n<p>You can find more details regarding the terminal (command line) <a href=\"http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line\">here</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1731,7 +1731,7 @@
 	},
 	{
 		"id": 67,
-		"text": "Linux user (UDEV rules)",
+		"text": "Linux user - UDEV Rules",
 		"content": "<p>Please verify if you have correctly installed UDEV rules. Click <a href=\"https://wiki.trezor.io/Udev_rules\">here</a> for more details.&nbsp;</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1827,9 +1827,9 @@
 	},
 	{
 		"id": 71,
-		"text": "Tips how to locate/update the needed driver",
+		"text": "Tips How To Locate/Update The Needed Driver",
 		"content": "<ol>\n  <li>The necessary driver can be usually found in \"<em>Universal Serial Bus controllers</em>\" section, under the name \"<em>USB composite device</em>\". In other cases, you can also find the necessary driver in \"<em>Human Interface devices</em>\".&nbsp;</li>\n  <li>If you are not sure which driver to update<strong>,</strong> you can try to <strong>unplug and plug</strong> in your Trezor again, to see if there are some changes in the current section of the \"<em>Device Manager</em>\". <strong>Deleting</strong> the needed driver can also do the trick, as the system will update the driver automatically after you restart the computer.</li>\n</ol>",
-		"metadata": "",
+		"metadata": "driver, drivers",
 		"nosearch": "",
 		"fx": -425.69219279289246,
 		"fy": 1492.8188157081604,
@@ -1936,7 +1936,7 @@
 	},
 	{
 		"id": 76,
-		"text": "Basic troubleshooting (computer/configuration)",
+		"text": "Basic Troubleshooting (Computer/Configuration)",
 		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1960,7 +1960,7 @@
 	},
 	{
 		"id": 77,
-		"text": "The origin of the product",
+		"text": "The Origin Of The Product",
 		"content": "<p>How did you purchase the product?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -1997,7 +1997,7 @@
 	},
 	{
 		"id": 78,
-		"text": "RMA Not recognized form",
+		"text": "RMA Not Recognized Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -2021,8 +2021,8 @@
 	},
 	{
 		"id": 79,
-		"text": "Reseller purchase",
-		"content": "<p>In case you purchased the product from one of our resellers (not from our official e-shop at shop.trezor.io), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
+		"text": "Reseller Purchase",
+		"content": "<p>In case you purchased the product from one of our <a href=\"https://trezor.io/resellers/\">resellers</a> (not from our <a href=\"https://shop.trezor.io/\">official e-shop</a>), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": -179.27946996688843,
@@ -2045,7 +2045,7 @@
 	},
 	{
 		"id": 80,
-		"text": "RMA reseller Not recognized form",
+		"text": "RMA Reseller Not Recognized Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -2069,8 +2069,8 @@
 	},
 	{
 		"id": 82,
-		"text": "Basic troubleshooting (WebUSB)",
-		"content": "<p>Please make sure that you're using Google Chrome browser that can use WebUSB connection.&nbsp;The latest versions of the browser are recommended.</p>\n<p>If you're not able to use <a href=\"https://wiki.trezor.io/WebUSB\">WebUSB</a>, then we will suggest to use <a href=\"https://wallet.trezor.io/#/bridge\"><strong>Trezor Bridge</strong></a> instead.&nbsp;</p>\n<p>The link for downloading Trezor bridge can be found <a href=\"https://wallet.trezor.io/#/bridge\">here</a> (select the appropriate version based on your operating system and please don't click on \"<em>PGP signature</em>\", it will not download the needed file).</p>",
+		"text": "Basic Troubleshooting WebUSB",
+		"content": "<p>Please make sure that you're using Google Chrome browser that can use WebUSB connection.&nbsp;The latest versions of the browser are recommended.</p>\n<p>If you're not able to use <a href=\"https://wiki.trezor.io/WebUSB\">WebUSB</a>, then we will suggest to use <a href=\"https://wiki.trezor.io/Trezor_Bridge\">Trezor Bridge</a> instead.&nbsp;</p>\n<p>The link for downloading Trezor bridge can be found <a href=\"https://wallet.trezor.io/#/bridge\">here</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": -241.96693563461304,
@@ -2093,8 +2093,8 @@
 	},
 	{
 		"id": 84,
-		"text": "Basic troubleshooting (trezord process)",
-		"content": "<p>Please check whether “trezord” (<a href=\"https://wiki.trezor.io/Trezor_Bridge\">https://wiki.trezor.io/Trezor_Bridge</a>) &nbsp;process is running on your system via Task Manager or Activity Monitor (based on your operating system). Here is general information regarding <a href=\"https://en.wikipedia.org/wiki/Task_manager\">Task Managers</a> (Activity Monitors).</p>\n<p>The above mentioned “<em>trezord</em>” process is necessary for the communication between your Trezor device and the computer.&nbsp;</p>\n<p>Some <strong>antiviruses</strong>, <strong>firewalls</strong>, <strong>add-ons</strong> (especially Privacy Badger or Ghostery) or <strong>VPN</strong> <strong>programs</strong> could block this process, causing Trezor to be unrecognized by your computer. Please verify those possibilities by turning off or changing the privacy settings in the respective software.</p>",
+		"text": "Basic Troubleshooting - Trezord process",
+		"content": "<p>Please check whether “trezord” process is running on your system via Task Manager or Activity Monitor (based on your operating system). Here is general information regarding <a href=\"https://en.wikipedia.org/wiki/Task_manager\">Task Managers</a> (Activity Monitors).</p>\n<p>The above mentioned “<em>trezord</em>” process is necessary for the communication between your Trezor device and the computer.&nbsp;</p>\n<p>Some <strong>antiviruses</strong>, <strong>firewalls</strong>, <strong>add-ons</strong> (especially Privacy Badger or Ghostery) or <strong>VPN</strong> <strong>programs</strong> could block this process, causing Trezor to be unrecognized by your computer. Please verify those possibilities by turning off or changing the privacy settings in the respective software.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": -90.60894536972046,
@@ -2117,8 +2117,8 @@
 	},
 	{
 		"id": 216,
-		"text": "Basic troubleshooting (Beta Wallet)",
-		"content": "<p>As the first troubleshooting step, please try to use your Trezor device with <u>Beta Wallet Interface </u>(beta-wallet.trezor.io).</p>",
+		"text": "Basic Troubleshooting - Beta Wallet",
+		"content": "<p>As the first troubleshooting step, please try to use your Trezor device with <a href=\"https://beta-wallet.trezor.io\"><u>Beta Wallet Interface</u></a></p>",
 		"metadata": "loading",
 		"nosearch": "",
 		"fx": 251.62224817276,
@@ -2141,7 +2141,7 @@
 	},
 	{
 		"id": 217,
-		"text": "Wrong PIN/Passphrase (selection)",
+		"text": "Wrong PIN/Passphrase",
 		"content": "<p>Please select the type of your issue.</p>",
 		"metadata": "wrong, pin, passphrase",
 		"nosearch": "",
@@ -2178,7 +2178,7 @@
 	},
 	{
 		"id": 218,
-		"text": "Server issues (selection)",
+		"text": "Server Issues",
 		"content": "<p>Please select the type of your issue.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2215,7 +2215,7 @@
 	},
 	{
 		"id": 219,
-		"text": "Basic troubleshooting (Switching cryptocurrency)",
+		"text": "Basic Troubleshooting - Switching Cryptocurrency",
 		"content": "<p>If it is possible, please try switching to a different cryptocurrency by clicking on (<strong>Wallet Settings</strong>) <strong>Select wallet currency</strong>, then on the <strong>Save &amp; Reload</strong> button and refresh the browser by using the &nbsp;<strong>F5</strong> key on your keyboard.&nbsp;</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2239,8 +2239,8 @@
 	},
 	{
 		"id": 220,
-		"text": "Basic troubleshooting (Clearing browser cache)",
-		"content": "<p>Please clear your browser cache or try to run it in incognito (private) mode.&nbsp;</p>\n<p>Here are some links describing how to clear the cache of your browser.</p>\n<p><em>Chrome </em>- https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=en</p>\n<p><em>Firefox </em>- <a href=\"https://support.mozilla.org/en-US/kb/how-clear-firefox-cache\"><u>https://support.mozilla.org/en-US/kb/how-clear-firefox-cache</u></a></p>\n<p>Here are some links describing how to use incognito (private) mode -&nbsp;</p>\n<p><em>Chrome</em> - <a href=\"https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&amp;hl=en\">https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&amp;hl=en</a></p>\n<p><em>Firefox</em> - https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history</p>",
+		"text": "Basic Troubleshooting (Clearing Browser Cache)",
+		"content": "<p>Please clear your browser cache or try to run it in incognito (private) mode.&nbsp;</p>\n<p>Here are some links describing how to clear the cache of your browser.</p>\n<p><a href=\"https://support.google.com/accounts/answer/9098093?co=GENIE.Platform=Desktop&amp;hl=en&amp;visit_id=636838448994624638-3619277477&amp;rd=1\"><em>Google Chrome</em></a></p>\n<p><a href=\"https://support.mozilla.org/en-US/kb/how-clear-firefox-cache\"><em>Mozzila Firefox</em></a></p>\n<p>Here are some links describing how to use incognito (private) mode -&nbsp;</p>\n<p><a href=\"https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=en\"><em>Google Chrome</em></a></p>\n<p><a href=\"https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history\"><em>Mozzila Firefox</em></a></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 264.3078408241272,
@@ -2263,7 +2263,7 @@
 	},
 	{
 		"id": 221,
-		"text": "Basic troubleshooting (Trezor status)",
+		"text": "Basic Troubleshooting (Trezor Status)",
 		"content": "<p>Do you see your Trezor device status as “connected”? The information can be found under the name of your Trezor in the Trezor Wallet interface.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2300,7 +2300,7 @@
 	},
 	{
 		"id": 222,
-		"text": "Basic troubleshooting (blocking by antivirus/add-on)",
+		"text": "Basic Troubleshooting (Blocking by Antivirus/Browser Extensions)",
 		"content": "<p>Some antiviruses, firewalls, add-ons (especially Privacy Badger or Ghostery) or VPN programs can interfere with this process.</p>\n<p>Please verify those possibilities by turning off or changing the privacy settings in the respective software.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2324,7 +2324,7 @@
 	},
 	{
 		"id": 223,
-		"text": "Basic troubleshooting (USB cable)",
+		"text": "Basic Troubleshooting (USB cable)",
 		"content": "<p>Please try your device with several different USB cables (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are for transferring data, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters and USB reductions as well.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2348,7 +2348,7 @@
 	},
 	{
 		"id": 224,
-		"text": "Basic troubleshooting (configuration)",
+		"text": "Basic Troubleshooting (configuration)",
 		"content": "<p>Please try your device with different computer. The problem may be in your actual configuration (faulty USB ports). Checking this option is recommended.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2372,7 +2372,7 @@
 	},
 	{
 		"id": 225,
-		"text": "Basic troubleshooting (too many or big transactions)",
+		"text": "Basic Troubleshooting (Too Many or Big Transactions)",
 		"content": "<p>Is it possible that your accounts holds too many or too large transactions? Do you remember the <u>Trezor Wallet interface warning you about this in the past?</u></p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2409,8 +2409,8 @@
 	},
 	{
 		"id": 226,
-		"text": "Tip1",
-		"content": "<p><u>In case you are not able to load your accounts at all, there are a few suggestions how to access them.</u></p>\n<p><strong>Tip1:</strong></p>\n<p>Please try to use your Trezor device with Electrum wallet. Here is a guide how to use it with our product - <a href=\"https://blog.trezor.io/using-trezor-with-electrum-v3-a0b9bcffe26e\">https://blog.trezor.io/using-trezor-with-electrum-v3-a0b9bcffe26e</a></p>\n<p>If you were able to access your accounts, you should optimize them according to the advice included in this article - <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe</a></p>",
+		"text": "Suggestion #1",
+		"content": "<p><u>In case you are not able to load your accounts at all, there are a few suggestions how to access them.</u></p>\n<p><strong>Suggestion #1:</strong></p>\n<p>Please try to use your Trezor device with Electrum wallet. Here is a <a href=\"https://wiki.trezor.io/Apps:Electrum\">guide</a> how to use it with our product.</p>\n<p>If you were able to access your accounts, you should optimize them according to the advice included in this <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">article</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 220.22217798233032,
@@ -2433,8 +2433,8 @@
 	},
 	{
 		"id": 228,
-		"text": "Tip2",
-		"content": "<p><strong>Tip2:</strong></p>\n<p><strong>Please proceed only in emergency situations. Providing your recovery seed may compromise the whole security of your wallet and put your funds at risk.</strong></p>\n<p>Please try to restore your accounts with the recovery seed (<a href=\"https://wiki.trezor.io/Recovery_seed\">https://wiki.trezor.io/Recovery_seed</a>) directly in Electrum wallet.&nbsp;</p>\n<p>Here is a guide how to do it - link na wiki (musí se nejprve dodělat článek)</p>\n<p>If you were able to access your accounts, you should immediately transfer your funds to the new wallet on your Trezor device according to the advice included in this article - <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe</a></p>\n<p>The procedure should be performed with these steps:</p>\n<p>1. Wipe your Trezor device (<a href=\"https://wiki.trezor.io/index.php?title=User+manual%3AWiping+your+Trezor&amp;ModelType=1\">https://wiki.trezor.io/index.php?title=User+manual%3AWiping+your+Trezor&amp;ModelType=1</a>)</p>\n<p>2. Create the new wallet and write down the new recovery seed (<a href=\"https://wiki.trezor.io/index.php?title=Getting+started+in+5+steps&amp;ModelType=1\">https://wiki.trezor.io/index.php?title=Getting+started+in+5+steps&amp;ModelType=1</a>) “Create new wallet”</p>\n<p>3. Transfer the funds back to the safety of Trezor device (<a href=\"https://wiki.trezor.io/index.php?title=User+manual%3AReceiving+payments&amp;ModelType=1\">https://wiki.trezor.io/index.php?title=User+manual%3AReceiving+payments&amp;ModelType=1</a>) and optimize your accounts according to this article - <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe</a></p>",
+		"text": "Suggestion #2",
+		"content": "<p><strong>Suggestion #2:</strong></p>\n<p><strong>Please proceed only in emergency situations. Providing your recovery seed may compromise the whole security of your wallet and put your funds at risk.</strong></p>\n<p>Please try to restore your accounts with the <a href=\"https://wiki.trezor.io/Recovery_seed\">recovery seed</a> directly in Electrum wallet.&nbsp;</p>\n<p>If you were able to access your accounts, you should immediately transfer your funds to the new wallet on your Trezor device according to the advice included in <a href=\"https://wiki.trezor.io/Apps:Electrum\">this</a> article.</p>\n<p>The procedure should be performed with these steps:</p>\n<p>1. <a href=\"https://wiki.trezor.io/User_manual:Wiping_the_Trezor_device\">Wipe</a> your Trezor device</p>\n<p>2. Create the new wallet and write down the new recovery seed &amp; “Create new wallet”.</p>\n<p>3. <a href=\"https://wiki.trezor.io/index.php?title=User+manual%3AReceiving+payments&amp;ModelType=1\">Transfer</a> the funds back to the safety of Trezor device and optimize your accounts according to this <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">article</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 223.30866479873657,
@@ -2457,7 +2457,7 @@
 	},
 	{
 		"id": 229,
-		"text": "Not loading issue form",
+		"text": "Not Loading Issue Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -2481,10 +2481,10 @@
 	},
 	{
 		"id": 230,
-		"text": "PIN issue",
-		"content": "<p>The message “Wrong PIN entered” on your Trezor display means that you are entering an incorrect PIN. Unfortunately, there is no other explanation for this situation.</p>\n<p>Please take a look at the following link where it is explained how PIN matrix works - https://wiki.trezor.io/User_manual:Entering_your_PIN</p>",
+		"text": "PIN Issue",
+		"content": "<p>The message “Wrong PIN entered” on your Trezor display means that you are entering an incorrect PIN. Unfortunately, there is no other explanation for this situation.</p>\n<p>Please take a look at the following <a href=\"https://wiki.trezor.io/User_manual:Entering_PIN\">link</a> where it is explained how PIN matrix works.</p>",
 		"metadata": "",
-		"nosearch": "",
+		"nosearch": false,
 		"fx": 402.9312996864319,
 		"fy": 1178.6457200050354,
 		"connections": [
@@ -2505,8 +2505,8 @@
 	},
 	{
 		"id": 232,
-		"text": "Possible solution",
-		"content": "<p>If you have the correct recovery seed (https://wiki.trezor.io/Recovery_seed), you do not need to worry. There is a way how to set a new PIN by wiping your Trezor device. Your Trezor device will be also wiped after the 16th failed attempt of entering the PIN.</p>\n<p>If you have already some funds stored there, you can restore your whole wallet with the corresponding recovery seed.&nbsp;</p>",
+		"text": "Possible Solution",
+		"content": "<p>If you have the correct <a href=\"https://wiki.trezor.io/Recovery_seed\">Recovery Seed</a>, you do not need to worry. There is a way how to set a new PIN by wiping your Trezor device. Your Trezor device will be also wiped after the 16th failed attempt of entering the PIN.</p>\n<p>If you have already some funds stored there, you can restore your whole wallet with the corresponding recovery seed.&nbsp;</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 425.25838708877563,
@@ -2529,8 +2529,8 @@
 	},
 	{
 		"id": 233,
-		"text": "Wipe and recovery (description)",
-		"content": "<p>1) Visit wallet.trezor.io</p>\n<p>2) When the PIN window shows up, click on X button to close the window</p>\n<p>3) You will now enter your wallet</p>\n<p>4) Click on the name of your Trezor (My Trezor by default)</p>\n<p>4) Now proceed to 'Advanced' tab</p>\n<p>5) Select the option “Check recovery seed” and perform it with your seed</p>\n<p>6) Continue with &nbsp;“Wipe Your Device” button on the bottom page in bright red color (https://wiki.trezor.io/index.php?title=User+manual%3AWiping+your+Trezor&amp;ModelType=1)</p>\n<p>6) Confirm action on your Trezor to wipe your device.</p>\n<p>7) Unplug and plug in your Trezor.</p>\n<p>Now you will see two options in your wallet.</p>\n<p>If you had some coins on your Trezor, select an option “Recover wallet” - you will be asked to enter your seed in random order, please follow the instruction on your Trezor.</p>\n<p>If you had no coins on your Trezor, select the option “Create a new wallet” - you will have new seed generated.</p>\n<p>In case you have problems with the recovery, please go to the next step.</p>",
+		"text": "Wipe and Recovery",
+		"content": "<p>You need to wipe your device in order to reset your PIN.</p>\n<p>Please, follow this <a href=\"https://wiki.trezor.io/index.php?title=User_manual:Wiping_the_Trezor_device&amp;ModelType=1\">tutorial</a>.</p>\n<p>Now you will see two options in your wallet.</p>\n<p>If you had some coins on your Trezor, select an option “Recover wallet” - you will be asked to enter your seed in random order, please follow the instruction on your Trezor.</p>\n<p>If you had no coins on your Trezor, select the option “Create a new wallet” - you will have new seed generated.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 434.06539392471313,
@@ -2539,8 +2539,8 @@
 	},
 	{
 		"id": 234,
-		"text": "Basic troubleshooting (internet connection)",
-		"content": "<p>1. Please check your internet connection (whether the other webpages are working).</p>\n<p>2. Please check whether your firewall, antivirus or VPN is not blocking Trezor Wallet interface (linky na wallety).</p>\n<p>3. You can check the functionality of our servers via this link (<a href=\"http://status.trezor.io/\"><u>http://status.trezor.io/</u></a>). If a server is down, our team is already working on fixing this issue. Thank you for your patience.</p>",
+		"text": "Basic Troubleshooting - Internet Connection",
+		"content": "<p>1. Please check your internet connection (whether the other webpages are working).</p>\n<p>2. Please check whether your firewall, antivirus or VPN is not blocking Trezor Wallet interface (linky na wallety).</p>\n<p>3. You can check the functionality of our servers via this <a href=\"https://status.trezor.io/\">link</a>. If a server is down, our team is already working on fixing this issue. Thank you for your patience.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 660.7498421669006,
@@ -2549,7 +2549,7 @@
 	},
 	{
 		"id": 235,
-		"text": "Basic troubleshooting (computer/configuration)",
+		"text": "Basic Troubleshooting - Computer/Configuration",
 		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2573,7 +2573,7 @@
 	},
 	{
 		"id": 236,
-		"text": "The origin of the product",
+		"text": "The Origin Of The Product",
 		"content": "<p>How did you purchase the product?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2610,7 +2610,7 @@
 	},
 	{
 		"id": 237,
-		"text": "RMA Freezing form",
+		"text": "RMA Freezing Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -2634,8 +2634,8 @@
 	},
 	{
 		"id": 238,
-		"text": "Reseller purchase",
-		"content": "<p>In case you purchased the product from one of our resellers (not from our official e-shop at shop.trezor.io), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
+		"text": "Reseller Purchase",
+		"content": "<p>In case you purchased the product from one of our <a href=\"https://trezor.io/resellers/\">resellers</a> (not from our official <a href=\"https://shop.trezor.io/\">e-shop</a>), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
 		"metadata": "",
 		"nosearch": true,
 		"fx": 950.3574962615967,
@@ -2658,7 +2658,7 @@
 	},
 	{
 		"id": 239,
-		"text": "RMA reseller Freezing form",
+		"text": "RMA Reseller Freezing Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -2682,7 +2682,7 @@
 	},
 	{
 		"id": 240,
-		"text": "Basic troubleshooting (dropbox connection)",
+		"text": "Basic Troubleshooting - Dropbox connection",
 		"content": "<p>Please check if you are connected to your Dropbox account. Popisující obrázek</p>\n<p>If you have more accounts, please try switching between them when connecting to the Trezor Wallet interface (wallet.trezor.io).</p>",
 		"metadata": "labeling",
 		"nosearch": "",
@@ -2706,8 +2706,8 @@
 	},
 	{
 		"id": 241,
-		"text": "Homescreen (description and requirements)",
-		"content": "<p>Please try these instructions to set the <u>homescreen</u> (https://wiki.trezor.io/index.php?title=User+manual%3AHomescreen&amp;ModelType=1)</p>\n<p>You can create your own homescreen with this <a href=\"https://trezor.github.io/homescreen-editor/\">editor</a>.</p>\n<p>To upload your custom <u>homescreen,</u> it has to be in the required format (<strong>128 x 64 px; black &amp; white only</strong>).</p>",
+		"text": "Homescreen",
+		"content": "<p>Please try these instructions to set the <a href=\"https://wiki.trezor.io/User_manual:Homescreen\"><u>homescreen</u></a><u>.</u></p>\n<p>You can create your own homescreen with this <a href=\"https://trezor.github.io/homescreen-editor/\">editor</a>.</p>\n<p>To upload your custom <u>homescreen,</u> it has to be in the required format&nbsp;</p>\n<p>For Trezor One the requirement is <strong>128 x 64 px; black &amp; white only</strong>.</p>\n<p>For Trezor T the requirement is <strong>144 x 144 px; can be colorful.</strong></p>",
 		"metadata": "homescreen",
 		"nosearch": "",
 		"fx": 1256.9523735046387,
@@ -2716,8 +2716,8 @@
 	},
 	{
 		"id": 242,
-		"text": "Basic troubleshooting (incognito/cache)",
-		"content": "<p>Please clear your browser cache or try to run it in incognito (private) mode.&nbsp;</p>\n<p>Here are some links describing how to clear the cache of your browser.</p>\n<p><em>Chrome </em>- https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=en</p>\n<p><em>Firefox </em>- <a href=\"https://support.mozilla.org/en-US/kb/how-clear-firefox-cache\"><u>https://support.mozilla.org/en-US/kb/how-clear-firefox-cache</u></a></p>\n<p>Here are some links describing how to use incognito (private) mode -&nbsp;</p>\n<p><em>Chrome</em> - <a href=\"https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&amp;hl=en\">https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&amp;hl=en</a></p>\n<p><em>Firefox</em> - https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history</p>",
+		"text": "Basic Troubleshooting Incognito/Cache",
+		"content": "<p>Please clear your browser cache or try to run it in incognito (private) mode.&nbsp;</p>\n<p>Here are some links describing how to clear the cache of your browser.</p>\n<p><a href=\"https://support.google.com/accounts/answer/9098093?co=GENIE.Platform=Desktop&amp;hl=en&amp;visit_id=636838448994624638-3619277477&amp;rd=1\"><em>Google Chrome</em></a></p>\n<p><a href=\"https://support.mozilla.org/en-US/kb/how-clear-firefox-cache\"><em>Mozzila Firefox</em></a><em>&nbsp;</em></p>\n<p>Here are some links describing how to use incognito (private) mode</p>\n<p><a href=\"https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=en\"><em>Google Chrome</em></a></p>\n<p><a href=\"https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history\"><em>Mozzila Firefox</em></a></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 1419.7248344421387,
@@ -2740,7 +2740,7 @@
 	},
 	{
 		"id": 243,
-		"text": "Basic troubleshooting (dropbox capacity)",
+		"text": "Basic Troubleshooting - Dropbox Capacity",
 		"content": "<p>Please check if your Dropbox account is not full (https://www.dropbox.com/help/space/account-space-left) and the <strong>mtdt </strong>file in the Dropbox folder <em>\"/Apps/Trezor/\"</em> is not missing or overwritten with an empty file.</p>\n<p>If yes, try to restoring your Dropbox account (https://www.dropbox.com/deleted_files). For more information, contact Dropbox support (https://www.dropbox.com/contact).</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -2764,8 +2764,8 @@
 	},
 	{
 		"id": 244,
-		"text": "Basic troubleshooting (recovery)",
-		"content": "<p>Since the labeling is tied to the respective setup/recovery seed (https://wiki.trezor.io/Recovery_seed), the information from labeling will not be visible when you wiped the device and proceed with a new setup.</p>\n<p>You can try to use the original recovery seed where you’ve set the labeling in recovery process.</p>\n<p>Before you start the recovery procedure, please make sure that your current wallet and funds on it are backed up with your recovery seed via dry-run feature(https://blog.trezor.io/test-your-seed-backup-dry-run-recovery-df9f2e9889)!!!</p>",
+		"text": "Basic Troubleshooting - Recovery",
+		"content": "<p>Since the labeling is tied to the respective setup or the <a href=\"https://wiki.trezor.io/Recovery_seed\">recovery seed</a>, the information from labeling will not be visible when you wiped the device and proceed with a new setup.</p>\n<p>You can try to use the original recovery seed where you’ve set the labeling in recovery process.</p>\n<p>Before you start the recovery procedure, please make sure that your current wallet and funds on it are backed up with your recovery seed via <a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\">Dry-Run Recovery</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 1094.8058280944824,
@@ -2788,7 +2788,7 @@
 	},
 	{
 		"id": 245,
-		"text": "Labeling form",
+		"text": "Labeling Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -2812,7 +2812,7 @@
 	},
 	{
 		"id": 246,
-		"text": "Interface issue form",
+		"text": "Interface Issue Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -2836,8 +2836,8 @@
 	},
 	{
 		"id": 247,
-		"text": "Transaction not received (suggestion)",
-		"content": "<p>Every processed transaction and every transaction waiting for confirmation can be found on the blockchain of the respective cryptocurrency.</p>\n<p>Example: The Bitcoin transactions, can be seen with this block explorer. (<a href=\"https://www.blockchain.com/explorer\">https://www.blockchain.com/explorer</a>).&nbsp;</p>\n<p>There should be several block explorers for each respective cryptocurrency.</p>\n<p>Please take a look at the respective blockchain to verify the status of your transaction.</p>",
+		"text": "Transaction Not Received (Suggestion)",
+		"content": "<p>Every processed transaction and every transaction waiting for confirmation can be found on the blockchain of the respective cryptocurrency.</p>\n<p>Example: The Bitcoin transactions, can be seen with our <a href=\"https://btc-bitcore1.trezor.io\">block explorer</a>.</p>\n<p>There should be several block explorers for each respective cryptocurrency.</p>\n<p>Please take a look at the respective blockchain to verify the status of your transaction.</p>",
 		"metadata": "receiving, receive",
 		"nosearch": "",
 		"fx": 2166.5158462524414,
@@ -2899,8 +2899,8 @@
 	},
 	{
 		"id": 248,
-		"text": "Unauthorized transaction (possible explanation)",
-		"content": "<p>Firstly, we are really sorry for such an unfortunate situation.</p>\n<p>In case you see some sent transactions which you did not confirm, there are only two possible attack vectors.</p>\n<p>1. <strong>Your seed was compromised (https://wiki.trezor.io/Recovery_seed) </strong>- Your recovery seed is the only way how to restore your whole wallet (balance, accounts etc). If the attacker gets to your recovery seed, he or she can clone your wallet and operate with all your &nbsp;funds not protected by the passphrase (https://wiki.trezor.io/Passphrase).</p>\n<p>This may happen when you keep your recovery seed digitally (on your computer, mobile device, USB drive etc) or when you provide &nbsp;the recovery seed to a &nbsp;third-party service (especially when you want to claim some forks) or when your recovery seed was stolen (someone else has physical access to it).</p>\n<p>Please note that we cannot &nbsp;track the person who used your recovery seed or when and how it was compromised, because it is not leaving any trackable information.</p>\n<p>2. <strong>Someone knows your PIN (potentially &nbsp;even your passphrase) (https://wiki.trezor.io/PIN)</strong> - If somebody knows your sensitive data like PIN or passphrase and has physical access to your Trezor device, &nbsp;he or she can freely manipulate with the balance stored there.&nbsp;</p>\n<p>We would suggest to check who had the possibility to manipulate with your Trezor device and keep it as an evidence (for fingerprints for example).</p>\n<p><strong>Conclusion</strong></p>\n<p>Overall, the two presented scenarios are the only explanation for your situation. <u>There is no evidence that Trezor was ever actually hacked</u> and we recommend to start the investigation with the police according to the &nbsp;facts suggested in this text.</p>",
+		"text": "Unauthorized Transaction (possible explanation)",
+		"content": "<p>Firstly, we are really sorry for such an unfortunate situation.</p>\n<p>In case you see some sent transactions which you did not confirm, there are only two possible attack vectors.</p>\n<p>1. <strong>Your seed was compromised </strong>- Your <a href=\"https://wiki.trezor.io/Recovery_seed\">recovery seed</a> is the only way how to restore your whole wallet (balance, accounts etc). If the attacker gets to your recovery seed, he or she can clone your wallet and operate with all your &nbsp;funds not protected by the <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a>.</p>\n<p>This may happen when you keep your recovery seed digitally (on your computer, mobile device, USB drive etc) or when you provide &nbsp;the recovery seed to a &nbsp;third-party service (especially when you want to claim some forks) or when your recovery seed was stolen (someone else has physical access to it).</p>\n<p>Please note that we cannot &nbsp;track the person who used your recovery seed or when and how it was compromised, because it is not leaving any trackable information.</p>\n<p>2. <strong>Someone knows your </strong><a href=\"https://wiki.trezor.io/PIN\"><strong>PIN</strong></a><strong> (potentially even your passphrase) </strong>- If somebody knows your sensitive data like PIN or passphrase and has physical access to your Trezor device, &nbsp;he or she can freely manipulate with the balance stored there.&nbsp;</p>\n<p>We would suggest to check who had the possibility to manipulate with your Trezor device and keep it as an evidence (for fingerprints for example).</p>\n<p><strong>Conclusion</strong></p>\n<p>Overall, the two presented scenarios are the only explanation for your situation. <u>There is no evidence that Trezor was ever actually hacked</u> and we recommend to start the investigation with the police according to the &nbsp;facts suggested in this text.</p>",
 		"metadata": "missing, hack, non-authorized",
 		"nosearch": "",
 		"fx": 2557.626564025879,
@@ -2923,7 +2923,7 @@
 	},
 	{
 		"id": 249,
-		"text": "Unable to create a transaction (selection)",
+		"text": "Unable To Create a Transaction",
 		"content": "<p>Are you experiencing problems after confirming to send the transaction (timed out, stuck browser)?&nbsp;</p>",
 		"metadata": "send, create",
 		"nosearch": "",
@@ -2960,8 +2960,8 @@
 	},
 	{
 		"id": 250,
-		"text": "Confirmed transaction (receiver selection)",
-		"content": "<p><strong>It is important to keep in mind that the </strong><u><strong>Trezor hardware wallet</strong></u><strong> is only responsible for signing transactions when being sent from the device. It is not responsible for confirming the transaction on the respective network.&nbsp;</strong></p>\n<p>Please select who was the receiver of this transaction. Poznámka aby si uživatel uložil link na tx, pro případnou další komunikaci</p>",
+		"text": "Confirmed Transaction",
+		"content": "<p><strong>It is important to keep in mind that the </strong><u><strong>Trezor hardware wallet</strong></u><strong> is only responsible for signing transactions when being sent from the device. It is not responsible for confirming the transaction on the respective network.&nbsp;</strong></p>\n<p>Please select who was the receiver of this transaction.&nbsp;</p>",
 		"metadata": "confirmed",
 		"nosearch": "",
 		"fx": 1801.3156509399414,
@@ -2997,7 +2997,7 @@
 	},
 	{
 		"id": 251,
-		"text": "Uncofirmed transaction",
+		"text": "Unconfirmed Transaction",
 		"content": "<p>If you provided a lower fee, it may take some time until the transaction is included in the next block (confirmed by the respective network). In some cases, when the fee is very low, the transaction might not be processed at all and will return to its source after some time.</p>\n<p><strong>It is important to keep in mind that the </strong><u><strong>Trezor hardware wallet</strong></u><strong> is only responsible for signing transactions when being sent from the device. It is not responsible for confirming the transaction on the respective network.&nbsp;</strong></p>",
 		"metadata": "unconfirmed",
 		"nosearch": "",
@@ -3034,8 +3034,8 @@
 	},
 	{
 		"id": 252,
-		"text": "Not visible on blockchain (possible explanations)",
-		"content": "<p>In this case, the transaction was probably not sent or processed at all by the respective network (blockchain) and your balance should be the same. Transactions not processed by the network are returned after some time.</p>\n<p>Please take a look at these instructions about how to create a transaction (https://wiki.trezor.io/index.php?title=User+manual%3AMaking+payments&amp;ModelType=1).</p>\n<p><strong>It is important to keep in mind that the </strong><u><strong>Trezor hardware wallet</strong></u><strong> is only responsible for signing transactions when being sent from the device. It is not responsible for confirming the transaction on the respective network.</strong></p>",
+		"text": "Not Visible On Blockchain (Possible Explanations)",
+		"content": "<p>In this case, the transaction was probably not sent or processed at all by the respective network (blockchain) and your balance should be the same. Transactions not processed by the network are returned after some time.</p>\n<p>Please take a look at <a href=\"https://wiki.trezor.io/User_manual:Making_payments\">instructions</a> about how to create a transaction.</p>\n<p><strong>It is important to keep in mind that the </strong><u><strong>Trezor hardware wallet</strong></u><strong> is only responsible for signing transactions when being sent from the device. It is not responsible for confirming the transaction on the respective network.</strong></p>",
 		"metadata": "not visible",
 		"nosearch": "",
 		"fx": 2249.9054946899414,
@@ -3084,8 +3084,8 @@
 	},
 	{
 		"id": 253,
-		"text": "Crosschain transaction (description)",
-		"content": "<p>Some cryptocurrencies are unfortunately using the same address formats. The developers of the respective cryptocurrencies are responsible for introducing their products without confusing the users and distinguishing the addresses properly.</p>\n<p>If you are one of these victims, you can try our recovery tool (<a href=\"https://trezor.io/recover-coins/\"><u>https://trezor.io/recover-coins/</u></a>).</p>\n<p>Please note that only certain scenarios can be resolved and the receiver needs to be your Trezor device account.&nbsp;</p>\n<p>More details about how to operate with the claiming tool can be found here - https://blog.trezor.io/recover-coins-guide-bitcoin-litecoin-78da0d290c79</p>",
+		"text": "Crosschain Transaction",
+		"content": "<p>Some cryptocurrencies are unfortunately using the same address formats. The developers of the respective cryptocurrencies are responsible for introducing their products without confusing the users and distinguishing the addresses properly.</p>\n<p>If you are one of these victims, you can try our <a href=\"https://trezor.io/recover-coins\">recovery tool</a>.</p>\n<p>Please note that only certain scenarios can be resolved and the receiver needs to be your Trezor device account.&nbsp;</p>\n<p>More details about how to operate with the claiming tool can be found <a href=\"https://blog.trezor.io/recover-coins-guide-bitcoin-litecoin-78da0d290c79\">here</a>.</p>",
 		"metadata": "crosschain",
 		"nosearch": "",
 		"fx": 2434.437843322754,
@@ -3094,8 +3094,8 @@
 	},
 	{
 		"id": 254,
-		"text": "Transaction was sent to my Trezor",
-		"content": "<p>Did you verify your generated receiving address with “Show full address” function</p>\n<p>(https://wiki.trezor.io/index.php?title=User+manual%3AReceiving+payments&amp;ModelType=1)? Upravit</p>",
+		"text": "Transaction Was Sent To My Trezor",
+		"content": "<p>Did you verify your generated receiving address with “Show full address” function?</p>\n<p>Also, see our article about <a href=\"https://wiki.trezor.io/User_manual:Receiving_payments\">Receiving payments</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 1611.2280044555664,
@@ -3131,7 +3131,7 @@
 	},
 	{
 		"id": 255,
-		"text": "Transaction was sent to different source than my Trezor",
+		"text": "Transaction Was Sent To Different Source Than My Trezor",
 		"content": "<p>There may be some scenarios in such case.</p>\n<p>1. The transaction was sent to someone else and that person claims that he or she did not receive anything, but the transaction is clearly confirmed by the respective blockchain (network). In this case we would suggest to verify the address provided by that person. It is possible that you were provided with a wrong address or that you mistyped the address when sending funds.</p>\n<p>Comparing both addresses ( the one provided and the one on blockchain) is the key.</p>\n<p>Note that some address formats are also case sensitive.</p>\n<p>2. If the transaction was sent to some exchange account or a third-party wallet, you will need to contact the support of the respective service. Some suggestions presented in the previous point may be helpful when communicating with their support.</p>\n<p>Please keep in mind that nobody can revert confirmed transactions. There is freedom in using cryptocurrencies. However, the freedom entails that you are the sole person responsible for your funds. It is, therefore, necessary to check carefully where you send your funds. Remember, you are your own bank.</p>\n<p>We are sorry, but there is nothing more we can do in a situation like this.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -3141,7 +3141,7 @@
 	},
 	{
 		"id": 257,
-		"text": "Basic troubleshooting (Trezor status)",
+		"text": "Basic Troubleshooting (Trezor Status)",
 		"content": "<p>Do you see your Trezor device status as “connected”? The information can be found under the name of your Trezor in the Trezor Wallet interface.&nbsp;</p>",
 		"metadata": "disconnected",
 		"nosearch": "",
@@ -3178,8 +3178,8 @@
 	},
 	{
 		"id": 258,
-		"text": "Basic troubleshooting (passphrase)",
-		"content": "<p>Do you use passphrase (https://blog.trezor.io/hide-your-trezor-wallets-with-multiple-passphrases-f2e0834026eb) protection?</p>",
+		"text": "Basic Troubleshooting Passphrase",
+		"content": "<p>Do you use the <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a> protection?</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 1433.907569885254,
@@ -3215,8 +3215,8 @@
 	},
 	{
 		"id": 259,
-		"text": "Passphrase enabled (suggestion)",
-		"content": "<p>If you generated the receiving address under a passphrase, please make sure you are typing the correct one.</p>\n<p>The passphrase is case sensitive, it can contain any ASCII characters and its length can be up to 50 characters.</p>",
+		"text": "Passphrase Enabled",
+		"content": "<p>If you generated the receiving address under a <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a>, please make sure you are typing the correct one.</p>\n<p>The passphrase is case sensitive, it can contain any ASCII characters and its length can be up to 50 characters.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 1331.914161682129,
@@ -3239,7 +3239,7 @@
 	},
 	{
 		"id": 260,
-		"text": "Not received transaction form",
+		"text": "Not Received Transaction Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -3263,7 +3263,7 @@
 	},
 	{
 		"id": 261,
-		"text": "Not received transaction (passphrase) form",
+		"text": "Not Received Transaction Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -3287,8 +3287,8 @@
 	},
 	{
 		"id": 262,
-		"text": "Receiving address verification",
-		"content": "<p>Comparing the generated address for receiving your funds that is shown on your computer with the address shown on Trezor device screen, is one of the crucial aspects to make sure that this address is not changed by some malicious software like a specialized malware.</p>\n<p>That is why it is set “Show full address” as a default option when generating the new addresses.</p>\n<p>More details can be found here - https://wiki.trezor.io/index.php?title=User+manual%3AReceiving+payments&amp;ModelType=1</p>\n<p>We would suggest comparing all the addresses you can see in your receive tab with the destination address shown on blockchain where your funds ended.</p>\n<p>Is the address matching the address generated by the Trezor device?</p>",
+		"text": "Receiving Address Verification",
+		"content": "<p>Comparing the generated address for receiving your funds that is shown on your computer with the address shown on Trezor device screen, is one of the crucial aspects to make sure that this address is not changed by some malicious software like a specialized malware.</p>\n<p>That is why it is set “Show full address” as a default option when generating the new addresses.</p>\n<p>More details can be found <a href=\"https://wiki.trezor.io/User_manual:Receiving_payments\">here</a>.</p>\n<p>We would suggest comparing all the addresses you can see in your receive tab with the destination address shown on blockchain where your funds ended.</p>\n<p>Is the address matching the address generated by the Trezor device?</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 1623.516212463379,
@@ -3324,7 +3324,7 @@
 	},
 	{
 		"id": 263,
-		"text": "Not received transaction (possible explanations)",
+		"text": "Not Received Transaction (Possible Explanations)",
 		"content": "<p>If you could not find the funds in the address in the Receive tab, it could be caused by these possible scenarios:</p>\n<p>1. You have mistyped the destination address when sending the funds.</p>\n<p>2. There is some malicious software, like specialized malware, that changed the destination address - we strongly suggest to run some antivirus tests on your computer.</p>\n<p>Unfortunately, in both of the presented scenarios, the funds are lost and cannot be reverted unless you know the person who owns the addresses where the funds were sent.</p>\n<p>3. The passphrase protection was used.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -3361,8 +3361,8 @@
 	},
 	{
 		"id": 264,
-		"text": "Dissapeared transaction (possible explanation)",
-		"content": "<p>When there is a large number of unconfirmed transactions in the respective network, it is possible that not all of them will fit into the memory of the nodes immediately. It is an inherent technical limitation of Bitcoin <u>and some other cryptocurrencies</u>.</p>\n<p>For instance, the transaction can get temporarily \"lost\" on its way to some node (it generally happens to low-fee transactions) and, therefore, it will not propagate to our servers. Hence, the unconfirmed transaction can be visible for a while, but then disappears from the Trezor Wallet interface (wallet.trezor.io).</p>\n<p>If a transaction disappears from the Trezor Wallet interface after a longer time of not being confirmed, it might mean that it was canceled due to a low fee.</p>\n<p>Once the transaction is confirmed by the network, its status will update in the Trezor Wallet interface.</p>",
+		"text": "Dissapeared Transaction (Possible Explanation)",
+		"content": "<p>When there is a large number of unconfirmed transactions in the respective network, it is possible that not all of them will fit into the memory of the nodes immediately. It is an inherent technical limitation of Bitcoin <u>and some other cryptocurrencies</u>.</p>\n<p>For instance, the transaction can get temporarily \"lost\" on its way to some node (it generally happens to low-fee transactions) and, therefore, it will not propagate to our servers. Hence, the unconfirmed transaction can be visible for a while, but then disappears from the <a href=\"https://wallet.trezor.io\">Trezor Wallet</a> interface.</p>\n<p>If a transaction disappears from the Trezor Wallet interface after a longer time of not being confirmed, it might mean that it was canceled due to a low fee.</p>\n<p>Once the transaction is confirmed by the network, its status will update in the Trezor Wallet interface.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 1950.5785903930664,
@@ -3371,8 +3371,8 @@
 	},
 	{
 		"id": 265,
-		"text": "The time limit for confirming/returning the transaction",
-		"content": "<p>It depends on the rules for the respective network (blockchain) for the particular cryptocurrency and how big is the mempool (https://wiki.trezor.io/Mempool) of unconfirmed transactions in this network.</p>\n<p>Example: There may be some tools that will let you know what is the status of the mempool, such as this one - https://jochen-hoenicke.de/queue/#1,24h</p>\n<p>In short, the transactions wait in the mempool to be “picked up” by miners. When the network is overwhelmed, the miners will prioritize the transactions with higher fees.</p>\n<p>In such situations, the transaction can be confirmed and included into the next block or canceled by the network.</p>\n<p>Example: It may take up to 14 days until the transaction is deemed as invalid by the Bitcoin network (other cryptocurrencies may have a different rules).</p>",
+		"text": "The Time Limit For Confirming/Returning The Transaction",
+		"content": "<p>It depends on the rules for the respective network (blockchain) for the particular cryptocurrency and how big is the <a href=\"https://wiki.trezor.io/Mempool\">Mempool</a> of unconfirmed transactions in this network.</p>\n<p>Example: There may be some tools that will let you know what is the status of the mempool, such as this <a href=\"https://jochen-hoenicke.de/queue/#1,24h\">one</a>.</p>\n<p>In short, the transactions wait in the mempool to be “picked up” by miners. When the network is overwhelmed, the miners will prioritize the transactions with higher fees.</p>\n<p>In such situations, the transaction can be confirmed and included into the next block or canceled by the network.</p>\n<p>Example: It may take up to 14 days until the transaction is deemed as invalid by the Bitcoin network (other cryptocurrencies may have a different rules).</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2117.582862854004,
@@ -3381,7 +3381,7 @@
 	},
 	{
 		"id": 267,
-		"text": "Non-authorized transaction form",
+		"text": "Non-Authorized Transaction Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -3405,7 +3405,7 @@
 	},
 	{
 		"id": 268,
-		"text": "Unable to create a transaction (description)",
+		"text": "Unable to Create a Transaction",
 		"content": "<p><strong>Description of the problem:</strong></p>\n<p>You are probably trying to sent too many microtransactions at once and Trezor device has problems verifying all the inputs it contains.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -3429,9 +3429,9 @@
 	},
 	{
 		"id": 269,
-		"text": "Unable to create a transaction (description)",
+		"text": "Unable to Create a Transaction",
 		"content": "<p><strong>Description of the problem:</strong></p>\n<p>The reasons why you cannot create the transaction could be a wrong address type to which you are trying to send your funds.</p>\n<p>Please make sure you are operating in the correct wallet and that you are trying to use the address format that is available for the current wallet.</p>\n<p>It can be also caused by an extra space in the copied address. <u>Please copy only the address.</u></p>",
-		"metadata": "",
+		"metadata": "transaction",
 		"nosearch": "",
 		"fx": 3026.5907974243164,
 		"fy": 1047.300871372223,
@@ -3453,8 +3453,8 @@
 	},
 	{
 		"id": 270,
-		"text": "Unable to create a transaction (possible solution)",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please divide your transaction into smaller parts, until Trezor device is able to send your transaction.</p>\n<p>It is also good to take a look at this article, to optimize your accounts and prevent such problems in the future - <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe</a></p>",
+		"text": "Unable to Create a Transaction (Possible Solution)",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please divide your transaction into smaller parts, until Trezor device is able to send your transaction.</p>\n<p>It is also good to take a look at this <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">article</a>, to optimize your accounts and prevent such problems in the future.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2750.7079849243164,
@@ -3463,8 +3463,8 @@
 	},
 	{
 		"id": 271,
-		"text": "Unable to create a transaction (possible solution)",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please follow the instructions how to create the transaction - https://wiki.trezor.io/index.php?title=User+manual%3AMaking+payments&amp;ModelType=1</p>",
+		"text": "Unable to Create a Transaction (Possible Solution)",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please follow the instructions how to create the <a href=\"https://wiki.trezor.io/User_manual:Making_payments\">transaction</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2910.1474380493164,
@@ -3487,7 +3487,7 @@
 	},
 	{
 		"id": 272,
-		"text": "Basic troubleshooting (Trezor status)",
+		"text": "Basic Troubleshooting - Trezor Status",
 		"content": "<p>Please check whether you see “Disconnected device” or “Connected device” when your Trezor is plugged in.</p>\n<p>This status is always displayed under your Trezor name.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -3524,11 +3524,11 @@
 	},
 	{
 		"id": 273,
-		"text": "Basic troubleshooting (button functionality)",
+		"text": "Basic troubleshooting - Button Functionality",
 		"content": "<p>Please test the functionality of the right button on your Trezor device. You can try to change some of your settings to see its functionality.</p>",
 		"metadata": "",
 		"nosearch": "",
-		"fx": 3001.0109634399414,
+		"fx": 3002.0038833618164,
 		"fy": 1478.488371372223,
 		"connections": [
 			{
@@ -3561,8 +3561,8 @@
 	},
 	{
 		"id": 274,
-		"text": "(Zero) Balance issue (selection)",
-		"content": "<p>Please describe the problem by selecting the appropriate category.</p>\n<p>Firmware update - (https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+your+Trezor%27s+firmware&amp;ModelType=1)</p>\n<p>Passphrase - (https://blog.trezor.io/hide-your-trezor-wallets-with-multiple-passphrases-f2e0834026eb)</p>\n<p>Recovery procedure - (https://wiki.trezor.io/index.php?title=User+manual%3ARecovery&amp;ModelType=1)&nbsp;</p>\n<p>Wiping Trezor device - (https://wiki.trezor.io/index.php?title=User+manual%3AWiping+your+Trezor&amp;ModelType=1)</p>",
+		"text": "Balance Issue",
+		"content": "<p>Please describe the problem by selecting the appropriate category.</p>\n<p><a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">Firmware update</a></p>\n<p><a href=\"https://wiki.trezor.io/Passphrase\">Passphrase</a></p>\n<p><a href=\"https://wiki.trezor.io/User_manual:Recovery\">Recovery</a>&nbsp;</p>\n<p><a href=\"https://wiki.trezor.io/User_manual:Wiping_the_Trezor_device\">Wiping the Trezor device</a></p>",
 		"metadata": "zero, empty, no funds, missing, wrong, incorrect",
 		"nosearch": "",
 		"fx": 3400.2763137817383,
@@ -3634,8 +3634,8 @@
 	},
 	{
 		"id": 276,
-		"text": "Basic troubleshooting (recovery)",
-		"content": "<p>It indicates that your Trezor device was wiped during the firmware update process and then you proceed with the new setup. This happens occasionally when something goes wrong with the update procedure or when it is necessary by the nature of the update. That is why we always recommend making sure your recovery seed (https://wiki.trezor.io/Recovery_seed) is available before you start the update procedure.</p>\n<p>If you have your recovery seed for your original wallet (where you stored the funds), there is nothing to worry about.</p>\n<p>There are two recovery options in the Trezor Wallet interface (wallet.trezor.io):&nbsp;</p>\n<p><strong>Standard recovery</strong> - https://wiki.trezor.io/index.php?title=User+manual%3ARecovery&amp;ModelType=1</p>\n<p><strong>Advanced recovery</strong> -&nbsp;https://wiki.trezor.io/User_manual:Advanced_Recovery</p>",
+		"text": "Basic Troubleshooting (Recovery)",
+		"content": "<p>It indicates that your Trezor device was wiped during the firmware update process and then you proceed with the new setup. This happens occasionally when something goes wrong with the update procedure or when it is necessary by the nature of the update. That is why we always recommend making sure your <a href=\"https://wiki.trezor.io/Recovery_seed\">Recovery Seed</a> is available before you start the update procedure.</p>\n<p>If you have your recovery seed for your original wallet (where you stored the funds), there is nothing to worry about.</p>\n<p>There are two recovery options in the <a href=\"https://wallet.trezor.io\">Trezor Wallet</a> interface:&nbsp;</p>\n<p><a href=\"https://wiki.trezor.io/User_manual:Recovery\"><strong>Recovery</strong></a></p>\n<p><a href=\"https://wiki.trezor.io/User_manual:Advanced_recovery\"><strong>Advanced Recovery</strong></a></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 3184.4965286254883,
@@ -3671,8 +3671,8 @@
 	},
 	{
 		"id": 277,
-		"text": "Passphrase (suggestion)",
-		"content": "<p>The passphrase is a great way &nbsp;to protect your funds with additional layer of security, but it is necessary to know its mechanics before you start &nbsp;to use it.</p>\n<p>Each passphrase creates a different wallet.&nbsp;</p>\n<p>Therefore, it is necessary to type the same passphrase you used for storing your funds.</p>\n<p>The passphrase is case sensitive, it can contain any ASCII characters and its length can be up to 50 characters.</p>\n<p>Please &nbsp;check whether the passphrase is enabled. Popisný obrázek (video/gif)</p>\n<p><strong>Leaving the passphrase field blank (not entering any characters and simply hitting </strong><em><strong>“Enter”</strong></em><strong>) reveals your standard wallet.</strong></p>",
+		"text": "Passphrase (Suggestion)",
+		"content": "<p>The passphrase is a great way&nbsp;to protect your funds with additional layer of security, but it is necessary to know its mechanics before you start to use it.</p>\n<p>Each passphrase creates a different wallet.&nbsp;</p>\n<p>Therefore, it is necessary to type the same passphrase you used for storing your funds.</p>\n<p>The passphrase is case sensitive, it can contain any ASCII characters and its length can be up to 50 characters.</p>\n<p>Please, check whether the passphrase is enabled.</p>\n<p><strong>Leaving the passphrase field blank (not entering any characters and simply hitting </strong><em><strong>“Enter”</strong></em><strong>) reveals your standard wallet.</strong></p>",
 		"metadata": "passphrase",
 		"nosearch": "",
 		"fx": 3346.4350051879883,
@@ -3695,8 +3695,8 @@
 	},
 	{
 		"id": 278,
-		"text": "Recovery did not help (possible explanations)",
-		"content": "<p>If you have performed the recovery and still see the wrong balance then it can mean two things:</p>\n<p>1. You did not use the correct recovery seed where your funds were stored. Please make sure that you are using the right seed.</p>\n<p>It is also possible that you have mistyped some of the seed words. Please check your seed words with this list (https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt), where all words are presented. We would suggest searching for words that could be easily confused..</p>\n<p>Here are also some suggestions - https://wiki.trezor.io/Commonly_misspelled_words_of_recovery_seed</p>\n<p><strong>Your seed cannot be changed once generated, it can only be incorrectly written down.</strong></p>\n<p>2. You are using the passphrase protection and your funds were protected by the passphrase wallet.&nbsp;</p>\n<p>The solution in this case is to enable passphrase and type the correct passphrase where you transferred your funds.&nbsp;</p>\n<p>For more details regarding the passphrase, use these links: (https://blog.trezor.io/hide-your-trezor-wallets-with-multiple-passphrases-f2e0834026eb)</p>\n<p>Please also check whether the passphrase is enabled. Popisný obrázek (video/gif)</p>\n<p><strong>Leaving passphrase field blank (not entering any characters and simply hitting </strong><em><strong>“Enter”</strong></em><strong>) will reveal your standard wallet.</strong></p>",
+		"text": "Recovery Did Not Help (Possible Explanations)",
+		"content": "<p>If you have performed the recovery and still see the wrong balance then it can mean two things:</p>\n<p>1. You did not use the correct recovery seed where your funds were stored. Please make sure that you are using the right seed.</p>\n<p>It is also possible that you have mistyped some of the seed words. Please check your seed words with this <a href=\"https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt\">list</a>, where all words are presented. We would suggest searching for words that could be easily confused.</p>\n<p>Also see an article about <a href=\"https://wiki.trezor.io/Commonly_misspelled_words_of_recovery_seed\">Commonly misspelled words of recovery seed</a>.</p>\n<p><strong>Your seed cannot be changed once generated, it can only be incorrectly written down.</strong></p>\n<p>2. You are using the passphrase protection and your funds were protected by the passphrase wallet.&nbsp;</p>\n<p>The solution in this case is to enable passphrase and type the correct passphrase where you transferred your funds.&nbsp;</p>\n<p>More details regarding the <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a>.</p>\n<p>Please also check whether the passphrase is enabled.</p>\n<p><strong>Leaving passphrase field blank (not entering any characters and simply hitting </strong><em><strong>“Enter”</strong></em><strong>) will reveal your standard wallet.</strong></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 3513.7716751098633,
@@ -3719,8 +3719,8 @@
 	},
 	{
 		"id": 279,
-		"text": "Wiped device (description)",
-		"content": "<p>In case you wiped your Trezor device and want to access your wiped wallet again, there is no need to worry as long as you have your recovery seed for the wallet in question.</p>\n<p>There are two recovery options in the Trezor Wallet interface (wallet.trezor.io):&nbsp;</p>\n<p><strong>Standard recovery</strong> - https://wiki.trezor.io/index.php?title=User+manual%3ARecovery&amp;ModelType=1</p>\n<p><strong>Advanced recovery</strong> - https://wiki.trezor.io/User_manual:Advanced_Recovery</p>",
+		"text": "Wiped Device",
+		"content": "<p>In case you wiped your Trezor device and want to access your wiped wallet again, there is no need to worry as long as you have your recovery seed for the wallet in question.</p>\n<p>There are two recovery options in the <a href=\"https://wallet.trezor.io\">Trezor Wallet</a> interface:&nbsp;</p>\n<p><a href=\"https://wiki.trezor.io/User_manual:Recovery\"><strong>Standard Recovery</strong></a></p>\n<p><a href=\"https://wiki.trezor.io/User_manual:Advanced_recovery\"><strong>Advanced Recovery</strong></a></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 3677.7340774536133,
@@ -3756,7 +3756,7 @@
 	},
 	{
 		"id": 283,
-		"text": "Wrong balance issue form",
+		"text": "Wrong Balance Issue Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -3830,9 +3830,9 @@
 	},
 	{
 		"id": 286,
-		"text": "Updating (selection)",
+		"text": "Updating",
 		"content": "<p>Please provide us more details by choosing the appropriate option.</p>",
-		"metadata": "bridge, firmware, update, actualization, upgrade",
+		"metadata": "bridge, firmware, update, upgrade",
 		"nosearch": "",
 		"fx": 4831.710960388184,
 		"fy": 660.2187790870667,
@@ -3867,7 +3867,7 @@
 	},
 	{
 		"id": 287,
-		"text": "Recovery (selection)",
+		"text": "Recovery",
 		"content": "<p>Please provide us more details by choosing the appropriate option.</p>",
 		"metadata": "recovery, restore",
 		"nosearch": "",
@@ -3905,7 +3905,7 @@
 	{
 		"id": 288,
 		"text": "Interrupted setup (description)",
-		"content": "<p><strong>If you do not have a full backup of the recovery seed, you should not use your Trezor device</strong></p>\n<p><strong>https://wiki.trezor.io/Recovery_seed_backup_fail</strong></p>\n<p>There are basically two scenarios:</p>\n<p>1.<u>You have no coins/passwords stored on this Trezor device</u> - you can wipe it (https://wiki.trezor.io/index.php?title=User+manual%3AWiping+your+Trezor&amp;ModelType=1) and start the new setup (https://wiki.trezor.io/index.php?title=Getting+started+in+5+steps&amp;ModelType=1#Create_a_new_wallet) with writing new and complete set of recovery seed.&nbsp;</p>\n<p>2<u>.You have coins stored on this Trezor device</u> - please follow the instructions from this article (https://wiki.trezor.io/User_manual:Emergency_situations#You_have_one_Trezor_device_and_recovery_seed_IS_NOT_available)</p>",
+		"content": "<p><strong>If you do not have a full backup of the recovery seed, you should not use your Trezor device</strong></p>\n<p><strong>https://wiki.trezor.io/Recovery_seed_backup_fail</strong></p>\n<p>There are basically two scenarios:</p>\n<p>1.<u>You have no coins/passwords stored on this Trezor device</u> - you can <a href=\"https://wiki.trezor.io/User_manual:Wiping_the_Trezor_device\">wipe it</a> and start the <a href=\"https://wiki.trezor.io/index.php?title=Getting+started+in+5+steps&amp;ModelType=1#Create_a_new_wallet\">new setup</a> with writing new and complete set of recovery seed.&nbsp;</p>\n<p>2<u>.You have coins stored on this Trezor device</u> - please follow the instructions from this <a href=\"https://wiki.trezor.io/User_manual:Emergency_situations#Your_recovery_seed_is_not_available\">article</a>.</p>",
 		"metadata": "seed, incomplete, interrupted, backup",
 		"nosearch": "",
 		"fx": 3797.9780502319336,
@@ -3951,7 +3951,7 @@
 	},
 	{
 		"id": 290,
-		"text": "Cannot download/install Trezor Bridge (selection)",
+		"text": "Can Not Download/Install Trezor Bridge",
 		"content": "<p>What problem do you need to be resolved?</p>",
 		"metadata": "bridge, download, virus, mac",
 		"nosearch": "",
@@ -4014,7 +4014,7 @@
 	},
 	{
 		"id": 291,
-		"text": "Unofficial firmware detected (description)",
+		"text": "Unofficial Firmware Detected",
 		"content": "<p><strong>Description of the problem:</strong></p>\n<p>The \"Unofficial firmware detected\" message usually points out that there was some problem with the update or that you are about to use unofficial firmware, which is surely not recommended.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4038,9 +4038,9 @@
 	},
 	{
 		"id": 292,
-		"text": "Broken firmware (description)",
-		"content": "<p><strong>Description of the problem:</strong></p>\n<p>The \"Broken firmware\" message usually points out that there was some problem with the update.</p>",
-		"metadata": "",
+		"text": "Broken Firmware",
+		"content": "<p>Some cryptocurrencies are unfortunately using the same address formats. The developers of the respective cryptocurrencies are responsible for introducing their products without confusing the users and distinguishing the addresses properly.</p>\n<p>If you are one of these victims, you can try our <a href=\"https://trezor.io/recover-coins\">recovery tool</a>.</p>\n<p>Please note that only certain scenarios can be resolved and the receiver needs to be your Trezor device account.&nbsp;</p>\n<p>More details about how to operate with the claiming tool can be found here - <a href=\"https://wiki.trezor.io/User_manual:Claiming_cryptocurrency_after_coin_split\">Claiming cryptocurrency after coin split</a></p>",
+		"metadata": "claim, fork, hardfork, split",
 		"nosearch": "",
 		"fx": 4033.1548080444336,
 		"fy": 1028.5112595558167,
@@ -4062,8 +4062,8 @@
 	},
 	{
 		"id": 293,
-		"text": "Unofficial firmware detected (possible solution)",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure from the Trezor Wallet interface(wallet.trezor.io) until the official firmware is successfully installed.</p>\n<p><strong>Important:</strong></p>\n<p>If you already have some coins or passwords stored on your Trezor device, please verify if you have the correct recovery seed with the dry-run feature (https://blog.trezor.io/test-your-seed-backup-dry-run-recovery-df9f2e9889) before starting the update procedure.</p>\n<p>Here is the link for more details regarding how to start the firmware update - https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+your+Trezor%27s+firmware&amp;ModelType=1</p>",
+		"text": "Unofficial Firmware Detected (Possible Solution)",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure from the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a> until the official firmware is successfully installed.</p>\n<p><strong>Important:</strong></p>\n<p>If you already have some coins or passwords stored on your Trezor device, please verify if you have the correct recovery seed with the <a href=\"https://wiki.trezor.io/User_manual\">Dry-Run Recovery</a> before starting the update procedure.</p>\n<p>Here is the link for more details regarding how to start the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">firmware update</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 3848.2502670288086,
@@ -4086,7 +4086,7 @@
 	},
 	{
 		"id": 295,
-		"text": "Basic troubleshooting (USB cable)",
+		"text": "Basic Troubleshooting (USB Cable)",
 		"content": "<p>Please try to use your device with <strong>several different USB cables</strong> (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>",
 		"metadata": "freeze, random, stop",
 		"nosearch": "",
@@ -4110,7 +4110,7 @@
 	},
 	{
 		"id": 296,
-		"text": "Basic troubleshooting (computer/configuration)",
+		"text": "Basic Troubleshooting (Computer/Configuration)",
 		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4134,7 +4134,7 @@
 	},
 	{
 		"id": 298,
-		"text": "The origin of the product",
+		"text": "The Origin Of The Product",
 		"content": "<p>How did you purchase the product?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4171,7 +4171,7 @@
 	},
 	{
 		"id": 299,
-		"text": "RMA Firmware update errors form ",
+		"text": "RMA Firmware Update Errors Form ",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -4195,8 +4195,8 @@
 	},
 	{
 		"id": 300,
-		"text": "Reseller purchase",
-		"content": "<p>In case you purchased the product from one of our resellers (not from our official e-shop at shop.trezor.io), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
+		"text": "Reseller Purchase",
+		"content": "<p>In case you purchased the product from one of our <a href=\"https://trezor.io/resellers/\">resellers</a> (not from our <a href=\"http://shop.trezor.io\">official e-shop</a>), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
 		"metadata": "",
 		"nosearch": true,
 		"fx": 3923.4673595428467,
@@ -4219,7 +4219,7 @@
 	},
 	{
 		"id": 301,
-		"text": "RMA reseller Firmware update errors form ",
+		"text": "RMA Reseller Firmware Update Errors form ",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -4243,9 +4243,9 @@
 	},
 	{
 		"id": 302,
-		"text": "Broken firmware (possible solution)",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure in the Trezor Wallet interface (wallet.trezor.io) until the official firmware is successfully installed.</p>\n<p><strong>Important:</strong></p>\n<p>If you already have some coins or passwords stored on your Trezor device, please verify if you have the correct recovery seed with the dry-run feature (https://blog.trezor.io/test-your-seed-backup-dry-run-recovery-df9f2e9889) before starting the update procedure.</p>\n<p>Here is the link for more details regarding how to start the firmware update - https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+your+Trezor%27s+firmware&amp;ModelType=1</p>",
-		"metadata": "",
+		"text": "Broken Firmware (Possible Solution)",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure in the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a> until the official firmware is successfully installed.</p>\n<p><strong>Important:</strong></p>\n<p>If you already have some coins or passwords stored on your Trezor device, please verify if you have the correct recovery seed with the <a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\">Dry-Run recovery</a> before starting the update procedure.</p>\n<p>Here is the link for more details regarding how to start the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">firmware update</a>.</p>",
+		"metadata": "dry run, check, ",
 		"nosearch": "",
 		"fx": 4027.7622299194336,
 		"fy": 1191.4320359230042,
@@ -4267,8 +4267,8 @@
 	},
 	{
 		"id": 303,
-		"text": "Antivirus preventing the download (description)",
-		"content": "<p>If your antivirus (typically Kaspersky or Norton) is reporting our Bridge software as virus or trojan, then it is most likely a false alarm.&nbsp;</p>\n<p>There is no need to worry, as Trezor Bridge downloaded from Trezor Wallet interface (wallet.trezor.io, beta-wallet.trezor.io) or the official source page (https://wallet.trezor.io/data/bridge/latest/index.html) is safe to use and virus/trojan-free.&nbsp;</p>\n<p><strong>In conclusion, if downloaded from our websites, it is safe to use even when detected as a virus/trojan by your antivirus.</strong></p>\n<p>You can help us whitelisting our software by reporting it as false positive to the respective support of the antivirus company.</p>",
+		"text": "Antivirus Preventing The Download",
+		"content": "<p>If your antivirus (typically Kaspersky or Norton) is reporting our Bridge software as virus or, then it is most likely a false alarm.&nbsp;</p>\n<p>There is no need to worry, as Trezor Bridge downloaded from Trezor Wallet interface (wallet.trezor.io, beta-wallet.trezor.io) or the official <a href=\"https://wallet.trezor.io/#/bridge\">source page</a> is safe to use and it's virus free.&nbsp;</p>\n<p><strong>In conclusion, if downloaded from our official websites, it is safe to use even when detected as a virus by your antivirus.</strong></p>\n<p>You can help us whitelisting our software by reporting it as false positive to the respective support of the antivirus company.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 4194.252220153809,
@@ -4291,8 +4291,8 @@
 	},
 	{
 		"id": 304,
-		"text": "Apple security settings (description)",
-		"content": "<p><strong>Description of the problem:</strong></p>\n<p>We have encountered reports about this problem from some time ago. It started with the version of OS X 10.8, which have set certain rules that elevated the security level for all non-Apple distributed applications.</p>\n<p>Trezor Bridge is surely not a harmful piece of software if you download it from our official website (wallet.trezor.io) or source page (https://wallet.trezor.io/data/bridge/latest/index.html), so you can use it without any worries (you should click on the <em>installer </em>to download the needed software).</p>",
+		"text": "Apple Security Settings",
+		"content": "<p><strong>Description of the problem:</strong></p>\n<p>We have encountered reports about this problem from some time ago. It started with the version of OS X 10.8, which have set certain rules that elevated the security level for all non-Apple distributed applications.</p>\n<p>Trezor Bridge is surely not a harmful piece of software if you download it from our official website (wallet.trezor.io) or <a href=\"https://wallet.trezor.io/#/bridge\">source page</a>, so you can use it without any worries.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 4510.428977966309,
@@ -4315,8 +4315,8 @@
 	},
 	{
 		"id": 305,
-		"text": "Bridge reinstall (description)",
-		"content": "<p>Here are the instructions for reinstalling Trezor Bridge.</p>\n<p><strong>For Windows:</strong></p>\n<p>1. Download the latest Bridge version from here: https://wallet.trezor.io/data/bridge/latest/index.html</p>\n<p>2. Run the Task manager (<em>press CTRL + Shift + Escape</em>)</p>\n<p>3. Terminate the <em>trezord.exe</em> process</p>\n<p>4. Go to <em>C:\\Program Files (x86)\\TREZOR Bridge</em>, find the <em>uninstall.exe</em>, hold Shift and right-click on it and choose <em>\"Run as administrator\"</em></p>\n<p>5. Uninstall the Trezor Bridge</p>\n<p>6. Delete all the remaining files (if there are any left)</p>\n<p>7. Run the new bridge installation</p>\n<p>8. Go to wallet.trezor.io and try if it works</p>\n<p><strong>For Mac:</strong></p>\n<p>1. Open terminal (<a href=\"http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line\">http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line</a>), then type - <em>pkill trezord</em></p>\n<p>2. Go to - applications/utilities</p>\n<p>3. Remove folder <u>TREZOR </u>Bridge</p>\n<p>4. Go to wallet.trezor.io</p>\n<p>5. Download the new version of the installer (https://wallet.trezor.io/data/bridge/latest/index.html)</p>\n<p>6. Run installer</p>\n<p>7. Refresh wallet.trezor.io</p>",
+		"text": "Bridge Reinstall",
+		"content": "<p>Here are the instructions for reinstalling Trezor Bridge.</p>\n<p><strong>For Windows:</strong></p>\n<p>1. Download the latest Bridge version from <a href=\"https://wallet.trezor.io/#/bridge\">here</a></p>\n<p>2. Run the Task manager (<em>press CTRL + Shift + Escape</em>)</p>\n<p>3. Terminate the '<em>trezord.exe'</em> process</p>\n<p>4. Go to <em>C:\\Program Files (x86)\\TREZOR Bridge</em>, find the <em>uninstall.exe</em>, hold Shift and right-click on it and choose <em>\"Run as administrator\"</em></p>\n<p>5. Uninstall the Trezor Bridge</p>\n<p>6. Delete all the remaining files (if there are any left)</p>\n<p>7. Run the new bridge installation</p>\n<p>8. Go to wallet.trezor.io and try if it works</p>\n<p><strong>For Mac:</strong></p>\n<p>1. Open <a href=\"https://www.wikihow.com/Open-a-Terminal-Window-in-Mac\">terminal</a>, then type - <em>pkill trezord</em></p>\n<p>2. Go to - applications/utilities</p>\n<p>3. Remove folder Trezor Bridge</p>\n<p>4. Go to <a href=\"https://wallet.trezor.io\">wallet.trezor.io</a></p>\n<p>5. Download the new version of the <a href=\"https://wallet.trezor.io/#/bridge\">installer</a></p>\n<p>6. Run installer</p>\n<p>7. Refresh <a href=\"https://wallet.trezor.io\">wallet.trezor.io</a></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 4351.553977966309,
@@ -4325,8 +4325,8 @@
 	},
 	{
 		"id": 306,
-		"text": "The website for download is not available (description)",
-		"content": "<p>Here is the link for downloading the latest available versions of the Bridge software for the respective operating systems - <a href=\"https://wallet.trezor.io/data/bridge/latest/index.html\">https://wallet.trezor.io/data/bridge/latest/index.html</a></p>\n<p>Please click on <em>installer </em>or the corresponding <em>deb package</em> (for Linux) to download the needed software.</p>\n<p>You can also check the functionality of our servers via this link (<a href=\"http://status.trezor.io/\"><u>http://status.trezor.io/</u></a>). If some server is down, our team is already working on fixing this issue. Thank you for your patience.</p>",
+		"text": "The Website For Download Is Not Available",
+		"content": "<p>Here is the <a href=\"https://wallet.trezor.io/#/bridge\">link</a> for downloading the latest available versions of the Bridge software for the respective operating systems.</p>\n<p>Please click on <em>installer </em>or the corresponding <em>deb package</em> (for Linux) to download the needed software.</p>\n<p>You can also check the functionality of our servers via this <a href=\"https://status.trezor.io/\">link</a>. If some server is down, our team is already working on fixing this issue. Thank you for your patience.</p>",
 		"metadata": "",
 		"nosearch": false,
 		"fx": 4686.607688903809,
@@ -4335,7 +4335,7 @@
 	},
 	{
 		"id": 307,
-		"text": "Antivirus false positive form ",
+		"text": "Antivirus False Positive Form ",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -4359,9 +4359,9 @@
 	},
 	{
 		"id": 308,
-		"text": "Apple security settings (possible solution)",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please update the security settings of your operating system so it is possible to download or use Trezor Bridge.</p>\n<p>Here are some instructions about how to allow downloading files from an unidentified developer - https://kb.wisc.edu/page.php?id=25443</p>",
-		"metadata": "",
+		"text": "Apple Security Settings (Possible solution)",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please update the security settings of your operating system so it is possible to download or use Trezor Bridge.</p>\n<p>Here are some instructions about how to allow downloading files from an <a href=\"https://support.apple.com/kb/ph25088?locale=en_US\">unidentified developer</a>.</p>",
+		"metadata": "unidentified",
 		"nosearch": "",
 		"fx": 4511.329368591309,
 		"fy": 1201.2502732276917,
@@ -4369,7 +4369,7 @@
 	},
 	{
 		"id": 309,
-		"text": "Problems with Firmware update (selection)",
+		"text": "Problems With Firmware Update",
 		"content": "<p>What problem do you need to be resolved?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4432,8 +4432,8 @@
 	},
 	{
 		"id": 310,
-		"text": "Firmware update (description)",
-		"content": "<p>The first update (from the bootloader (https://wiki.trezor.io/Bootloader) version 1.3.2) should be processed with clicking on <em>“Install firmware update”</em> when plugging your Trezor device to the computer and visiting Trezor Wallet (wallet.trezor.io).</p>\n<p>If there was some problem or interruption during this procedure, please start the update manually by holding both buttons on your Trezor device while plugging it to the computer and continue with the provided instructions on the Trezor screen and in the Trezor Wallet interface.</p>\n<p>Here is the link for more details regarding how to start the update - https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+your+Trezor%27s+firmware&amp;ModelType=1</p>",
+		"text": "Firmware Update",
+		"content": "<p>The first update (from the <a href=\"https://wiki.trezor.io/Bootloader\">bootloader</a> version 1.3.2) should be processed with clicking on <em>“Install firmware update”</em> when plugging your Trezor device to the computer and visiting Trezor Wallet (wallet.trezor.io).</p>\n<p>If there was some problem or interruption during this procedure, please start the update manually by holding both buttons on your Trezor device while plugging it to the computer and continue with the provided instructions on the Trezor screen and in the Trezor Wallet interface.</p>\n<p>Here is the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">link</a> for more details regarding how to start the update</p>",
 		"metadata": "firmware",
 		"nosearch": "",
 		"fx": 4844.779808044434,
@@ -4456,8 +4456,8 @@
 	},
 	{
 		"id": 311,
-		"text": "Firmware fingerprint (description)",
-		"content": "<p>From the bootloader (https://wiki.trezor.io/Bootloader) version 1.3.2, when you plug your Trezor device for the first time, the firmware update is processed by clicking on <em>“Install firmware update”</em> (followed with a text message in the Trezor Wallet interface- wallet.trezor.io), without comparing the fingerprint.&nbsp;</p>\n<p>All following updates need to be executed manually by the customer and in such case, the fingerprint is visible.</p>\n<p>Here is the link for more details regarding how to start the update - https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+your+Trezor%27s+firmware&amp;ModelType=1</p>\n<p>The fingerprint is also not case sensitive, so you do not need to worry if there is a difference in lower or upper caps characters.</p>",
+		"text": "Firmware Fingerprint",
+		"content": "<p>From the <a href=\"https://wiki.trezor.io/Bootloader\">bootloader</a> version 1.3.2, when you plug in your Trezor device for the first time, the firmware update is processed by clicking on <em>“Install firmware update”</em> (followed with a text message in the Trezor Wallet interface- wallet.trezor.io), without comparing the fingerprint.&nbsp;</p>\n<p>All following updates need to be executed manually by the customer and in such case, the fingerprint is visible.</p>\n<p>Here is the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">link</a> for more details regarding how to start the update.&nbsp;</p>\n<p>The fingerprint is also not case sensitive, so you do not need to worry if there is a difference in lower or upper caps characters.</p>",
 		"metadata": "fingerprint",
 		"nosearch": "",
 		"fx": 5012.144554138184,
@@ -4466,9 +4466,9 @@
 	},
 	{
 		"id": 312,
-		"text": "Bootloader 1.3.0 version (verification)",
+		"text": "Bootloader 1.3.0 Version",
 		"content": "<p>When manually attempting to update the firmware, do you see on the Trezor device screen <em><strong>Loader 1.3.0 version</strong></em>?</p>",
-		"metadata": "",
+		"metadata": "1.3.0,",
 		"nosearch": "",
 		"fx": 4845.789573669434,
 		"fy": 1178.4220871925354,
@@ -4503,7 +4503,7 @@
 	},
 	{
 		"id": 313,
-		"text": "Bootloader 1.3.0 version (description)",
+		"text": "Bootloader 1.3.0 Version",
 		"content": "<p><strong>Description of the problem:</strong></p>\n<p>There is a small problem with Trezor <em>Bootloader 1.3.0</em>, which prevents the device from being properly recognized if a user holds the device buttons pressed for a longer-than-necessary amount of time. The problem can be resolved by pressing the buttons only for a short amount of time (click) when entering Bootloader mode.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4527,7 +4527,7 @@
 	},
 	{
 		"id": 315,
-		"text": "Bootloader 1.3.0 version (possible solution)",
+		"text": "Bootloader 1.3.0 Version (Possible Solution)",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>1. Plug micro-USB into Trezor device.</p>\n<p>2. Align USB-A to a port on your computer.</p>\n<p>3. Plug the USB-A into your computer. At the same time, click both buttons on your Trezor device.</p>\n<p>4. The device should boot up in Bootloader mode, and the computer should recognize it.</p>\n<p>5. If the computer does not recognize your Trezor device, please try again. Timing is essential.</p>\n<p>It should be resolved with a click rather than with holding the buttons down. We have reports that it helps to quickly release the buttons when plugging the USB cable in.</p>",
 		"metadata": "",
 		"nosearch": false,
@@ -4551,7 +4551,7 @@
 	},
 	{
 		"id": 316,
-		"text": "Basic troubleshooting (USB cable)",
+		"text": "Basic Troubleshooting (USB Cable)",
 		"content": "<p>Please try your device with several different USB cables (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are for transferring data, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4575,7 +4575,7 @@
 	},
 	{
 		"id": 317,
-		"text": "Basic troubleshooting (computer/configuration)",
+		"text": "Basic Troubleshooting (Computer/Configuration)",
 		"content": "<p>Please try your device with a different computer. The problem may be in your actual configuration (faulty USB ports). Checking this option is recommended.</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4599,7 +4599,7 @@
 	},
 	{
 		"id": 318,
-		"text": "The origin of the product",
+		"text": "The Origin Of The Product",
 		"content": "<p>How did you purchase the product?</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4636,7 +4636,7 @@
 	},
 	{
 		"id": 319,
-		"text": "RMA Cannot update firmware form",
+		"text": "RMA Can Not Update Firmware Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -4660,7 +4660,7 @@
 	},
 	{
 		"id": 320,
-		"text": "Reseller purchase",
+		"text": "Reseller Purchase",
 		"content": "<p>In case you purchased the product from one of our resellers (not from our official e-shop at shop.trezor.io), please contact them directly as all RMA procedures are handled by the resellers.</p>\n<p>The purpose of the RMA procedure is to report a faulty product so that you can claim a replacement, not to claim back your money. The return window for RMA is, therefore, based on warranty conditions of the product.</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -4684,7 +4684,7 @@
 	},
 	{
 		"id": 321,
-		"text": "RMA reseller Cannot update firmware form",
+		"text": "RMA Reseller Can not Update Firmware Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -4708,9 +4708,9 @@
 	},
 	{
 		"id": 322,
-		"text": "Recovery error message (description)",
+		"text": "Recovery Error Message",
 		"content": "<p><strong>Description of the problem:</strong></p>\n<p>If you see an error message related to the recovery process, it means that you have mistyped a seed word or that it was entered in the wrong order.&nbsp;</p>",
-		"metadata": "Search slovo podle chybové hlášky u recovery",
+		"metadata": "recovery",
 		"nosearch": "",
 		"fx": 5169.919456481934,
 		"fy": 846.0987839698792,
@@ -4732,7 +4732,7 @@
 	},
 	{
 		"id": 323,
-		"text": "Dry-run error (description)",
+		"text": "Dry-Run Recovery Error",
 		"content": "<p><strong>Description of the problem:</strong></p>\n<p>In case you have encountered the error message (<em>The seed is INVALID!</em>), then it means that the seed written on your recovery card is different than the seed that is actually valid in your Trezor device.</p>\n<p>In other words, your Trezor device is not backed up and in an emergency situation (lost, non-functional or wiped Trezor after the firmware update), you will not be able to recover your wallet with this recovery seed.</p>",
 		"metadata": "dryrun, search slovo podle dotyčné chybové hlášky",
 		"nosearch": "",
@@ -4756,8 +4756,8 @@
 	},
 	{
 		"id": 324,
-		"text": "Recovery error message (possible solution)",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please enter the seed words in the correct order according to the information visible on your Trezor display (you will be asked to enter your seed words in &nbsp;a shuffled order).</p>\n<p>Here is the link for the recovery instructions - https://wiki.trezor.io/index.php?title=User+manual%3ARecovery&amp;ModelType=1</p>\n<p>There is also a possibility that a seed word has been mistyped, please check your seed words with this list (https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) where all possible seed words are presented. We would suggest searching for words that could be easily confused.</p>\n<p>This link can be helpful - https://wiki.trezor.io/Commonly_misspelled_words_of_recovery_seed</p>\n<p><strong>Conclusion:</strong></p>\n<p><u>If you still see an &nbsp;error message during or after the recovery procedure, then unfortunately, your recovery seed is not written correctly and even if it pains us a lot, we are not able to help you in this matter.</u></p>\n<p><u>In every situation, you need to make sure that your seed is written down correctly as it is the only way to restore your wallet.</u></p>\n<p>We suggest using the dry-run feature (https://blog.trezor.io/test-your-seed-backup-dry-run-recovery-df9f2e9889) to prevent such unfortunate situations &nbsp;in the future.</p>",
+		"text": "Recovery Error Message (possible solution)",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please enter the seed words in the correct order according to the information visible on your Trezor display (you will be asked to enter your seed words in &nbsp;a shuffled order).</p>\n<p>Here is a <a href=\"https://wiki.trezor.io/User_manual:Recovery\">link</a> for the recovery instructions</p>\n<p>There is also a possibility that a seed word has been mistyped, please check your seed words with this <a href=\"https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt\">list</a> where all possible seed words are presented. We would suggest searching for words that could be easily confused.</p>\n<p>See also an article of <a href=\"https://wiki.trezor.io/Commonly_misspelled_words_of_recovery_seed\">Commonly misspelled words of recovery seed</a> which might be helpful.</p>\n<p><strong>Conclusion:</strong></p>\n<p><u>If you still see an &nbsp;error message during or after the recovery procedure, then unfortunately, your recovery seed is not written correctly and even if it pains us a lot, we are not able to help you in this matter.</u></p>\n<p><u>In every situation, you need to make sure that your seed is written down correctly as it is the only way to restore your wallet.</u></p>\n<p>We suggest using the <a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\">Dry-Run Recovery</a> to prevent such unfortunate situation&nbsp;in the future.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 5174.007347106934,
@@ -4766,8 +4766,8 @@
 	},
 	{
 		"id": 325,
-		"text": "Dry-run error (possible solution)",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>In case you have more recovery seeds, please make sure you use the correct one that is <u>installed</u> in your Trezor device.</p>\n<p>We strongly suggest transfering all your funds from the Trezor device as described here (https://wiki.trezor.io/User_manual:Emergency_situations#You_have_one_Trezor_device_and_recovery_seed_IS_NOT_available), creating a new seed and then return your funds back to the safety of your Trezor device.&nbsp;</p>",
+		"text": "Dry-Run Recovery Error (Possible Solution)",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>In case you have more recovery seeds, please make sure you use the correct one that is <u>installed</u> in your Trezor device.</p>\n<p>We strongly suggest transfering all your funds from the Trezor device as described <a href=\"https://wiki.trezor.io/User_manual:Emergency_situations#Your_recovery_seed_is_not_available\">here</a>, creating a new seed and then return your funds back to the safety of your Trezor device.&nbsp;</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 5336.656272888184,
@@ -4776,8 +4776,8 @@
 	},
 	{
 		"id": 326,
-		"text": "Trezor Wallet interface functionality (verification)",
-		"content": "<p>Is Trezor Wallet interface (wallet.trezor.io) working without problems?</p>",
+		"text": "Trezor Wallet Interface Functionality - Verification",
+		"content": "<p>Is <a href=\"https://wallet.trezor.io/#/\">Trezor Walle</a>t interface working without problems?</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2806.8427963256836,
@@ -4813,7 +4813,7 @@
 	},
 	{
 		"id": 327,
-		"text": "TPM Other problems form",
+		"text": "Trezor Password Manager Other Problems Form",
 		"content": "<p>We are sorry for the inconvenience, please <a href=\"https://satoshilabs.kayako.com/conversation/new/9\">send us a message</a> including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -4823,8 +4823,8 @@
 	},
 	{
 		"id": 328,
-		"text": "TPM wants to create a new database (description)",
-		"content": "<p>There are few explanations what could happen.</p>\n<p>1. All your entries (passwords) are tied to the respective recovery seed and if you wiped your Trezor device or it was wiped, for example by the firmware update, TPM would want to create a new database of passwords</p>\n<p>2. The encrypted file with the entries saved in the service you’re using (Google Drive or Dropbox) was damaged or overwritten. We would suggest checking the capacity of the service where the file is stored.</p>\n<p><em>Google Drive</em> - https://drive.google.com/settings/storage</p>\n<p><em>Dropbox</em> - https://www.dropbox.com/help/space/account-space-left</p>\n<p>Please select the appropriate answer.</p>",
+		"text": "Trezor Password Manager Wants To Create a New Database",
+		"content": "<p>There are few explanations what could happen.</p>\n<p>1. All your entries (passwords) are tied to the respective recovery seed and if you wiped your Trezor device or it was wiped, for example by the firmware update, Trezor Password Manager would want to create a new database of passwords</p>\n<p>2. The encrypted file with the entries saved in the service you’re using (Google Drive or Dropbox) was damaged or overwritten. We would suggest checking the capacity of the service where the file is stored.</p>\n<p><a href=\"https://drive.google.com/settings/storage\"><em>Google Drive</em></a></p>\n<p><a href=\"https://www.dropbox.com/help/space/account-space-left\"><em>Dropbox</em></a></p>\n<p>Please select the appropriate answer.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2997.4856185913086,
@@ -4860,8 +4860,8 @@
 	},
 	{
 		"id": 329,
-		"text": "Tip1",
-		"content": "<p>We will try a series of steps that can resolve your problem.</p>\n<p><strong>Please try to restart your TPM.</strong></p>",
+		"text": "Suggestion #1",
+		"content": "<p>We will try a series of steps that can resolve your problem.</p>\n<p><strong>Please try to restart your The Password Manager.</strong></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2807.1677474975586,
@@ -4884,8 +4884,8 @@
 	},
 	{
 		"id": 330,
-		"text": "Tip2",
-		"content": "<p>Please check the version of your TPM (https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk</p>\n<p>If you use an older version, please download the newest one and disable the older one.</p>",
+		"text": "Suggestion #2",
+		"content": "<p>Please check the version of your <a href=\"https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk\">Trezor Password Manager</a>.</p>\n<p>If you use an older version, please download the newest one and disable the older one.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2807.6950912475586,
@@ -4908,8 +4908,8 @@
 	},
 	{
 		"id": 331,
-		"text": "Tip3",
-		"content": "<p>Please check the storing capacity of the service (Google Drive or Dropbox) you use and make some room if it is full.</p>\n<p><em>Google Drive</em> - https://drive.google.com/settings/storage</p>\n<p><em>Dropbox</em> - https://www.dropbox.com/help/space/account-space-left</p>",
+		"text": "Suggestion #3",
+		"content": "<p>Please check the storing capacity of the service (Google Drive or Dropbox) you use and make some room if it is full.</p>\n<p><a href=\"https://drive.google.com/settings/storage\"><em>Google Drive</em></a></p>\n<p><a href=\"https://www.dropbox.com/help/space/account-space-left\"><em>Dropbox</em></a></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2807.4023666381836,
@@ -4932,8 +4932,8 @@
 	},
 	{
 		"id": 332,
-		"text": "Tip4",
-		"content": "<p>Please try to connect your Trezor device with a different service (if you are using Google Drive, try Dropbox and vice versa).</p>\n<p>More details can be found here - https://wiki.trezor.io/index.php?title=User+manual%3APassword+Manager&amp;ModelType=1#Sign_in_with_Google_Drive_or_Dropbox</p>",
+		"text": "Suggestion #4",
+		"content": "<p>Please try to connect your Trezor device with a different service (if you are using Google Drive, try Dropbox and vice versa).</p>\n<p>More details can be found <a href=\"https://wiki.trezor.io/Password_manager\">here</a>.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2810.4221420288086,
@@ -4956,7 +4956,7 @@
 	},
 	{
 		"id": 333,
-		"text": "Basic troubleshooting (computer/configuration)",
+		"text": "Basic Troubleshooting - Computer/Configuration",
 		"content": "<p>Please try your device also with a different computer to see if &nbsp;the issue is not specific to your configuration.&nbsp;</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -4980,7 +4980,7 @@
 	},
 	{
 		"id": 334,
-		"text": "TPM not detecting Trezor form",
+		"text": "Trezor Password Manager Not Detecting Trezor Form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"nosearch": true,
@@ -5004,8 +5004,8 @@
 	},
 	{
 		"id": 335,
-		"text": "Basic troubleshooting (recovery)",
-		"content": "<p>Please start the recovery procedure with your original recovery seed (the seed where the entries were saved).</p>\n<p>Here can be found instructions for the recovery procedure - https://wiki.trezor.io/index.php?title=User+manual%3ARecovery&amp;ModelType=1</p>\n<p><strong>If you have some funds </strong><u><strong>stored</strong></u><strong> on your </strong><u><strong>actual setup</strong></u><strong> (Trezor device), </strong><u><strong>please make sure that they are backed up by your recovery seed via dry-run feature</strong></u> (https://blog.trezor.io/test-your-seed-backup-dry-run-recovery-df9f2e9889).</p>",
+		"text": "Basic Troubleshooting - Recovery",
+		"content": "<p>Please start the recovery procedure with your original recovery seed (the seed where the entries were saved).</p>\n<p>Here can be found instructions for the <a href=\"https://wiki.trezor.io/User_manual:Recovery\">recovery</a> procedure.</p>\n<p><strong>If you have some funds </strong><u><strong>stored</strong></u><strong> on your </strong><u><strong>actual setup</strong></u><strong> (Trezor device), </strong><u><strong>please make sure that they are backed up by your recovery seed via </strong></u><a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\"><u><strong>Dry-Run Recovery</strong></u></a><u><strong>.</strong></u></p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 2994.5488510131836,
@@ -5041,8 +5041,8 @@
 	},
 	{
 		"id": 336,
-		"text": "Checking the file and account restore (suggestion)",
-		"content": "<p>1. Please check whether the <strong>pswd </strong>file from the corresponding service (either Google Drive or Dropbox)&nbsp;</p>\n<p>a) is not missing&nbsp;</p>\n<p>b) or is not overwritten with an empty file.</p>\n<p>The <strong>pswd </strong>file should be located at:</p>\n<p><em>Google Drive</em> - My Drive/Apps/TREZOR Password Manager</p>\n<p><em>Dropbox </em>- Apps/Trezor Password Manager/</p>\n<p>2. If the file is missing or overwritten, then please try to restore your account. For more information how to do it, contact the Dropbox (https://www.dropbox.com/contact) or Google support (https://support.google.com/?hl=en)</p>",
+		"text": "Checking The File And Account Restore",
+		"content": "<p>1. Please check whether the <strong>pswd </strong>file from the corresponding service (either Google Drive or Dropbox)&nbsp;</p>\n<p>a) is not missing&nbsp;</p>\n<p>b) or is not overwritten with an empty file.</p>\n<p>The <strong>pswd </strong>file should be located at:</p>\n<p><em>Google Drive</em> - My Drive/Apps/TREZOR Password Manager</p>\n<p><em>Dropbox </em>- Apps/Trezor Password Manager/</p>\n<p>2. If the file is missing or overwritten, then please try to restore your account. For more information how to do it, contact the <a href=\"https://www.dropbox.com/contact\">Dropbox</a> or <a href=\"https://support.google.com/?hl=en\">Google</a> support.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 3162.9450912475586,
@@ -5065,7 +5065,7 @@
 	},
 	{
 		"id": 337,
-		"text": "Your passwords were not associated with your available seed (conclusion)",
+		"text": "Your Passwords Were Not Associated With Your Available Seed",
 		"content": "<p><u>In such case we are really sorry, but it seems that you didn’t associate your entries (passwords) with the recovery seed you have available.&nbsp;</u></p>\n<p><u>It’s unfortunate, but there is nothing that can be done from our side as it is necessary to have backed up your assets (funds and passwords as well) with the recovery seed.</u></p>\n<p>You can try to return few steps back to verify whether the problem is not in the corrupted file, if you didn’t try it already.&nbsp;</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -5075,8 +5075,8 @@
 	},
 	{
 		"id": 338,
-		"text": "Android App (description)",
-		"content": "<p>As the first troubleshooting step, please read the information about this application here - https://wiki.trezor.io/index.php?title=User+manual%3AUsing+Trezor+with+Android&amp;ModelType=1</p>",
+		"text": "Android App ",
+		"content": "<p>As the first troubleshooting step, please read the information about this application <a href=\"https://wiki.trezor.io/User_manual:Using_Trezor_with_Android\">here</a>.</p>",
 		"metadata": "android, otg, mobile, tablet, manager",
 		"nosearch": "",
 		"fx": 3341.42716217041,
@@ -5099,7 +5099,7 @@
 	},
 	{
 		"id": 339,
-		"text": "Trezor Management (description)",
+		"text": "Trezor Management",
 		"content": "<p>This is the old tool for Chrome browser designed only for the basic settings of the Trezor device.</p>\n<p><strong>This software is obsolete and should not be used.</strong></p>",
 		"metadata": "",
 		"nosearch": "",
@@ -5109,8 +5109,8 @@
 	},
 	{
 		"id": 340,
-		"text": "Python-tools (description)",
-		"content": "<p>Basic information how to operate with python-tools can be found here: https://wiki.trezor.io/Python_tools</p>\n<p>If you have encountered problems with the python-tools related to the Trezor device, please forward it here: <a href=\"https://github.com/trezor/python-trezor/issues\">https://github.com/trezor/python-trezor/issues</a></p>",
+		"text": "Python-Tools",
+		"content": "<p>Basic information how to operate with python-tools can be found <a href=\"https://wiki.trezor.io/Using_trezorctl_commands_with_Trezor\">here</a>.</p>\n<p>If you have encountered problems with the python-tools related to the Trezor device, please forward it <a href=\"https://github.com/trezor/python-trezor/issues\">here</a>.</p>",
 		"metadata": "device, python, tool, terminal, command",
 		"nosearch": "",
 		"fx": 3497.897132873535,
@@ -5262,7 +5262,7 @@
 	},
 	{
 		"id": 347,
-		"text": "Compatible apps or services (selection)",
+		"text": "Compatible Apps Or Services",
 		"content": "<p>Please select the corresponding application.&nbsp;</p>",
 		"metadata": "",
 		"nosearch": "",
@@ -5325,8 +5325,8 @@
 	},
 	{
 		"id": 348,
-		"text": "Integration of the new app/service",
-		"content": "<p>If the service or software that you want to use with your Trezor was not found in the list of compatible third-party products, you need to contact the developers of that product and ask them to start the integration procedure with us.</p>\n<p>In case you are a developer yourself, please take a look here (https://github.com/trezor) and start the necessary steps yourself.</p>\n<p>If your product is interesting, we will surely provide more assistance.</p>",
+		"text": "Integration Of The New App/Service",
+		"content": "<p>If the service or software that you want to use with your Trezor was not found in the list of compatible third-party products, you need to contact the developers of that product and ask them to start the integration procedure with us.</p>\n<p>In case you are a developer yourself, please take a look <a href=\"https://github.com/trezor\">here</a> and start the necessary steps yourself.</p>\n<p>If your product is interesting, we will surely provide more assistance.</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 4544.7957763671875,
@@ -5335,8 +5335,8 @@
 	},
 	{
 		"id": 349,
-		"text": "Trezor Wallet interface functionality (verification)",
-		"content": "<p>Does the Trezor Wallet interface (wallet.trezor.io) work without problems?</p>",
+		"text": "Trezor Wallet Interface Functionality",
+		"content": "<p>Does the <a href=\"https://wallet.trezor.io\">Trezor Wallet</a> interface work without problems?</p>",
 		"metadata": "mew, mycrypto, myetherwallet",
 		"nosearch": "",
 		"fx": 3832.9854736328125,
@@ -5372,8 +5372,8 @@
 	},
 	{
 		"id": 350,
-		"text": "Trezor Wallet interface functionality (verification)",
-		"content": "<p>Does the Trezor Wallet interface (wallet.trezor.io) work without problems?</p>",
+		"text": "Trezor Wallet interface functionality - Verification",
+		"content": "<p>Does the <a href=\"https://wallet.trezor.io\">Trezor Wallet interface</a> work without problems?</p>",
 		"metadata": "electrum",
 		"nosearch": "",
 		"fx": 4008.3455810546875,
@@ -5409,8 +5409,8 @@
 	},
 	{
 		"id": 351,
-		"text": "Trezor Wallet interface functionality (verification)",
-		"content": "<p>Does the Trezor Wallet interface (wallet.trezor.io) work without problems?</p>",
+		"text": "Trezor Wallet Interface Functionality",
+		"content": "<p>Does the <a href=\"https://wallet.trezor.io\">Trezor Wallet</a> interface work without problems?</p>",
 		"metadata": "mycelium",
 		"nosearch": "",
 		"fx": 4171.7493896484375,
@@ -5446,8 +5446,8 @@
 	},
 	{
 		"id": 352,
-		"text": "Trezor Wallet interface functionality (verification)",
-		"content": "<p>Does the Trezor Wallet interface (wallet.trezor.io) work without problems?</p>",
+		"text": "Trezor Wallet Interface Functionality",
+		"content": "<p>Does the <a href=\"https://wallet.trezor.io\">Trezor Wallet</a> interface work without problems?</p>",
 		"metadata": "",
 		"nosearch": "",
 		"fx": 4344.4525146484375,
@@ -5493,7 +5493,7 @@
 	},
 	{
 		"id": 398,
-		"text": "Basic troubleshooting (firmware update)",
+		"text": "Basic Troubleshooting - Firmware update",
 		"content": "<p>Was the <a href=\"https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+your+Trezor%27s+firmware&amp;ModelType=1\">firmware update</a> performed prior to this issue?</p>",
 		"metadata": "",
 		"nosearch": false,
@@ -5501,8 +5501,8 @@
 		"fy": 570.2982149124146,
 		"connections": [
 			{
-				"target": 31,
-				"title": "The issue occurred right after performing the firmware update",
+				"target": 32,
+				"title": "The firmware update was not performed right before this issue",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -5514,8 +5514,8 @@
 				}
 			},
 			{
-				"target": 32,
-				"title": "The firmware update was not performed right before this issue",
+				"target": 31,
+				"title": "The issue occurred right after performing the firmware update",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -5530,7 +5530,7 @@
 	},
 	{
 		"id": 399,
-		"text": "Basic troubleshooting (Specifying the issue)",
+		"text": "Basic Troubleshooting",
 		"content": "<p>When you visit the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a>, did it recognize the device and ask you to enter the <a href=\"https://wiki.trezor.io/PIN\">PIN</a>?</p>",
 		"metadata": "",
 		"nosearch": false,
@@ -5567,7 +5567,7 @@
 	},
 	{
 		"id": 400,
-		"text": "Basic troubleshooting (flickering touchscreen)",
+		"text": "Basic Troubleshooting - Flickering Touchscreen",
 		"content": "<p>If you're experiencing flickering of your touchscreen&nbsp;during the operations with your Trezor device, please <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\"><strong>update your firmware</strong></a> to the version <strong>2.0.10</strong> since it is a software problem that is fixed by this firmware version.</p>\n<p>The information how to find your current version of the firmware installed on your Trezor device is included <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">here</a>.</p>",
 		"metadata": "",
 		"nosearch": false,
