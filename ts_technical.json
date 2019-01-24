@@ -105,7 +105,7 @@
 	},
 	{
 		"id": 5,
-		"text": "RMA form Cryptosteel",
+		"text": "RMA Form Cryptosteel",
 		"slug": "rma-form-cryptosteel",
 		"content": "<p>We are sorry for the inconvenience, please <a href=\"https://satoshilabs.kayako.com/conversation/new/9\">send us a message</a> including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
@@ -113,7 +113,21 @@
 		"nosearch": true,
 		"fx": 803.3503913879395,
 		"fy": -853.7538378238678,
-		"connections": []
+		"connections": [
+			{
+				"target": 425,
+				"title": "Send us a message",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
 	},
 	{
 		"id": 6,
@@ -171,7 +185,7 @@
 		"id": 7,
 		"text": "Interface Issue",
 		"slug": "interface-issue",
-		"content": "<p>What interface/service are you using with your Trezor device?</p>\n<p>The list of the official software/services can be found <a href=\"https://wiki.trezor.io/Apps#Trezor_wallets_and_services\">here</a>.</p>\n<p>The list of the compatible 3rd party software/services can be found <a href=\"https://wiki.trezor.io/Apps#Third-party_cryptocurrency_wallets\">here</a>.</p>",
+		"content": "<p>What interface/service are you using with your Trezor device?</p>\n<p>The list of the official software/services can be found <a href=\"https://wiki.trezor.io/Apps#Trezor_wallets_and_services\">here</a>.</p>\n<p>The list of the compatible Third-party software/services can be found <a href=\"https://wiki.trezor.io/Apps#Third-party_cryptocurrency_wallets\">here</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -1311,7 +1325,7 @@
 		"connections": [
 			{
 				"target": 58,
-				"title": "Cannot use the Trezor Wallet interface",
+				"title": "Can not use the Trezor Wallet interface",
 				"description": "Trezor Wallet interface not detecting the device, not loading accounts or is randomly freezing.",
 				"image": "",
 				"isLink": false,
@@ -1586,8 +1600,8 @@
 	},
 	{
 		"id": 61,
-		"text": "Incorrect account balance (selection)",
-		"slug": "incorrect-account-balance-selection",
+		"text": "Incorrect Account Balance",
+		"slug": "incorrect-account-balance",
 		"content": "<p>Please provide more details by selecting one of the possible options.</p>",
 		"metadata": "",
 		"notes": "",
@@ -1597,7 +1611,7 @@
 		"connections": [
 			{
 				"target": 274,
-				"title": "(Zero) Balance issue",
+				"title": "Balance issue",
 				"description": "Your account balance is not correct.",
 				"image": "",
 				"isLink": false,
@@ -1728,7 +1742,7 @@
 			{
 				"target": 217,
 				"title": "Wrong PIN/Passphrase",
-				"description": "Problems with accessing your accounts via PIN (https://wiki.trezor.io/PIN) or Passphrase (https://wiki.trezor.io/Passphrase)",
+				"description": "Problems with accessing your accounts via PIN or Passphrase ",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -1755,7 +1769,7 @@
 	},
 	{
 		"id": 65,
-		"text": "Windows User (Firmware Update)",
+		"text": "Windows User - Firmware Update",
 		"slug": "windows-user-firmware-update",
 		"content": "<p>Did you perform the <a href=\"https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+the+Trezor+device+firmware&amp;ModelType=1\">firmware update</a> before this problem occurred?</p>",
 		"metadata": "",
@@ -2858,9 +2872,9 @@
 	},
 	{
 		"id": 240,
-		"text": "Basic Troubleshooting - Dropbox connection",
+		"text": "Basic Troubleshooting - Dropbox Connection",
 		"slug": "basic-troubleshooting-dropbox-connection",
-		"content": "<p>Please check if you are connected to your Dropbox account. Popisující obrázek</p>\n<p>If you have more accounts, please try switching between them when connecting to the Trezor Wallet interface (wallet.trezor.io).</p>",
+		"content": "<p>Please check if you are connected to your Dropbox account.&nbsp;</p>\n<p>If you have more accounts, please try switching between them when connecting to the <a href=\"https://wallet.trezor.io\">Trezor Wallet interface</a>.</p>",
 		"metadata": "labeling",
 		"notes": "",
 		"nosearch": "",
@@ -2924,7 +2938,7 @@
 		"id": 243,
 		"text": "Basic Troubleshooting - Dropbox Capacity",
 		"slug": "basic-troubleshooting-dropbox-capacity",
-		"content": "<p>Please check if your Dropbox account is not full (https://www.dropbox.com/help/space/account-space-left) and the <strong>mtdt </strong>file in the Dropbox folder <em>\"/Apps/Trezor/\"</em> is not missing or overwritten with an empty file.</p>\n<p>If yes, try to restoring your Dropbox account (https://www.dropbox.com/deleted_files). For more information, contact Dropbox support (https://www.dropbox.com/contact).</p>",
+		"content": "<p>Please check if your Dropbox account is not <a href=\"https://www.dropbox.com/help/space/account-space-left\">full</a> and the <strong>mtdt </strong>file in the Dropbox folder <em>\"/Apps/Trezor/\"</em> is not missing or overwritten with an empty file.</p>\n<p>If yes, try to <a href=\"https://www.dropbox.com/deleted_files\">restoring</a> your Dropbox account. For more information, contact Dropbox <a href=\"https://www.dropbox.com/contact\">support</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -3091,7 +3105,7 @@
 	},
 	{
 		"id": 248,
-		"text": "Unauthorized Transaction (possible explanation)",
+		"text": "Unauthorized Transaction - Possible Explanation",
 		"slug": "unauthorized-transaction-possible-explanation",
 		"content": "<p>Firstly, we are really sorry for such an unfortunate situation.</p>\n<p>In case you see some sent transactions which you did not confirm, there are only two possible attack vectors.</p>\n<p>1. <strong>Your seed was compromised </strong>- Your <a href=\"https://wiki.trezor.io/Recovery_seed\">recovery seed</a> is the only way how to restore your whole wallet (balance, accounts etc). If the attacker gets to your recovery seed, he or she can clone your wallet and operate with all your &nbsp;funds not protected by the <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a>.</p>\n<p>This may happen when you keep your recovery seed digitally (on your computer, mobile device, USB drive etc) or when you provide &nbsp;the recovery seed to a &nbsp;third-party service (especially when you want to claim some forks) or when your recovery seed was stolen (someone else has physical access to it).</p>\n<p>Please note that we cannot &nbsp;track the person who used your recovery seed or when and how it was compromised, because it is not leaving any trackable information.</p>\n<p>2. <strong>Someone knows your </strong><a href=\"https://wiki.trezor.io/PIN\"><strong>PIN</strong></a><strong> (potentially even your passphrase) </strong>- If somebody knows your sensitive data like PIN or passphrase and has physical access to your Trezor device, &nbsp;he or she can freely manipulate with the balance stored there.&nbsp;</p>\n<p>We would suggest to check who had the possibility to manipulate with your Trezor device and keep it as an evidence (for fingerprints for example).</p>\n<p><strong>Conclusion</strong></p>\n<p>Overall, the two presented scenarios are the only explanation for your situation. <u>There is no evidence that Trezor was ever actually hacked</u> and we recommend to start the investigation with the police according to the &nbsp;facts suggested in this text.</p>",
 		"metadata": "missing, hack, non-authorized",
@@ -3234,7 +3248,7 @@
 	},
 	{
 		"id": 252,
-		"text": "Not Visible On Blockchain (Possible Explanations)",
+		"text": "Not Visible On Blockchain - Possible Explanations",
 		"slug": "not-visible-on-blockchain-possible-explanations",
 		"content": "<p>In this case, the transaction was probably not sent or processed at all by the respective network (blockchain) and your balance should be the same. Transactions not processed by the network are returned after some time.</p>\n<p>Please take a look at <a href=\"https://wiki.trezor.io/User_manual:Making_payments\">instructions</a> about how to create a transaction.</p>\n<p><strong>It is important to keep in mind that the </strong><u><strong>Trezor hardware wallet</strong></u><strong> is only responsible for signing transactions when being sent from the device. It is not responsible for confirming the transaction on the respective network.</strong></p>",
 		"metadata": "not visible",
@@ -3544,7 +3558,7 @@
 	},
 	{
 		"id": 263,
-		"text": "Not Received Transaction (Possible Explanations)",
+		"text": "Not Received Transaction - Possible Explanations",
 		"slug": "not-received-transaction-possible-explanations",
 		"content": "<p>If you could not find the funds in the address in the Receive tab, it could be caused by these possible scenarios:</p>\n<p>1. You have mistyped the destination address when sending the funds.</p>\n<p>2. There is some malicious software, like specialized malware, that changed the destination address - we strongly suggest to run some antivirus tests on your computer.</p>\n<p>Unfortunately, in both of the presented scenarios, the funds are lost and cannot be reverted unless you know the person who owns the addresses where the funds were sent.</p>\n<p>3. The passphrase protection was used.</p>",
 		"metadata": "",
@@ -3583,7 +3597,7 @@
 	},
 	{
 		"id": 264,
-		"text": "Dissapeared Transaction (Possible Explanation)",
+		"text": "Dissapeared Transaction - Possible Explanation",
 		"slug": "dissapeared-transaction-possible-explanation",
 		"content": "<p>When there is a large number of unconfirmed transactions in the respective network, it is possible that not all of them will fit into the memory of the nodes immediately. It is an inherent technical limitation of Bitcoin <u>and some other cryptocurrencies</u>.</p>\n<p>For instance, the transaction can get temporarily \"lost\" on its way to some node (it generally happens to low-fee transactions) and, therefore, it will not propagate to our servers. Hence, the unconfirmed transaction can be visible for a while, but then disappears from the <a href=\"https://wallet.trezor.io\">Trezor Wallet</a> interface.</p>\n<p>If a transaction disappears from the Trezor Wallet interface after a longer time of not being confirmed, it might mean that it was canceled due to a low fee.</p>\n<p>Once the transaction is confirmed by the network, its status will update in the Trezor Wallet interface.</p>",
 		"metadata": "",
@@ -3685,7 +3699,7 @@
 	},
 	{
 		"id": 270,
-		"text": "Unable to Create a Transaction (Possible Solution)",
+		"text": "Unable to Create a Transaction - Possible Solution",
 		"slug": "unable-to-create-a-transaction-possible-solution",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please divide your transaction into smaller parts, until Trezor device is able to send your transaction.</p>\n<p>It is also good to take a look at this <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">article</a>, to optimize your accounts and prevent such problems in the future.</p>",
 		"metadata": "",
@@ -3697,7 +3711,7 @@
 	},
 	{
 		"id": 271,
-		"text": "Unable to Create a Transaction (Possible Solution)",
+		"text": "Unable to Create a Transaction - Possible Solution",
 		"slug": "unable-to-create-a-transaction-possible-solution-1",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please follow the instructions how to create the <a href=\"https://wiki.trezor.io/User_manual:Making_payments\">transaction</a>.</p>",
 		"metadata": "",
@@ -3943,7 +3957,7 @@
 	},
 	{
 		"id": 278,
-		"text": "Recovery Did Not Help (Possible Explanations)",
+		"text": "Recovery Did Not Help - Possible Explanations",
 		"slug": "recovery-did-not-help-possible-explanations",
 		"content": "<p>If you have performed the recovery and still see the wrong balance then it can mean two things:</p>\n<p>1. You did not use the correct recovery seed where your funds were stored. Please make sure that you are using the right seed.</p>\n<p>It is also possible that you have mistyped some of the seed words. Please check your seed words with this <a href=\"https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt\">list</a>, where all words are presented. We would suggest searching for words that could be easily confused.</p>\n<p>Also see an article about <a href=\"https://wiki.trezor.io/Commonly_misspelled_words_of_recovery_seed\">Commonly misspelled words of recovery seed</a>.</p>\n<p><strong>Your seed cannot be changed once generated, it can only be incorrectly written down.</strong></p>\n<p>2. You are using the passphrase protection and your funds were protected by the passphrase wallet.&nbsp;</p>\n<p>The solution in this case is to enable passphrase and type the correct passphrase where you transferred your funds.&nbsp;</p>\n<p>More details regarding the <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a>.</p>\n<p>Please also check whether the passphrase is enabled.</p>\n<p><strong>Leaving passphrase field blank (not entering any characters and simply hitting </strong><em><strong>“Enter”</strong></em><strong>) will reveal your standard wallet.</strong></p>",
 		"metadata": "",
@@ -4835,7 +4849,7 @@
 	},
 	{
 		"id": 315,
-		"text": "Bootloader 1.3.0 Version (Possible Solutions)",
+		"text": "Bootloader 1.3.0 Version - Possible Solutions",
 		"slug": "bootloader-130-version-possible-solutions",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>1. Plug micro-USB into Trezor device.</p>\n<p>2. Align USB-A to a port on your computer.</p>\n<p>3. Plug the USB-A into your computer. At the same time, click both buttons on your Trezor device.</p>\n<p>4. The device should boot up in Bootloader mode, and the computer should recognize it.</p>\n<p>5. If the computer does not recognize your Trezor device, please try again. Timing is essential.</p>\n<p>It should be resolved with a click rather than with holding the buttons down. We have reports that it helps to quickly release the buttons when plugging the USB cable in.</p>",
 		"metadata": "",
@@ -5423,8 +5437,8 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"fx": 2973.4297103881836,
-		"fy": 319.6633973121643,
+		"fx": 3145.1098861694336,
+		"fy": 396.65927743911743,
 		"connections": []
 	},
 	{
@@ -6267,6 +6281,18 @@
 		"nosearch": true,
 		"fx": 4784.217676590901,
 		"fy": 2224.6182076590403,
+		"connections": []
+	},
+	{
+		"id": 425,
+		"text": "Form",
+		"slug": "form-24",
+		"content": "<p><br></p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"fx": 978.963049920146,
+		"fy": -853.5423219070602,
 		"connections": []
 	}
 ]
