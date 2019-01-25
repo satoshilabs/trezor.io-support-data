@@ -27,8 +27,8 @@
 	},
 	{
 		"id": 86,
-		"text": "Main category selection",
-		"slug": "main-category-selection",
+		"text": "Main Category",
+		"slug": "main-category",
 		"content": "<p>Please select the appropriate category where we can help you with your problem.</p>",
 		"metadata": "",
 		"notes": "",
@@ -131,8 +131,8 @@
 	},
 	{
 		"id": 88,
-		"text": "Existing order selection",
-		"slug": "existing-order-selection",
+		"text": "Existing Order",
+		"slug": "existing-order",
 		"content": "<p>Please specify your selection.</p>",
 		"metadata": "order, purchase",
 		"notes": "",
@@ -196,7 +196,7 @@
 	},
 	{
 		"id": 89,
-		"text": "Customs and taxes selection",
+		"text": "Customs and Taxes Selection",
 		"slug": "customs-and-taxes-selection",
 		"content": "<p>Please specify your issue.</p>",
 		"metadata": "customs, tax, kyc, document",
@@ -261,7 +261,7 @@
 	},
 	{
 		"id": 90,
-		"text": "Creating the order selection",
+		"text": "Creating The Order - Selection",
 		"slug": "creating-the-order-selection",
 		"content": "<p>Please let us know what problem needs to be solved.</p>",
 		"metadata": "create, creating",
@@ -313,8 +313,8 @@
 	},
 	{
 		"id": 91,
-		"text": "E-shop interface selection",
-		"slug": "e-shop-interface-selection",
+		"text": "E-shop Interface",
+		"slug": "e-shop-interface",
 		"content": "<p>Please let us know what you’re interested in or provide details about your problem.</p>",
 		"metadata": "",
 		"notes": "",
@@ -378,7 +378,7 @@
 	},
 	{
 		"id": 92,
-		"text": "Operations with e-shop account selection",
+		"text": "Operations With E-shop Account Selection",
 		"slug": "operations-with-e-shop-account-selection",
 		"content": "<p>Please provide details about your problem or request.</p>",
 		"metadata": "email, account, login, user, delete, remove",
@@ -417,7 +417,7 @@
 	},
 	{
 		"id": 93,
-		"text": "Your request selection",
+		"text": "Your Request Selection",
 		"slug": "your-request-selection",
 		"content": "<p>Please select your request.</p>",
 		"metadata": "request",
@@ -482,8 +482,8 @@
 	},
 	{
 		"id": 94,
-		"text": "Order status selection",
-		"slug": "order-status-selection",
+		"text": "Order Status",
+		"slug": "order-status",
 		"content": "<p>Please let us know what problem needs to be solved.</p>",
 		"metadata": "status, where",
 		"notes": "",
@@ -534,7 +534,7 @@
 	},
 	{
 		"id": 95,
-		"text": "Delivery issue selection",
+		"text": "Delivery Issue Selection",
 		"slug": "delivery-issue-selection",
 		"content": "<p>Please provide more details about your problem.</p>",
 		"metadata": "delivered",
@@ -625,7 +625,7 @@
 	},
 	{
 		"id": 97,
-		"text": "Customs and related payments",
+		"text": "Customs and Related Payments",
 		"slug": "customs-and-related-payments",
 		"content": "<p>We are sorry, but the customs duties or related taxes are not paid by us.&nbsp;</p>\n<p>It is mentioned in our e-shop when you're confirming the conditions (otherwise the order could not be created).</p>\n<p>The part of these conditions is as follows \"<em><strong>I understand that I am responsible for paying customs duties, local taxes, and other related fees, if applicable.</strong></em>\"&nbsp;</p>\n<p>If you refuse to pay the customs and related taxes, the package will be sent back to us and once returned, we can:</p>\n<p>1) Resend the package, but you will need to pay the shipping cost again</p>\n<p>2) Refund the price of your order minus the shipping costs</p>\n<p>If you want to refuse the package even after the information above, please let us know via the form in the following step.&nbsp;</p>",
 		"metadata": "",
@@ -651,7 +651,7 @@
 	},
 	{
 		"id": 98,
-		"text": "Declared price",
+		"text": "Declared Price",
 		"slug": "declared-price",
 		"content": "<p>Unfortunately, since we're subject to the EU law and we do have an ongoing official contract with the DHL, UPS and the Czech Post, we're obliged to print out the full price on the package. Sorry about that.</p>",
 		"metadata": "",
@@ -663,8 +663,8 @@
 	},
 	{
 		"id": 99,
-		"text": "Required documents selection",
-		"slug": "required-documents-selection",
+		"text": "Required Documents",
+		"slug": "required-documents",
 		"content": "<p>What document do you require?</p>",
 		"metadata": "",
 		"notes": "",
@@ -715,7 +715,7 @@
 	},
 	{
 		"id": 100,
-		"text": "Customs duties payment calculation",
+		"text": "Customs Duties Payment Calculation",
 		"slug": "customs-duties-payment-calculation",
 		"content": "<p>Customs duties and taxes are always calculated based on the local laws of the destination country. Unfortunately, we are unable to keep track of all the rules and laws for every country. Therefore, please contact your local authorities in order to get an estimated customs fee.</p>\n<p>For your information, the product will be shipped from the European Union as a USB device with HS code 847180. The total declared value for customs department is the full price of the order, including shipping.</p>",
 		"metadata": "",
@@ -727,7 +727,7 @@
 	},
 	{
 		"id": 101,
-		"text": "Know your customer (KYC)",
+		"text": "Know Your Customer (KYC)",
 		"slug": "know-your-customer-kyc",
 		"content": "<p>The KYC documents are not submitted by us, as the name suggests, they need to be processed by the customer itself.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Know_your_customer\">Here</a> you can find what KYC documents are.&nbsp;</p>\n<p>We recommend to contact the respective courier that is handling the delivery process for your parcel to coordinate the procedure directly with you.</p>",
 		"metadata": "",
@@ -739,7 +739,7 @@
 	},
 	{
 		"id": 102,
-		"text": "Required documents form",
+		"text": "Required Documents Form",
 		"slug": "required-documents-form",
 		"content": "<p>If you need to contact our support, please submit your ticket here.</p>",
 		"metadata": "",
@@ -765,7 +765,7 @@
 	},
 	{
 		"id": 104,
-		"text": "Payment issue details",
+		"text": "Payment Issue Details",
 		"slug": "payment-issue-details",
 		"content": "<p>Please provide more details about your problem.</p>",
 		"metadata": "payment, paid, btc, bitcoin, credit, card",
@@ -817,7 +817,7 @@
 	},
 	{
 		"id": 105,
-		"text": "Promo code usage",
+		"text": "Promo Code - Usage",
 		"slug": "promo-code-usage",
 		"content": "<p>The promo code needs to be entered into the “<em><strong>I have a promo code</strong></em>” (doprovodný obrázek, video) section as described below before you pay for your order.</p>",
 		"metadata": "promo, code, discount",
@@ -843,9 +843,9 @@
 	},
 	{
 		"id": 106,
-		"text": "VAT ID issue",
+		"text": "VAT ID Issue",
 		"slug": "vat-id-issue",
-		"content": "<p>When an invalid VAT ID is entered, you will see right in the <a href=\"shop.trezor.io\">e-shop interface</a>, that it was not accepted by our system.</p>\n<p>It is possible that our system didn’t reflect a valid VAT ID (it could be too new or there was a different problem in the database).&nbsp;</p>\n<p>You can check the validity of your VAT ID here. In case your VAT ID is not registered (listed) <a href=\"http://ec.europa.eu/taxation_customs/vies/vatResponse.html\">here</a>, we can't accept it in our e-shop.</p>\n<p>If you’re sure that you’ve entered a correct (valid) VAT ID and it is registered in the Europeanen databaze, please submit a ticket here.</p>",
+		"content": "<p>When an invalid VAT ID is entered, you will see right in the <a href=\"shop.trezor.io\">e-shop interface</a>, that it was not accepted by our system.</p>\n<p>It is possible that our system didn’t reflect a valid VAT ID (it could be too new or there was a different problem in the database).&nbsp;</p>\n<p>You can check the validity of your VAT ID here. In case your VAT ID is not registered (listed) <a href=\"http://ec.europa.eu/taxation_customs/vies/vatResponse.html\">here</a>, we can't accept it in our e-shop.</p>\n<p>If you’re sure that you’ve entered a correct (valid) VAT ID and it is registered in the Europeanen database, please submit a ticket here.</p>",
 		"metadata": "vat, dph",
 		"notes": "",
 		"nosearch": "",
@@ -869,7 +869,7 @@
 	},
 	{
 		"id": 107,
-		"text": "VAT ID issue form",
+		"text": "VAT ID Issue form",
 		"slug": "vat-id-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -881,9 +881,9 @@
 	},
 	{
 		"id": 108,
-		"text": "Promo code description",
+		"text": "Promo Code - Description",
 		"slug": "promo-code-description",
-		"content": "<p>To be able to use a promo code, it needs to fulfill these criteria:</p>\n<p>1) <strong>The promo code needs to be still active</strong> - We release promo codes during some specific dates or events, always available for a limited period of time or number of uses. This detailed information is presented on our blog or the newsletter.</p>\n<p>Please subscribe to our newsletter through our form that is located at the bottom of our <a href=\"http://trezor.io\">website</a> and check out our <a href=\"https://blog.trezor.io\">blog</a> to be on top of the news!</p>\n<p>2) <strong>The promo code needs to be valid</strong> - Only our own released promo codes can be used. Please check if your promo code is from official sources (link na blog a příklady adresy našeho emailu pro podobné záležitosti?)</p>\n<p><strong>Unfortunately, we cannot apply the discount retrospectively.</strong></p>\n<p>We believe the device is worth every penny of its original price, so you don't need to feel bad about buying it for a full price as proven by many satisfied customers</p>",
+		"content": "<p>To be able to use a promo code, it needs to fulfill these criteria:</p>\n<p>1) <strong>The promo code needs to be still active</strong> - We release promo codes during some specific dates or events, always available for a limited period of time or number of uses. This detailed information is presented on our blog or the newsletter.</p>\n<p>Please subscribe to our newsletter through our form that is located at the bottom of our <a href=\"http://trezor.io\">website</a> and check out our <a href=\"https://blog.trezor.io\">blog</a> to be on top of the news!</p>\n<p>2) <strong>The promo code needs to be valid</strong> - Only our own released promo codes can be used.&nbsp;</p>\n<p><strong>Unfortunately, we cannot apply the discount retrospectively.</strong></p>\n<p>We believe the device is worth every penny of its original price, so you don't need to feel bad about buying it for a full price as proven by many satisfied customers</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -893,7 +893,7 @@
 	},
 	{
 		"id": 109,
-		"text": "Payment method selection",
+		"text": "Payment Method Selection",
 		"slug": "payment-method-selection",
 		"content": "<p>Please select the corresponding payment method you used for your order.</p>",
 		"metadata": "canceled, cancelled, suspended",
@@ -932,7 +932,7 @@
 	},
 	{
 		"id": 110,
-		"text": "Insufficient payment issue",
+		"text": "Insufficient Payment Issue",
 		"slug": "insufficient-payment-issue",
 		"content": "<p><strong>This situation can happen only with Bitcoin payments.</strong></p>\n<p>In case you have some doubts whether your payment was sufficient, please verify the status of your order first.&nbsp;</p>\n<p>If your order has “<em><strong>Paid</strong></em>” status, then everything is fine and your order will be processed according the presented conditions.</p>\n<p>The status of your order can be found via your <a href=\"https://shop.trezor.io/user/login/\">e-shop account</a>.</p>",
 		"metadata": "insufficient, incorrect, little, lower, not enough",
@@ -958,7 +958,7 @@
 	},
 	{
 		"id": 111,
-		"text": "How to pay (instructions)",
+		"text": "How to Pay - Instructions",
 		"slug": "how-to-pay-instructions",
 		"content": "<p>Please follow these <a href=\"https://wiki.trezor.io/FAQ:Eshop#How_to_buy_a_Trezor.3F\">instructions</a>.</p>",
 		"metadata": "how to pay, buy",
@@ -970,7 +970,7 @@
 	},
 	{
 		"id": 112,
-		"text": "Bitcoin payment issue (verifying the payment)",
+		"text": "Bitcoin Payment Issue - Verifying The Payment",
 		"slug": "bitcoin-payment-issue-verifying-the-payment",
 		"content": "<p>Please verify whether your Bitcoin transaction was already confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"shop.trezor.io\">e-shop</a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://blockchain.info/\">https://blockchain.info/</a></p>\n<p>https://btc-explorer.trezor.io/</p>",
 		"metadata": "",
@@ -996,7 +996,7 @@
 	},
 	{
 		"id": 113,
-		"text": "Credit card issue (verifying the order)",
+		"text": "Credit Card Issue - Verifying The Order",
 		"slug": "credit-card-issue-verifying-the-order",
 		"content": "<p>You may have created multiple orders by accident. Please check whether the cancellation notification is not related to a different order that was not paid for.&nbsp;</p>\n<p>You can see all your orders when you log to your e-shop account (or accounts if you created more orders under different emails) with this <a href=\"https://shop.trezor.io/user/login/ \">link</a>.</p>\n<p>If the suggestions above didn’t resolve the situation, please submit your ticket here.</p>",
 		"metadata": "",
@@ -1022,7 +1022,7 @@
 	},
 	{
 		"id": 114,
-		"text": "Bitcoin payment issue (verifying the order)",
+		"text": "Bitcoin Payment Issue - Verifying The Order",
 		"slug": "bitcoin-payment-issue-verifying-the-order",
 		"content": "<p>You may have created multiple orders by accident. Please check whether the cancellation notification is not related to a different order that was not paid for.&nbsp;</p>\n<p>You can see all your orders when you log to your e-shop account (or accounts if you created more orders under different emails) with this <a href=\"https://shop.trezor.io/user/login/ \">link</a>.</p>\n<p>If the suggestions above didn’t resolve the situation, please submit your ticket here.</p>",
 		"metadata": "",
@@ -1060,7 +1060,7 @@
 	},
 	{
 		"id": 116,
-		"text": "Payment issue GoPay form",
+		"text": "Payment Issue GoPay form",
 		"slug": "payment-issue-gopay-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -1072,7 +1072,7 @@
 	},
 	{
 		"id": 117,
-		"text": "Insufficient payment issue explanation",
+		"text": "Insufficient Payment - Issue Explanation",
 		"slug": "insufficient-payment-issue-explanation",
 		"content": "<p>Two scenarios can happen:</p>\n<p><strong>1) Your order has status “Waiting for the payment”.</strong></p>\n<p>In such case, your payment is still not processed and confirmed by the blockchain.</p>\n<p>You can verify the transaction.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our e-shop (shop.trezor.io) when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://blockchain.info/\">https://blockchain.info/</a></p>\n<p>https://btc-explorer.trezor.io/</p>\n<p><strong>2) Your order has status “Canceled”.</strong></p>\n<p>In such case, the payment was insufficient and the order was canceled after 7 days.</p>\n<p>If your order is processed and confirmed by the network or has canceled status please continue to the contact form.</p>",
 		"metadata": "",
@@ -1098,7 +1098,7 @@
 	},
 	{
 		"id": 118,
-		"text": "Insufficient payment issue form",
+		"text": "Insufficient Payment Issue Form",
 		"slug": "insufficient-payment-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -1110,7 +1110,7 @@
 	},
 	{
 		"id": 119,
-		"text": "More payment methods",
+		"text": "More Payment Methods",
 		"slug": "more-payment-methods",
 		"content": "<p>We are planning to add more payment options, but there is currently no estimated time of availability.</p>\n<p>As soon as a new payment method is ready, you will see it as a new option in our e-shop (shop.trezor.io) and it will be also publicly announced on our social media (twitter, reddit).</p>\n<p>Please subscribe to our newsletter through our form that is located at the bottom of our <a href=\"http://trezor.io\">website</a> and check out our <a href=\"https://blog.trezor.io\">blog</a> to be on top of the news!</p>\n<p><strong>You can also check our </strong><a href=\"https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&amp;me=A25Z0IAI215API&amp;merchant=A25Z0IAI215API&amp;redirect=true\"><strong>Trezor Official shop</strong></a><strong> on Amazon whether it better suits your needs.</strong></p>",
 		"metadata": "more, options, add",
@@ -1122,7 +1122,7 @@
 	},
 	{
 		"id": 120,
-		"text": "More shipping methods",
+		"text": "More Shipping Methods",
 		"slug": "more-shipping-methods",
 		"content": "<p>We are planning to add more shipping methods (couriers), but there is currently no estimated time of availability.</p>\n<p>As soon as a new shipping method is available, you will see it as a new option in our <a href=\"shop.trezor.io\">e-shop</a> and it will be also publicly announced on our social media (<a href=\"https://twitter.com/trezor\">twitter</a>, <a href=\"https://www.reddit.com/r/TREZOR/\">reddit</a>).</p>\n<p>Please subscribe to our newsletter through our form that is located at the bottom of our <a href=\"http://trezor.io\">website</a> and check out our <a href=\"https://blog.trezor.io\">blog</a> to be on top of the news!</p>\n<p>Please be aware that for Russia there is currently only standard shipping available because the problems with the customs.</p>\n<p><strong>You can also check our </strong><a href=\"https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&amp;me=A25Z0IAI215API&amp;merchant=A25Z0IAI215API&amp;redirect=true\"><strong>Trezor Official shop</strong></a><strong> on Amazon whether it better suits your needs.</strong></p>",
 		"metadata": "more, options, add",
@@ -1134,7 +1134,7 @@
 	},
 	{
 		"id": 121,
-		"text": "Adding country form",
+		"text": "Adding Country Form",
 		"slug": "adding-country-form",
 		"content": "<p>If you're missing your country in the shipping list on the <a href=\"https://shop.trezor.io\">official e-shop</a>, you can contact our support to evauluate whether your country is reachable by our shipping methods and is possible to add.</p>\n<p><strong>Countries experiencing war conflict or under the sanction list cannot be added.</strong></p>",
 		"metadata": "country, add",
@@ -1160,9 +1160,9 @@
 	},
 	{
 		"id": 122,
-		"text": "Other issues related to the e-shop interface",
+		"text": "Other Issues Related To The E-shop Interface",
 		"slug": "other-issues-related-to-the-e-shop-interface",
-		"content": "<p>If our <a href=\"shop.trezor.io\">e-shop website</a> is not available at all (connection timeout/server down), we are working as fast as possible to fix this issue.</p>\n<p>Only to make sure that something important is not overlooked, please:</p>\n<p>1. Check your internet connection with another website</p>\n<p>2. Try a different browser</p>\n<p>3. Try to visit our website in incognito/private mode (link co je to incognito/private mód)</p>\n<p>You can also verify the functionality of our servers by using this <a href=\"http://status.trezor.io\">link</a>.</p>\n<p>If you need to contact our support, please submit your ticket here.</p>",
+		"content": "<p>If our <a href=\"shop.trezor.io\">e-shop website</a> is not available at all (connection timeout/server down), we are working as fast as possible to fix this issue.</p>\n<p>Only to make sure that something important is not overlooked, please:</p>\n<p>1. Check your internet connection with another website</p>\n<p>2. Try a different browser</p>\n<p>3. Try to visit our website in incognito/private mode</p>\n<p>You can also verify the functionality of our servers by using this <a href=\"http://status.trezor.io\">link</a>.</p>\n<p>If you need to contact our support, please submit your ticket here.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -1186,7 +1186,7 @@
 	},
 	{
 		"id": 123,
-		"text": "E-shop interface form",
+		"text": "E-shop Interface Form",
 		"slug": "e-shop-interface-form",
 		"content": "<p>If you need to contact our support, please submit your ticket <a href=\"https://satoshilabs.kayako.com/conversation/new/10\">here</a>.</p>",
 		"metadata": "",
@@ -1198,9 +1198,9 @@
 	},
 	{
 		"id": 124,
-		"text": "Restoring the password to your e-shop account",
+		"text": "Restoring The Password To Your E-shop Account",
 		"slug": "restoring-the-password-to-your-e-shop-account",
-		"content": "<p>We suggests to verify whether you didn’t create more e-shop accounts under different emails.</p>\n<p><strong>Restoring the password</strong></p>\n<p>To restore your password, please use this <a href=\"https://shop.trezor.io/user/login/\">link</a> and click on the “<em>Recover your password</em>” button located on this website (popisující obrázek).&nbsp;</p>\n<p>In the next step you’ll need to enter an email address where the instructions for setting a new password will be sent and then hit the “<em>Reset my password</em>” button.</p>\n<p>If you didn’t receive the email with the instructions, please check your spam folder and whether you entered your email address correctly.</p>",
+		"content": "<p>We suggests to verify whether you didn’t create more e-shop accounts under different emails.</p>\n<p><strong>Restoring the password</strong></p>\n<p>To restore your password, please use this <a href=\"https://shop.trezor.io/user/login/\">link</a> and click on the “<em>Recover your password</em>” button located on this website.</p>\n<p>In the next step you’ll need to enter an email address where the instructions for setting a new password will be sent and then hit the “<em>Reset my password</em>” button.</p>\n<p>If you didn’t receive the email with the instructions, please check your spam folder and whether you entered your email address correctly.</p>",
 		"metadata": "password, forget",
 		"notes": "",
 		"nosearch": "",
@@ -1210,7 +1210,7 @@
 	},
 	{
 		"id": 125,
-		"text": "Deleting/Updating e-shop account form",
+		"text": "Deleting/Updating E-shop Account Form",
 		"slug": "deleting/updating-e-shop-account-form",
 		"content": "<p>If you need to contact our support, please submit your ticket here.</p>",
 		"metadata": "",
@@ -1236,9 +1236,9 @@
 	},
 	{
 		"id": 126,
-		"text": "Order cancelation request",
+		"text": "Order Cancelation Request",
 		"slug": "order-cancelation-request",
-		"content": "<p><strong>All unpaid orders are automatically canceled after 7 days, so there is no need to contact our support in case you didn’t pay yet.</strong></p>\n<p>Paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order (ie. backorder (vysvětlit co je to backorder - eshop wiki, starají se Dušan a Mára) or another special situation related to the status of our stock).</p>\n<p>It is possible to cancel the order only if it is in \"<strong>New</strong>\" status. You can check the status by login to your <a href=\"https://shop.trezor.io/user/login/\">e-shop account</a>.&nbsp;</p>\n<p><strong>All messages that are not related to the request for the cancelation will be automatically deleted!!!&nbsp;</strong></p>",
+		"content": "<p><strong>All unpaid orders are automatically canceled after 7 days, so there is no need to contact our support in case you didn’t pay yet.</strong></p>\n<p>Paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order (ie. backorder - special situation related to the status of our stock or another special situation related to the status of our stock).</p>\n<p>It is possible to cancel the order only if it is in \"<strong>New</strong>\" status. You can check the status by login to your <a href=\"https://shop.trezor.io/user/login/\">e-shop account</a>.&nbsp;</p>\n<p><strong>All messages that are not related to the request for the cancelation will be automatically deleted!!!&nbsp;</strong></p>",
 		"metadata": "cancel",
 		"notes": "",
 		"nosearch": false,
@@ -1275,7 +1275,7 @@
 	},
 	{
 		"id": 127,
-		"text": "Changing order request",
+		"text": "Changing Order Request",
 		"slug": "changing-order-request",
 		"content": "<p>If your order was not paid yet, there is no need to contact the support, since all unpaid orders are automatically canceled after 7 days. Therefore you can, without worries, create another order that would fit your needs.&nbsp;</p>\n<p>Paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order (ie. backorder or another special situation related to the status of our stock).</p>\n<p>It is possible to change the order only if it is in \"<strong>New</strong>\" status. You can check the status by login to your <a href=\"https://shop.trezor.io/user/login/\">e-shop account</a>.</p>\n<p><strong>All messages unrelated to the specific form will be put on low priority and might take longer to respond or even be deleted!!!</strong></p>",
 		"metadata": "change",
@@ -1314,7 +1314,7 @@
 	},
 	{
 		"id": 128,
-		"text": "Return order request",
+		"text": "Return Order Request",
 		"slug": "return-order-request",
 		"content": "<p>Please specify your current situation.Is the order already delivered to you?</p>",
 		"metadata": "return",
@@ -1353,7 +1353,7 @@
 	},
 	{
 		"id": 129,
-		"text": "Postpone order request",
+		"text": "Postpone Order Request",
 		"slug": "postpone-order-request",
 		"content": "<p>If your order was not paid yet, there is no need to contact the support, since all unpaid orders are automatically canceled after 7 days. Therefore you can, without worries, create another order that would fit your needs.&nbsp;</p>\n<p>Paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order (ie. backorder or another special situation related to the status of our stock).</p>\n<p>It is possible to postpone the order only if it is in \"new\" status. You can check the status by login to your <a href=\"https://shop.trezor.io/user/login/\">e-shop account</a>.</p>\n<p><strong>All messages unrelated to the specific form will be put on low priority and might take longer to respond or even be deleted!!!</strong></p>\n<p>If you want to postpone your order, please submit ticket here.</p>",
 		"metadata": "postpone, suspend, hold",
@@ -1379,7 +1379,7 @@
 	},
 	{
 		"id": 130,
-		"text": "Cancel request form",
+		"text": "Cancel Request Form",
 		"slug": "cancel-request-form",
 		"content": "<p>If you fulfill the needed criteria, please contact our Support Team to file your request.</p>",
 		"metadata": "",
@@ -1405,7 +1405,7 @@
 	},
 	{
 		"id": 132,
-		"text": "Change request form",
+		"text": "Change Request Form",
 		"slug": "change-request-form",
 		"content": "<p>If you fulfill the needed criteria, please contact our Support Team to file your request.</p>",
 		"metadata": "",
@@ -1431,9 +1431,9 @@
 	},
 	{
 		"id": 134,
-		"text": "Order already in my possesion",
+		"text": "Order Already In My Possesion",
 		"slug": "order-already-in-my-possesion",
-		"content": "<p><strong>Please bear in mind that the refunds for returned orders can be claimed only when all needed conditions are fulfilled and the full amount is not returned (viz text below).</strong></p>\n<p><del>O</del>rders can be returned for refund only within 15 days from the day your package was received. More details can be found here: https://shop.trezor.io/static/shared/warranty-refund-policy.pdf</p>\n<p>1. When the Trezor box is not open, we will refund the cost of the Trezor product(s) minus the shipping cost you paid for this order once it is returned. The shipping cost for sending the returned product(s) back to us is also carried by you.</p>\n<p>2. When the Trezor box is open, we will refund the cost of the Trezor product(s) minus 18 EUR for each unit (because of testing, refurbishing and repacking the product) and minus the shipping cost you paid for this order once they are returned. The shipping cost for sending the returned product(s) back to us is also carried by you.</p>\n<p>If you ordered more products in one parcel, you can also return only the specific parts.</p>\n<p>For example, from the order with two &nbsp;Trezor One White, you can return only one Trezor One White and so on.&nbsp;</p>\n<p>In case you paid with Bitcoin, please also read the conditions for Bitcoin refunds.</p>\n<p>If you fulfill the needed conditions and still want to return your order, please submit a ticket here.</p>",
+		"content": "<p><strong>Please bear in mind that the refunds for returned orders can be claimed only when all needed conditions are fulfilled and the full amount is not returned.</strong></p>\n<p>Orders can be returned for refund only within 15 days from the day your package was received. More details can be found <a href=\"https://wiki.trezor.io/FAQ:Warranty\">here</a>.</p>\n<p>1. When the Trezor box is not open, we will refund the cost of the Trezor product(s) minus the shipping cost you paid for this order once it is returned. The shipping cost for sending the returned product(s) back to us is also carried by you.</p>\n<p>2. When the Trezor box is open, we will refund the cost of the Trezor product(s) minus 18 EUR for each unit (because of testing, refurbishing and repacking the product) and minus the shipping cost you paid for this order once they are returned. The shipping cost for sending the returned product(s) back to us is also carried by you.</p>\n<p>If you ordered more products in one parcel, you can also return only the specific parts.</p>\n<p>For example, from the order with two &nbsp;Trezor One White, you can return only one Trezor One White and so on.&nbsp;</p>\n<p>In case you paid with Bitcoin, please also read the conditions for Bitcoin refunds.</p>\n<p>If you fulfill the needed conditions and still want to return your order, please submit a ticket here.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -1457,7 +1457,7 @@
 	},
 	{
 		"id": 135,
-		"text": "The order is still not delivered",
+		"text": "The Order Is Still Not Delivered",
 		"slug": "the-order-is-still-not-delivered",
 		"content": "<p>Before you decide to refuse the package, please read the conditions and possible outcomes below.</p>\n<p>Refund conditions can be found <a href=\"https://shop.trezor.io/static/shared/warranty-refund-policy.pdf\">here</a>.&nbsp;</p>\n<p>If you’re decided to refuse your order, please wait until delivery messenger (courier service) will notify you that your parcel is ready to be delivered &nbsp;and then kindly ask them to return the parcel to the sender.</p>\n<p>Once the parcel is returned to us, we will start the refund procedure and contact you.</p>\n<p>You can notify us about your decision by continuing to the contact form. It may speed up the whole process.</p>",
 		"metadata": "",
@@ -1483,7 +1483,7 @@
 	},
 	{
 		"id": 136,
-		"text": "Return request form",
+		"text": "Return Request Form",
 		"slug": "return-request-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -1495,7 +1495,7 @@
 	},
 	{
 		"id": 137,
-		"text": "Refused Order form",
+		"text": "Refused Order Form",
 		"slug": "refused-order-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -1507,7 +1507,7 @@
 	},
 	{
 		"id": 138,
-		"text": "Postpone Order form",
+		"text": "Postpone Order Form",
 		"slug": "postpone-order-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -1519,7 +1519,7 @@
 	},
 	{
 		"id": 139,
-		"text": "Tracking issues selection",
+		"text": "Tracking Issues Selection",
 		"slug": "tracking-issues-selection",
 		"content": "<p>Please forward us more details regarding your issue.</p>",
 		"metadata": "track, trace",
@@ -1558,7 +1558,7 @@
 	},
 	{
 		"id": 140,
-		"text": "Order status verification",
+		"text": "Order Status Verification",
 		"slug": "order-status-verification",
 		"content": "<p>Please verify if your order is in “<em><strong>Shipped</strong></em>” status. You can log to your <a href=\"https://shop.trezor.io/user/login\">e-shop account</a> to see this information.</p>\n<p>What status do you see?</p>",
 		"metadata": "",
@@ -1610,7 +1610,7 @@
 	},
 	{
 		"id": 141,
-		"text": "Canceled status",
+		"text": "Canceled Status",
 		"slug": "canceled-status",
 		"content": "",
 		"metadata": "canceled",
@@ -1636,7 +1636,7 @@
 	},
 	{
 		"id": 142,
-		"text": "Shipping method verification",
+		"text": "Shipping Method Verification",
 		"slug": "shipping-method-verification",
 		"content": "<p>Please choose the shipping method you selected for your order.</p>\n<p>You can see the chosen shipping method for your order when you log into your <a href=\"https://shop.trezor.io/user/login\">e-shop account</a>.</p>",
 		"metadata": "",
@@ -1688,9 +1688,9 @@
 	},
 	{
 		"id": 143,
-		"text": "Order status confirmation",
+		"text": "Order Status Confirmation",
 		"slug": "order-status-confirmation",
-		"content": "<p>Please let us know the status of your order.</p>\n<p>Přidat on Hold status</p>",
+		"content": "<p>Please let us know the status of your order.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -1722,12 +1722,25 @@
 					"x": 0,
 					"y": 0
 				}
+			},
+			{
+				"target": 177,
+				"title": "My order's status is On Hold",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
 			}
 		]
 	},
 	{
 		"id": 144,
-		"text": "Forgotten password to the e-shop account",
+		"text": "Forgotten Password To The E-shop Account",
 		"slug": "forgotten-password-to-the-e-shop-account",
 		"content": "",
 		"metadata": "",
@@ -1753,14 +1766,14 @@
 	},
 	{
 		"id": 145,
-		"text": " Standard shipping description",
+		"text": " Standard Shipping - Description",
 		"slug": "standard-shipping-description",
-		"content": "<p>Standard shipping is only available in EU countries and Russia. Its traceability is limited.&nbsp;</p>\n<p>Delivery time may vary from 5 days to 6 weeks depending on your location and your national postal service.&nbsp;</p>\n<p>Parcels sent via Standard shipping can be traced here (<a href=\"https://www.postaonline.cz/trackandtrace\">https://www.postaonline.cz/trackandtrace</a>) until it leaves the country of origin. Thereafter it can be traced on the website of the postal service in your country, if available.</p>\n<p>Please read this <a href=\"https://wiki.trezor.io/FAQ:Ordering_and_shipping#I_want_to_start_the_investigation._What_should_I_do.3F\">information</a> describing the conditions to start the investigation process with the Czech post and how long it may take.</p>\n<p>If your order fulfills one of the presented conditions, please submit ticket to start the investigation procedure.</p>",
+		"content": "<p>Standard shipping is only available in EU countries and Russia. Its traceability is limited.&nbsp;</p>\n<p>Delivery time may vary from 5 days to 6 weeks depending on your location and your national postal service.&nbsp;</p>\n<p>Parcels sent via Standard shipping can be traced <a href=\"https://www.postaonline.cz/en/trackandtrace\">here</a> until it leaves the country of origin. It can be traced on the website of the postal service in your country, if available.</p>\n<p>Please read this <a href=\"https://wiki.trezor.io/FAQ:Ordering_and_shipping#I_want_to_start_the_investigation._What_should_I_do.3F\">information</a> describing the conditions to start the investigation process with the Czech post and how long it may take.</p>\n<p>If your order fulfills one of the presented conditions, please submit ticket to start the investigation procedure.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"fx": -243.59424591064453,
-		"fy": -2669.415283203125,
+		"fx": -247.8024673461914,
+		"fy": -2670.81787109375,
 		"connections": [
 			{
 				"target": 148,
@@ -1779,9 +1792,9 @@
 	},
 	{
 		"id": 146,
-		"text": "DHL shipping description",
-		"slug": "dhl-shipping-description",
-		"content": "<p>DHL shipping is professional and fast delivery service. Your order is fully traceable and this information is available for up to 90 days since the package was handed to DHL courier.&nbsp;</p>\n<p>Delivery time may vary between 2 and 5 business days (it may be delayed by the customs procedure).</p>\n<p>1) Please verify the status of your parcel via DHL tracking portal.</p>\n<p>Parcels &nbsp;sent via DHL shipping can be traced here (http://www.dhl.com/en/express/tracking.html)&nbsp;</p>\n<p>2) If your parcel was not delivered within the stated time frame, please contact your local DHL directly.&nbsp;</p>\n<p>If our suggestions didn’t help to resolve the situation, please submit ticket here.</p>",
+		"text": "DHL Shipping",
+		"slug": "dhl-shipping",
+		"content": "<p>DHL shipping is professional and fast delivery service. Your order is fully traceable and this information is available for up to 90 days since the package was handed to DHL courier.&nbsp;</p>\n<p>Delivery time may vary between 2 and 5 business days (it may be delayed by the customs procedure).</p>\n<p>1) Please verify the status of your parcel via DHL tracking portal.</p>\n<p>Parcels &nbsp;sent via DHL shipping can be traced <a href=\"http://www.dhl.com/en/express/tracking.html\">here</a>. &nbsp;</p>\n<p>2) If your parcel was not delivered within the stated time frame, please contact your local DHL directly.&nbsp;</p>\n<p>If our suggestions didn’t help to resolve the situation, please submit ticket here.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -1805,9 +1818,9 @@
 	},
 	{
 		"id": 147,
-		"text": "UPS shipping description",
-		"slug": "ups-shipping-description",
-		"content": "<p>UPS shipping is professional and fast delivery service that is currently available for the following countries: UK, CZ, SK, PL and DE.&nbsp;</p>\n<p>Your order is fully trackable and this information is available for up to 120 days since the package was handed to UPS courier.&nbsp;</p>\n<p>Delivery time may vary between 1 and 3 business days <del>(it may be delayed by the customs procedure).</del></p>\n<p>1) Please verify the status of your parcel via UPS tracking portal.</p>\n<p>Parcels sent via UPS shipping can be traced here (https://www.ups.com/tracking/tracking.html)&nbsp;</p>\n<p>2) If your parcel was not delivered within the stated time frame, please contact your local UPS directly.</p>\n<p>If our suggestions didn’t help to resolve the situation, please submit ticket here.</p>",
+		"text": "UPS Shipping",
+		"slug": "ups-shipping",
+		"content": "<p>UPS shipping is professional and fast delivery service that is currently available for the following countries: UK, CZ, SK, PL and DE.&nbsp;</p>\n<p>Your order is fully trackable and this information is available for up to 120 days since the package was handed to UPS courier.&nbsp;</p>\n<p>Delivery time may vary between 1 and 3 business days.</p>\n<p>1) Please verify the status of your parcel via UPS tracking portal.</p>\n<p>Parcels sent via UPS shipping can be traced here (https://www.ups.com/tracking/tracking.html)&nbsp;</p>\n<p>2) If your parcel was not delivered within the stated time frame, please contact your local UPS directly.</p>\n<p>If our suggestions didn’t help to resolve the situation, please submit ticket here.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -1831,8 +1844,8 @@
 	},
 	{
 		"id": 148,
-		"text": "Delivery delay CP issue form",
-		"slug": "delivery-delay-cp-issue-form",
+		"text": "Delivery Delay Czech Post Issue Form",
+		"slug": "delivery-delay-czech-post-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
 		"notes": "",
@@ -1843,7 +1856,7 @@
 	},
 	{
 		"id": 149,
-		"text": "Delivery delay DHL issue form",
+		"text": "Delivery Delay DHL Issue Form",
 		"slug": "delivery-delay-dhl-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -1855,7 +1868,7 @@
 	},
 	{
 		"id": 150,
-		"text": "Delivery delay UPS issue form",
+		"text": "Delivery Delay UPS Issue Form",
 		"slug": "delivery-delay-ups-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -1867,8 +1880,8 @@
 	},
 	{
 		"id": 151,
-		"text": "New/processing status",
-		"slug": "new/processing-status",
+		"text": "New/Processing - Shipping Status",
+		"slug": "new/processing-shipping-status",
 		"content": "<p>Paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order (ie. backorder or another special situation).</p>\n<p>Orders with standard shipping are processed every Monday and Thursday, therefore purchases with this shipping method are most prone to delays.&nbsp;</p>\n<p>We are working to process your order as soon as possible, but if the status is still not set to “Shipped” after two business days since it was paid, please submit ticket here.</p>",
 		"metadata": "",
 		"notes": "",
@@ -1893,7 +1906,7 @@
 	},
 	{
 		"id": 153,
-		"text": "Not shipped issue form",
+		"text": "Not Shipped Issue Form",
 		"slug": "not-shipped-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -1905,9 +1918,9 @@
 	},
 	{
 		"id": 154,
-		"text": "Missing tracking ID",
+		"text": "Missing Tracking ID",
 		"slug": "missing-tracking-id",
-		"content": "<p>The tracking ID is available only once your order has been shipped.&nbsp;</p>\n<p>Paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order (ie. backorder or another special situation related to the status of our stock)</p>\n<p>Once the order is shipped you will receive the notification from <a href=\"mailto:no-reply@trezor.io\"><u>no-reply@trezor.io</u></a> email and then you can see the tracking ID in your e-shop account (<a href=\"https://shop.trezor.io/user/login\">https://shop.trezor.io/user/login</a>).</p>",
+		"content": "<p>The tracking ID is available only once your order has been shipped.&nbsp;</p>\n<p>Paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order (ie. backorder or another special situation related to the status of our stock)</p>\n<p>Once the order is shipped you will receive the notification from <a href=\"mailto:no-reply@trezor.io\"><u>no-reply@trezor.io</u></a> email and then you can see the tracking ID in your <a href=\"https://shop.trezor.io/user/login\">e-shop account</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -1931,7 +1944,7 @@
 	},
 	{
 		"id": 155,
-		"text": "\"Tracking not found\" issue",
+		"text": "\"Tracking Not Found\" Issue",
 		"slug": "tracking-not-found-issue",
 		"content": "<p>This situation has several explanations.</p>\n<p>1. You’re entering an incorrect tracking ID</p>\n<p>2. Your order was not entered in the tracking database of the respective service yet</p>\n<p>If you chose standard shipping for your order, the package may have left Czech Republic, and it is now untraceable until the destination country's postal service claims it.</p>\n<p>After leaving the country of origin, the parcel travels to a foreign country where it is accepted at customs services. This is where most of the delays happen. It is unfortunate because the delivery will appear in the customer's post tracking system only after it is released by the customs.</p>",
 		"metadata": "",
@@ -1970,9 +1983,9 @@
 	},
 	{
 		"id": 156,
-		"text": "Tracking ID description",
-		"slug": "tracking-id-description",
-		"content": "<p>You can receive three types of tracking ID according to the shipping method you’ve chosen for your order.</p>\n<p><strong>Types of tracking ID</strong></p>\n<p>Standard shipping: 13 characters (letters and numbers ID that starts with RR and ends with CZ)</p>\n<p>DHL shipping: 1234567890 (ten digits ID)</p>\n<p>UPS shipping: 18 characters (combined letters and numbers ID always starting with 1Z) příklady pro všechny tracking IDs?</p>\n<p><strong>Tracking portals</strong></p>\n<p>For DHL: http://www.dhl.com/en/express/tracking.html</p>\n<p>For UPS: <a href=\"https://www.ups.com/tracking/tracking.html\">https://www.ups.com/tracking/tracking.html</a></p>\n<p>For Standard shipping: <a href=\"https://www.postaonline.cz/trackandtrace\">https://www.postaonline.cz/trackandtrace</a></p>\n<p>Orders sent via Standard shipping can be traced here until it leaves the country of origin. Thereafter it can be traced on the website of the postal service in your country, if available.</p>",
+		"text": "Tracking ID",
+		"slug": "tracking-id",
+		"content": "<p>You can receive three types of tracking ID according to the shipping method you’ve chosen for your order.</p>\n<p><strong>Types of tracking ID</strong></p>\n<p>Standard shipping: 13 characters (letters and numbers ID that starts with RR and ends with CZ)</p>\n<p>DHL shipping: 1234567890 (ten digits ID)</p>\n<p>UPS shipping: 18 characters (combined letters and numbers ID always starting with 1Z)</p>\n<p><strong>Tracking portals</strong></p>\n<p>For <a href=\"http://www.dhl.com/en/express/tracking.html\">DHL</a></p>\n<p>For <a href=\"https://www.ups.com/tracking/tracking.html\">UPS</a></p>\n<p>For <a href=\"https://www.postaonline.cz/en/trackandtrace\">Standard shipping</a></p>\n<p>Orders sent via Standard shipping can be traced here until it leaves the country of origin. It can be traced on the website of the postal service in your country, if available.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -1982,7 +1995,7 @@
 	},
 	{
 		"id": 157,
-		"text": "Delayed order",
+		"text": "Delayed Order",
 		"slug": "delayed-order",
 		"content": "",
 		"metadata": "",
@@ -2008,7 +2021,7 @@
 	},
 	{
 		"id": 158,
-		"text": "Tracking ID details",
+		"text": "Tracking ID Details",
 		"slug": "tracking-id-details",
 		"content": "",
 		"metadata": "",
@@ -2034,9 +2047,9 @@
 	},
 	{
 		"id": 159,
-		"text": "Checking the content of your package",
+		"text": "Checking The Content Of Your Package",
 		"slug": "checking-the-content-of-your-package",
-		"content": "<p>Please check if the content of the package reflects the content of your purchase by logging to your e-shop account (<a href=\"https://shop.trezor.io/user/login/\">https://shop.trezor.io/user/login/</a>) and selecting the corresponding order.</p>\n<p>If the situation is not clarified, please submit ticket here.</p>",
+		"content": "<p>Please check if the content of the package reflects the content of your purchase by logging to your <a href=\"https://shop.trezor.io/user/login\">e-shop account</a> and selecting the corresponding order.</p>\n<p>If the situation is not clarified, please submit ticket here.</p>",
 		"metadata": "item",
 		"notes": "",
 		"nosearch": "",
@@ -2060,9 +2073,9 @@
 	},
 	{
 		"id": 160,
-		"text": "Checking the content of your package",
+		"text": "Checking The Content Of Your Package",
 		"slug": "checking-the-content-of-your-package-1",
-		"content": "<p>Please check if the content of the package reflects the content of your purchase by logging to your e-shop account (<a href=\"https://shop.trezor.io/user/login/\">https://shop.trezor.io/user/login/</a>) and selecting the corresponding order.</p>\n<p>If the situation is not clarified, please submit ticket here.</p>",
+		"content": "<p>Please check if the content of the package reflects the content of your purchase by logging to your <a href=\"https://shop.trezor.io/user/login\">e-shop account</a> and selecting the corresponding order.</p>\n<p>If the situation is not clarified, please submit ticket here.</p>",
 		"metadata": "wrong, color, mismatch",
 		"notes": "",
 		"nosearch": "",
@@ -2086,7 +2099,7 @@
 	},
 	{
 		"id": 161,
-		"text": "Damaged package issue",
+		"text": "Damaged Package Issue",
 		"slug": "damaged-package-issue",
 		"content": "<p>1. Please contact the respective courier service or national post that handled the delivery for the possible explanation why your package is damaged.</p>\n<p>We would suggest making photos of your package that will clearly describe its status.&nbsp;</p>\n<p>2. Sometimes the package is opened by the customs. Unfortunately, we can't do anything to prevent customs from doing so as it is within their legal powers.</p>\n<p>The customs mostly label such packages with the information that it was opened by them. When contacting the courier service or national post, you should also be informed, whether this happened.</p>",
 		"metadata": "damage",
@@ -2125,8 +2138,8 @@
 	},
 	{
 		"id": 162,
-		"text": "Trezor Model selection",
-		"slug": "trezor-model-selection",
+		"text": "Trezor Model Concern",
+		"slug": "trezor-model-concern",
 		"content": "<p>If your package was opened, it is highly possible that it was done by the customs. Unfortunately, we can't do anything to prevent customs from doing so as it is within their legal powers.</p>\n<p>The customs mostly label such packages with the information that it was opened by them. When contacting the courier service or national post, you should also be informed, whether this happened.</p>\n<p>If you want to know how your Trezor device is protected against the tampering, please select an appropriate model.</p>",
 		"metadata": "tamper, risk, safe",
 		"notes": "",
@@ -2164,7 +2177,7 @@
 	},
 	{
 		"id": 163,
-		"text": "Missing item issue form",
+		"text": "Missing Item Issue Form",
 		"slug": "missing-item-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -2176,7 +2189,7 @@
 	},
 	{
 		"id": 164,
-		"text": "Wrong item/color issue form",
+		"text": "Wrong Item/Color issue form",
 		"slug": "wrong-item/color-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -2188,7 +2201,7 @@
 	},
 	{
 		"id": 165,
-		"text": "Package damaged issue form",
+		"text": "Package Damaged Issue Form",
 		"slug": "package-damaged-issue-form",
 		"content": "<p>If you want to return the parcel, please submit ticket here.</p>",
 		"metadata": "",
@@ -2214,8 +2227,8 @@
 	},
 	{
 		"id": 166,
-		"text": "Trezor Model selection",
-		"slug": "trezor-model-selection-1",
+		"text": "Trezor Model - Selection",
+		"slug": "trezor-model-selection",
 		"content": "<p>If you want to know how your Trezor device is protected against the tampering, please select an appropriate model.</p>",
 		"metadata": "",
 		"notes": "",
@@ -2253,9 +2266,9 @@
 	},
 	{
 		"id": 167,
-		"text": "Anti-tampering protection levels (Trezor One)",
+		"text": "Anti-Tampering Protection Levels - Trezor One",
 		"slug": "anti-tampering-protection-levels-trezor-one",
-		"content": "<p><strong>Packaging/Device protection levels</strong></p>\n<p>The Trezor box is protected by holographic seals and it is also virtually impossible to open the box and device itself without breaking it (the case is sealed using ultrasound <a href=\"https://wiki.trezor.io/Chassis\">https://wiki.trezor.io/Chassis</a>), so you would see right away if someone tampered with it.</p>\n<p><strong>Software protection levels</strong></p>\n<p>All Trezor devices are distributed without a firmware software, so you need to install it for your first use (https://wiki.trezor.io/index.php?title=Getting+started+in+5+steps&amp;ModelType=1#Install_the_latest_firmware). If there is a firmware installed already, then that means that someone used this device before you. Obrázek</p>\n<p>The bootloader verifies the firmware signature. The device only runs if the firmware is correctly signed by SatoshiLabs.</p>\n<p>Our Bootloader software is write protected, as the JTAG is disabled. MCU is safeguarded by the Memory Protection Unit., that ensures you're using a valid firmware version signed by us. If not, then there is a warning message on the Trezor display.Obrázek</p>\n<p>More details can be found via these links:</p>\n<p><a href=\"https://wiki.trezor.io/Tamper-evident_hologram#Trezor_One\">https://wiki.trezor.io/Tamper-evident_hologram#Trezor_One</a></p>\n<p>https://blog.trezor.io/trezor-one-tamper-evident-packaging-f98d3f63569d</p>\n<p>If you’re still worried about the security of your device, please submit ticket here.</p>",
+		"content": "<p><strong>Packaging/Device protection levels</strong></p>\n<p>The Trezor box is protected by holographic seals and it is also virtually impossible to open the box and device itself without breaking it (the case is sealed using <a href=\"ttps://wiki.trezor.io/Chassis\">ultrasound</a>), so you would see right away if someone tampered with it.</p>\n<p><strong>Software protection levels</strong></p>\n<p>All Trezor devices are distributed without a firmware software, so you need to install it for your <a href=\"https://wiki.trezor.io/index.php?title=Getting+started+in+5+steps&amp;ModelType=1#Install_the_latest_firmware\">first use</a>. If there is a firmware installed already, then that means that someone used this device before you.</p>\n<p>The bootloader verifies the firmware signature. The device only runs if the firmware is correctly signed by SatoshiLabs.</p>\n<p>Our Bootloader software is write protected, as the JTAG is disabled. MCU is safeguarded by the Memory Protection Unit., that ensures you're using a valid firmware version signed by us. If not, then there is a warning message on the Trezor display.</p>\n<p>More details can be found via these links:</p>\n<p><a href=\"https://wiki.trezor.io/Tamper-evident_hologram\">Tamper Evident Hologram</a></p>\n<p><a href=\"https://wiki.trezor.io/Trezor_packaging_timeline\">Trezor Packaging Timeline</a></p>\n<p><a href=\"https://blog.trezor.io/trezor-one-tamper-evident-packaging-f98d3f63569d\">Blog Article About Packaging</a></p>\n<p>If you’re still worried about the security of your device, please submit ticket here.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -2279,9 +2292,9 @@
 	},
 	{
 		"id": 168,
-		"text": "Anti-tampering protection levels (Trezor Model T)",
+		"text": "Anti-Tampering Protection Levels (Trezor Model T)",
 		"slug": "anti-tampering-protection-levels-trezor-model-t",
-		"content": "<p><strong>Device protection levels</strong></p>\n<p>Trezor Model T USB-C port is protected by a holographic seal and it is also virtually impossible to open device itself without breaking it (the case is sealed using ultrasound <a href=\"https://wiki.trezor.io/Chassis\">https://wiki.trezor.io/Chassis</a>), so you would see right away if someone tampered with it.</p>\n<p><strong>Software protection levels</strong></p>\n<p>All Trezor devices are distributed without a firmware software, so you need to install it for your first use (https://wiki.trezor.io/index.php?title=Getting+started+in+5+steps&amp;ModelType=2#Install_the_latest_firmware). If there is a firmware installed already, then that means that someone used this device before you. Obrázek</p>\n<p>The bootloader verifies the firmware signature. The device only runs if the firmware is correctly signed by SatoshiLabs.</p>\n<p>Our Bootloader software is write protected, as the JTAG is disabled. MCU is safeguarded by the Memory Protection Unit., that ensures you're using a valid firmware version signed by us. If not, then there is a warning message on the Trezor display.Obrázek Ověřit si, jestli to u TT není trochu jinak</p>\n<p>More details can be found via these links:</p>\n<p><a href=\"https://wiki.trezor.io/Tamper-evident_hologram#Trezor_One\">https://wiki.trezor.io/Tamper-evident_hologram#Trezor_</a>Model_T</p>\n<p>If you’re still worried about the security of your device, please submit ticket here.</p>",
+		"content": "<p><strong>Device protection levels</strong></p>\n<p>Trezor Model T USB-C port is protected by a holographic seal and it is also virtually impossible to open device itself without breaking it (the case is sealed using <a href=\"https://wiki.trezor.io/Chassis\">ultrasound</a>), so you would see right away if someone tampered with it.</p>\n<p><strong>Software protection levels</strong></p>\n<p>All Trezor devices are distributed without a firmware software, so you need to install it for your <a href=\"https://wiki.trezor.io/index.php?title=Getting+started+in+5+steps&amp;ModelType=2#Install_the_latest_firmware\">first use</a>. If there is a firmware installed already, then that means that someone used this device before you.&nbsp;</p>\n<p>The bootloader verifies the firmware signature. The device only runs if the firmware is correctly signed by SatoshiLabs.</p>\n<p>Our Bootloader software is write protected, as the JTAG is disabled. MCU is safeguarded by the Memory Protection Unit., that ensures you're using a valid firmware version signed by us. If not, then there is a warning message on the Trezor display.</p>\n<p>More details can be found via these links:</p>\n<p><a href=\"https://wiki.trezor.io/Tamper-evident_hologram#Trezor_Model_T\">Tamper Evident Hologram</a></p>\n<p>If you’re still worried about the security of your device, please submit ticket here.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -2305,7 +2318,7 @@
 	},
 	{
 		"id": 169,
-		"text": "Tampering concerns form",
+		"text": "Tampering Concerns Form",
 		"slug": "tampering-concerns-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -2317,7 +2330,7 @@
 	},
 	{
 		"id": 170,
-		"text": "Missing invoice form",
+		"text": "Missing Invoice Form",
 		"slug": "missing-invoice-form",
 		"content": "<p><br></p>",
 		"metadata": "",
@@ -2358,7 +2371,7 @@
 		"content": "",
 		"metadata": "",
 		"notes": "",
-		"nosearch": false,
+		"nosearch": true,
 		"fx": -1148.588768005371,
 		"fy": -2682.9706649780273,
 		"connections": []
@@ -2398,5 +2411,31 @@
 		"fx": 2200.6622404875575,
 		"fy": -2949.1875316478586,
 		"connections": []
+	},
+	{
+		"id": 177,
+		"text": "On Hold - Shipping Status",
+		"slug": "on-hold-shipping-status",
+		"content": "<p>If your order is 'On Hold' then there's something wrong with your order. Check your email If the Support Team haven't messaged you.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"fx": 425.186156477665,
+		"fy": -2668.9449590203217,
+		"connections": [
+			{
+				"target": 153,
+				"title": "Order is 'On Hold' and I want to know why.",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
 	}
 ]
