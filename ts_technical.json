@@ -7,6 +7,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 244.80855560302734,
 		"fy": -1045.6389923095703,
 		"connections": [
@@ -46,6 +47,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 133.33483600616455,
 		"fy": -862.5938091278076,
 		"connections": [
@@ -85,6 +87,7 @@
 		"metadata": "cryptosteel, steel",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 547.7007217407227,
 		"fy": -861.0229644775391,
 		"connections": [
@@ -111,6 +114,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 803.3503913879395,
 		"fy": -853.7538378238678,
 		"connections": [
@@ -137,6 +141,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -619.316219329834,
 		"fy": -135.58627796173096,
 		"connections": [
@@ -189,6 +194,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2970.335235595703,
 		"fy": -490.0926241874695,
 		"connections": [
@@ -228,6 +234,7 @@
 		"metadata": "dead, power, turning up, not working, bricked",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -1121.2133140563965,
 		"fy": 36.61491107940674,
 		"connections": [
@@ -254,6 +261,7 @@
 		"metadata": "damage, scratch, broken, destroy",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -636.6039237976074,
 		"fy": 66.36747026443481,
 		"connections": [
@@ -319,6 +327,7 @@
 		"metadata": "u2f, 2fa, registered",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -155.41079998016357,
 		"fy": 45.442681312561035,
 		"connections": [
@@ -352,12 +361,13 @@
 	},
 	{
 		"id": 18,
-		"text": "Description Of The Issue",
-		"slug": "description-of-the-issue",
+		"text": "Description Of The Issue - U2F Token",
+		"slug": "description-of-the-issue-u2f-token",
 		"content": "<p>The message ”<em><strong>Another U2F device was used to register in this application</strong></em>” visible on your Trezor device screen/touchscreen, means that your computer is trying to use the <a href=\"https://wiki.trezor.io/U2F\">U2F feature</a> with some web service, but:</p>\n<p>1. Your Trezor device <strong>was not registered</strong> with that web service</p>\n<p>2. You wiped your Trezor device and <strong>used a different </strong><a href=\"https://wiki.trezor.io/Recovery_seed\"><strong>recovery seed</strong></a></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -218.20520401000977,
 		"fy": 165.2538652420044,
 		"connections": [
@@ -378,12 +388,13 @@
 	},
 	{
 		"id": 19,
-		"text": "Possible solution",
-		"slug": "possible-solution",
+		"text": "Possible solution - U2F Token",
+		"slug": "possible-solution-u2f-token",
 		"content": "<p>1. Please verify whether you registered your Trezor device as a U2F token with the respective web service and that there are no issues with the registration</p>\n<p>2. In case you have more than one Trezor device with the same recovery seed and then registered one of them as U2F token, please try to use that particular Trezor device. Generally, because of the U2F mechanics, it is better to use the same device that you used for the registration (even though your other device uses the same recovery seed).</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -223.56013870239258,
 		"fy": 353.92572498321533,
 		"connections": [
@@ -410,6 +421,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -219.7115020751953,
 		"fy": 513.6922044754028,
 		"connections": [
@@ -436,6 +448,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -140.66933059692383,
 		"fy": 709.2765245437622,
 		"connections": [
@@ -456,12 +469,13 @@
 	},
 	{
 		"id": 22,
-		"text": "Description Of The Issue",
-		"slug": "description-of-the-issue-1",
+		"text": "Description Of The Issue - U2F Third-Party",
+		"slug": "description-of-the-issue-u2f-third-party",
 		"content": "<p>The problem is usually caused by some application that <strong>sends U2F requests everywhere</strong> or a <strong>web with a faulty login form</strong>.&nbsp;</p>\n<p>We have had reports that there were some problems with Etherdelta, Metamask and <u>Ledger</u> (because of their broken implementation of U2F protocol)<u>,</u> for example.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -49.6287841796875,
 		"fy": 165.6956377029419,
 		"connections": [
@@ -482,12 +496,13 @@
 	},
 	{
 		"id": 23,
-		"text": "Possible Solution",
-		"slug": "possible-solution-1",
+		"text": "Possible Solution - U2F Third-Party",
+		"slug": "possible-solution-u2f-third-party",
 		"content": "<ol>\n  <li>Please check whether on your computer are installed extensions related to Etherdelta, Metamask or Ledger and <strong>uninstall/disable</strong> them. This should be certainly your first step.</li>\n  <li>Since the issue is probably related to your configuration, we would suggest <strong>clearing the cache</strong> of your browser or <strong>completely uninstalling and then reinstalling it</strong>.</li>\n</ol>\n<p>Here are some links describing how to clear the cache of your browser:</p>\n<p><a href=\"https://support.google.com/accounts/answer/9098093?co=GENIE.Platform=Desktop&amp;hl=en&amp;visit_id=636838448994624638-3619277477&amp;rd=1\"><em>Google Chrome</em></a></p>\n<p><a href=\"https://support.mozilla.org/en-US/kb/how-clear-firefox-cache\"><em>Mozzila Firefox</em></a></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -48.336978912353516,
 		"fy": 354.8761796951294,
 		"connections": [
@@ -509,11 +524,12 @@
 	{
 		"id": 29,
 		"text": "Basic Troubleshooting - Computer/Configuration",
-		"slug": "basic-troubleshooting-computer/configuration",
+		"slug": "basic-troubleshooting-computer-configuration",
 		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -1123.5072593688965,
 		"fy": 198.6969118118286,
 		"connections": [
@@ -540,6 +556,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -1117.4315147399902,
 		"fy": 359.5274019241333,
 		"connections": [
@@ -579,6 +596,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -1190.5131187438965,
 		"fy": 738.1043672561646,
 		"connections": [
@@ -618,6 +636,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -964.8248252868652,
 		"fy": 736.4777498245239,
 		"connections": [
@@ -657,6 +676,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1207.992000579834,
 		"fy": 900.9182710647583,
 		"connections": [
@@ -683,6 +703,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1035.1415977478027,
 		"fy": 891.6379976272583,
 		"connections": [
@@ -709,6 +730,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -858.922664642334,
 		"fy": 900.1640901565552,
 		"connections": [
@@ -735,6 +757,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -683.2399253845215,
 		"fy": 896.5014925003052,
 		"connections": [
@@ -761,6 +784,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1040.285945892334,
 		"fy": 1017.8114595413208,
 		"connections": [
@@ -787,6 +811,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -689.7693138122559,
 		"fy": 1029.1249055862427,
 		"connections": [
@@ -813,6 +838,7 @@
 		"metadata": "display, pixel, screen, touch, flickering, blink",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -899.4611015319824,
 		"fy": 172.64950275421143,
 		"connections": [
@@ -852,6 +878,7 @@
 		"metadata": "button, press",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -725.1679801940918,
 		"fy": 182.05355548858643,
 		"connections": [
@@ -878,6 +905,7 @@
 		"metadata": "port, slot, micro, usb",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -562.2521476745605,
 		"fy": 182.02607440948486,
 		"connections": [
@@ -904,6 +932,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -619.1233940124512,
 		"fy": 354.5851106643677,
 		"connections": [
@@ -943,6 +972,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -651.427562713623,
 		"fy": 531.5750093460083,
 		"connections": [
@@ -969,6 +999,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -479.94990158081055,
 		"fy": 520.7623567581177,
 		"connections": [
@@ -995,6 +1026,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -478.1418113708496,
 		"fy": 703.4793367385864,
 		"connections": [
@@ -1021,6 +1053,7 @@
 		"metadata": "plastic, lanyard, rattling, noise",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -396.5908012390137,
 		"fy": 192.49116230010986,
 		"connections": [
@@ -1042,11 +1075,12 @@
 	{
 		"id": 49,
 		"text": "Wallet interface/Service",
-		"slug": "wallet-interface/service",
+		"slug": "wallet-interface-service",
 		"content": "<p>Please select the corresponding interface/service you have problem with.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2969.7375564575195,
 		"fy": -357.3996901512146,
 		"connections": [
@@ -1099,6 +1133,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4218.8475341796875,
 		"fy": -311.2768279314041,
 		"connections": [
@@ -1138,6 +1173,7 @@
 		"metadata": "wallet, interface, service",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2800.0455932617188,
 		"fy": -199.8627905845642,
 		"connections": [
@@ -1164,6 +1200,7 @@
 		"metadata": "password, tpm, manager",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2971.0976791381836,
 		"fy": -200.31218099594116,
 		"connections": [
@@ -1216,6 +1253,7 @@
 		"metadata": "tool, app",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3485.840003967285,
 		"fy": -188.17404699325562,
 		"connections": [
@@ -1268,6 +1306,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2627.771644592285,
 		"fy": -50.44392538070679,
 		"connections": [
@@ -1320,6 +1359,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1236.411286830902,
 		"fy": 552.7771897315979,
 		"connections": [
@@ -1359,6 +1399,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4832.253929138184,
 		"fy": 502.8057541847229,
 		"connections": [
@@ -1411,6 +1452,7 @@
 		"metadata": "transaction, balance, fund, tx, amount, money",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2453.637580871582,
 		"fy": 517.797239780426,
 		"connections": [
@@ -1444,12 +1486,13 @@
 	},
 	{
 		"id": 58,
-		"text": "Can Not Use The Trezor Wallet interface",
-		"slug": "can-not-use-the-trezor-wallet-interface",
+		"text": "Cannot Use The Trezor Wallet interface",
+		"slug": "cannot-use-the-trezor-wallet-interface",
 		"content": "<p>Please provide details to your issue, by clicking on section that describes the problem, so we can direct you to the appropriate suggestions that may solve your situation.&nbsp;</p>",
 		"metadata": "cannot use, cant, can't",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 452.39663219451904,
 		"fy": 704.4736618995667,
 		"connections": [
@@ -1502,6 +1545,7 @@
 		"metadata": "glitch, rate, graph, dialog, field",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1238.2118949890137,
 		"fy": 693.5511155128479,
 		"connections": [
@@ -1554,6 +1598,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2453.263771057129,
 		"fy": 686.4208054542542,
 		"connections": [
@@ -1606,6 +1651,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3194.8051223754883,
 		"fy": 708.6033005714417,
 		"connections": [
@@ -1645,6 +1691,7 @@
 		"metadata": "connect, detect, recognize, disconnected",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 30.577978134155273,
 		"fy": 846.8642258644104,
 		"connections": [
@@ -1710,6 +1757,7 @@
 		"metadata": "freeze, random, stop",
 		"notes": "",
 		"nosearch": "",
+		"color": "#1e7ff0",
 		"fx": 860.5622692108154,
 		"fy": 879.0307297706604,
 		"connections": [
@@ -1730,12 +1778,13 @@
 	},
 	{
 		"id": 64,
-		"text": "Can Not Access Accounts",
-		"slug": "can-not-access-accounts",
+		"text": "Cannot Access Accounts",
+		"slug": "cannot-access-accounts",
 		"content": "<p>Please select the option that matches your problem.</p>",
 		"metadata": "access, account, enter, stuck",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 452.13817834854126,
 		"fy": 857.7590622901917,
 		"connections": [
@@ -1788,6 +1837,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -335.29077219963074,
 		"fy": 986.4183030128479,
 		"connections": [
@@ -1827,6 +1877,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -75.21896922588348,
 		"fy": 981.6462693214417,
 		"connections": [
@@ -1866,6 +1917,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 93.41487073898315,
 		"fy": 987.5367722511292,
 		"connections": [
@@ -1886,12 +1938,13 @@
 	},
 	{
 		"id": 68,
-		"text": "Description Of The issue",
-		"slug": "description-of-the-issue-2",
+		"text": "Description Of The issue - Driver",
+		"slug": "description-of-the-issue-driver",
 		"content": "<p>Windows sometimes regards Trezor as a new device after the firmware procedure and the drivers do not update automatically.</p>\n<p><strong>The driver is provided by Windows itself as Trezor is the standard USB device. There is no specific driver to download.</strong></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -426.42177653312683,
 		"fy": 1191.851408481598,
 		"connections": [
@@ -1918,6 +1971,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#1e7ff0",
 		"fx": -237.06245995675297,
 		"fy": 1190.0085273527638,
 		"connections": [
@@ -1938,12 +1992,13 @@
 	},
 	{
 		"id": 70,
-		"text": "Possible Solution",
-		"slug": "possible-solution-2",
+		"text": "Possible Solution - Driver",
+		"slug": "possible-solution-driver",
 		"content": "<p>Please open the “<em>Device Manager</em>” (click <a href=\"https://www.wikihow.com/Open-Device-Manager-in-Windows\">here</a> to show the details how to do it) while your Trezor device is plugged into the computer, <strong>search for the unrecognized driver</strong> (icon with a yellow triangle with \"!\" mark inside), click on the item with the right mouse button and choose \"<em>update drivers</em>\".</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -422.463082075119,
 		"fy": 1329.4694504737854,
 		"connections": [
@@ -1965,11 +2020,12 @@
 	{
 		"id": 71,
 		"text": "Tips How To Locate/Update The Needed Driver",
-		"slug": "tips-how-to-locate/update-the-needed-driver",
+		"slug": "tips-how-to-locate-update-the-needed-driver",
 		"content": "<p>1. The necessary driver can be usually found in \"<em>Universal Serial Bus controllers</em>\" section, under the name \"<em>USB composite device</em>\". In other cases, you can also find the necessary driver in \"<em>Human Interface devices</em>\".&nbsp;</p>\n<p>2. If you are not sure which driver to update<strong>,</strong> you can try to <strong>unplug and plug</strong> in your Trezor again, to see if there are some changes in the current section of the \"<em>Device Manager</em>\". <strong>Deleting</strong> the needed driver can also do the trick, as the system will update the driver automatically after you restart the computer.</p>",
 		"metadata": "driver, drivers",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -425.69219279289246,
 		"fy": 1492.8188157081604,
 		"connections": [
@@ -1990,12 +2046,13 @@
 	},
 	{
 		"id": 73,
-		"text": "Basic Troubleshooting USB cable",
+		"text": "Basic Troubleshooting - USB Cable",
 		"slug": "basic-troubleshooting-usb-cable-3",
 		"content": "<p>Please try to use your device with <strong>several different USB cables</strong> (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>\n<p>Trezor Model One uses Micro-USB to USB cable.</p>\n<p>Trezor Model T uses USB-C to USB cable.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#1e7ff0",
 		"fx": -57.839571714401245,
 		"fy": 1188.503508090973,
 		"connections": [
@@ -2016,12 +2073,13 @@
 	},
 	{
 		"id": 74,
-		"text": "Basic Troubleshooting USB Cable",
+		"text": "Basic Troubleshooting - USB Cable",
 		"slug": "basic-troubleshooting-usb-cable-4",
-		"content": "<p>Please try to use your device with <strong>several different USB cables</strong> (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>\n<p>Trezor Model One uses Micro-USB to USB cable.</p>\n<p>Trezor Model T uses USB-C to USB cable</p>",
+		"content": "<p>Please try to use your device with<strong> different USB cables</strong> (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>\n<p>Trezor Model One uses Micro-USB to USB cable.</p>\n<p>Trezor Model T uses USB-C to USB cable.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#1e7ff0",
 		"fx": 102.08010482788086,
 		"fy": 1191.6219773292542,
 		"connections": [
@@ -2048,6 +2106,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -238.22211599349976,
 		"fy": 1339.465910434723,
 		"connections": [
@@ -2082,11 +2141,12 @@
 	{
 		"id": 76,
 		"text": "Basic Troubleshooting - Computer/Configuration",
-		"slug": "basic-troubleshooting-computer/configuration-1",
+		"slug": "basic-troubleshooting-computer-configuration-1",
 		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -209.52460622787476,
 		"fy": 1756.308195590973,
 		"connections": [
@@ -2113,6 +2173,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -236.33593893051147,
 		"fy": 1902.665861606598,
 		"connections": [
@@ -2152,6 +2213,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -353.93348836898804,
 		"fy": 2061.2961106300354,
 		"connections": [
@@ -2178,6 +2240,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -179.27946996688843,
 		"fy": 2048.326017856598,
 		"connections": [
@@ -2204,6 +2267,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -182.06365728378296,
 		"fy": 2172.6581711769104,
 		"connections": [
@@ -2230,6 +2294,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -241.96693563461304,
 		"fy": 1478.8298020362854,
 		"connections": [
@@ -2256,6 +2321,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -90.60894536972046,
 		"fy": 1612.039640903473,
 		"connections": [
@@ -2282,6 +2348,7 @@
 		"metadata": "loading",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 251.62224817276,
 		"fy": 1000.4627976417542,
 		"connections": [
@@ -2303,11 +2370,12 @@
 	{
 		"id": 217,
 		"text": "Wrong PIN/Passphrase",
-		"slug": "wrong-pin/passphrase",
+		"slug": "wrong-pin-passphrase",
 		"content": "<p>Please select the type of your issue.</p>",
 		"metadata": "wrong, pin, passphrase",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 454.0574288368225,
 		"fy": 1005.6883225440979,
 		"connections": [
@@ -2347,6 +2415,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 659.9613900184631,
 		"fy": 998.5693650245667,
 		"connections": [
@@ -2386,6 +2455,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 268.4949746131897,
 		"fy": 1206.1530442237854,
 		"connections": [
@@ -2412,6 +2482,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 265.3000283241272,
 		"fy": 1345.7985520362854,
 		"connections": [
@@ -2438,6 +2509,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 265.418879032135,
 		"fy": 1483.109465122223,
 		"connections": [
@@ -2472,11 +2544,12 @@
 	{
 		"id": 222,
 		"text": "Basic Troubleshooting - Blocking by Antivirus/Browser Extensions",
-		"slug": "basic-troubleshooting-blocking-by-antivirus/browser-extensions",
+		"slug": "basic-troubleshooting-blocking-by-antivirus-browser-extensions",
 		"content": "<p>Some antiviruses, firewalls, add-ons (especially Privacy Badger or Ghostery) or VPN programs can interfere with this process.</p>\n<p>Please verify those possibilities by turning off or changing the privacy settings in the respective software.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 266.47501611709595,
 		"fy": 1636.2018723487854,
 		"connections": [
@@ -2503,6 +2576,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 267.9016366004944,
 		"fy": 1773.2104172706604,
 		"connections": [
@@ -2529,6 +2603,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 281.6632180213928,
 		"fy": 1906.0695481300354,
 		"connections": [
@@ -2555,6 +2630,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 289.2573342323303,
 		"fy": 2064.668547153473,
 		"connections": [
@@ -2589,11 +2665,12 @@
 	{
 		"id": 226,
 		"text": "Suggestion #1",
-		"slug": "suggestion-#1",
+		"slug": "suggestion-1",
 		"content": "<p><u>In case you are not able to load your accounts at all, there are a few suggestions how to access them.</u></p>\n<p><strong>Suggestion #1:</strong></p>\n<p>Please try to use your Trezor device with Electrum wallet. Here is a <a href=\"https://wiki.trezor.io/Apps:Electrum\">guide</a> how to use it with our product.</p>\n<p>If you were able to access your accounts, you should optimize them according to the advice included in this <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">article</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 220.22217798233032,
 		"fy": 2178.1913743019104,
 		"connections": [
@@ -2615,11 +2692,12 @@
 	{
 		"id": 228,
 		"text": "Suggestion #2",
-		"slug": "suggestion-#2",
+		"slug": "suggestion-2",
 		"content": "<p><strong>Suggestion #2:</strong></p>\n<p><strong>Please proceed only in emergency situations. Providing your recovery seed may compromise the whole security of your wallet and put your funds at risk.</strong></p>\n<p>Please try to restore your accounts with the <a href=\"https://wiki.trezor.io/Recovery_seed\">recovery seed</a> directly in Electrum wallet.&nbsp;</p>\n<p>If you were able to access your accounts, you should immediately transfer your funds to the new wallet on your Trezor device according to the advice included in <a href=\"https://wiki.trezor.io/Apps:Electrum\">this</a> article.</p>\n<p>The procedure should be performed with these steps:</p>\n<p>1. <a href=\"https://wiki.trezor.io/User_manual:Wiping_the_Trezor_device\">Wipe</a> your Trezor device</p>\n<p>2. Create the new wallet and write down the new recovery seed &amp; “Create new wallet”.</p>\n<p>3. <a href=\"https://wiki.trezor.io/index.php?title=User+manual%3AReceiving+payments&amp;ModelType=1\">Transfer</a> the funds back to the safety of Trezor device and optimize your accounts according to this <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">article</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 223.30866479873657,
 		"fy": 2293.9679856300354,
 		"connections": [
@@ -2646,6 +2724,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 284.6587166786194,
 		"fy": 2408.9318528175354,
 		"connections": [
@@ -2672,6 +2751,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": 402.9312996864319,
 		"fy": 1178.6457200050354,
 		"connections": [
@@ -2693,11 +2773,12 @@
 	{
 		"id": 232,
 		"text": "Possible Solution",
-		"slug": "possible-solution-3",
+		"slug": "possible-solution",
 		"content": "<p>If you have the correct <a href=\"https://wiki.trezor.io/Recovery_seed\">Recovery Seed</a>, you do not need to worry. There is a way how to set a new PIN by wiping your Trezor device. Your Trezor device will be also wiped after the 16th failed attempt of entering the PIN.</p>\n<p>If you have already some funds stored there, you can restore your whole wallet with the corresponding recovery seed.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 425.25838708877563,
 		"fy": 1315.9286789894104,
 		"connections": [
@@ -2724,6 +2805,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 434.06539392471313,
 		"fy": 1485.2685227394104,
 		"connections": []
@@ -2736,6 +2818,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 660.7498421669006,
 		"fy": 1207.0819382667542,
 		"connections": []
@@ -2743,11 +2826,12 @@
 	{
 		"id": 235,
 		"text": "Basic Troubleshooting - Computer/Configuration",
-		"slug": "basic-troubleshooting-computer/configuration-2",
+		"slug": "basic-troubleshooting-computer-configuration-2",
 		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 859.4645519256592,
 		"fy": 1021.3996872901917,
 		"connections": [
@@ -2774,6 +2858,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 857.0109386444092,
 		"fy": 1192.8067917823792,
 		"connections": [
@@ -2813,6 +2898,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 781.2054576873779,
 		"fy": 1317.8940720558167,
 		"connections": [
@@ -2839,6 +2925,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 950.3574962615967,
 		"fy": 1324.4784226417542,
 		"connections": [
@@ -2865,6 +2952,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 952.2769908905029,
 		"fy": 1470.6340622901917,
 		"connections": [
@@ -2891,6 +2979,7 @@
 		"metadata": "labeling",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1094.9676933288574,
 		"fy": 894.2712082862854,
 		"connections": [
@@ -2917,6 +3006,7 @@
 		"metadata": "homescreen",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1256.9523735046387,
 		"fy": 884.4719529151917,
 		"connections": []
@@ -2924,11 +3014,12 @@
 	{
 		"id": 242,
 		"text": "Basic Troubleshooting Incognito/Cache",
-		"slug": "basic-troubleshooting-incognito/cache",
+		"slug": "basic-troubleshooting-incognito-cache",
 		"content": "<p>Please clear your browser cache or try to run it in incognito (private) mode.&nbsp;</p>\n<p>Here are some links describing how to clear the cache of your browser.</p>\n<p><a href=\"https://support.google.com/accounts/answer/9098093?co=GENIE.Platform=Desktop&amp;hl=en&amp;visit_id=636838448994624638-3619277477&amp;rd=1\"><em>Google Chrome</em></a></p>\n<p><a href=\"https://support.mozilla.org/en-US/kb/how-clear-firefox-cache\"><em>Mozzila Firefox</em></a><em>&nbsp;</em></p>\n<p>Here are some links describing how to use incognito (private) mode</p>\n<p><a href=\"https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=en\"><em>Google Chrome</em></a></p>\n<p><a href=\"https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history\"><em>Mozzila Firefox</em></a></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1419.7248344421387,
 		"fy": 885.7270798683167,
 		"connections": [
@@ -2955,6 +3046,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1090.946575164795,
 		"fy": 1046.281828403473,
 		"connections": [
@@ -2981,6 +3073,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1094.8058280944824,
 		"fy": 1195.139982700348,
 		"connections": [
@@ -3007,6 +3100,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1100.2413749694824,
 		"fy": 1325.085295200348,
 		"connections": [
@@ -3033,6 +3127,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1418.8558158874512,
 		"fy": 1020.4009079933167,
 		"connections": [
@@ -3059,6 +3154,7 @@
 		"metadata": "receiving, receive",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2166.5158462524414,
 		"fy": 851.8559861183167,
 		"connections": [
@@ -3124,6 +3220,7 @@
 		"metadata": "missing, hack, non-authorized",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2557.626564025879,
 		"fy": 869.8063035011292,
 		"connections": [
@@ -3150,6 +3247,7 @@
 		"metadata": "send, create",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2789.8674087524414,
 		"fy": 864.9070115089417,
 		"connections": [
@@ -3189,6 +3287,7 @@
 		"metadata": "confirmed",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1801.3156509399414,
 		"fy": 1045.1125168800354,
 		"connections": [
@@ -3228,6 +3327,7 @@
 		"metadata": "unconfirmed",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2026.5287857055664,
 		"fy": 1028.6749558448792,
 		"connections": [
@@ -3267,6 +3367,7 @@
 		"metadata": "not visible",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2249.9054946899414,
 		"fy": 1048.9316086769104,
 		"connections": [
@@ -3319,6 +3420,7 @@
 		"metadata": "crosschain",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2434.437843322754,
 		"fy": 1038.5145554542542,
 		"connections": []
@@ -3331,6 +3433,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1611.2280044555664,
 		"fy": 1183.8656296730042,
 		"connections": [
@@ -3370,6 +3473,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1785.3249282836914,
 		"fy": 1199.542082309723,
 		"connections": []
@@ -3382,6 +3486,7 @@
 		"metadata": "disconnected",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1427.7231216430664,
 		"fy": 1333.2073044776917,
 		"connections": [
@@ -3421,6 +3526,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1433.907569885254,
 		"fy": 1471.2347702980042,
 		"connections": [
@@ -3460,6 +3566,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1331.914161682129,
 		"fy": 1624.5172410011292,
 		"connections": [
@@ -3486,6 +3593,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1508.269874572754,
 		"fy": 1617.5342087745667,
 		"connections": [
@@ -3512,6 +3620,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1329.9589614868164,
 		"fy": 1769.2099900245667,
 		"connections": [
@@ -3538,6 +3647,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1623.516212463379,
 		"fy": 1334.0504441261292,
 		"connections": [
@@ -3577,6 +3687,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1615.0971450805664,
 		"fy": 1489.6006150245667,
 		"connections": [
@@ -3616,6 +3727,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1950.5785903930664,
 		"fy": 1197.2656540870667,
 		"connections": []
@@ -3623,11 +3735,12 @@
 	{
 		"id": 265,
 		"text": "The Time Limit For Confirming/Returning The Transaction",
-		"slug": "the-time-limit-for-confirming/returning-the-transaction",
+		"slug": "the-time-limit-for-confirming-returning-the-transaction",
 		"content": "<p>It depends on the rules for the respective network (blockchain) for the particular cryptocurrency and how big is the <a href=\"https://wiki.trezor.io/Mempool\">Mempool</a> of unconfirmed transactions in this network.</p>\n<p>Example: There may be some tools that will let you know what is the status of the mempool, such as this <a href=\"https://jochen-hoenicke.de/queue/#1,24h\">one</a>.</p>\n<p>In short, the transactions wait in the mempool to be “picked up” by miners. When the network is overwhelmed, the miners will prioritize the transactions with higher fees.</p>\n<p>In such situations, the transaction can be confirmed and included into the next block or canceled by the network.</p>\n<p>Example: It may take up to 14 days until the transaction is deemed as invalid by the Bitcoin network (other cryptocurrencies may have a different rules).</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2117.582862854004,
 		"fy": 1183.8458542823792,
 		"connections": []
@@ -3640,6 +3753,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 2593.494972229004,
 		"fy": 1032.506193637848,
 		"connections": [
@@ -3666,6 +3780,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2752.4196548461914,
 		"fy": 1039.128752231598,
 		"connections": [
@@ -3692,6 +3807,7 @@
 		"metadata": "transaction",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3026.5907974243164,
 		"fy": 1047.300871372223,
 		"connections": [
@@ -3712,24 +3828,26 @@
 	},
 	{
 		"id": 270,
-		"text": "Unable to Create a Transaction - Possible Solution",
-		"slug": "unable-to-create-a-transaction-possible-solution",
+		"text": "Unable to Create a Transaction - Possible Solution Optimize",
+		"slug": "unable-to-create-a-transaction-possible-solution-optimize",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please divide your transaction into smaller parts, until Trezor device is able to send your transaction.</p>\n<p>It is also good to take a look at this <a href=\"https://blog.trezor.io/solution-to-slow-loading-optimize-your-accounts-4ab5a00f12fe\">article</a>, to optimize your accounts and prevent such problems in the future.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2750.7079849243164,
 		"fy": 1195.4823899269104,
 		"connections": []
 	},
 	{
 		"id": 271,
-		"text": "Unable to Create a Transaction - Possible Solution",
-		"slug": "unable-to-create-a-transaction-possible-solution-1",
+		"text": "Unable to Create a Transaction - Possible Solution Transcation",
+		"slug": "unable-to-create-a-transaction-possible-solution-transcation",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please follow the instructions how to create the <a href=\"https://wiki.trezor.io/User_manual:Making_payments\">transaction</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2910.1474380493164,
 		"fy": 1198.2316575050354,
 		"connections": [
@@ -3756,6 +3874,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2908.4362564086914,
 		"fy": 1320.5922532081604,
 		"connections": [
@@ -3795,6 +3914,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3002.0038833618164,
 		"fy": 1478.488371372223,
 		"connections": [
@@ -3834,6 +3954,7 @@
 		"metadata": "zero, empty, no funds, missing, wrong, incorrect",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3400.2763137817383,
 		"fy": 852.2788376808167,
 		"connections": [
@@ -3899,6 +4020,7 @@
 		"metadata": "claim, fork",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3631.0392532348633,
 		"fy": 853.6284470558167,
 		"connections": []
@@ -3911,6 +4033,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3184.4965286254883,
 		"fy": 1046.7430710792542,
 		"connections": [
@@ -3950,6 +4073,7 @@
 		"metadata": "passphrase",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3346.4350051879883,
 		"fy": 1037.2965378761292,
 		"connections": [
@@ -3976,6 +4100,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3513.7716751098633,
 		"fy": 1048.0924363136292,
 		"connections": [
@@ -4002,6 +4127,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3677.7340774536133,
 		"fy": 1026.4994187355042,
 		"connections": [
@@ -4041,6 +4167,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 3504.4635696411133,
 		"fy": 1181.8297410011292,
 		"connections": [
@@ -4067,6 +4194,7 @@
 		"metadata": "setup, initialization, start",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4008.3830795288086,
 		"fy": 698.3486618995667,
 		"connections": [
@@ -4119,6 +4247,7 @@
 		"metadata": "bridge, firmware, update, upgrade",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4831.710960388184,
 		"fy": 660.2187790870667,
 		"connections": [
@@ -4158,6 +4287,7 @@
 		"metadata": "recovery, restore",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 5227.644065856934,
 		"fy": 662.5054001808167,
 		"connections": [
@@ -4197,6 +4327,7 @@
 		"metadata": "seed, incomplete, interrupted, backup",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3797.9780502319336,
 		"fy": 854.7061448097229,
 		"connections": []
@@ -4209,6 +4340,7 @@
 		"metadata": "firmware, update, error",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3956.6850814819336,
 		"fy": 856.0213303565979,
 		"connections": [
@@ -4242,12 +4374,13 @@
 	},
 	{
 		"id": 290,
-		"text": "Can Not Download/Install Trezor Bridge",
-		"slug": "can-not-download/install-trezor-bridge",
+		"text": "Cannot Download/Install Trezor Bridge",
+		"slug": "cannot-download-install-trezor-bridge",
 		"content": "<p>What problem do you need to be resolved?</p>",
 		"metadata": "bridge, download, virus, mac",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4342.789329528809,
 		"fy": 865.9707932472229,
 		"connections": [
@@ -4313,6 +4446,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3849.4734115600586,
 		"fy": 1045.0387253761292,
 		"connections": [
@@ -4339,6 +4473,7 @@
 		"metadata": "claim, fork, hardfork, split",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4033.1548080444336,
 		"fy": 1028.5112595558167,
 		"connections": [
@@ -4365,6 +4500,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3848.2502670288086,
 		"fy": 1213.870451450348,
 		"connections": [
@@ -4391,6 +4527,7 @@
 		"metadata": "freeze, random, stop",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3845.0791149139404,
 		"fy": 1324.347502231598,
 		"connections": [
@@ -4412,11 +4549,12 @@
 	{
 		"id": 296,
 		"text": "Basic Troubleshooting (Computer/Configuration)",
-		"slug": "basic-troubleshooting-computer/configuration-3",
+		"slug": "basic-troubleshooting-computer-configuration-3",
 		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3843.8819103240967,
 		"fy": 1464.1354050636292,
 		"connections": [
@@ -4443,6 +4581,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3840.6157970428467,
 		"fy": 1603.2002243995667,
 		"connections": [
@@ -4482,6 +4621,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 3750.3130016326904,
 		"fy": 1747.8316941261292,
 		"connections": [
@@ -4508,6 +4648,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 3923.4673595428467,
 		"fy": 1725.2386765480042,
 		"connections": [
@@ -4534,6 +4675,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 3926.771619796753,
 		"fy": 1906.0378708839417,
 		"connections": [
@@ -4560,6 +4702,7 @@
 		"metadata": "dry run, check, ",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4027.7622299194336,
 		"fy": 1191.4320359230042,
 		"connections": [
@@ -4586,6 +4729,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4194.252220153809,
 		"fy": 1054.059904575348,
 		"connections": [
@@ -4612,6 +4756,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4510.428977966309,
 		"fy": 1046.1948533058167,
 		"connections": [
@@ -4638,6 +4783,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4351.553977966309,
 		"fy": 1033.6106247901917,
 		"connections": []
@@ -4650,6 +4796,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": 4686.607688903809,
 		"fy": 1057.2057175636292,
 		"connections": []
@@ -4662,6 +4809,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 4193.579368591309,
 		"fy": 1183.9471726417542,
 		"connections": [
@@ -4688,6 +4836,7 @@
 		"metadata": "unidentified",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4511.329368591309,
 		"fy": 1201.2502732276917,
 		"connections": []
@@ -4700,6 +4849,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4919.310081481934,
 		"fy": 858.5826096534729,
 		"connections": [
@@ -4765,6 +4915,7 @@
 		"metadata": "firmware",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4844.779808044434,
 		"fy": 1045.800383090973,
 		"connections": [
@@ -4791,6 +4942,7 @@
 		"metadata": "fingerprint",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 5012.144554138184,
 		"fy": 1049.0223679542542,
 		"connections": []
@@ -4803,6 +4955,7 @@
 		"metadata": "1.3.0,",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4845.789573669434,
 		"fy": 1178.4220871925354,
 		"connections": [
@@ -4842,6 +4995,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4702.390159606934,
 		"fy": 1313.430754184723,
 		"connections": [
@@ -4868,6 +5022,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": 4701.000999450684,
 		"fy": 1464.125578403473,
 		"connections": [
@@ -4894,6 +5049,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4785.269065856934,
 		"fy": 1583.3542160987854,
 		"connections": [
@@ -4915,11 +5071,12 @@
 	{
 		"id": 317,
 		"text": "Basic Troubleshooting (Computer/Configuration)",
-		"slug": "basic-troubleshooting-computer/configuration-4",
+		"slug": "basic-troubleshooting-computer-configuration-4",
 		"content": "<p>Please try your device with a different computer. The problem may be in your actual configuration (faulty USB ports). Checking this option is recommended.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4785.626976013184,
 		"fy": 1723.560636997223,
 		"connections": [
@@ -4946,6 +5103,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4791.230003356934,
 		"fy": 1856.7743821144104,
 		"connections": [
@@ -4979,12 +5137,13 @@
 	},
 	{
 		"id": 319,
-		"text": "RMA Can Not Update Firmware Form",
-		"slug": "rma-can-not-update-firmware-form",
+		"text": "RMA Cannot Update Firmware Form",
+		"slug": "rma-cannot-update-firmware-form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 4615.031272888184,
 		"fy": 2009.2167649269104,
 		"connections": [
@@ -5011,6 +5170,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 4787.398948669434,
 		"fy": 1986.790861606598,
 		"connections": [
@@ -5031,12 +5191,13 @@
 	},
 	{
 		"id": 321,
-		"text": "RMA Reseller Can not Update Firmware Form",
-		"slug": "rma-reseller-can-not-update-firmware-form",
+		"text": "RMA Reseller Cannot Update Firmware Form",
+		"slug": "rma-reseller-cannot-update-firmware-form",
 		"content": "<p>We are sorry for the inconvenience, please send us a message including the details about the issue and our Support Team will answer in a timely manner (please take a look at our responsivity policy).</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 4784.954124450684,
 		"fy": 2138.9350266456604,
 		"connections": [
@@ -5063,6 +5224,7 @@
 		"metadata": "recovery",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 5169.919456481934,
 		"fy": 846.0987839698792,
 		"connections": [
@@ -5089,6 +5251,7 @@
 		"metadata": "dryrun, search slovo podle dotyčné chybové hlášky",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 5330.436546325684,
 		"fy": 843.3346238136292,
 		"connections": [
@@ -5115,6 +5278,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 5174.007347106934,
 		"fy": 1062.2585740089417,
 		"connections": []
@@ -5127,6 +5291,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 5336.656272888184,
 		"fy": 1048.8375535011292,
 		"connections": []
@@ -5139,6 +5304,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2806.8427963256836,
 		"fy": -29.983346462249756,
 		"connections": [
@@ -5178,6 +5344,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 3169.8698959350586,
 		"fy": -50.4581618309021,
 		"connections": []
@@ -5190,6 +5357,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2997.4856185913086,
 		"fy": -29.488999843597412,
 		"connections": [
@@ -5224,11 +5392,12 @@
 	{
 		"id": 329,
 		"text": "Suggestion #1",
-		"slug": "suggestion-#1-1",
+		"slug": "suggestion-1-1",
 		"content": "<p>We will try a series of steps that can resolve your problem.</p>\n<p><strong>Please try to restart your The Password Manager.</strong></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2807.1677474975586,
 		"fy": 73.22547388076782,
 		"connections": [
@@ -5250,11 +5419,12 @@
 	{
 		"id": 330,
 		"text": "Suggestion #2",
-		"slug": "suggestion-#2-1",
+		"slug": "suggestion-2-1",
 		"content": "<p>Please check the version of your <a href=\"https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk\">Trezor Password Manager</a>.</p>\n<p>If you use an older version, please download the newest one and disable the older one.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2807.6950912475586,
 		"fy": 167.5929398536682,
 		"connections": [
@@ -5276,11 +5446,12 @@
 	{
 		"id": 331,
 		"text": "Suggestion #3",
-		"slug": "suggestion-#3",
+		"slug": "suggestion-3",
 		"content": "<p>Please check the storing capacity of the service (Google Drive or Dropbox) you use and make some room if it is full.</p>\n<p><a href=\"https://drive.google.com/settings/storage\"><em>Google Drive</em></a></p>\n<p><a href=\"https://www.dropbox.com/help/space/account-space-left\"><em>Dropbox</em></a></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2807.4023666381836,
 		"fy": 251.6644425392151,
 		"connections": [
@@ -5302,11 +5473,12 @@
 	{
 		"id": 332,
 		"text": "Suggestion #4",
-		"slug": "suggestion-#4",
+		"slug": "suggestion-4",
 		"content": "<p>Please try to connect your Trezor device with a different service (if you are using Google Drive, try Dropbox and vice versa).</p>\n<p>More details can be found <a href=\"https://wiki.trezor.io/Password_manager\">here</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2810.4221420288086,
 		"fy": 340.85293436050415,
 		"connections": [
@@ -5328,11 +5500,12 @@
 	{
 		"id": 333,
 		"text": "Basic Troubleshooting - Computer/Configuration",
-		"slug": "basic-troubleshooting-computer/configuration-5",
+		"slug": "basic-troubleshooting-computer-configuration-5",
 		"content": "<p>Please try your device also with a different computer to see if &nbsp;the issue is not specific to your configuration.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2813.1950912475586,
 		"fy": 456.9297471046448,
 		"connections": [
@@ -5359,6 +5532,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 2814.0915756225586,
 		"fy": 594.1501450538635,
 		"connections": [
@@ -5385,6 +5559,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2994.5488510131836,
 		"fy": 93.5640549659729,
 		"connections": [
@@ -5424,6 +5599,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3162.9450912475586,
 		"fy": 103.03343057632446,
 		"connections": [
@@ -5450,6 +5626,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3145.1098861694336,
 		"fy": 396.65927743911743,
 		"connections": []
@@ -5462,6 +5639,7 @@
 		"metadata": "android, otg, mobile, tablet, manager",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3341.42716217041,
 		"fy": -49.16004705429077,
 		"connections": [
@@ -5488,6 +5666,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3668.389808654785,
 		"fy": -31.740779876708984,
 		"connections": []
@@ -5500,6 +5679,7 @@
 		"metadata": "device, python, tool, terminal, command",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3497.897132873535,
 		"fy": -46.35411214828491,
 		"connections": []
@@ -5512,6 +5692,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3340.31339263916,
 		"fy": 99.70211267471313,
 		"connections": [
@@ -5538,6 +5719,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3343.185218811035,
 		"fy": 232.7714409828186,
 		"connections": [
@@ -5559,11 +5741,12 @@
 	{
 		"id": 343,
 		"text": "Basic troubleshooting OTG cable - Suggestion #1",
-		"slug": "basic-troubleshooting-otg-cable-suggestion-#1",
+		"slug": "basic-troubleshooting-otg-cable-suggestion-1",
 		"content": "<p>Please verify if your <a href=\"https://wiki.trezor.io/OTG_cable\">OTG cable</a> is connected correctly.&nbsp;</p>\n<p>The OTG cable should be plugged in with the correct end, so please try switching the sides.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3341.04093170166,
 		"fy": 369.52211236953735,
 		"connections": [
@@ -5585,11 +5768,12 @@
 	{
 		"id": 344,
 		"text": "Basic troubleshooting OTG cable - Suggestion#2",
-		"slug": "basic-troubleshooting-otg-cable-suggestion#2",
+		"slug": "basic-troubleshooting-otg-cable-suggestion2",
 		"content": "<p>Please verify if your OTG cable is not faulty.</p>\n<p>You can test it by trying to transfer some data via this cable. If it is not possible, the cable is probably defective.</p>\n<p>We recommend trying your Trezor device with a different OTG cable (preferably more cables).</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3345.503578186035,
 		"fy": 506.68141412734985,
 		"connections": [
@@ -5616,6 +5800,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3532.20108795166,
 		"fy": 505.0768609046936,
 		"connections": [
@@ -5655,6 +5840,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3589.623207092285,
 		"fy": 662.5079522132874,
 		"connections": []
@@ -5667,6 +5853,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4098.3192138671875,
 		"fy": -189.58447563648224,
 		"connections": [
@@ -5727,11 +5914,12 @@
 	{
 		"id": 348,
 		"text": "Integration Of The New App/Service",
-		"slug": "integration-of-the-new-app/service",
+		"slug": "integration-of-the-new-app-service",
 		"content": "<p>If the service or software that you want to use with your Trezor was not found in the list of compatible third-party products, you need to contact the developers of that product and ask them to start the integration procedure with us.</p>\n<p>In case you are a developer yourself, please take a look <a href=\"https://github.com/trezor\">here</a> and start the necessary steps yourself.</p>\n<p>If your product is interesting, we will surely provide more assistance.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4544.7957763671875,
 		"fy": -154.0195266008377,
 		"connections": []
@@ -5744,6 +5932,7 @@
 		"metadata": "mew, mycrypto, myetherwallet",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 3832.9854736328125,
 		"fy": -20.50325119495392,
 		"connections": [
@@ -5783,6 +5972,7 @@
 		"metadata": "electrum",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4008.3455810546875,
 		"fy": -16.517809987068176,
 		"connections": [
@@ -5822,6 +6012,7 @@
 		"metadata": "mycelium",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4171.7493896484375,
 		"fy": -15.189324498176575,
 		"connections": [
@@ -5861,6 +6052,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4344.4525146484375,
 		"fy": -13.860830426216125,
 		"connections": [
@@ -5900,6 +6092,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 4080.4471435546875,
 		"fy": 169.83374106884003,
 		"connections": []
@@ -5912,12 +6105,13 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": -1158.4979209899902,
 		"fy": 570.2982149124146,
 		"connections": [
 			{
-				"target": 31,
-				"title": "The issue occurred right after performing the firmware update",
+				"target": 32,
+				"title": "The firmware update was not performed right before this issue",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -5929,8 +6123,8 @@
 				}
 			},
 			{
-				"target": 32,
-				"title": "The firmware update was not performed right before this issue",
+				"target": 31,
+				"title": "The issue occurred right after performing the firmware update",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -5951,6 +6145,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": -947.1866732247952,
 		"fy": 371.56798680843167,
 		"connections": [
@@ -5990,6 +6185,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": -785.1176181869195,
 		"fy": 374.4010234052493,
 		"connections": [
@@ -6016,6 +6212,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1202.9149498745965,
 		"fy": 1007.0373172548865,
 		"connections": []
@@ -6028,6 +6225,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1042.6350254732022,
 		"fy": 1124.2388085757987,
 		"connections": []
@@ -6040,6 +6238,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -856.1443394252232,
 		"fy": 1013.4939152644232,
 		"connections": []
@@ -6052,6 +6251,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -692.7891519365519,
 		"fy": 1140.1890535006557,
 		"connections": []
@@ -6064,6 +6264,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -655.8076116388494,
 		"fy": 682.0115744850851,
 		"connections": []
@@ -6076,6 +6277,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -482.77497266686476,
 		"fy": 825.1581062648607,
 		"connections": []
@@ -6088,6 +6290,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -144.73473647355172,
 		"fy": 821.3622341775723,
 		"connections": []
@@ -6100,6 +6303,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -349.99281486675886,
 		"fy": 2168.122176575146,
 		"connections": []
@@ -6112,6 +6316,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -189.90565343056954,
 		"fy": 2278.4040264826954,
 		"connections": []
@@ -6124,6 +6329,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 288.9773428780692,
 		"fy": 2506.209189278739,
 		"connections": []
@@ -6136,6 +6342,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 774.6315632341596,
 		"fy": 1456.2215888949902,
 		"connections": []
@@ -6148,6 +6355,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 947.8456641663898,
 		"fy": 1588.8929248566324,
 		"connections": []
@@ -6160,6 +6368,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1112.2639592578469,
 		"fy": 1450.640211341238,
 		"connections": []
@@ -6172,6 +6381,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1411.6193124475615,
 		"fy": 1153.9404026085222,
 		"connections": []
@@ -6184,6 +6394,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1323.6872687088817,
 		"fy": 1866.5457763671875,
 		"connections": []
@@ -6196,6 +6407,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1504.9856486287151,
 		"fy": 1734.187798773492,
 		"connections": []
@@ -6208,6 +6420,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 2579.1787225278,
 		"fy": 1150.4035899730509,
 		"connections": []
@@ -6220,6 +6433,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 3497.8595835367837,
 		"fy": 1308.1829833984375,
 		"connections": []
@@ -6232,6 +6446,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 2813.199229626507,
 		"fy": 716.4102341807012,
 		"connections": []
@@ -6244,6 +6459,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 3747.03981491615,
 		"fy": 1901.6300343480602,
 		"connections": []
@@ -6256,6 +6472,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 3922.990797849046,
 		"fy": 2002.6005934882407,
 		"connections": []
@@ -6268,6 +6485,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 4187.926139308981,
 		"fy": 1307.392577706951,
 		"connections": []
@@ -6280,6 +6498,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 4616.275168669508,
 		"fy": 2107.0479378033006,
 		"connections": []
@@ -6292,6 +6511,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 4784.217676590901,
 		"fy": 2224.6182076590403,
 		"connections": []
@@ -6304,6 +6524,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 978.963049920146,
 		"fy": -853.5423219070602,
 		"connections": []
@@ -6316,6 +6537,7 @@
 		"metadata": "chromeos, chromebook, openbook",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": -487.84920366531924,
 		"fy": 929.0311060264048,
 		"connections": []
