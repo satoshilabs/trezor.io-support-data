@@ -874,7 +874,7 @@
 		"id": 40,
 		"text": "Button Problem",
 		"slug": "button-problem",
-		"content": "<p>The functionality of the buttons can be easily tested by&nbsp;confirming/canceling the basic functions of your Trezor device.</p>",
+		"content": "<p>Could you please confirm that you saw the error message ”<em><strong>Another U2F device was used to register in this application.</strong></em>” Only when you were trying to use your Trezor device as a <a href=\"https://wiki.trezor.io/U2F\">U2F token</a> with a web service?</p>",
 		"metadata": "button, press",
 		"notes": "",
 		"nosearch": "",
@@ -2697,7 +2697,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#ffeb3b",
+		"color": "#ed1212",
 		"fx": 223.30866479873657,
 		"fy": 2293.9679856300354,
 		"connections": [
@@ -3910,7 +3910,7 @@
 		"id": 273,
 		"text": "Basic troubleshooting - Button Functionality",
 		"slug": "basic-troubleshooting-button-functionality",
-		"content": "<p>Please test the functionality of the right button on your Trezor device. You can try to change some of your settings to see its functionality.</p>",
+		"content": "<p>Please test the functionality of the right button on your Trezor device. You can try to change some of your settings to see its functionality.</p>\n<p>To test out <strong>both</strong> your buttons, please try to to hold the left button for 5 seconds.</p>\n<p>The screen on your Trezor should show up with message: Do you really want to lock your Trezor?</p>\n<p>&nbsp;You will have two options:</p>\n<p>Cancel - Left button</p>\n<p>Lock Device - Right button</p>\n<p>If nothing showed up after the 5 seconds period, then your left button is nonfunctional.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -4334,7 +4334,7 @@
 	},
 	{
 		"id": 289,
-		"text": "Firmware Error message",
+		"text": "Firmware Error Message",
 		"slug": "firmware-error-message",
 		"content": "<p>Please let us know what error message you see on Trezor device screen.</p>",
 		"metadata": "firmware, update, error",
@@ -4473,7 +4473,7 @@
 		"metadata": "claim, fork, hardfork, split",
 		"notes": "",
 		"nosearch": "",
-		"color": "#ffeb3b",
+		"color": "#ed1212",
 		"fx": 4033.1548080444336,
 		"fy": 1028.5112595558167,
 		"connections": [
@@ -4496,7 +4496,7 @@
 		"id": 293,
 		"text": "Unofficial Firmware Detected - Possible Solution",
 		"slug": "unofficial-firmware-detected-possible-solution",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure from the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a> until the official firmware is successfully installed.</p>\n<p><strong>Important:</strong></p>\n<p>If you already have some coins or passwords stored on your Trezor device, please verify if you have the correct recovery seed with the <a href=\"https://wiki.trezor.io/User_manual\">Dry-Run Recovery</a> before starting the update procedure.</p>\n<p>Here is the link for more details regarding how to start the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">firmware update</a>.</p>",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure from the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a> until the official firmware is successfully installed.</p>\n<p>Here is the link for more details regarding how to start the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">firmware update</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -4698,7 +4698,7 @@
 		"id": 302,
 		"text": "Broken Firmware - Possible Solution",
 		"slug": "broken-firmware-possible-solution",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure in the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a> until the official firmware is successfully installed.</p>\n<p><strong>Important:</strong></p>\n<p>If you already have some coins or passwords stored on your Trezor device, please verify if you have the correct recovery seed with the <a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\">Dry-Run recovery</a> before starting the update procedure.</p>\n<p>Here is the link for more details regarding how to start the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">firmware update</a>.</p>",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure in the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a> until the official firmware is successfully installed.</p>\n<p>Here is the link for more details regarding how to start the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">firmware update</a>.</p>",
 		"metadata": "dry run, check, ",
 		"notes": "",
 		"nosearch": "",
@@ -5274,7 +5274,7 @@
 		"id": 324,
 		"text": "Recovery Error Message - Possible Solution",
 		"slug": "recovery-error-message-possible-solution",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please enter the seed words in the correct order according to the information visible on your Trezor display (you will be asked to enter your seed words in &nbsp;a shuffled order).</p>\n<p>Here is a <a href=\"https://wiki.trezor.io/User_manual:Recovery\">link</a> for the recovery instructions</p>\n<p>There is also a possibility that a seed word has been mistyped, please check your seed words with this <a href=\"https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt\">list</a> where all possible seed words are presented. We would suggest searching for words that could be easily confused.</p>\n<p>See also an article of <a href=\"https://wiki.trezor.io/Commonly_misspelled_words_of_recovery_seed\">Commonly misspelled words of recovery seed</a> which might be helpful.</p>\n<p><strong>Conclusion:</strong></p>\n<p><u>If you still see an &nbsp;error message during or after the recovery procedure, then unfortunately, your recovery seed is not written correctly and even if it pains us a lot, we are not able to help you in this matter.</u></p>\n<p><u>In every situation, you need to make sure that your seed is written down correctly as it is the only way to restore your wallet.</u></p>\n<p>We suggest using the <a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\">Dry-Run Recovery</a> to prevent such unfortunate situation&nbsp;in the future.</p>",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please enter the seed words in the correct order according to the information visible on your Trezor display (you will be asked to enter your seed words in &nbsp;a shuffled order).</p>\n<p>Here is a <a href=\"https://wiki.trezor.io/User_manual:Recovery\">link</a> for the recovery instructions</p>\n<p>There is also a possibility that a seed word has been mistyped, please check your seed words with this <a href=\"https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt\">list</a> where all possible seed words are presented. We would suggest searching for words that could be easily confused.</p>\n<p>See also an article of <a href=\"https://wiki.trezor.io/Commonly_misspelled_words_of_recovery_seed\">Commonly misspelled words of recovery seed</a> which might be helpful.</p>\n<p><strong>Conclusion:</strong></p>\n<p>If you still see an &nbsp;error message during or after the recovery procedure, then unfortunately, your recovery seed is not written correctly and even if it pains us a lot, we are not able to help you in this matter.</p>\n<p>In every situation, you need to make sure that your seed is written down correctly as it is the only way to restore your wallet.</p>\n<p>We suggest using the <a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\">Dry-Run Recovery</a> to prevent such unfortunate situation&nbsp;in the future.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -5347,7 +5347,21 @@
 		"color": "#ffeb3b",
 		"fx": 3169.8698959350586,
 		"fy": -50.4581618309021,
-		"connections": []
+		"connections": [
+			{
+				"target": 427,
+				"title": "Send us a message",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://satoshilabs.kayako.com/conversation/new/9",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
 	},
 	{
 		"id": 328,
@@ -6110,8 +6124,8 @@
 		"fy": 570.2982149124146,
 		"connections": [
 			{
-				"target": 31,
-				"title": "The issue occurred right after performing the firmware update",
+				"target": 32,
+				"title": "The firmware update was not performed right before this issue",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -6123,8 +6137,8 @@
 				}
 			},
 			{
-				"target": 32,
-				"title": "The firmware update was not performed right before this issue",
+				"target": 31,
+				"title": "The issue occurred right after performing the firmware update",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -6540,6 +6554,19 @@
 		"color": "#ffeb3b",
 		"fx": -487.84920366531924,
 		"fy": 929.0311060264048,
+		"connections": []
+	},
+	{
+		"id": 427,
+		"text": "Form",
+		"slug": "form-25",
+		"content": "<p><br></p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": 3297.8300318862457,
+		"fy": -179.1867728185172,
 		"connections": []
 	}
 ]
