@@ -87,7 +87,7 @@
 		"metadata": "cryptosteel, steel",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 547.7007217407227,
 		"fy": -861.0229644775391,
 		"connections": [
@@ -114,7 +114,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 803.3503913879395,
 		"fy": -853.7538378238678,
 		"connections": [
@@ -194,7 +194,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2970.335235595703,
 		"fy": -490.0926241874695,
 		"connections": [
@@ -230,11 +230,11 @@
 		"id": 10,
 		"text": "Basic Troubleshooting - USB Cable",
 		"slug": "basic-troubleshooting-usb-cable",
-		"content": "<p>Please try to use your Trezor device with <strong>several different USB cables</strong> (it is always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>\n<p>Trezor One requires: Micro-USB to USB cable.</p>\n<p>Trezor T requires: USB-C to USB cable.</p>",
+		"content": "<p>Please try to use your Trezor device with<strong> different USB cables</strong> (it's always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The USB cable that was successfully used for transferring data with another device is the best candidate for this test.&nbsp;</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>\n<p>Trezor One requires: Micro-USB to USB cable.</p>\n<p>Trezor T requires: USB-C to USB cable.</p>",
 		"metadata": "dead, power, turning up, not working, bricked",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -1121.2133140563965,
 		"fy": 36.61491107940674,
 		"connections": [
@@ -327,7 +327,7 @@
 		"metadata": "u2f, 2fa, registered",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -155.41079998016357,
 		"fy": 45.442681312561035,
 		"connections": [
@@ -367,7 +367,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -218.20520401000977,
 		"fy": 165.2538652420044,
 		"connections": [
@@ -390,7 +390,7 @@
 		"id": 19,
 		"text": "Possible solution - U2F Token",
 		"slug": "possible-solution-u2f-token",
-		"content": "<p>1. Please verify whether you registered your Trezor device as a U2F token with the respective web service and that there are no issues with the registration</p>\n<p>2. In case you have more than one Trezor device with the same recovery seed and then registered one of them as U2F token, please try to use that particular Trezor device. Generally, because of the U2F mechanics, it is better to use the same device that you used for the registration (even though your other device uses the same recovery seed).</p>",
+		"content": "<p>1. Please verify whether you registered your Trezor device as a U2F token with the respective web service and that there are no issues with the registration</p>\n<p>2. In case you have more than one Trezor device with the same recovery seed and then registered one of them as U2F token, please try to use that particular Trezor device. Generally, because of the U2F mechanics, it's better to use the same device that you used for the registration (even though your other device uses the same recovery seed).</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -421,7 +421,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -219.7115020751953,
 		"fy": 513.6922044754028,
 		"connections": [
@@ -448,7 +448,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -140.66933059692383,
 		"fy": 709.2765245437622,
 		"connections": [
@@ -475,7 +475,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -49.6287841796875,
 		"fy": 165.6956377029419,
 		"connections": [
@@ -502,7 +502,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -48.336978912353516,
 		"fy": 354.8761796951294,
 		"connections": [
@@ -529,7 +529,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -1123.5072593688965,
 		"fy": 198.6969118118286,
 		"connections": [
@@ -556,7 +556,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#01b757",
 		"fx": -1117.4315147399902,
 		"fy": 359.5274019241333,
 		"connections": [
@@ -596,7 +596,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -1190.5131187438965,
 		"fy": 738.1043672561646,
 		"connections": [
@@ -636,7 +636,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -964.8248252868652,
 		"fy": 736.4777498245239,
 		"connections": [
@@ -676,7 +676,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -1207.992000579834,
 		"fy": 900.9182710647583,
 		"connections": [
@@ -703,7 +703,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -1035.1415977478027,
 		"fy": 891.6379976272583,
 		"connections": [
@@ -730,7 +730,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -858.922664642334,
 		"fy": 900.1640901565552,
 		"connections": [
@@ -757,7 +757,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -683.2399253845215,
 		"fy": 896.5014925003052,
 		"connections": [
@@ -784,7 +784,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -1040.285945892334,
 		"fy": 1017.8114595413208,
 		"connections": [
@@ -811,7 +811,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -689.7693138122559,
 		"fy": 1029.1249055862427,
 		"connections": [
@@ -838,7 +838,7 @@
 		"metadata": "display, pixel, screen, touch, flickering, blink",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -899.4611015319824,
 		"fy": 172.64950275421143,
 		"connections": [
@@ -878,7 +878,7 @@
 		"metadata": "button, press",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -725.1679801940918,
 		"fy": 182.05355548858643,
 		"connections": [
@@ -905,7 +905,7 @@
 		"metadata": "port, slot, micro, usb",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -562.2521476745605,
 		"fy": 182.02607440948486,
 		"connections": [
@@ -932,7 +932,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -619.1233940124512,
 		"fy": 354.5851106643677,
 		"connections": [
@@ -972,7 +972,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -651.427562713623,
 		"fy": 531.5750093460083,
 		"connections": [
@@ -999,7 +999,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -479.94990158081055,
 		"fy": 520.7623567581177,
 		"connections": [
@@ -1026,7 +1026,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -478.1418113708496,
 		"fy": 703.4793367385864,
 		"connections": [
@@ -1053,7 +1053,7 @@
 		"metadata": "plastic, lanyard, rattling, noise",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -396.5908012390137,
 		"fy": 192.49116230010986,
 		"connections": [
@@ -1169,7 +1169,7 @@
 		"id": 51,
 		"text": "Beta, Next & Old Wallet Disclaimer",
 		"slug": "beta,-next-and-old-wallet-disclaimer",
-		"content": "<p>If you have problems with <a href=\"https://old-wallet.trezor.io\">old-wallet.trezor.io</a>, <a href=\"https://beta-wallet.trezor.io\">beta-wallet.trezor.io</a> or <a href=\"https://beta-wallet.trezor.io/next\">beta-wallet.trezor.io/next</a>, please use primarily <a href=\"https://wallet.trezor.io\">wallet.trezor.io</a>.&nbsp;</p>\n<p>It is the main and updated version of Trezor Wallet interface (feature consistent and most reliable).</p>",
+		"content": "<p>If you have problems with <a href=\"https://old-wallet.trezor.io\">old-wallet.trezor.io</a>, <a href=\"https://beta-wallet.trezor.io\">beta-wallet.trezor.io</a> or <a href=\"https://beta-wallet.trezor.io/next\">beta-wallet.trezor.io/next</a>, please use primarily <a href=\"https://wallet.trezor.io\">wallet.trezor.io</a>.&nbsp;</p>\n<p>It's the main and updated version of Trezor Wallet interface (feature consistent and most reliable).</p>",
 		"metadata": "wallet, interface, service",
 		"notes": "",
 		"nosearch": "",
@@ -1877,7 +1877,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -75.21896922588348,
 		"fy": 981.6462693214417,
 		"connections": [
@@ -1917,7 +1917,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 93.41487073898315,
 		"fy": 987.5367722511292,
 		"connections": [
@@ -1944,7 +1944,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -426.42177653312683,
 		"fy": 1191.851408481598,
 		"connections": [
@@ -1971,7 +1971,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#1e7ff0",
+		"color": "#ffeb3b",
 		"fx": -237.06245995675297,
 		"fy": 1190.0085273527638,
 		"connections": [
@@ -1998,7 +1998,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -422.463082075119,
 		"fy": 1329.4694504737854,
 		"connections": [
@@ -2025,7 +2025,7 @@
 		"metadata": "driver, drivers",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -425.69219279289246,
 		"fy": 1492.8188157081604,
 		"connections": [
@@ -2052,7 +2052,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#1e7ff0",
+		"color": "#ffeb3b",
 		"fx": -57.839571714401245,
 		"fy": 1188.503508090973,
 		"connections": [
@@ -2079,7 +2079,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#1e7ff0",
+		"color": "#ffeb3b",
 		"fx": 102.08010482788086,
 		"fy": 1191.6219773292542,
 		"connections": [
@@ -2106,7 +2106,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -238.22211599349976,
 		"fy": 1339.465910434723,
 		"connections": [
@@ -2146,7 +2146,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -209.52460622787476,
 		"fy": 1756.308195590973,
 		"connections": [
@@ -2173,7 +2173,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -236.33593893051147,
 		"fy": 1902.665861606598,
 		"connections": [
@@ -2213,7 +2213,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -353.93348836898804,
 		"fy": 2061.2961106300354,
 		"connections": [
@@ -2240,7 +2240,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -179.27946996688843,
 		"fy": 2048.326017856598,
 		"connections": [
@@ -2267,7 +2267,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -182.06365728378296,
 		"fy": 2172.6581711769104,
 		"connections": [
@@ -2294,7 +2294,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -241.96693563461304,
 		"fy": 1478.8298020362854,
 		"connections": [
@@ -2321,7 +2321,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -90.60894536972046,
 		"fy": 1612.039640903473,
 		"connections": [
@@ -2375,7 +2375,7 @@
 		"metadata": "wrong, pin, passphrase",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 454.0574288368225,
 		"fy": 1005.6883225440979,
 		"connections": [
@@ -2415,7 +2415,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 659.9613900184631,
 		"fy": 998.5693650245667,
 		"connections": [
@@ -2451,7 +2451,7 @@
 		"id": 219,
 		"text": "Basic Troubleshooting - Switching Cryptocurrency",
 		"slug": "basic-troubleshooting-switching-cryptocurrency",
-		"content": "<p>If it is possible, please try switching to a different cryptocurrency by clicking on (<strong>Wallet Settings</strong>) <strong>Select wallet currency</strong>, then on the <strong>Save &amp; Reload</strong> button and refresh the browser by using the &nbsp;<strong>F5</strong> key on your keyboard.&nbsp;</p>",
+		"content": "<p>If it's possible, please try switching to a different cryptocurrency by clicking on (<strong>Wallet Settings</strong>) <strong>Select wallet currency</strong>, then on the <strong>Save &amp; Reload</strong> button and refresh the browser by using the <strong>F5</strong> key on your keyboard.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -2509,7 +2509,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 265.418879032135,
 		"fy": 1483.109465122223,
 		"connections": [
@@ -2549,7 +2549,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 266.47501611709595,
 		"fy": 1636.2018723487854,
 		"connections": [
@@ -2576,7 +2576,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 267.9016366004944,
 		"fy": 1773.2104172706604,
 		"connections": [
@@ -2603,7 +2603,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 281.6632180213928,
 		"fy": 1906.0695481300354,
 		"connections": [
@@ -2630,7 +2630,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ed1212",
 		"fx": 289.2573342323303,
 		"fy": 2064.668547153473,
 		"connections": [
@@ -2670,7 +2670,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 220.22217798233032,
 		"fy": 2178.1913743019104,
 		"connections": [
@@ -2697,7 +2697,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 223.30866479873657,
 		"fy": 2293.9679856300354,
 		"connections": [
@@ -2724,7 +2724,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 284.6587166786194,
 		"fy": 2408.9318528175354,
 		"connections": [
@@ -2751,7 +2751,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 402.9312996864319,
 		"fy": 1178.6457200050354,
 		"connections": [
@@ -2778,7 +2778,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 425.25838708877563,
 		"fy": 1315.9286789894104,
 		"connections": [
@@ -2831,7 +2831,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 859.4645519256592,
 		"fy": 1021.3996872901917,
 		"connections": [
@@ -2858,7 +2858,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 857.0109386444092,
 		"fy": 1192.8067917823792,
 		"connections": [
@@ -2898,7 +2898,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 781.2054576873779,
 		"fy": 1317.8940720558167,
 		"connections": [
@@ -2925,7 +2925,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ed1212",
 		"fx": 950.3574962615967,
 		"fy": 1324.4784226417542,
 		"connections": [
@@ -2952,7 +2952,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 952.2769908905029,
 		"fy": 1470.6340622901917,
 		"connections": [
@@ -2979,7 +2979,7 @@
 		"metadata": "labeling",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1094.9676933288574,
 		"fy": 894.2712082862854,
 		"connections": [
@@ -3006,7 +3006,7 @@
 		"metadata": "homescreen",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1256.9523735046387,
 		"fy": 884.4719529151917,
 		"connections": []
@@ -3046,7 +3046,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#9900ef",
 		"fx": 1090.946575164795,
 		"fy": 1046.281828403473,
 		"connections": [
@@ -3073,7 +3073,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1094.8058280944824,
 		"fy": 1195.139982700348,
 		"connections": [
@@ -3100,7 +3100,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1100.2413749694824,
 		"fy": 1325.085295200348,
 		"connections": [
@@ -3127,7 +3127,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1418.8558158874512,
 		"fy": 1020.4009079933167,
 		"connections": [
@@ -3154,7 +3154,7 @@
 		"metadata": "receiving, receive",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2166.5158462524414,
 		"fy": 851.8559861183167,
 		"connections": [
@@ -3220,7 +3220,7 @@
 		"metadata": "missing, hack, non-authorized",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2557.626564025879,
 		"fy": 869.8063035011292,
 		"connections": [
@@ -3287,7 +3287,7 @@
 		"metadata": "confirmed",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1801.3156509399414,
 		"fy": 1045.1125168800354,
 		"connections": [
@@ -3327,7 +3327,7 @@
 		"metadata": "unconfirmed",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2026.5287857055664,
 		"fy": 1028.6749558448792,
 		"connections": [
@@ -3367,7 +3367,7 @@
 		"metadata": "not visible",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2249.9054946899414,
 		"fy": 1048.9316086769104,
 		"connections": [
@@ -3420,7 +3420,7 @@
 		"metadata": "crosschain",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2434.437843322754,
 		"fy": 1038.5145554542542,
 		"connections": []
@@ -3433,7 +3433,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ed1212",
 		"fx": 1611.2280044555664,
 		"fy": 1183.8656296730042,
 		"connections": [
@@ -3473,7 +3473,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1785.3249282836914,
 		"fy": 1199.542082309723,
 		"connections": []
@@ -3486,7 +3486,7 @@
 		"metadata": "disconnected",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1427.7231216430664,
 		"fy": 1333.2073044776917,
 		"connections": [
@@ -3593,7 +3593,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1508.269874572754,
 		"fy": 1617.5342087745667,
 		"connections": [
@@ -3620,7 +3620,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1329.9589614868164,
 		"fy": 1769.2099900245667,
 		"connections": [
@@ -3647,7 +3647,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1623.516212463379,
 		"fy": 1334.0504441261292,
 		"connections": [
@@ -3687,7 +3687,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1615.0971450805664,
 		"fy": 1489.6006150245667,
 		"connections": [
@@ -3727,7 +3727,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 1950.5785903930664,
 		"fy": 1197.2656540870667,
 		"connections": []
@@ -3740,7 +3740,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2117.582862854004,
 		"fy": 1183.8458542823792,
 		"connections": []
@@ -3753,7 +3753,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2593.494972229004,
 		"fy": 1032.506193637848,
 		"connections": [
@@ -3780,7 +3780,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2752.4196548461914,
 		"fy": 1039.128752231598,
 		"connections": [
@@ -3807,7 +3807,7 @@
 		"metadata": "transaction",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3026.5907974243164,
 		"fy": 1047.300871372223,
 		"connections": [
@@ -3834,7 +3834,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2750.7079849243164,
 		"fy": 1195.4823899269104,
 		"connections": []
@@ -3847,7 +3847,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2910.1474380493164,
 		"fy": 1198.2316575050354,
 		"connections": [
@@ -3874,7 +3874,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2908.4362564086914,
 		"fy": 1320.5922532081604,
 		"connections": [
@@ -3954,7 +3954,7 @@
 		"metadata": "zero, empty, no funds, missing, wrong, incorrect",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#eb8a00",
 		"fx": 3400.2763137817383,
 		"fy": 852.2788376808167,
 		"connections": [
@@ -4020,7 +4020,7 @@
 		"metadata": "claim, fork",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3631.0392532348633,
 		"fy": 853.6284470558167,
 		"connections": []
@@ -4033,7 +4033,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3184.4965286254883,
 		"fy": 1046.7430710792542,
 		"connections": [
@@ -4073,7 +4073,7 @@
 		"metadata": "passphrase",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3346.4350051879883,
 		"fy": 1037.2965378761292,
 		"connections": [
@@ -4100,7 +4100,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3513.7716751098633,
 		"fy": 1048.0924363136292,
 		"connections": [
@@ -4167,7 +4167,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3504.4635696411133,
 		"fy": 1181.8297410011292,
 		"connections": [
@@ -4327,7 +4327,7 @@
 		"metadata": "seed, incomplete, interrupted, backup",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3797.9780502319336,
 		"fy": 854.7061448097229,
 		"connections": []
@@ -4380,7 +4380,7 @@
 		"metadata": "bridge, download, virus, mac",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4342.789329528809,
 		"fy": 865.9707932472229,
 		"connections": [
@@ -4446,7 +4446,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3849.4734115600586,
 		"fy": 1045.0387253761292,
 		"connections": [
@@ -4473,7 +4473,7 @@
 		"metadata": "claim, fork, hardfork, split",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4033.1548080444336,
 		"fy": 1028.5112595558167,
 		"connections": [
@@ -4494,13 +4494,13 @@
 	},
 	{
 		"id": 293,
-		"text": "Unofficial Firmware Detected (Possible Solution)",
+		"text": "Unofficial Firmware Detected - Possible Solution",
 		"slug": "unofficial-firmware-detected-possible-solution",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure from the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a> until the official firmware is successfully installed.</p>\n<p><strong>Important:</strong></p>\n<p>If you already have some coins or passwords stored on your Trezor device, please verify if you have the correct recovery seed with the <a href=\"https://wiki.trezor.io/User_manual\">Dry-Run Recovery</a> before starting the update procedure.</p>\n<p>Here is the link for more details regarding how to start the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">firmware update</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3848.2502670288086,
 		"fy": 1213.870451450348,
 		"connections": [
@@ -4527,7 +4527,7 @@
 		"metadata": "freeze, random, stop",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3845.0791149139404,
 		"fy": 1324.347502231598,
 		"connections": [
@@ -4554,7 +4554,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3843.8819103240967,
 		"fy": 1464.1354050636292,
 		"connections": [
@@ -4581,7 +4581,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3840.6157970428467,
 		"fy": 1603.2002243995667,
 		"connections": [
@@ -4621,7 +4621,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3750.3130016326904,
 		"fy": 1747.8316941261292,
 		"connections": [
@@ -4648,7 +4648,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3923.4673595428467,
 		"fy": 1725.2386765480042,
 		"connections": [
@@ -4696,13 +4696,13 @@
 	},
 	{
 		"id": 302,
-		"text": "Broken Firmware (Possible Solution)",
+		"text": "Broken Firmware - Possible Solution",
 		"slug": "broken-firmware-possible-solution",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please try to repeat the update procedure in the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a> until the official firmware is successfully installed.</p>\n<p><strong>Important:</strong></p>\n<p>If you already have some coins or passwords stored on your Trezor device, please verify if you have the correct recovery seed with the <a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\">Dry-Run recovery</a> before starting the update procedure.</p>\n<p>Here is the link for more details regarding how to start the <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">firmware update</a>.</p>",
 		"metadata": "dry run, check, ",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4027.7622299194336,
 		"fy": 1191.4320359230042,
 		"connections": [
@@ -4729,7 +4729,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4194.252220153809,
 		"fy": 1054.059904575348,
 		"connections": [
@@ -4809,7 +4809,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4193.579368591309,
 		"fy": 1183.9471726417542,
 		"connections": [
@@ -4830,9 +4830,9 @@
 	},
 	{
 		"id": 308,
-		"text": "Apple Security Settings (Possible solution)",
+		"text": "Apple Security Settings - Possible Solution",
 		"slug": "apple-security-settings-possible-solution",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please update the security settings of your operating system so it is possible to download or use Trezor Bridge.</p>\n<p>Here are some instructions about how to allow downloading files from an <a href=\"https://support.apple.com/kb/ph25088?locale=en_US\">unidentified developer</a>.</p>",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please update the security settings of your operating system so it's possible to download or use Trezor Bridge.</p>\n<p>Here are some instructions about how to allow downloading files from an <a href=\"https://support.apple.com/kb/ph25088?locale=en_US\">unidentified developer</a>.</p>",
 		"metadata": "unidentified",
 		"notes": "",
 		"nosearch": "",
@@ -4849,7 +4849,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4919.310081481934,
 		"fy": 858.5826096534729,
 		"connections": [
@@ -4915,7 +4915,7 @@
 		"metadata": "firmware",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4844.779808044434,
 		"fy": 1045.800383090973,
 		"connections": [
@@ -4942,7 +4942,7 @@
 		"metadata": "fingerprint",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 5012.144554138184,
 		"fy": 1049.0223679542542,
 		"connections": []
@@ -4995,7 +4995,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4702.390159606934,
 		"fy": 1313.430754184723,
 		"connections": [
@@ -5022,7 +5022,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4701.000999450684,
 		"fy": 1464.125578403473,
 		"connections": [
@@ -5049,7 +5049,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4785.269065856934,
 		"fy": 1583.3542160987854,
 		"connections": [
@@ -5076,7 +5076,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4785.626976013184,
 		"fy": 1723.560636997223,
 		"connections": [
@@ -5103,7 +5103,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4791.230003356934,
 		"fy": 1856.7743821144104,
 		"connections": [
@@ -5143,7 +5143,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4615.031272888184,
 		"fy": 2009.2167649269104,
 		"connections": [
@@ -5170,7 +5170,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4787.398948669434,
 		"fy": 1986.790861606598,
 		"connections": [
@@ -5197,7 +5197,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4784.954124450684,
 		"fy": 2138.9350266456604,
 		"connections": [
@@ -5224,7 +5224,7 @@
 		"metadata": "recovery",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 5169.919456481934,
 		"fy": 846.0987839698792,
 		"connections": [
@@ -5248,7 +5248,7 @@
 		"text": "Dry-Run Recovery Error",
 		"slug": "dry-run-recovery-error",
 		"content": "<p><strong>Description of the problem:</strong></p>\n<p>In case you have encountered the error message (<em>The seed is INVALID!</em>), then it means that the seed written on your recovery card is different than the seed that is actually valid in your Trezor device.</p>\n<p>In other words, your Trezor device is not backed up and in an emergency situation (lost, non-functional or wiped Trezor after the firmware update), you will not be able to recover your wallet with this recovery seed.</p>",
-		"metadata": "dryrun, search slovo podle dotyčné chybové hlášky",
+		"metadata": "dryrun",
 		"notes": "",
 		"nosearch": "",
 		"color": "#01B757",
@@ -5272,13 +5272,13 @@
 	},
 	{
 		"id": 324,
-		"text": "Recovery Error Message (possible solution)",
+		"text": "Recovery Error Message - Possible Solution",
 		"slug": "recovery-error-message-possible-solution",
 		"content": "<p><strong>Possible solution:</strong></p>\n<p>Please enter the seed words in the correct order according to the information visible on your Trezor display (you will be asked to enter your seed words in &nbsp;a shuffled order).</p>\n<p>Here is a <a href=\"https://wiki.trezor.io/User_manual:Recovery\">link</a> for the recovery instructions</p>\n<p>There is also a possibility that a seed word has been mistyped, please check your seed words with this <a href=\"https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt\">list</a> where all possible seed words are presented. We would suggest searching for words that could be easily confused.</p>\n<p>See also an article of <a href=\"https://wiki.trezor.io/Commonly_misspelled_words_of_recovery_seed\">Commonly misspelled words of recovery seed</a> which might be helpful.</p>\n<p><strong>Conclusion:</strong></p>\n<p><u>If you still see an &nbsp;error message during or after the recovery procedure, then unfortunately, your recovery seed is not written correctly and even if it pains us a lot, we are not able to help you in this matter.</u></p>\n<p><u>In every situation, you need to make sure that your seed is written down correctly as it is the only way to restore your wallet.</u></p>\n<p>We suggest using the <a href=\"https://wiki.trezor.io/User_manual:Dry-run_recovery\">Dry-Run Recovery</a> to prevent such unfortunate situation&nbsp;in the future.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 5174.007347106934,
 		"fy": 1062.2585740089417,
 		"connections": []
@@ -5344,7 +5344,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3169.8698959350586,
 		"fy": -50.4581618309021,
 		"connections": []
@@ -5357,7 +5357,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#9900ef",
 		"fx": 2997.4856185913086,
 		"fy": -29.488999843597412,
 		"connections": [
@@ -5424,7 +5424,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#eb8a00",
 		"fx": 2807.6950912475586,
 		"fy": 167.5929398536682,
 		"connections": [
@@ -5478,7 +5478,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2810.4221420288086,
 		"fy": 340.85293436050415,
 		"connections": [
@@ -5532,7 +5532,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 2814.0915756225586,
 		"fy": 594.1501450538635,
 		"connections": [
@@ -5599,7 +5599,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3162.9450912475586,
 		"fy": 103.03343057632446,
 		"connections": [
@@ -5626,7 +5626,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3145.1098861694336,
 		"fy": 396.65927743911743,
 		"connections": []
@@ -5666,7 +5666,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ed1212",
 		"fx": 3668.389808654785,
 		"fy": -31.740779876708984,
 		"connections": []
@@ -5679,7 +5679,7 @@
 		"metadata": "device, python, tool, terminal, command",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3497.897132873535,
 		"fy": -46.35411214828491,
 		"connections": []
@@ -5715,7 +5715,7 @@
 		"id": 342,
 		"text": "Basic troubleshooting - USB-host feature",
 		"slug": "basic-troubleshooting-usb-host-feature",
-		"content": "<p><strong>Possible solution:</strong></p>\n<p>With this <a href=\"https://play.google.com/store/apps/details?id=eu.chainfire.usbhostdiagnostics&amp;hl=en\">tool</a>, you can verify whether your mobile device has this feature available.</p>\n<p>Certain mobile devices do have this feature, but it is not enabled by default. Please contact the support of your mobile device manufacturer to receive the necessary instructions.</p>",
+		"content": "<p><strong>Possible solution:</strong></p>\n<p>With this <a href=\"https://play.google.com/store/apps/details?id=eu.chainfire.usbhostdiagnostics&amp;hl=en\">tool</a>, you can verify whether your mobile device has this feature available.</p>\n<p>Certain mobile devices do have this feature, but it's not enabled by default. Please contact the support of your mobile device manufacturer to receive the necessary instructions.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -5746,7 +5746,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 3341.04093170166,
 		"fy": 369.52211236953735,
 		"connections": [
@@ -5769,7 +5769,7 @@
 		"id": 344,
 		"text": "Basic troubleshooting OTG cable - Suggestion#2",
 		"slug": "basic-troubleshooting-otg-cable-suggestion2",
-		"content": "<p>Please verify if your OTG cable is not faulty.</p>\n<p>You can test it by trying to transfer some data via this cable. If it is not possible, the cable is probably defective.</p>\n<p>We recommend trying your Trezor device with a different OTG cable (preferably more cables).</p>",
+		"content": "<p>Please verify if your OTG cable is not faulty.</p>\n<p>You can test it by trying to transfer some data via this cable. If it's not possible, the cable is probably defective.</p>\n<p>We recommend trying your Trezor device with a different OTG cable (preferably more cables).</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -5836,7 +5836,7 @@
 		"id": 346,
 		"text": "Mobile device problem",
 		"slug": "mobile-device-problem",
-		"content": "<p>This means that your Trezor device is functional and the problem is in your mobile device.&nbsp;</p>\n<p>Please repeat the previous route and suggestions. It is possible that you overlooked some important details.</p>",
+		"content": "<p>This means that your Trezor device is functional and the problem is in your mobile device.&nbsp;</p>\n<p>Please repeat the previous route and suggestions. It's possible that you overlooked some important details.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
@@ -5919,7 +5919,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": 4544.7957763671875,
 		"fy": -154.0195266008377,
 		"connections": []
@@ -6099,19 +6099,19 @@
 	},
 	{
 		"id": 398,
-		"text": "Basic Troubleshooting - Firmware update",
+		"text": "Basic Troubleshooting - Firmware Update",
 		"slug": "basic-troubleshooting-firmware-update",
 		"content": "<p>Was the <a href=\"https://wiki.trezor.io/index.php?title=User+manual%3AUpdating+your+Trezor%27s+firmware&amp;ModelType=1\">firmware update</a> performed prior to this issue?</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -1158.4979209899902,
 		"fy": 570.2982149124146,
 		"connections": [
 			{
-				"target": 32,
-				"title": "The firmware update was not performed right before this issue",
+				"target": 31,
+				"title": "The issue occurred right after performing the firmware update",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -6123,8 +6123,8 @@
 				}
 			},
 			{
-				"target": 31,
-				"title": "The issue occurred right after performing the firmware update",
+				"target": 32,
+				"title": "The firmware update was not performed right before this issue",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -6181,11 +6181,11 @@
 		"id": 400,
 		"text": "Basic Troubleshooting - Flickering Touchscreen",
 		"slug": "basic-troubleshooting-flickering-touchscreen",
-		"content": "<p>If you're experiencing flickering of your touchscreen&nbsp;during the operations with your Trezor device, please <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\"><strong>update your firmware</strong></a> to the version <strong>2.0.10</strong> since it is a software problem that is fixed by this firmware version.</p>\n<p>The information how to find your current version of the firmware installed on your Trezor device is included <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">here</a>.</p>",
+		"content": "<p>If you're experiencing flickering of your touchscreen&nbsp;during the operations with your Trezor device, please <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\"><strong>update your firmware</strong></a> to the version <strong>2.0.10 (and above)</strong> since it is a software problem that is fixed by this firmware version.</p>\n<p>The information how to find your current version of the firmware installed on your Trezor device is included <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">here</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -785.1176181869195,
 		"fy": 374.4010234052493,
 		"connections": [
@@ -6537,7 +6537,7 @@
 		"metadata": "chromeos, chromebook, openbook",
 		"notes": "",
 		"nosearch": false,
-		"color": "#01B757",
+		"color": "#ffeb3b",
 		"fx": -487.84920366531924,
 		"fy": 929.0311060264048,
 		"connections": []
