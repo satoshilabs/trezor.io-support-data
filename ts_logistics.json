@@ -7,6 +7,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 862.4605026245117,
 		"fy": -3604.941276550293,
 		"connections": [
@@ -33,6 +34,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 855.8073654174805,
 		"fy": -3483.850944519043,
 		"connections": [
@@ -85,6 +87,7 @@
 		"metadata": "eshop",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -1856.7436599731445,
 		"fy": -3269.2028274536133,
 		"connections": [
@@ -137,12 +140,13 @@
 		"metadata": "order, purchase",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 851.6426315307617,
 		"fy": -3346.958427429199,
 		"connections": [
 			{
 				"target": 93,
-				"title": "Request (Cancel/Change/Return)",
+				"title": "Request - Cancel/Change/Return",
 				"description": "Need to cancel your order, change its content or return it?",
 				"image": "",
 				"isLink": false,
@@ -202,6 +206,7 @@
 		"metadata": "customs, tax, kyc, document",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 2081.3913497924805,
 		"fy": -3353.241386413574,
 		"connections": [
@@ -267,8 +272,9 @@
 		"metadata": "create, creating",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -2419.7397537231445,
-		"fy": -3145.598030090332,
+		"fy": -3144.195930480957,
 		"connections": [
 			{
 				"target": 104,
@@ -319,6 +325,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -1864.781623840332,
 		"fy": -3147.01163482666,
 		"connections": [
@@ -384,6 +391,7 @@
 		"metadata": "email, account, login, user, delete, remove",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -1409.5715408325195,
 		"fy": -3126.595832824707,
 		"connections": [
@@ -423,6 +431,7 @@
 		"metadata": "request",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -647.423225402832,
 		"fy": -3133.6796646118164,
 		"connections": [
@@ -488,6 +497,7 @@
 		"metadata": "status, where",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 661.0864181518555,
 		"fy": -3225.292625427246,
 		"connections": [
@@ -540,6 +550,7 @@
 		"metadata": "delivered",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1189.1267013549805,
 		"fy": -3227.2917709350586,
 		"connections": [
@@ -605,6 +616,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": 1691.6801681518555,
 		"fy": -3210.7072982788086,
 		"connections": [
@@ -631,6 +643,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 1863.4936447143555,
 		"fy": -3200.20369720459,
 		"connections": [
@@ -657,6 +670,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 2178.9743576049805,
 		"fy": -3220.14168548584,
 		"connections": []
@@ -669,6 +683,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 2022.8776779174805,
 		"fy": -3204.4555892944336,
 		"connections": [
@@ -721,6 +736,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 2386.1806564331055,
 		"fy": -3201.2927780151367,
 		"connections": []
@@ -733,6 +749,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 1993.3395919799805,
 		"fy": -3075.5588912963867,
 		"connections": []
@@ -745,6 +762,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 2201.4516525268555,
 		"fy": -3067.984504699707,
 		"connections": [
@@ -771,6 +789,7 @@
 		"metadata": "payment, paid, btc, bitcoin, credit, card",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -2752.755256652832,
 		"fy": -3013.1420669555664,
 		"connections": [
@@ -823,6 +842,7 @@
 		"metadata": "promo, code, discount",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -2312.365364074707,
 		"fy": -3000.4419374465942,
 		"connections": [
@@ -849,6 +869,7 @@
 		"metadata": "vat, dph",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -2462.022346496582,
 		"fy": -3001.104591369629,
 		"connections": [
@@ -869,12 +890,13 @@
 	},
 	{
 		"id": 107,
-		"text": "VAT ID Issue form",
+		"text": "VAT ID Issue Form",
 		"slug": "vat-id-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -2466.7810134887695,
 		"fy": -2859.6828842163086,
 		"connections": []
@@ -887,6 +909,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -2296.783576965332,
 		"fy": -2860.930419921875,
 		"connections": []
@@ -899,6 +922,7 @@
 		"metadata": "canceled, cancelled, suspended",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -3050.452033996582,
 		"fy": -2855.79288482666,
 		"connections": [
@@ -938,6 +962,7 @@
 		"metadata": "insufficient, incorrect, little, lower, not enough",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -2820.3325271606445,
 		"fy": -2858.5307846069336,
 		"connections": [
@@ -964,6 +989,7 @@
 		"metadata": "how to pay, buy",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -2636.212532043457,
 		"fy": -2849.0408477783203,
 		"connections": []
@@ -976,6 +1002,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -3153.9265213012695,
 		"fy": -2694.228502035141,
 		"connections": [
@@ -1002,6 +1029,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -2983.365119934082,
 		"fy": -2716.2905130386353,
 		"connections": [
@@ -1028,6 +1056,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -3162.262092590332,
 		"fy": -2567.4143412411213,
 		"connections": [
@@ -1048,24 +1077,26 @@
 	},
 	{
 		"id": 115,
-		"text": "Payment issue BTC form",
+		"text": "Payment Issue BTC Form",
 		"slug": "payment-issue-btc-form",
 		"content": "<p><br></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -3167.172492980957,
 		"fy": -2418.312168389559,
 		"connections": []
 	},
 	{
 		"id": 116,
-		"text": "Payment Issue GoPay form",
+		"text": "Payment Issue GoPay Form",
 		"slug": "payment-issue-gopay-form",
 		"content": "<p><br></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -2985.696418762207,
 		"fy": -2558.9858322143555,
 		"connections": []
@@ -1078,6 +1109,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -2820.162727355957,
 		"fy": -2716.525455713272,
 		"connections": [
@@ -1104,6 +1136,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -2814.3291091918945,
 		"fy": -2555.955798149109,
 		"connections": []
@@ -1116,6 +1149,7 @@
 		"metadata": "more, options, add",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -2155.029426574707,
 		"fy": -2990.550148010254,
 		"connections": []
@@ -1128,6 +1162,7 @@
 		"metadata": "more, options, add",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -1995.608772277832,
 		"fy": -2987.228889465332,
 		"connections": []
@@ -1140,6 +1175,7 @@
 		"metadata": "country, add",
 		"notes": "",
 		"nosearch": false,
+		"color": "#ffeb3b",
 		"fx": -1834.527717590332,
 		"fy": -2985.568290710449,
 		"connections": [
@@ -1166,6 +1202,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -1655.179817199707,
 		"fy": -2977.2651443481445,
 		"connections": [
@@ -1192,6 +1229,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1656.478401184082,
 		"fy": -2830.7674350738525,
 		"connections": []
@@ -1204,6 +1242,7 @@
 		"metadata": "password, forget",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -1490.5808181762695,
 		"fy": -2975.1162338256836,
 		"connections": []
@@ -1211,11 +1250,12 @@
 	{
 		"id": 125,
 		"text": "Deleting/Updating E-shop Account Form",
-		"slug": "deleting/updating-e-shop-account-form",
+		"slug": "deleting-updating-e-shop-account-form",
 		"content": "<p>If you need to contact our support, please submit your ticket here.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1332.859992980957,
 		"fy": -2994.8911361694336,
 		"connections": [
@@ -1242,6 +1282,7 @@
 		"metadata": "cancel",
 		"notes": "",
 		"nosearch": false,
+		"color": "#ffeb3b",
 		"fx": -1163.0085525512695,
 		"fy": -2982.6985244750977,
 		"connections": [
@@ -1281,6 +1322,7 @@
 		"metadata": "change",
 		"notes": "",
 		"nosearch": false,
+		"color": "#ffeb3b",
 		"fx": -914.1511306762695,
 		"fy": -2979.0806198120117,
 		"connections": [
@@ -1320,6 +1362,7 @@
 		"metadata": "return",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -613.2861404418945,
 		"fy": -2979.7182846069336,
 		"connections": [
@@ -1359,6 +1402,7 @@
 		"metadata": "postpone, suspend, hold",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": -356.55558013916016,
 		"fy": -2969.319664001465,
 		"connections": [
@@ -1385,6 +1429,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1151.281867980957,
 		"fy": -2841.069450378418,
 		"connections": [
@@ -1411,6 +1456,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -911.9104080200195,
 		"fy": -2842.456214904785,
 		"connections": [
@@ -1437,6 +1483,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -689.794075012207,
 		"fy": -2823.338005065918,
 		"connections": [
@@ -1463,6 +1510,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -517.1720962524414,
 		"fy": -2838.8633995056152,
 		"connections": [
@@ -1489,6 +1537,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -690.6785354614258,
 		"fy": -2675.0984926223755,
 		"connections": []
@@ -1501,6 +1550,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -512.5760879516602,
 		"fy": -2671.362861633301,
 		"connections": []
@@ -1513,6 +1563,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -335.50138092041016,
 		"fy": -2824.479637145996,
 		"connections": []
@@ -1525,6 +1576,7 @@
 		"metadata": "track, trace",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 666.4306564331055,
 		"fy": -3090.419334411621,
 		"connections": [
@@ -1564,6 +1616,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 483.21092987060547,
 		"fy": -3092.8171920776367,
 		"connections": [
@@ -1616,6 +1669,7 @@
 		"metadata": "canceled",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 845.2568283081055,
 		"fy": -3095.401206970215,
 		"connections": [
@@ -1642,6 +1696,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": -42.12012481689453,
 		"fy": -2808.3470153808594,
 		"connections": [
@@ -1694,6 +1749,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 369.97411346435547,
 		"fy": -2821.0733909606934,
 		"connections": [
@@ -1746,6 +1802,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 531.5751876831055,
 		"fy": -2811.846815109253,
 		"connections": [
@@ -1772,6 +1829,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -247.8024673461914,
 		"fy": -2670.81787109375,
 		"connections": [
@@ -1798,6 +1856,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": -82.51319122314453,
 		"fy": -2671.0759048461914,
 		"connections": [
@@ -1824,6 +1883,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ed1212",
 		"fx": 80.22801971435547,
 		"fy": -2671.0759201049805,
 		"connections": [
@@ -1850,6 +1910,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -246.55420684814453,
 		"fy": -2529.560127258301,
 		"connections": []
@@ -1862,6 +1923,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -83.81153106689453,
 		"fy": -2531.2207412719727,
 		"connections": []
@@ -1874,6 +1936,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": 83.91161346435547,
 		"fy": -2534.5420150756836,
 		"connections": []
@@ -1881,11 +1944,12 @@
 	{
 		"id": 151,
 		"text": "New/Processing - Shipping Status",
-		"slug": "new/processing-shipping-status",
+		"slug": "new-processing-shipping-status",
 		"content": "<p>Paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order (ie. backorder or another special situation).</p>\n<p>Orders with standard shipping are processed every Monday and Thursday, therefore purchases with this shipping method are most prone to delays.&nbsp;</p>\n<p>We are working to process your order as soon as possible, but if the status is still not set to “Shipped” after two business days since it was paid, please submit ticket here.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": 267.37743377685547,
 		"fy": -2667.933175086975,
 		"connections": [
@@ -1912,6 +1976,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 267.73925018310547,
 		"fy": -2539.7024240493774,
 		"connections": []
@@ -1924,6 +1989,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 704.9877853393555,
 		"fy": -2821.0348739624023,
 		"connections": [
@@ -1950,6 +2016,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 879.140983581543,
 		"fy": -2814.3923301696777,
 		"connections": [
@@ -1989,6 +2056,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 708.6708908081055,
 		"fy": -2667.8946495056152,
 		"connections": []
@@ -2001,6 +2069,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 887.877555847168,
 		"fy": -2673.0428924560547,
 		"connections": [
@@ -2027,6 +2096,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#01B757",
 		"fx": 1072.066276550293,
 		"fy": -2666.447374343872,
 		"connections": [
@@ -2053,6 +2123,7 @@
 		"metadata": "item",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 1028.0090255737305,
 		"fy": -3088.1848678588867,
 		"connections": [
@@ -2079,6 +2150,7 @@
 		"metadata": "wrong, color, mismatch",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 1194.0720138549805,
 		"fy": -3085.0772018432617,
 		"connections": [
@@ -2105,6 +2177,7 @@
 		"metadata": "damage",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 1360.1359786987305,
 		"fy": -3090.0590744018555,
 		"connections": [
@@ -2144,6 +2217,7 @@
 		"metadata": "tamper, risk, safe",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 1532.8410568237305,
 		"fy": -3088.39852142334,
 		"connections": [
@@ -2183,18 +2257,20 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
-		"fx": 1018.4074630737305,
-		"fy": -2946.882682800293,
+		"color": "#01B757",
+		"fx": 1015.6030197143555,
+		"fy": -2944.078239440918,
 		"connections": []
 	},
 	{
 		"id": 164,
 		"text": "Wrong Item/Color issue form",
-		"slug": "wrong-item/color-issue-form",
+		"slug": "wrong-item-color-issue-form",
 		"content": "<p><br></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1189.4523849487305,
 		"fy": -2943.561424255371,
 		"connections": []
@@ -2207,6 +2283,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1347.2121505737305,
 		"fy": -2945.222023010254,
 		"connections": [
@@ -2233,6 +2310,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
+		"color": "#ffeb3b",
 		"fx": 1508.2951583862305,
 		"fy": -2940.453514099121,
 		"connections": [
@@ -2272,6 +2350,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": 1455.5163497924805,
 		"fy": -2787.0999183654785,
 		"connections": [
@@ -2298,6 +2377,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#ffeb3b",
 		"fx": 1635.6071701049805,
 		"fy": -2771.4117012023926,
 		"connections": [
@@ -2324,6 +2404,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1452.5568771362305,
 		"fy": -2638.9415893554688,
 		"connections": []
@@ -2336,6 +2417,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1785.443473815918,
 		"fy": -3085.8041915893555,
 		"connections": []
@@ -2348,6 +2430,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1835.4515033190762,
 		"fy": -2858.3583930293216,
 		"connections": []
@@ -2360,6 +2443,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": -1333.6906001252948,
 		"fy": -2843.1046395931603,
 		"connections": []
@@ -2372,6 +2456,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -1148.588768005371,
 		"fy": -2682.9706649780273,
 		"connections": []
@@ -2384,6 +2469,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": -919.4092255586422,
 		"fy": -2688.973902731949,
 		"connections": []
@@ -2396,6 +2482,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
+		"color": "#01B757",
 		"fx": 1305.4629217112283,
 		"fy": -2812.251079677795,
 		"connections": []
@@ -2408,6 +2495,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": 2200.6622404875575,
 		"fy": -2949.1875316478586,
 		"connections": []
@@ -2420,6 +2508,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
+		"color": "#01B757",
 		"fx": 425.186156477665,
 		"fy": -2668.9449590203217,
 		"connections": [
