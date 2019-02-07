@@ -234,7 +234,7 @@
 		"metadata": "dead, power, turning up, not working, bricked",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01b757",
+		"color": "#1e7ff0",
 		"fx": -1121.2133140563965,
 		"fy": 36.61491107940674,
 		"connections": [
@@ -542,7 +542,7 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01b757",
+		"color": "#1e7ff0",
 		"fx": -1123.5072593688965,
 		"fy": 198.6969118118286,
 		"connections": [
@@ -569,9 +569,9 @@
 		"metadata": "",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01b757",
-		"fx": -1117.4315147399902,
-		"fy": 359.5274019241333,
+		"color": "#1e7ff0",
+		"fx": -1133.9623985290527,
+		"fy": 352.72057819366455,
 		"connections": [
 			{
 				"target": 398,
@@ -851,7 +851,7 @@
 		"metadata": "display, pixel, screen, touch, flickering, blink",
 		"notes": "",
 		"nosearch": "",
-		"color": "#01b757",
+		"color": "#1e7ff0",
 		"fx": -899.4611015319824,
 		"fy": 172.64950275421143,
 		"connections": [
@@ -4029,7 +4029,7 @@
 		"id": 275,
 		"text": "Fork claiming issue",
 		"slug": "fork-claiming-issue",
-		"content": "<p>There are only two official claiming tools for the Trezor device.</p>\n<p><strong>Tool for: </strong><a href=\"https://trezor.io/claim-bch\"><strong>Bitcoin Cash</strong></a><strong> - 2017</strong></p>\n<p><strong>Tool for: </strong><a href=\"https://trezor.io/claim-btg\"><strong>Bitcoin Gold</strong></a></p>\n<p>Both are are <a href=\"https://wiki.trezor.io/Hard_fork\">hardforks</a> of Bitcoin.&nbsp;</p>\n<p>You can claim those cryptocurrencies only if you had some Bitcoin stored on your Trezor device before the hardforks were started (Bitcoin Cash and Bitcoin Gold launched their own blockchain).</p>\n<p>For more details please visit these articles:&nbsp;</p>\n<p><a href=\"https://blog.trezor.io/claim-bcash-bitcoin-cash-bch-bcc-trezor-wallet-f0a810d5864a\"><strong>Bitcoin Cash</strong></a><strong> - 2017&nbsp;</strong></p>\n<p><a href=\"https://wiki.trezor.io/Bitcoin_Gold_(BTG)#Claiming_Bitcoin_Gold\"><strong>Bitcoin Gold</strong></a>&nbsp;</p>\n<p><a href=\"https://wiki.trezor.io/How_to_split_and_send_your_Bitcoin_Cash_forks\"><strong>Bitcoin Cash</strong></a> <strong>- 2018 ABC -&gt; SV</strong></p>",
+		"content": "<p>There are only two official claiming tools for the Trezor device.</p>\n<p><strong>Tool for: </strong><a href=\"https://trezor.io/claim-bch\"><strong>Bitcoin Cash</strong></a><strong> - 2017</strong></p>\n<p><strong>Tool for: </strong><a href=\"https://trezor.io/claim-btg\"><strong>Bitcoin Gold</strong></a></p>\n<p>Both are are <a href=\"https://wiki.trezor.io/Hard_fork\"><strong>hardforks</strong></a> of Bitcoin.&nbsp;</p>\n<p>You can claim those cryptocurrencies only if you had some Bitcoin stored on your Trezor device before the hardforks were started (Bitcoin Cash and Bitcoin Gold launched their own blockchain).</p>\n<p>For more details please visit these articles:&nbsp;</p>\n<p><a href=\"https://blog.trezor.io/claim-bcash-bitcoin-cash-bch-bcc-trezor-wallet-f0a810d5864a\"><strong>Bitcoin Cash</strong></a><strong> - 2017&nbsp;</strong></p>\n<p><a href=\"https://wiki.trezor.io/Bitcoin_Gold_(BTG)#Claiming_Bitcoin_Gold\"><strong>Bitcoin Gold</strong></a>&nbsp;</p>\n<p><a href=\"https://wiki.trezor.io/How_to_split_and_send_your_Bitcoin_Cash_forks\"><strong>Bitcoin Cash</strong></a> <strong>- 2018 ABC -&gt; SV</strong></p>",
 		"metadata": "claim, fork",
 		"notes": "",
 		"nosearch": "",
@@ -6150,8 +6150,8 @@
 		"fy": 570.2982149124146,
 		"connections": [
 			{
-				"target": 31,
-				"title": "The issue occurred right after performing the firmware update",
+				"target": 32,
+				"title": "The firmware update was not performed right before this issue",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -6163,8 +6163,8 @@
 				}
 			},
 			{
-				"target": 32,
-				"title": "The firmware update was not performed right before this issue",
+				"target": 31,
+				"title": "The issue occurred right after performing the firmware update",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -6179,15 +6179,15 @@
 	},
 	{
 		"id": 399,
-		"text": "Basic troubleshooting",
-		"slug": "basic-troubleshooting",
+		"text": "Basic troubleshooting - Pin dialog",
+		"slug": "basic-troubleshooting-pin-dialog",
 		"content": "<p>When you visit the <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet interface</a>, did it recognize the device and ask you to enter the <a href=\"https://wiki.trezor.io/PIN\">PIN</a>?</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -948.1590853341702,
-		"fy": 370.5956052166348,
+		"fx": -949.2603426583889,
+		"fy": 367.8425534588223,
 		"connections": [
 			{
 				"target": 43,
