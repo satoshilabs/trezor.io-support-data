@@ -142,11 +142,11 @@
 		"notes": "",
 		"nosearch": "",
 		"color": "#01B757",
-		"fx": -619.316219329834,
-		"fy": -135.58627796173096,
+		"fx": -621.5241661071777,
+		"fy": -132.27438068389893,
 		"connections": [
 			{
-				"target": 10,
+				"target": 433,
 				"title": "Device not working",
 				"description": "The Trezor device screen is not lit up, and it is not detected by the Trezor Wallet interface (wallet.trezor.io, beta-wallet.trezor.io).",
 				"image": "",
@@ -230,13 +230,13 @@
 		"id": 10,
 		"text": "Basic troubleshooting - USB cable",
 		"slug": "basic-troubleshooting-usb-cable",
-		"content": "<p>Please try to use your Trezor device with<strong> different USB cables</strong> (it's always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The best candidate for transferring data between devices is a USB cable that has successfully been used for transferring data from another device before.</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>\n<p><strong>Trezor Model One</strong> uses <a href=\"https://wiki.trezor.io/images/Cable-MicroUSB-detail.jpg\">Micro-USB to USB cable</a>.</p>\n<p><strong>Trezor T </strong>uses <a href=\"https://wiki.trezor.io/images/Cable-USB-C-Detail.jpg\">USB-C to USB cable</a>. Make sure the USB-C cable is connected properly to the Trezor T port, it should make a *click* sound.</p>",
+		"content": "<p>Please try to use your Trezor device with<strong> different USB cables</strong> (it's always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The best candidate for transferring data between devices is a USB cable that has successfully been used for transferring data from another device before.</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>\n<p><strong>Trezor One</strong> uses <a href=\"https://wiki.trezor.io/images/Cable-MicroUSB-detail.jpg\">Micro-USB to USB cable</a>.</p>",
 		"metadata": "dead, power, turning up, not working, bricked",
 		"notes": "",
 		"nosearch": "",
 		"color": "#1e7ff0",
-		"fx": -1121.2133140563965,
-		"fy": 36.61491107940674,
+		"fx": -1101.518123626709,
+		"fy": 178.2058687210083,
 		"connections": [
 			{
 				"target": 29,
@@ -262,8 +262,8 @@
 		"notes": "",
 		"nosearch": "",
 		"color": "#01B757",
-		"fx": -636.6039237976074,
-		"fy": 66.36747026443481,
+		"fx": -616.2114067077637,
+		"fy": 12.32728624343872,
 		"connections": [
 			{
 				"target": 39,
@@ -543,57 +543,17 @@
 		"notes": "",
 		"nosearch": "",
 		"color": "#1e7ff0",
-		"fx": -1123.5072593688965,
-		"fy": 198.6969118118286,
+		"fx": -1123.301326751709,
+		"fy": 385.9896059036255,
 		"connections": [
 			{
-				"target": 30,
+				"target": 398,
 				"title": "Next",
 				"description": "Still no progress? Please, go to the next step.",
 				"image": "",
 				"isLink": false,
 				"link": "",
 				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
-		"id": 30,
-		"text": "Device not working - Trezor model selection",
-		"slug": "device-not-working-trezor-model-selection",
-		"content": "<p>Please let us know which Trezor Model you're experiencing your issues.</p>",
-		"metadata": "",
-		"notes": "",
-		"nosearch": "",
-		"color": "#1e7ff0",
-		"fx": -1133.9623985290527,
-		"fy": 352.72057819366455,
-		"connections": [
-			{
-				"target": 398,
-				"title": "Trezor One",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 32,
-				"title": "Trezor Model T",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 3,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -852,8 +812,8 @@
 		"notes": "",
 		"nosearch": "",
 		"color": "#1e7ff0",
-		"fx": -899.4611015319824,
-		"fy": 172.64950275421143,
+		"fx": -920.8732719421387,
+		"fy": 204.25790119171143,
 		"connections": [
 			{
 				"target": 399,
@@ -6146,8 +6106,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01b757",
-		"fx": -1158.4979209899902,
-		"fy": 570.2982149124146,
+		"fx": -1121.0246543884277,
+		"fy": 566.0888032913208,
 		"connections": [
 			{
 				"target": 32,
@@ -6186,7 +6146,7 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -949.2603426583889,
+		"fx": -956.3977327951077,
 		"fy": 367.8425534588223,
 		"connections": [
 			{
@@ -6655,6 +6615,100 @@
 				"isLink": false,
 				"link": "",
 				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 431,
+		"text": "Basic troubleshooting - USB cable",
+		"slug": "basic-troubleshooting-usb-cable-8",
+		"content": "<p>Please try to use your Trezor device with<strong> different USB cables</strong> (it's always better to use multiple cables to make sure that something important was not overlooked).</p>\n<p>Make sure the cables are <strong>for transferring data</strong>, not only for charging purposes.&nbsp;</p>\n<p>The best candidate for transferring data between devices is a USB cable that has successfully been used for transferring data from another device before.</p>\n<p>Please avoid using USB hubs, USB adapters or USB reductions as well.</p>\n<p><strong>Trezor Model T uses </strong><a href=\"https://wiki.trezor.io/images/Cable-USB-C-Detail.jpg\"><strong>USB-C to USB cable</strong></a><strong>. Make sure the USB-C cable is connected properly to the Trezor Model T port, it should make a *click* sound.</strong></p>",
+		"metadata": "dead, power, turning up, not working, bricked",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1290.804500579834,
+		"fy": 183.46017169952393,
+		"connections": [
+			{
+				"target": 432,
+				"title": "Next",
+				"description": "If it did not help, continue further by clicking on \"Next\".",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 432,
+		"text": "Basic troubleshooting - Computer/Configuration",
+		"slug": "basic-troubleshooting-computer-configuration-6",
+		"content": "<p>Please try your Trezor device with a different computer. If everything is working with the different computer, then the problem is in your actual configuration (faulty USB ports or something else) and unfortunately, there is nothing that can be done from our side as the only possible solution is to perform the repair or use a different computer/configuration.&nbsp;</p>\n<p>Checking this option is recommended.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1301.042049407959,
+		"fy": 387.8178358078003,
+		"connections": [
+			{
+				"target": 32,
+				"title": "Next",
+				"description": "Still no progress? Please, go to the next step.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 433,
+		"text": "Device not working - Trezor model selection",
+		"slug": "device-not-working-trezor-model-selection",
+		"content": "<p>Please let us know which Trezor Model you're experiencing your issues.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1188.6683311462402,
+		"fy": 51.67989492416382,
+		"connections": [
+			{
+				"target": 10,
+				"title": "Trezor One",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 431,
+				"title": "Trezor Model T",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
 				"curve": {
 					"x": 0,
 					"y": 0
