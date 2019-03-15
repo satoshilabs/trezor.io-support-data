@@ -1,0 +1,807 @@
+[
+	{
+		"id": 0,
+		"text": "FAQ/General questions",
+		"slug": "faq-general-questions",
+		"content": "<p>What are you interested in?</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -46.10011148452759,
+		"fy": -603.2761459350586,
+		"connections": [
+			{
+				"target": 2,
+				"title": "Supported coins",
+				"description": "Connection description.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 16,
+				"title": "Cryptocurrencies",
+				"description": "How does the whole ecosystem works etc.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 3,
+				"title": "How to use Trezor",
+				"description": "How to set PIN, how to use passphrase and other Trezor features",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 9,
+				"title": "Developer's guide",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 27,
+				"title": "Sales",
+				"description": "I want to become a Trezor reseller or affiliate",
+				"image": "",
+				"isLink": true,
+				"link": "https://shop.trezor.io/sales/",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 28,
+				"title": "Security",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 6,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 2,
+		"text": "Supported coins",
+		"slug": "supported-coins",
+		"content": "<p>this is content 2</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -741.0826988220215,
+		"fy": 94.0767822265625,
+		"connections": [
+			{
+				"target": 4,
+				"title": "I what to know coins are currently supported",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 5,
+				"title": "I want a new coin to be supported by Trezor",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 6,
+				"title": "I'm interested in an information regarding hardofork of already supported coins",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 3,
+		"text": "How to",
+		"slug": "how-to",
+		"content": "<p>You can find loads of usel tips in our <a href=\"https://wiki.trezor.io/User_manual\">User manual</a>.</p>\n<p><br></p>\n<p>Here are the most common tips:</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 407.9488378671499,
+		"fy": -184.8378190260667,
+		"connections": [
+			{
+				"target": 19,
+				"title": "How does a recovery seed work",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/Recovery_seed",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 20,
+				"title": "How does a passphrase work",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://blog.trezor.io/passphrase-the-ultimate-protection-for-your-accounts-3a311990925b",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 21,
+				"title": "How to set and enter the PIN",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/PIN",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 22,
+				"title": "How to reset lost or forgotten PIN",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/PIN#Resetting_lost_or_forgotten_PIN",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 23,
+				"title": "How to send transaction",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/User_manual:Making_payments",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 24,
+				"title": "How to receive transaction",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/User_manual:Receiving_payments",
+				"sort": 6,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 25,
+				"title": "How to setup your Trezor",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/Getting_started_in_5_steps",
+				"sort": 7,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 26,
+				"title": "I didn't find an answer and I want to contact Trezor support",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 8,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 4,
+		"text": "Supported coins",
+		"slug": "supported-coins-1",
+		"content": "<p>Here you can find a <a href=\"https://trezor.io/coins/\">list of supported coins</a> that are currency supported by Trezor alongside with&nbsp;information about available Wallets</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1066.6796639357942,
+		"fy": 328.8976197061659,
+		"connections": [
+			{
+				"target": 11,
+				"title": "Supported coin information says \"No wallet yet\"",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 5,
+		"text": "New coins support",
+		"slug": "new-coins-support",
+		"content": "<p>Please, check the list of already supported coins by following this <a href=\"https://trezor.io/coins/\">link</a></p>\n<p><br></p>\n<p>and our <a href=\"https://wiki.trezor.io/Roadmap\">roadmap</a>.</p>\n<p><br></p>\n<p>If the coin in question is not listed, we need to know \"who you are\":</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -821.5735054016113,
+		"fy": 317.2729015350342,
+		"connections": [
+			{
+				"target": 7,
+				"title": "I'm an user",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 8,
+				"title": "I'm a developer of the given coin",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 6,
+		"text": "Hard forks",
+		"slug": "hard-forks",
+		"content": "<p>In general, we subject supporting any hard fork to several security and sustainability conditions that must be fulfilled before we start working on implementing support.<br>\n</p>\n<p>Our conditions are as follows.&nbsp;</p>\n<ol>\n  <li>The forked currency must be open-source, to be verifiably safe to use alongside other currencies.</li>\n  <li>The Bitcoin fork must have a strong, two-way replay protection. Without replay protection, you could lose your bitcoins when trying to use the fork.</li>\n  <li>The blockchain of the fork must be online, active and running. This requirement effectively means that miners are working to keep the blockchain alive and that the blocks are found at a regular period.</li>\n  <li>The forked coin must be backed by a development team, which regularly updates the codebase. Without this assurance, the fork might just be a quick-to-get-rich scheme, at the expense of investors into the coin.</li>\n  <li>The cryptocurrency must be supported by reputable services, such as exchanges or wallets. No-name or previously unknown exchanges are not considered as reputable.<br>\n</li>\n</ol>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -399.7150607638888,
+		"fy": 335.1634318033854,
+		"connections": [
+			{
+				"target": 15,
+				"title": "I have a question regarding hard fork",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 7,
+		"text": "I want a new coin to be supported by Trezor",
+		"slug": "i-want-a-new-coin-to-be-supported-by-trezor",
+		"content": "<p>We are constantly working on improving our product, however, we need a bit of cooperation from the developers of your favourite coin. If your favourite coin is not listed amongst our currently supported coins, please, contact its developers with a request, then they should reach to us and together we can work on an integration of your favourite coin.</p>\n<p><br></p>\n<p>They can find all necessary info at our <a href=\"We are constantly working on improving our product, however, we need a bit of cooperation from the developers of your favourite coin. If your favourite coin is not listed amongst our currently supported coins, please, contact its developers with a request, then they should reach to us and together we can work on an integration of your favourite coin.\">Trezor Wiki page</a>.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -942.6171048792397,
+		"fy": 513.8839833329364,
+		"connections": [
+			{
+				"target": 13,
+				"title": "Not enough information? Contact us!",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 8,
+		"text": "Developer's guide",
+		"slug": "developers-guide",
+		"content": "<p>You can find all necessary info regarding an integration of new coin at our <a href=\"https://wiki.trezor.io/Developers_guide:Contributing\">Developer's section</a></p>\n<p><br></p>\n<p>The best way how to communicate with our developers during the project is through our <a href=\"https://github.com/trezor/\">GitHub</a>&nbsp;</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -648.5055545669004,
+		"fy": 483.5917119405355,
+		"connections": [
+			{
+				"target": 14,
+				"title": "I want to contact Trezor support",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 9,
+		"text": "Developers guide",
+		"slug": "developers-guide-1",
+		"content": "<p>You can find all necessary info in our <a href=\"https://wiki.trezor.io/Developers_guide\">Developer's guide</a></p>\n<p><br></p>\n<p>The best way how to communicate with our developers during the project is through our <a href=\"https://github.com/trezor/\">GitHub</a>&nbsp;</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 845.1707586974302,
+		"fy": -613.2931866625261,
+		"connections": [
+			{
+				"target": 10,
+				"title": "I didn't find the necessary info in your guide",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 10,
+		"text": "GENERAL FORM",
+		"slug": "general-form",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 832.1323906393615,
+		"fy": -458.6601490693934,
+		"connections": []
+	},
+	{
+		"id": 11,
+		"text": "Firmware support",
+		"slug": "firmware-support",
+		"content": "<p>The coin in question is only supported in Trezor's (the hardware device) firmware at the moment.</p>\n<p><br>\nThis means that there is no user graphic interface (software wallet) to help a casual user use this cryptocurrency. In such a case, the firmware (operating system on the device) recognizes the cryptocurrency, and maybe it can even sign the transactions and operate, but it is only viable for very very technical users who can operate in this experience using a command line and programming.<br>\n</p>\n<p>Our goal is to have all of the supported coins (or at least as many as possible) natively integrated into our wallet.trezor.io<br>\nUnfortunately, I am not able to give you any specific timelines or promises right now.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1194.5455755189407,
+		"fy": 508.94554209154705,
+		"connections": [
+			{
+				"target": 12,
+				"title": "I want to know more",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 12,
+		"text": "GENERAL FORM",
+		"slug": "general-form-1",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1210.1142725451239,
+		"fy": 674.1288410055226,
+		"connections": []
+	},
+	{
+		"id": 13,
+		"text": "GENERAL FORM",
+		"slug": "general-form-2",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -940.7362018931997,
+		"fy": 679.767723083496,
+		"connections": []
+	},
+	{
+		"id": 14,
+		"text": "GENERAL FORM",
+		"slug": "general-form-3",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -625.3678650588132,
+		"fy": 679.2017712539501,
+		"connections": []
+	},
+	{
+		"id": 15,
+		"text": "GENERAL FORM",
+		"slug": "general-form-4",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -396.26582845052087,
+		"fy": 481.03899129231763,
+		"connections": []
+	},
+	{
+		"id": 16,
+		"text": "Cryptocurrencies",
+		"slug": "cryptocurrencies",
+		"content": "<p>You can find lots of useful and interesting information about Cryptocurrencies and Trezor on our <a href=\"https://wiki.trezor.io/Welcome\">Trezor Wiki</a></p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -158.97360738118493,
+		"fy": 307.5725987752279,
+		"connections": [
+			{
+				"target": 17,
+				"title": "I have a question about unconfirmed transaction",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 18,
+				"title": "I have another question",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 17,
+		"text": "Unconfirmed transaction",
+		"slug": "unconfirmed-transaction",
+		"content": "<p>If your transaction is still unconfirmed by the bitcoin network then you might have provided a smaller fee and it may take some time until the transaction is included in the next block.<br>\nIn some cases, when the fee is really insignificant, the transaction is not processed at all and then returns to its source after few days.<br>\n</p>\n<p>It is important to know that TREZOR is responsible only for signing the transaction. TREZOR is NOT responsible for confirming the transaction on the Blockchain.<br>\n</p>\n<p>Unfortunately, unconfirmed transactions are unreliable by design.<br>\nWhen there is a large size of the unconfirmed transactions in the Bitcoin network, it is also possible that not all of them will fit into the memory of relaying nodes immediately.<br>\nIt is an inherent technical issue of Bitcoin. For instance, the transaction can get temporarily \"lost\" on its way in some node (generally happens to low fee txs) and therefore it will not propagate to our servers. Hence, the transaction will not show up in TREZOR Wallet right away (this applies for txs sent into TREZOR).<br>\nOnce the transactions are confirmed by the network, they will show up in the Wallet again.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -218.9784492241158,
+		"fy": 499.72473245138644,
+		"connections": []
+	},
+	{
+		"id": 18,
+		"text": "GENERAL FORM",
+		"slug": "general-form-5",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -53.61739600223048,
+		"fy": 504.05493495775306,
+		"connections": []
+	},
+	{
+		"id": 19,
+		"text": "Recovery seed",
+		"slug": "recovery-seed",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 82.77405794205194,
+		"fy": 284.78490521830895,
+		"connections": []
+	},
+	{
+		"id": 20,
+		"text": "Passphrase",
+		"slug": "passphrase",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 276.8078256160655,
+		"fy": 294.62070481320643,
+		"connections": []
+	},
+	{
+		"id": 21,
+		"text": "How to set and enter the PIN",
+		"slug": "how-to-set-and-enter-the-pin",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 428.98986977025083,
+		"fy": 289.2874675549959,
+		"connections": []
+	},
+	{
+		"id": 22,
+		"text": "How to reset lost or forgotten PIN",
+		"slug": "how-to-reset-lost-or-forgotten-pin",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 612.5676641464232,
+		"fy": 304.4235324859619,
+		"connections": []
+	},
+	{
+		"id": 23,
+		"text": "How to send transaction",
+		"slug": "how-to-send-transaction",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 791.2504272460938,
+		"fy": 341.276426334971,
+		"connections": []
+	},
+	{
+		"id": 24,
+		"text": "How to receive transaction",
+		"slug": "how-to-receive-transaction",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 831.8381294717594,
+		"fy": 223.0849677883849,
+		"connections": []
+	},
+	{
+		"id": 25,
+		"text": "How to set up your new Trezor",
+		"slug": "how-to-set-up-your-new-trezor",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 838.1706764914774,
+		"fy": 91.85361596309778,
+		"connections": []
+	},
+	{
+		"id": 26,
+		"text": "GENERAL FORM",
+		"slug": "general-form-6",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 919.5442504882811,
+		"fy": -7.5297279357910085,
+		"connections": []
+	},
+	{
+		"id": 27,
+		"text": "Sales link",
+		"slug": "sales-link",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 657.6374567617283,
+		"fy": -982.5832431906521,
+		"connections": []
+	},
+	{
+		"id": 28,
+		"text": "Security",
+		"slug": "security",
+		"content": "<p>You can find detailed info about our security</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -42.17787473341993,
+		"fy": -1072.4547442267924,
+		"connections": [
+			{
+				"target": 29,
+				"title": "Trezor Wiki - Security section",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/Security",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 30,
+				"title": "Trezor Security measures and Responsible disclosure",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://trezor.io/security/",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 31,
+				"title": "I have a question regarding security",
+				"description": "Contact Trezor support",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 29,
+		"text": "Security WIKI",
+		"slug": "security-wiki",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -350.58146711923536,
+		"fy": -1325.7237288095416,
+		"connections": []
+	},
+	{
+		"id": 30,
+		"text": "trezor.io/security/",
+		"slug": "trezorio-security-",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -12.270261324369011,
+		"fy": -1347.1971012995793,
+		"connections": []
+	},
+	{
+		"id": 31,
+		"text": "GENERAL FORM",
+		"slug": "general-form-7",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 292.5237034388951,
+		"fy": -1302.0824497767856,
+		"connections": []
+	}
+]
