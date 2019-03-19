@@ -38,19 +38,6 @@
 				}
 			},
 			{
-				"target": 3,
-				"title": "The device is clearly physically broken",
-				"description": "Display is cracked, buttons aren't working etc.",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 3,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
 				"target": 27,
 				"title": "I'm facing an issue with 3rd party wallet",
 				"description": "MyEtherWallet, MyCrypto, Electrum and others",
@@ -71,6 +58,19 @@
 				"isLink": false,
 				"link": "",
 				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 13,
+				"title": "The device is clearly physically broken",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 6,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -104,32 +104,6 @@
 				}
 			},
 			{
-				"target": 5,
-				"title": "There is an unauthorized transaction that was not made by myself",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 2,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 7,
-				"title": "Other issue",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 4,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
 				"target": 16,
 				"title": "Unconfirmed transaction",
 				"description": "",
@@ -137,6 +111,19 @@
 				"isLink": false,
 				"link": "",
 				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 13,
+				"title": "There is an unauthorized transaction that was not made by myself",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 6,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -185,19 +172,6 @@
 		]
 	},
 	{
-		"id": 3,
-		"text": "Tech form",
-		"slug": "tech-form",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01b757",
-		"fx": -301.7386712294359,
-		"fy": -374.6503219466943,
-		"connections": []
-	},
-	{
 		"id": 4,
 		"text": "What's wrong with the balance?",
 		"slug": "whats-wrong-with-the-balance?",
@@ -236,32 +210,6 @@
 				}
 			}
 		]
-	},
-	{
-		"id": 5,
-		"text": "Tech form",
-		"slug": "tech-form-1",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -843.7768402099609,
-		"fy": 53.78338050842285,
-		"connections": []
-	},
-	{
-		"id": 7,
-		"text": "TECH FORM",
-		"slug": "tech-form-2",
-		"content": "",
-		"metadata": "",
-		"notes": "tech form\n",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -313.0054514815168,
-		"fy": 64.61542522616503,
-		"connections": []
 	},
 	{
 		"id": 8,
@@ -316,8 +264,8 @@
 		"fy": -703.8297816685268,
 		"connections": [
 			{
-				"target": 11,
-				"title": "This did not help",
+				"target": 13,
+				"title": "This did not help, I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -371,19 +319,6 @@
 		]
 	},
 	{
-		"id": 11,
-		"text": "Tech form",
-		"slug": "tech-form-3",
-		"content": "<p>Please, contact us</p>",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -1983.7914350642714,
-		"fy": -708.2470593119776,
-		"connections": []
-	},
-	{
 		"id": 12,
 		"text": "Passphrase",
 		"slug": "passphrase",
@@ -396,8 +331,8 @@
 		"fy": 249.47432103650328,
 		"connections": [
 			{
-				"target": 14,
-				"title": "This did not help",
+				"target": 13,
+				"title": "This did not help, I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -412,28 +347,15 @@
 	},
 	{
 		"id": 13,
-		"text": "Tech form",
-		"slug": "tech-form-4",
+		"text": "TECH FORM",
+		"slug": "tech-form",
 		"content": "",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
-		"color": "#01B757",
-		"fx": -1300.2000087391248,
-		"fy": 104.16010249744761,
-		"connections": []
-	},
-	{
-		"id": 14,
-		"text": "Tech form",
-		"slug": "tech-form-5",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -1472.341223556004,
-		"fy": 415.45995133646414,
+		"color": "#1e7ff0",
+		"fx": -772.4202235828748,
+		"fy": 616.8918377269398,
 		"connections": []
 	},
 	{
@@ -502,8 +424,8 @@
 		"fy": 246.32930506830627,
 		"connections": [
 			{
-				"target": 18,
-				"title": "This did not help",
+				"target": 13,
+				"title": "This did not help, I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -515,19 +437,6 @@
 				}
 			}
 		]
-	},
-	{
-		"id": 18,
-		"text": "Tech form",
-		"slug": "tech-form-6",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -933.6867380449848,
-		"fy": 409.80854748141377,
-		"connections": []
 	},
 	{
 		"id": 19,
@@ -578,12 +487,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -300.8644883176114,
-		"fy": 447.10037978152013,
+		"fx": -510.45768900120515,
+		"fy": 928.5421522424576,
 		"connections": [
 			{
-				"target": 21,
-				"title": "This did no help",
+				"target": 13,
+				"title": "This did not help, I want to contact support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -595,19 +504,6 @@
 				}
 			}
 		]
-	},
-	{
-		"id": 21,
-		"text": "Tech form",
-		"slug": "tech-form-7",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -630.519277472245,
-		"fy": 458.2544234426398,
-		"connections": []
 	},
 	{
 		"id": 22,
@@ -706,14 +602,14 @@
 	{
 		"id": 26,
 		"text": "Tech form",
-		"slug": "tech-form-8",
+		"slug": "tech-form-1",
 		"content": "",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -29.314969062805176,
-		"fy": 1661.4579772949219,
+		"fx": -918.3768587112427,
+		"fy": 1435.8350524902344,
 		"connections": []
 	},
 	{

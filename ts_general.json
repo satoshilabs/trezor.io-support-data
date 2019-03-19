@@ -1,14 +1,14 @@
 [
 	{
 		"id": 0,
-		"text": "FAQ/General questions",
-		"slug": "faq-general-questions",
+		"text": "General questions",
+		"slug": "general-questions",
 		"content": "<p>What are you interested in?</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -46.10011148452759,
+		"fx": -44.27073526382446,
 		"fy": -603.2761459350586,
 		"connections": [
 			{
@@ -19,19 +19,6 @@
 				"isLink": false,
 				"link": "",
 				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 16,
-				"title": "Cryptocurrencies",
-				"description": "How does the whole ecosystem works etc.",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 2,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -248,8 +235,8 @@
 				}
 			},
 			{
-				"target": 26,
-				"title": "I didn't find an answer and I want to contact Trezor support",
+				"target": 31,
+				"title": "I have another question and I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -342,8 +329,8 @@
 		"fy": 335.1634318033854,
 		"connections": [
 			{
-				"target": 15,
-				"title": "I have a question regarding hard fork",
+				"target": 31,
+				"title": "I didn't find the answer and I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -369,8 +356,8 @@
 		"fy": 513.8839833329364,
 		"connections": [
 			{
-				"target": 13,
-				"title": "Not enough information? Contact us!",
+				"target": 31,
+				"title": "I didn't find the answer and I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -396,8 +383,8 @@
 		"fy": 483.5917119405355,
 		"connections": [
 			{
-				"target": 14,
-				"title": "I want to contact Trezor support",
+				"target": 31,
+				"title": "I didn't find the answer and I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -423,8 +410,8 @@
 		"fy": -613.2931866625261,
 		"connections": [
 			{
-				"target": 10,
-				"title": "I didn't find the necessary info in your guide",
+				"target": 31,
+				"title": "I didn't find the answer and I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -436,19 +423,6 @@
 				}
 			}
 		]
-	},
-	{
-		"id": 10,
-		"text": "GENERAL FORM",
-		"slug": "general-form",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": 832.1323906393615,
-		"fy": -458.6601490693934,
-		"connections": []
 	},
 	{
 		"id": 11,
@@ -463,8 +437,8 @@
 		"fy": 508.94554209154705,
 		"connections": [
 			{
-				"target": 12,
-				"title": "I want to know more",
+				"target": 31,
+				"title": "I didn't find the answer and I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -476,124 +450,6 @@
 				}
 			}
 		]
-	},
-	{
-		"id": 12,
-		"text": "GENERAL FORM",
-		"slug": "general-form-1",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -1210.1142725451239,
-		"fy": 674.1288410055226,
-		"connections": []
-	},
-	{
-		"id": 13,
-		"text": "GENERAL FORM",
-		"slug": "general-form-2",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -940.7362018931997,
-		"fy": 679.767723083496,
-		"connections": []
-	},
-	{
-		"id": 14,
-		"text": "GENERAL FORM",
-		"slug": "general-form-3",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -625.3678650588132,
-		"fy": 679.2017712539501,
-		"connections": []
-	},
-	{
-		"id": 15,
-		"text": "GENERAL FORM",
-		"slug": "general-form-4",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -396.26582845052087,
-		"fy": 481.03899129231763,
-		"connections": []
-	},
-	{
-		"id": 16,
-		"text": "Cryptocurrencies",
-		"slug": "cryptocurrencies",
-		"content": "<p>You can find lots of useful and interesting information about Cryptocurrencies and Trezor on our <a href=\"https://wiki.trezor.io/Welcome\">Trezor Wiki</a></p>",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -158.97360738118493,
-		"fy": 307.5725987752279,
-		"connections": [
-			{
-				"target": 17,
-				"title": "I have a question about unconfirmed transaction",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 18,
-				"title": "I have another question",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 2,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
-		"id": 17,
-		"text": "Unconfirmed transaction",
-		"slug": "unconfirmed-transaction",
-		"content": "<p>If your transaction is still unconfirmed by the bitcoin network then you might have provided a smaller fee and it may take some time until the transaction is included in the next block.<br>\nIn some cases, when the fee is really insignificant, the transaction is not processed at all and then returns to its source after few days.<br>\n</p>\n<p>It is important to know that TREZOR is responsible only for signing the transaction. TREZOR is NOT responsible for confirming the transaction on the Blockchain.<br>\n</p>\n<p>Unfortunately, unconfirmed transactions are unreliable by design.<br>\nWhen there is a large size of the unconfirmed transactions in the Bitcoin network, it is also possible that not all of them will fit into the memory of relaying nodes immediately.<br>\nIt is an inherent technical issue of Bitcoin. For instance, the transaction can get temporarily \"lost\" on its way in some node (generally happens to low fee txs) and therefore it will not propagate to our servers. Hence, the transaction will not show up in TREZOR Wallet right away (this applies for txs sent into TREZOR).<br>\nOnce the transactions are confirmed by the network, they will show up in the Wallet again.</p>",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -218.9784492241158,
-		"fy": 499.72473245138644,
-		"connections": []
-	},
-	{
-		"id": 18,
-		"text": "GENERAL FORM",
-		"slug": "general-form-5",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -53.61739600223048,
-		"fy": 504.05493495775306,
-		"connections": []
 	},
 	{
 		"id": 19,
@@ -684,19 +540,6 @@
 		"color": "#01B757",
 		"fx": 838.1706764914774,
 		"fy": 91.85361596309778,
-		"connections": []
-	},
-	{
-		"id": 26,
-		"text": "GENERAL FORM",
-		"slug": "general-form-6",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": 919.5442504882811,
-		"fy": -7.5297279357910085,
 		"connections": []
 	},
 	{
@@ -794,14 +637,14 @@
 	{
 		"id": 31,
 		"text": "GENERAL FORM",
-		"slug": "general-form-7",
+		"slug": "general-form",
 		"content": "",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
-		"color": "#01B757",
-		"fx": 292.5237034388951,
-		"fy": -1302.0824497767856,
+		"color": "#1e7ff0",
+		"fx": -1441.3427211216517,
+		"fy": -666.0790318080356,
 		"connections": []
 	}
 ]
