@@ -3,7 +3,7 @@
 		"id": 3,
 		"text": "Main Category",
 		"slug": "main-category",
-		"content": "",
+		"content": "<p>Here you can find the basic information via links related to Logistics matters.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -27,7 +27,7 @@
 			{
 				"target": 18,
 				"title": "Shipping & Delivery",
-				"description": "Status of my order, Delivery information, Customs and Taxes",
+				"description": "Incomplete orders, Status of my order, Delivery information, Customs and Taxes",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -186,15 +186,15 @@
 	},
 	{
 		"id": 20,
-		"text": "Warranty & Privacy Policy",
-		"slug": "warranty-and-privacy-policy",
+		"text": "Warranty & Refund Policy",
+		"slug": "warranty-and-refund-policy",
 		"content": "<p>Our warranty conditions and refund policy can be found <a href=\"https://wiki.trezor.io/FAQ:Warranty\">here</a>.</p>\n<p><a href=\"https://shop.trezor.io/static/shared/warranty-refund-policy.pdf\">Legal document</a></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
 		"color": "#ffeb3b",
-		"fx": -282.4559944554379,
-		"fy": -1264.3411809017782,
+		"fx": -281.3737648411801,
+		"fy": -1268.9175969174032,
 		"connections": []
 	},
 	{
@@ -285,12 +285,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -1331.4643981310787,
-		"fy": -786.6077681560905,
+		"fx": -1330.5231139513912,
+		"fy": -798.843974210778,
 		"connections": [
 			{
-				"target": 31,
-				"title": "I want to contact Trezor Support team about this",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -316,8 +316,8 @@
 		"fy": -894.6551171505089,
 		"connections": [
 			{
-				"target": 31,
-				"title": "I want to exchange for something else",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -340,11 +340,11 @@
 		"nosearch": false,
 		"color": "#9900ef",
 		"fx": -1330.5167846679688,
-		"fy": -1011.7658386230469,
+		"fy": -1013.0286560058594,
 		"connections": [
 			{
-				"target": 31,
-				"title": "Please continue to the form If you want to return your device",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -366,8 +366,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#ffeb3b",
-		"fx": -288.2120711827042,
-		"fy": -1359.7213618212409,
+		"fx": -309.1774032139542,
+		"fy": -1370.2040278368659,
 		"connections": []
 	},
 	{
@@ -379,12 +379,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -1329.377857881434,
+		"fx": -1328.4365737017465,
 		"fy": -688.0663825764377,
 		"connections": [
 			{
-				"target": 31,
-				"title": "Please continue to the form.",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -449,7 +449,7 @@
 				}
 			},
 			{
-				"target": 30,
+				"target": 75,
 				"title": "My package is held by the customs",
 				"description": "",
 				"image": "",
@@ -542,19 +542,6 @@
 				}
 			}
 		]
-	},
-	{
-		"id": 31,
-		"text": "Form",
-		"slug": "form",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": true,
-		"color": "#333333",
-		"fx": -1532.2652675083707,
-		"fy": -862.2199031284878,
-		"connections": []
 	},
 	{
 		"id": 32,
@@ -665,15 +652,15 @@
 	},
 	{
 		"id": 36,
-		"text": "Form",
-		"slug": "form-1",
+		"text": "Form - Trezor Shop",
+		"slug": "form-trezor-shop",
 		"content": "",
 		"metadata": "",
-		"notes": "",
+		"notes": "Form",
 		"nosearch": true,
 		"color": "#333333",
-		"fx": -857.2018821022727,
-		"fy": -852.7652128392999,
+		"fx": -923.7790305397727,
+		"fy": -822.3095853978937,
 		"connections": []
 	},
 	{
@@ -861,7 +848,7 @@
 			},
 			{
 				"target": 67,
-				"title": "New node",
+				"title": "Privacy Policy",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -918,7 +905,7 @@
 		"id": 46,
 		"text": "Shipping Options & Handling Time",
 		"slug": "shipping-options-and-handling-time",
-		"content": "<p>We have 3 options for the shipping. The items dispatchs within 2 days of the time of the purchase.</p>\n<p>Although, the options could vary depending of your country.</p>\n<p><strong>DHL Express shipping</strong></p>\n<p>DHL shipping is a professional and fast delivery service. Your order is fully trackable and this information is available at least for 30 days after the package is handed to the DHL courier.This shipping method is not available for Russia.</p>\n<p>Delivery time may vary between two to five business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 90 days.</p>\n<p><strong>UPS shipping</strong></p>\n<p>UPS shipping is a professional and fast delivery service that is currently available only for the United Kingdom.</p>\n<p>Delivery time may vary between one and three business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 120 day.</p>\n<p><strong>Standard worldwide shipping</strong></p>\n<p>Standard shipping option is only available in EU countries and Russia. Its tractability is limited.</p>\n<p>Delivery time may vary between five days to six weeks depending on your location and your national post service.</p>\n<p>Parcel sent via Standard shipping can be traced <a href=\"https://www.postaonline.cz/trackandtrace\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">here</a> until it leaves the country of origin. After that, it can be traced on the website of the postal service in your country, if available.</p>",
+		"content": "<p>We have 3 options for the shipping. The items dispatchs within 2 days of the time of the purchase.</p>\n<p>Although, the options could vary depending of your country.</p>\n<p><strong>DHL Express shipping</strong></p>\n<p>DHL shipping is a professional and fast delivery service. Your order is fully trackable and this information is available at least for 30 days after the package is handed to the DHL courier.This shipping method is not available for Russia.</p>\n<p>Delivery time may vary between two to five business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 90 days.</p>\n<p><strong>UPS shipping</strong></p>\n<p>UPS shipping is a professional and fast delivery service that is currently available only for the United Kingdom.</p>\n<p>Delivery time may vary between one and three business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 120 day.</p>\n<p><strong>Standard worldwide shipping</strong></p>\n<p>Standard shipping option is only available in EU countries and Russia. Its tractability is limited.</p>\n<p>Delivery time may vary between five days to six weeks depending on your location and your national post service.</p>\n<p>Parcel sent via Standard shipping can be traced <a href=\"https://www.postaonline.cz/en/trackandtrace\">here</a> until it leaves the country of origin. After that, it can be traced on the website of the postal service in your country, if available.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -944,7 +931,7 @@
 		"id": 51,
 		"text": "Authenticity",
 		"slug": "authenticity",
-		"content": "<p>Not sure If your device is genuine?</p>\n<p>If you are concerned that your Trezor is not a genuine product from our company, please refer to this <a href=\"https://blog.trezor.io/psa-non-genuine-trezor-devices-979b64e359a7\"><u>blog article</u></a>, where you will find the information about how to distinguish between the original and a fake Trezor.</p>\n<p>You can also check the <a href=\"https://wiki.trezor.io/Trezor_packaging_timeline\"><u><strong>Trezor packaging timeline</strong></u></a><u><strong>.</strong></u></p>",
+		"content": "<p>Not sure If your device is genuine?</p>\n<p>If you are concerned that your Trezor is not a genuine product from our company, please refer to this <a href=\"https://blog.trezor.io/psa-non-genuine-trezor-devices-979b64e359a7\"><u>blog article</u></a>, where you will find the information about how to distinguish between the original and a fake Trezor.</p>\n<p>You can also check out the <a href=\"https://wiki.trezor.io/Trezor_packaging_timeline\"><u><strong>Trezor packaging timeline</strong></u></a><u><strong>.</strong></u></p>",
 		"metadata": "fake, genuine, real, legit",
 		"notes": "",
 		"nosearch": false,
@@ -1000,11 +987,11 @@
 		"slug": "form-fake-trezor",
 		"content": "",
 		"metadata": "",
-		"notes": "",
+		"notes": "Tady ve formu dodat: Kde si koupil Trezor, nahrani screenu - foto krabicky z obou stran + foto hologramu\nPopripade nahrani faktury (pdf).",
 		"nosearch": true,
 		"color": "#333333",
-		"fx": -1578.6116699218749,
-		"fy": -1089.83466796875,
+		"fx": -1646.2441162109374,
+		"fy": -1121.5746849060058,
 		"connections": []
 	},
 	{
@@ -1123,6 +1110,19 @@
 					"x": 0,
 					"y": 0
 				}
+			},
+			{
+				"target": 75,
+				"title": "Customs in my country have my package",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 7,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
 			}
 		]
 	},
@@ -1136,11 +1136,11 @@
 		"nosearch": false,
 		"color": "#9900ef",
 		"fx": -1327.099871635437,
-		"fy": -577.1713500022888,
+		"fy": -578.8655638694763,
 		"connections": [
 			{
-				"target": 31,
-				"title": "Please continue to the form.",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1162,12 +1162,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -14.06717085838315,
-		"fy": -842.675013422966,
+		"fx": -19.586424112319918,
+		"fy": -762.6458386182785,
 		"connections": [
 			{
-				"target": 61,
-				"title": "I want to contact Trezor Support Team",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1189,12 +1189,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -12.892875316531132,
-		"fy": -1034.740169081577,
+		"fx": -20.251878621966313,
+		"fy": -995.185481581577,
 		"connections": [
 			{
-				"target": 61,
-				"title": "Proceed to contact our Trezor Support Team",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1208,19 +1208,6 @@
 		]
 	},
 	{
-		"id": 61,
-		"text": "Form",
-		"slug": "form-2",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": true,
-		"color": "#333333",
-		"fx": 11.56673416724567,
-		"fy": -627.6254155085637,
-		"connections": []
-	},
-	{
 		"id": 62,
 		"text": "Tracking not found error",
 		"slug": "tracking-not-found-error",
@@ -1229,12 +1216,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -12.515348725646504,
-		"fy": -951.7080756034561,
+		"fx": -20.794227831691273,
+		"fy": -887.3167792167374,
 		"connections": [
 			{
-				"target": 61,
-				"title": "I believe there's another issue, continue to the form",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1256,12 +1243,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": 294.9291617653587,
-		"fy": -991.145545612682,
+		"fx": 316.99343178488994,
+		"fy": -1011.680946003307,
 		"connections": [
 			{
-				"target": 61,
-				"title": "I want Trezor Support Team to start the investigation",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1283,12 +1270,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": 296.69824494096565,
-		"fy": -885.0372451194247,
+		"fx": 317.33301056596565,
+		"fy": -911.390089357706,
 		"connections": [
 			{
-				"target": 61,
-				"title": "I haven't received a tracking number after the processing period",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1334,18 +1321,18 @@
 		"slug": "form-ship-to-my-country",
 		"content": "",
 		"metadata": "",
-		"notes": "",
+		"notes": "Tady udelat form: zemi kde chce shippovat",
 		"nosearch": true,
 		"color": "#01B757",
-		"fx": 857.914726706112,
-		"fy": -941.6400910706079,
+		"fx": 926.1223072725184,
+		"fy": -984.7891389221704,
 		"connections": []
 	},
 	{
 		"id": 67,
 		"text": "Privacy Policy",
 		"slug": "privacy-policy",
-		"content": "<p><a href=\"https://shop.trezor.io/static/shared/privacy-policy.pdf\">Legal document.</a></p>\n<p>tl;dr: <a href=\"https://wiki.trezor.io/Security:User_data\">Wiki article</a></p>",
+		"content": "<p>Our privacy policy be found <a href=\"https://wiki.trezor.io/Security:User_data\">here</a>.</p>\n<p><a href=\"https://shop.trezor.io/static/shared/privacy-policy.pdf\">Legal document.</a></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -1397,7 +1384,7 @@
 		"id": 71,
 		"text": "Crypto - BitcoinPay & Globee",
 		"slug": "crypto-bitcoinpay-and-globee",
-		"content": "<p>Please verify whether your bitcoin transaction was already confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://trezor.github.io/troubleshooter-editor/shop.trezor.io\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://blockchain.info/\"><u>https://blockchain.info</u></a></p>\n<p><a href=\"https://btc-explorer.trezor.io/\">https://btc-explorer.trezor.io</a></p>",
+		"content": "<p>Please verify whether your bitcoin transaction was already confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://trezor.github.io/troubleshooter-editor/shop.trezor.io\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://blockchain.info/\"><u>https://blockchain.info</u></a></p>\n<p><a href=\"https://btc-explorer.trezor.io/\">https://btc-explorer.trezor.io</a></p>\n<p>If you have used a Globee option as form of payment. Please, continue to the form.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -1453,10 +1440,10 @@
 		"slug": "form-payment-issues",
 		"content": "",
 		"metadata": "",
-		"notes": "",
+		"notes": "Form: Jak uhradil vyrobek.\nCo ma za problem.\nPripadne screen.\n",
 		"nosearch": true,
 		"color": "#01B757",
-		"fx": -535.6064108571699,
+		"fx": -549.2425802907636,
 		"fy": -605.6841839205833,
 		"connections": []
 	},
@@ -1469,12 +1456,12 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": 297.78548141989216,
-		"fy": -742.1949493369192,
+		"fx": 306.36247726950154,
+		"fy": -763.6374542197317,
 		"connections": [
 			{
-				"target": 61,
-				"title": "I want to reach out to Trezor Support Team",
+				"target": 76,
+				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1486,5 +1473,45 @@
 				}
 			}
 		]
+	},
+	{
+		"id": 75,
+		"text": "Customs in my country have my package",
+		"slug": "customs-in-my-country-have-my-package",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": 148.19467724485207,
+		"fy": -741.967781355795,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 76,
+		"text": "Form",
+		"slug": "form",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -533.1975484808247,
+		"fy": -379.9898484134514,
+		"connections": []
 	}
 ]
