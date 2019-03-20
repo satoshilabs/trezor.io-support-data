@@ -1,0 +1,1517 @@
+[
+	{
+		"id": 3,
+		"text": "Main Category",
+		"slug": "main-category",
+		"content": "<p>Here you can find the basic information via links related to Logistics matters.&nbsp;</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -250.02973641676584,
+		"fy": -1530.3662100595827,
+		"connections": [
+			{
+				"target": 17,
+				"title": "Purchase & Warranty",
+				"description": "Complete orders, Trezor Shop, Payment, Authenticity, Resellers, Documents",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 18,
+				"title": "Shipping & Delivery",
+				"description": "Incomplete orders, Status of my order, Delivery information, Customs and Taxes",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 17,
+		"text": "Purchase & Warranty",
+		"slug": "purchase-and-warranty",
+		"content": "<p>Complete Orders, Trezor Shop, Payments, Resellers, Documents</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": -643.775470899499,
+		"fy": -1350.7543981800907,
+		"connections": [
+			{
+				"target": 22,
+				"title": "Complete Orders",
+				"description": "I need help with already purchased & shipped orders",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 38,
+				"title": "Payment",
+				"description": "Issues with payment, Discount on bulk/wholesale, Promo code",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 32,
+				"title": "Trezor Shop",
+				"description": "shop.trezor.io - Login, VAT ID, Confirmation email",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 51,
+				"title": "Authenticity",
+				"description": "Is my device genuine?",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 39,
+				"title": "Resellers",
+				"description": "Trezor Official Resellers",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 43,
+				"title": "Documents",
+				"description": "Manual, Warranty, Return Policy",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 6,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 18,
+		"text": "Shipping & Delivery",
+		"slug": "shipping-and-delivery",
+		"content": "<p>Status of my order, Delivery information, Customs and Taxes</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": 150.51600090149913,
+		"fy": -1362.0508142286733,
+		"connections": [
+			{
+				"target": 30,
+				"title": "Status of my order",
+				"description": "New orders",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 29,
+				"title": "Delivery information",
+				"description": "I want to know more about Trezor delivery",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 28,
+				"title": "Customs and Taxes",
+				"description": "I have issue with customs",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 20,
+		"text": "Warranty & Refund Policy",
+		"slug": "warranty-and-refund-policy",
+		"content": "<p>Our warranty conditions and refund policy can be found <a href=\"https://wiki.trezor.io/FAQ:Warranty\">here</a>.</p>\n<p><a href=\"https://shop.trezor.io/static/shared/warranty-refund-policy.pdf\">Legal document</a></p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": -281.3737648411801,
+		"fy": -1268.9175969174032,
+		"connections": []
+	},
+	{
+		"id": 22,
+		"text": "Complete Shipped Orders",
+		"slug": "complete-shipped-orders",
+		"content": "<p>Please, appropriate selection of your issue.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": -1107.150158439715,
+		"fy": -1110.629371879027,
+		"connections": [
+			{
+				"target": 25,
+				"title": "I want to return order",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 23,
+				"title": "I received damaged package",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 24,
+				"title": "I want to exchange item / Wrong Item",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 58,
+				"title": "I didn't receive the order",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 27,
+				"title": "I need invoice for my company",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 23,
+		"text": "I received damaged package",
+		"slug": "i-received-damaged-package",
+		"content": "<p>1. Please contact the courier service or local post that handled the delivery for an explanation for why your package is damaged.</p>\n<p>We would suggest taking photos of your package that will clearly document its status.&nbsp;</p>\n<p>2. Sometimes the package is opened by customs. Unfortunately, we can't do anything to prevent customs from doing so as it is within their legal powers.</p>\n<p>Customs usually labels such packages with the information that it was opened by them. When contacting the courier service or local post, they should also be able to inform you whether this happened.</p>",
+		"metadata": "damage, damaged, open, broken",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": -1330.5231139513912,
+		"fy": -798.843974210778,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 24,
+		"text": "I want to exchange an item / I got wrong item",
+		"slug": "i-want-to-exchange-an-item-i-got-wrong-item",
+		"content": "<p>Please check if the content of the package reflects the content of your purchase by checking your order email.</p>",
+		"metadata": "wrong, item, exchange, change",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": -1328.6204168146305,
+		"fy": -894.6551171505089,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 25,
+		"text": "I want to return order",
+		"slug": "i-want-to-return-order",
+		"content": "<p><strong>Please bear in mind that refunds for returned orders can be claimed only when all necessary conditions have been fulfilled, and you will not receive a full refund.</strong></p>\n<p>Orders can be returned for refund only within 15 days from the day your package was received. More details can be found <a href=\"https://wiki.trezor.io/FAQ:Warranty\"><u>here</u></a>.</p>\n<p>1. If the Trezor box is not open, we will refund the cost of the Trezor product(s) once it has returned to us, minus the shipping costs you paid for this order to be both sent to you and returned to us.&nbsp;</p>\n<p>2. If the Trezor box is open, we will refund the cost of the Trezor product(s) minus 18 EUR for each unit (because of testing, refurbishing, and repacking the product) and minus the shipping cost you paid for this order once it has returned. You are also responsible for the shipping cost of sending the returned product(s) back to us.</p>\n<p>If you ordered more products in one parcel, you can also return only a part of the order.</p>\n<p>For example, from an order with two&nbsp;Trezor One White, you may return only one Trezor One White if you decide you don't want two.&nbsp;</p>\n<p>In case you paid with Bitcoin, please also read the conditions for Bitcoin refunds.</p>\n<p>If you fulfill the necessary conditions and still want to return your order, please submit a ticket here.</p>",
+		"metadata": "return, cancel",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": -1330.5167846679688,
+		"fy": -1013.0286560058594,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 26,
+		"text": "Manual",
+		"slug": "manual",
+		"content": "<p>Here you can find our <a href=\"https://wiki.trezor.io/User_manual\">Manual</a>.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": -309.1774032139542,
+		"fy": -1370.2040278368659,
+		"connections": []
+	},
+	{
+		"id": 27,
+		"text": "I need invoice for my company",
+		"slug": "i-need-invoice-for-my-company",
+		"content": "<p>The invoice is sent to the email you used to create the order, once your package is shipped.&nbsp;</p>\n<p><strong>Please check your spam folder to see if the email with the invoice ended up there.</strong></p>\n<p>If you were not able to obtain your invoice with these suggestions, please submit a ticket here.</p>",
+		"metadata": "invoice",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": -1328.4365737017465,
+		"fy": -688.0663825764377,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 28,
+		"text": "Customs and Taxes",
+		"slug": "customs-and-taxes",
+		"content": "<p><br></p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ed1212",
+		"fx": 358.5177675134996,
+		"fy": -1330.9496583377615,
+		"connections": [
+			{
+				"target": 68,
+				"title": "Customs duties payment calculation",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 69,
+				"title": "Declared price",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 70,
+				"title": "Customs and related payments",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 75,
+				"title": "My package is held by the customs",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 29,
+		"text": "Delivery information",
+		"slug": "delivery-information",
+		"content": "<p>Select the specific information topics below.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ed1212",
+		"fx": 389.0546394274072,
+		"fy": -1196.5836532740916,
+		"connections": [
+			{
+				"target": 46,
+				"title": "Delivery company selection",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 48,
+				"title": "Packaging information",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 65,
+				"title": "Shipping locations",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 30,
+		"text": "Status of my order",
+		"slug": "status-of-my-order",
+		"content": "<p>Please verify if your order is in “<em><strong>Shipped</strong></em>” status. Check your email under you made the order from our <a href=\"https://shop.trezor.io/\">Trezor Official Shop</a>.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ed1212",
+		"fx": 151.43851001446055,
+		"fy": -1200.2634831942044,
+		"connections": [
+			{
+				"target": 57,
+				"title": "I want to check the status/location of my package",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 32,
+		"text": "Trezor Shop",
+		"slug": "trezor-shop",
+		"content": "<p>More information about how to operate on <a href=\"https://wiki.trezor.io/FAQ:Ordering_and_shipping#How_to_buy_a_Trezor.3F\">Trezor Shop</a>.</p>",
+		"metadata": "trezor shop",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ed1212",
+		"fx": -853.9068068018499,
+		"fy": -1101.9416331165241,
+		"connections": [
+			{
+				"target": 33,
+				"title": "Issues with login / wrong password",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 35,
+				"title": "No confirmation email",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 45,
+				"title": "VAT ID Issues",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 33,
+		"text": "Issues with login / wrong password",
+		"slug": "issues-with-login-wrong-password",
+		"content": "<p>We suggest verifying whether you created more e-shop accounts under different emails.</p>\n<p><strong>Restoring the password</strong></p>\n<p>To restore your password, please use this <a href=\"https://shop.trezor.io/user/login/\"><u>link</u></a> and click on the “<em>Recover your password</em>” button located on this website.</p>\n<p>In the next step you’ll need to enter an email address where the instructions for setting a new password will be sent and then hit the “<em>Reset my password</em>” button.</p>\n<p>If you didn’t receive the email with the instructions, please check your spam folder and whether you entered your email address correctly.</p>",
+		"metadata": "login, email, password, wrong",
+		"notes": "",
+		"nosearch": false,
+		"color": "#eb8a00",
+		"fx": -978.3231104200131,
+		"fy": -976.2398354004476,
+		"connections": [
+			{
+				"target": 36,
+				"title": "Form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 35,
+		"text": "No confirmation email",
+		"slug": "no-confirmation-email",
+		"content": "<p>If you haven't received any confirmation email, please double check If you have successfully purchased your order.&nbsp;</p>\n<p>Also have a look in your 'SPAM' folder.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#eb8a00",
+		"fx": -803.7789998185744,
+		"fy": -992.0986692096114,
+		"connections": [
+			{
+				"target": 36,
+				"title": "Form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 36,
+		"text": "Form - Trezor Shop",
+		"slug": "form-trezor-shop",
+		"content": "",
+		"metadata": "",
+		"notes": "Form",
+		"nosearch": true,
+		"color": "#333333",
+		"fx": -923.7790305397727,
+		"fy": -822.3095853978937,
+		"connections": []
+	},
+	{
+		"id": 38,
+		"text": "Payment",
+		"slug": "payment",
+		"content": "<p>Click <a href=\"https://wiki.trezor.io/FAQ:Ordering_and_shipping#How_to_buy_a_Trezor.3F\">here</a> how to make successful payment in our official <a href=\"https://shop.trezor.io/\">Trezor shop</a>.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ed1212",
+		"fx": -511.76529508023646,
+		"fy": -1040.8332758723077,
+		"connections": [
+			{
+				"target": 40,
+				"title": "Issues with payment",
+				"description": "Issues with finishing the payment, Payment timeouted, Overpaid, Unable to pay",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 42,
+				"title": "Discount on bulk/wholesale",
+				"description": "I want to get better price for X amount",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 41,
+				"title": "Promo Code",
+				"description": "Promo code information",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 39,
+		"text": "Resellers",
+		"slug": "resellers",
+		"content": "<p>Here you can find a list with official resellers.</p>\n<p><a href=\"https://trezor.io/resellers/\">Trezor Official resellers</a>.</p>\n<p>We also have official stores on <a href=\"https://www.amazon.com/stores/page/C198CDB2-A4DE-4E54-8B10-AE9904CCD33E?ingress=0&amp;visitId=8cbd4754-8c5d-498f-acbe-5fe6d26b66c4&amp;lp_slot=auto-sparkle-hsa-tetris&amp;store_ref=SB_A09929091FVOQVGZOWMRH\"><u>Amazon US</u></a>, <a href=\"https://www.amazon.de/stores/node/9501630031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=TREZOR&amp;ref_=bl_dp_s_web_9501630031\"><u>Amazon DE</u></a> and <a href=\"https://www.newegg.com/Trezor-Official-Store\"><u>Newegg</u></a> (<a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2312&amp;ignorebbr=1\"><u>Trezor One</u></a>, <a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2308&amp;cm_re=trezor-_-1BK-00UB-00004-_-Product?cm_sp=NeweggInsider-_-Article-_-Trezor\"><u>Trezor Model T</u></a>).</p>\n<p><strong>Note</strong>: Devices bought from resellers, have their own warranty depending of the reseller conditions.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ed1212",
+		"fx": -658.3091315192146,
+		"fy": -1201.5947319236961,
+		"connections": []
+	},
+	{
+		"id": 40,
+		"text": "Issues with payment",
+		"slug": "issues-with-payment",
+		"content": "<p>Select which payment method you have issues with it.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": -551.305692945208,
+		"fy": -867.5421139853343,
+		"connections": [
+			{
+				"target": 72,
+				"title": "I'm facing issues with credit card payment",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 71,
+				"title": "I'm facing issues with crypto payment",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 45,
+				"title": "Issues with VAT ID",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 41,
+		"text": "Promo Code",
+		"slug": "promo-code",
+		"content": "<p>A usable promo code must fulfill these criteria:</p>\n<p>1) <strong>The promo code needs to still be active</strong> - We release promo codes during some specific dates or events, always available for a limited period of time or number of uses. This detailed information is presented on our blog or in the newsletter.</p>\n<p>Please subscribe to our newsletter through our form that is located at the bottom of our <a href=\"http://trezor.io/\"><u>website</u></a>, and check out our <a href=\"https://blog.trezor.io/\"><u>blog</u></a> to stay on top of the news!</p>\n<p>2) <strong>The promo code needs to be valid</strong> - Only our own released promo codes can be used.&nbsp;</p>\n<p><strong>Unfortunately, we cannot apply the discount retroactively.</strong></p>\n<p>We believe the device is worth every penny of its original price, so you don't need to feel bad about buying it for a full price as proven by many satisfied customers.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": -353.0042875846931,
+		"fy": -915.4499264607387,
+		"connections": []
+	},
+	{
+		"id": 42,
+		"text": "Discount on bulk/wholesale",
+		"slug": "discount-on-bulk-wholesale",
+		"content": "<p>If you wish to order bulk of Trezors, please continue <a href=\"https://shop.trezor.io/sales/\">here</a>.</p>\n<p><strong>Note</strong>: This special discount is only for ordering 50 devices and above.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": -322.48859445672286,
+		"fy": -1019.7305723491469,
+		"connections": []
+	},
+	{
+		"id": 43,
+		"text": "Legal Documents",
+		"slug": "legal-documents",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ed1212",
+		"fx": -479.8872999108355,
+		"fy": -1247.8564864448879,
+		"connections": [
+			{
+				"target": 26,
+				"title": "Manual",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 20,
+				"title": "Warranty",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 67,
+				"title": "Privacy Policy",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 39,
+				"title": "Resellers Warranty",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 45,
+		"text": "VAT ID",
+		"slug": "vat-id",
+		"content": "<p>When an invalid VAT ID is entered, you will see in the <a href=\"https://trezor.github.io/troubleshooter-editor/shop.trezor.io\"><u>e-shop interface</u></a> that it was not accepted by our system.</p>\n<p>It is possible that our system didn’t reflect a valid VAT ID (it could be too new or there could be a different problem in the database).&nbsp;</p>\n<p>You can check the validity of your VAT ID here. If your VAT ID is not registered (listed) <a href=\"http://ec.europa.eu/taxation_customs/vies/vatResponse.html\"><u>here</u></a>, we can't accept it in our e-shop.</p>\n<p>If you’re sure that you’ve entered a correct (valid) VAT ID and it is registered in the European database, please submit a ticket here.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#eb8a00",
+		"fx": -647.4674056615584,
+		"fy": -992.7298360971304,
+		"connections": [
+			{
+				"target": 36,
+				"title": "Form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 46,
+		"text": "Shipping Options & Handling Time",
+		"slug": "shipping-options-and-handling-time",
+		"content": "<p>We have 3 options for the shipping. The items dispatchs within 2 days of the time of the purchase.</p>\n<p>Although, the options could vary depending of your country.</p>\n<p><strong>DHL Express shipping</strong></p>\n<p>DHL shipping is a professional and fast delivery service. Your order is fully trackable and this information is available at least for 30 days after the package is handed to the DHL courier.This shipping method is not available for Russia.</p>\n<p>Delivery time may vary between two to five business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 90 days.</p>\n<p><strong>UPS shipping</strong></p>\n<p>UPS shipping is a professional and fast delivery service that is currently available only for the United Kingdom.</p>\n<p>Delivery time may vary between one and three business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 120 day.</p>\n<p><strong>Standard worldwide shipping</strong></p>\n<p>Standard shipping option is only available in EU countries and Russia. Its tractability is limited.</p>\n<p>Delivery time may vary between five days to six weeks depending on your location and your national post service.</p>\n<p>Parcel sent via Standard shipping can be traced <a href=\"https://www.postaonline.cz/en/trackandtrace\">here</a> until it leaves the country of origin. After that, it can be traced on the website of the postal service in your country, if available.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": 759.4461944062832,
+		"fy": -1192.2460363355733,
+		"connections": []
+	},
+	{
+		"id": 48,
+		"text": "Inside the package information",
+		"slug": "inside-the-package-information",
+		"content": "<p>You can read more what's in the package of <a href=\"https://wiki.trezor.io/Package\">Trezor devices</a>.&nbsp;</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": 505.94000244140625,
+		"fy": -1043.5606536865234,
+		"connections": []
+	},
+	{
+		"id": 51,
+		"text": "Authenticity",
+		"slug": "authenticity",
+		"content": "<p>Not sure If your device is genuine?</p>\n<p>If you are concerned that your Trezor is not a genuine product from our company, please refer to this <a href=\"https://blog.trezor.io/psa-non-genuine-trezor-devices-979b64e359a7\"><u>blog article</u></a>, where you will find the information about how to distinguish between the original and a fake Trezor.</p>\n<p>You can also check out the <a href=\"https://wiki.trezor.io/Trezor_packaging_timeline\"><u><strong>Trezor packaging timeline</strong></u></a><u><strong>.</strong></u></p>",
+		"metadata": "fake, genuine, real, legit",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ed1212",
+		"fx": -1066.0304699409298,
+		"fy": -1341.481197450219,
+		"connections": [
+			{
+				"target": 52,
+				"title": "I'm still not sure",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 52,
+		"text": "Trezor security measurements",
+		"slug": "trezor-security-measurements",
+		"content": "<p>Trezor box is protected by the seals and it is also virtually impossible to open the device without breaking it ( the case is sealed using ultrasound), so you would see right away if someone tampered with it.<br>\n</p>\n<p>All Trezor devices are distributed without a firmware software, so you need to install it for your first use. If there is a firmware installed already, then that means that someone used this device before you.<br>\n</p>\n<p>The bootloader verifies the firmware signature. The device only runs if the firmware is correctly signed by SatoshiLabs.<br>\n</p>\n<p>Our Bootloader software is write protected, as the JTAG is disabled. MCU is safeguarded by the Memory Protection Unit., ensures that you're using the valid firmware version signed by us. If not, then there is a warning message on Trezor display.<br>\n</p>\n<p>Because the recovery seed is generated during Trezor setup, there is not \"your seed\" by default, but the seed you will generate for yourself.<br>\n</p>\n<p>If you encounter any Trezor device with preinstalled firmware that was purchased as a new, please let us know.</p>",
+		"metadata": "security, real, fake, genuine, legit",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": -1256.9429892263106,
+		"fy": -1268.4676527207896,
+		"connections": [
+			{
+				"target": 54,
+				"title": "I'm still not certain",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 53,
+		"text": "Form - Fake Trezor",
+		"slug": "form-fake-trezor",
+		"content": "",
+		"metadata": "",
+		"notes": "Tady ve formu dodat: Kde si koupil Trezor, nahrani screenu - foto krabicky z obou stran + foto hologramu\nPopripade nahrani faktury (pdf).",
+		"nosearch": true,
+		"color": "#333333",
+		"fx": -1646.2441162109374,
+		"fy": -1121.5746849060058,
+		"connections": []
+	},
+	{
+		"id": 54,
+		"text": "List of official resellers",
+		"slug": "list-of-official-resellers",
+		"content": "<p>Lastly, check out our official list of resellers If they are on the list, it lowers the chances that the device is non-genuine.</p>\n<p><a href=\"https://trezor.io/resellers/\">Trezor Official Resellers</a>.</p>\n<p>We also have official stores on <a href=\"https://www.amazon.com/stores/page/C198CDB2-A4DE-4E54-8B10-AE9904CCD33E?ingress=0&amp;visitId=8cbd4754-8c5d-498f-acbe-5fe6d26b66c4&amp;lp_slot=auto-sparkle-hsa-tetris&amp;store_ref=SB_A09929091FVOQVGZOWMRH\"><u>Amazon US</u></a>, <a href=\"https://www.amazon.de/stores/node/9501630031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=TREZOR&amp;ref_=bl_dp_s_web_9501630031\"><u>Amazon DE</u></a> and <a href=\"https://www.newegg.com/Trezor-Official-Store\"><u>Newegg</u></a> (<a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2312&amp;ignorebbr=1\"><u>Trezor One</u></a>, <a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2308&amp;cm_re=trezor-_-1BK-00UB-00004-_-Product?cm_sp=NeweggInsider-_-Article-_-Trezor\"><u>Trezor Model T</u></a>).</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#ffeb3b",
+		"fx": -1414.4106910342261,
+		"fy": -1191.4373837425594,
+		"connections": [
+			{
+				"target": 53,
+				"title": "Form - Fake Trezor",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 57,
+		"text": "Tracking number",
+		"slug": "tracking-number",
+		"content": "<p>You can receive three types of tracking IDs according to the shipping method you’ve chosen for your order.</p>\n<p><strong>Types of tracking IDs</strong></p>\n<p>Standard shipping: 13 characters (combination ID [letters and numbers] that starts with RR and ends with CZ)</p>\n<p>DHL shipping: 1234567890 (ten digit ID)</p>\n<p>UPS shipping: 18 characters (combination ID [letters and numbers] that always starts with 1Z)</p>\n<p><strong>Tracking portals</strong></p>\n<p><a href=\"https://www.postaonline.cz/en/trackandtrace\"><u>Standard shipping</u></a></p>\n<p><a href=\"http://www.dhl.com/en/express/tracking.html\"><u>DHL</u></a></p>\n<p><a href=\"https://www.ups.com/tracking/tracking.html\"><u>UPS</u></a></p>\n<p><strong>Note</strong>: Orders sent via Standard shipping can be traced also on the website of the postal service in your country, if available.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": 151.01042709951335,
+		"fy": -1080.7738079161156,
+		"connections": [
+			{
+				"target": 60,
+				"title": "I want to change shipping address",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 59,
+				"title": "I missed my package delivery window",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 64,
+				"title": "I haven't recieved tracking number, yet",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 62,
+				"title": "Tracking not found error",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 74,
+				"title": "My package haven't change the status/location for long period",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 63,
+				"title": "Delivered status but no package ",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 6,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 75,
+				"title": "Customs in my country have my package",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 7,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 58,
+		"text": "I didn't receive the order ",
+		"slug": "i-didnt-receive-the-order",
+		"content": "<p>If the tracking says 'delivered' and you haven't received the package. Try to contact the <a href=\"https://www.logistics.dhl/global-en/home/contact-us.html\">DHL</a> &amp; <a href=\"https://www.ups.com/us/en/help-support-center.page\">UPS</a> support first.</p>\n<p>For standard shipping delivered status, please reach to us below.</p>",
+		"metadata": "nothing, none, no",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": -1327.099871635437,
+		"fy": -578.8655638694763,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 59,
+		"text": "I missed my package delivery window",
+		"slug": "i-missed-my-package-delivery-window",
+		"content": "<p>If you have missed your parcel delivery window, most likely the package is being sent back to us. We can arrange you the resend or request to change the address for the delivery.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": -19.586424112319918,
+		"fy": -762.6458386182785,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 60,
+		"text": "I want to change shipping address",
+		"slug": "i-want-to-change-shipping-address",
+		"content": "<p>If you want to change your shipping address which haven't been shipped, yet, please proceed on the form.</p>\n<p><strong>Note</strong>: When your order has the status 'shipped' the support team won't be help you furthermore.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": -20.251878621966313,
+		"fy": -995.185481581577,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 62,
+		"text": "Tracking not found error",
+		"slug": "tracking-not-found-error",
+		"content": "<p>This situation has several explanations.</p>\n<p>1. You’re entering an incorrect tracking ID</p>\n<p>2. Your order was not entered in the tracking database of the respective service yet</p>\n<p>If you chose standard shipping for your order, the package may have left the Czech Republic, and is now untraceable until the destination country's postal service claims it.</p>\n<p>After leaving the country of origin, the parcel travels to a foreign country where it is accepted at customs services. This is where most delays happen. The delivery will appear in the customer's post tracking system only after it is released by customs.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": -20.794227831691273,
+		"fy": -887.3167792167374,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 63,
+		"text": "Delivered status but no package in your possession",
+		"slug": "delivered-status-but-no-package-in-your-possession",
+		"content": "<p>If the tracking says 'delivered' and you haven't received the package. Try to contact the <a href=\"https://www.logistics.dhl/global-en/home/contact-us.html\">DHL</a> &amp; <a href=\"https://www.ups.com/us/en/help-support-center.page\">UPS</a> support first.</p>\n<p>For standard shipping delivered status, please reach to us below.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": 316.99343178488994,
+		"fy": -1011.680946003307,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 64,
+		"text": "I haven't received Tracking number yet",
+		"slug": "i-havent-received-tracking-number-yet",
+		"content": "<p>Then your order haven't been probably shipped. Please, bare in mind that paid orders are processed within 48 hours during business days, if not stated otherwise by a notification when creating your order.&nbsp;</p>\n<p>If it's more than 3 days, please continue to the form.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": 317.33301056596565,
+		"fy": -911.390089357706,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 65,
+		"text": "Shipping locations",
+		"slug": "shipping-locations",
+		"content": "<p>We (almost) ship worldwide. You can see when selecting shipping method with your order on our <a href=\"http://shop.trezor.io\">Official Trezor Shop</a> and see If your country is there.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": 741.675944175436,
+		"fy": -1080.4260768691397,
+		"connections": [
+			{
+				"target": 66,
+				"title": "Haven't found your country on the list? Continue to the form.",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 66,
+		"text": "Form - Ship to my country",
+		"slug": "form-ship-to-my-country",
+		"content": "",
+		"metadata": "",
+		"notes": "Tady udelat form: zemi kde chce shippovat",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": 926.1223072725184,
+		"fy": -984.7891389221704,
+		"connections": []
+	},
+	{
+		"id": 67,
+		"text": "Privacy Policy",
+		"slug": "privacy-policy",
+		"content": "<p>Our privacy policy be found <a href=\"https://wiki.trezor.io/Security:User_data\">here</a>.</p>\n<p><a href=\"https://shop.trezor.io/static/shared/privacy-policy.pdf\">Legal document.</a></p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#ffeb3b",
+		"fx": -275.08400726318354,
+		"fy": -1157.5547561645508,
+		"connections": []
+	},
+	{
+		"id": 68,
+		"text": "Customs duties payment calculation",
+		"slug": "customs-duties-payment-calculation",
+		"content": "<p>Customs duties and taxes are always calculated based on the local laws of the destination country. Unfortunately, we are unable to keep track of all the rules and laws for every country. Please contact your local authorities in order to get an estimated customs fee.</p>\n<p>For your information, the product will be shipped from the European Union as a USB device with HS code 847180. The total declared value for the customs department is the full price of the order, including shipping.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 524.4064178466797,
+		"fy": -1524.2708587646482,
+		"connections": []
+	},
+	{
+		"id": 69,
+		"text": "Declared price",
+		"slug": "declared-price",
+		"content": "<p>Unfortunately, since we're subject to the EU law and we do have an ongoing official contract with DHL, UPS and the Czech Post, we're obligated to print out the full price on the package.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 680.219527819925,
+		"fy": -1493.5304852950674,
+		"connections": []
+	},
+	{
+		"id": 70,
+		"text": "Customs and related payments",
+		"slug": "customs-and-related-payments",
+		"content": "<p>We are sorry, but customs duties or related taxes are not paid by us.&nbsp;</p>\n<p>It is mentioned in our e-shop when you're confirming the conditions (otherwise the order could not be created):</p>\n<p>\"<em><strong>I understand that I am responsible for paying customs duties, local taxes, and other related fees, if applicable.</strong></em>\"&nbsp;</p>\n<p>If you refuse to pay the customs and related taxes, the package will be sent back to us. Once it is returned, we can:</p>\n<p>1) Resend the package, but you will need to pay the shipping cost again</p>\n<p>2) Refund the price of your order minus the shipping costs</p>\n<p>If you want to refuse the package even after the information above, please let us know via the form in the following step.&nbsp;</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 833.5324742051422,
+		"fy": -1406.1554085153048,
+		"connections": []
+	},
+	{
+		"id": 71,
+		"text": "Crypto - BitcoinPay & Globee",
+		"slug": "crypto-bitcoinpay-and-globee",
+		"content": "<p>Please verify whether your bitcoin transaction was already confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://trezor.github.io/troubleshooter-editor/shop.trezor.io\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://blockchain.info/\"><u>https://blockchain.info</u></a></p>\n<p><a href=\"https://btc-explorer.trezor.io/\">https://btc-explorer.trezor.io</a></p>\n<p>If you have used a Globee option as form of payment. Please, continue to the form.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -466.33793164862965,
+		"fy": -735.065441694416,
+		"connections": [
+			{
+				"target": 73,
+				"title": "Form - Payment Issues",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 72,
+		"text": "Credit Card - GoPay",
+		"slug": "credit-card-gopay",
+		"content": "<p>Double-check If your bank is allowing your payments with us. Reach them about the payment If you're not successful.</p>\n<p>Double order: You may have created multiple orders by accident. Please check whether the cancellation notification is related to a different order that was not paid for.&nbsp;</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -677.7244783727134,
+		"fy": -744.3993753572789,
+		"connections": [
+			{
+				"target": 73,
+				"title": "Form - Payment Issues",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 73,
+		"text": "Form - Payment Issues",
+		"slug": "form-payment-issues",
+		"content": "",
+		"metadata": "",
+		"notes": "Form: Jak uhradil vyrobek.\nCo ma za problem.\nPripadne screen.\n",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": -549.2425802907636,
+		"fy": -605.6841839205833,
+		"connections": []
+	},
+	{
+		"id": 74,
+		"text": "My package haven't change the status/location for long period",
+		"slug": "my-package-havent-change-the-status-location-for-long-period",
+		"content": "<p>If your package is stuck in one location for long time it could means it's being checked by the customs or it's lost.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": 306.36247726950154,
+		"fy": -763.6374542197317,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 75,
+		"text": "Customs in my country have my package",
+		"slug": "customs-in-my-country-have-my-package",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#9900ef",
+		"fx": 148.19467724485207,
+		"fy": -741.967781355795,
+		"connections": [
+			{
+				"target": 76,
+				"title": "Continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 76,
+		"text": "Form",
+		"slug": "form",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -533.1975484808247,
+		"fy": -379.9898484134514,
+		"connections": []
+	}
+]
