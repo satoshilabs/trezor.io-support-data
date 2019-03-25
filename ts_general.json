@@ -8,8 +8,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -44.27073526382446,
-		"fy": -603.2761459350586,
+		"fx": -72.39760828018188,
+		"fy": -554.0541610717773,
 		"connections": [
 			{
 				"target": 2,
@@ -82,7 +82,7 @@
 		"id": 2,
 		"text": "Supported coins",
 		"slug": "supported-coins",
-		"content": "<p>this is content 2</p>",
+		"content": "<p><br></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -235,7 +235,7 @@
 				}
 			},
 			{
-				"target": 31,
+				"target": 32,
 				"title": "I have another question and I want to contact Trezor support",
 				"description": "",
 				"image": "",
@@ -347,7 +347,7 @@
 		"id": 7,
 		"text": "I want a new coin to be supported by Trezor",
 		"slug": "i-want-a-new-coin-to-be-supported-by-trezor",
-		"content": "<p>We are constantly working on improving our product; however, we need a bit of cooperation from the developers of your favorite coin. If your favorite coin is not listed among our supported coins, please contact its developers with a request; then they should reach out to us, and together we can work on an integration of your favorite coin.</p>\n<p><br></p>\n<p>Developers can find all necessary info on our <a href=\"We are constantly working on improving our product, however, we need a bit of cooperation from the developers of your favourite coin. If your favourite coin is not listed amongst our currently supported coins, please, contact its developers with a request, then they should reach to us and together we can work on an integration of your favourite coin.\">Trezor Wiki page</a>.</p>",
+		"content": "<p>We are constantly working on improving our product; however, we need a bit of cooperation from the developers of your favorite coin. If your favorite coin is not listed among our supported coins, please contact its developers with a request; then they should reach out to us, and together we can work on an integration of your favorite coin.</p>\n<p><br></p>\n<p>Developers can find all necessary info on our <a href=\"https://wiki.trezor.io/Developers_guide\">Trezor Wiki page</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -401,7 +401,7 @@
 		"id": 9,
 		"text": "Developer's guide",
 		"slug": "developers-guide-1",
-		"content": "<p>You can find all necessary info in our <a href=\"https://wiki.trezor.io/Developers_guide\">Developer's guide</a></p>\n<p><br></p>\n<p>The best way to communicate with our developers during the project is through our <a href=\"https://github.com/trezor/\">GitHub</a>&nbsp;</p>",
+		"content": "<p>You can find all necessary info in our <a href=\"https://wiki.trezor.io/Developers_guide\">Developer's guide</a></p>\n<p>The best way to communicate with our developers during the project is through our <a href=\"https://github.com/trezor/\">GitHub</a>&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -594,9 +594,9 @@
 				}
 			},
 			{
-				"target": 31,
-				"title": "I have a question about security",
-				"description": "Contact Trezor support",
+				"target": 32,
+				"title": "I have a question about security ",
+				"description": "",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -636,15 +636,28 @@
 	},
 	{
 		"id": 31,
-		"text": "GENERAL FORM",
-		"slug": "general-form",
-		"content": "<p>The coin in question is supported only in Trezor's (the hardware device) firmware at the moment.</p>\n<p><br>\nThis means that there is no user graphic interface (software wallet) to help a casual user use this cryptocurrency. Without an interface, the only way to operate is by using a command line and programming; the firmware (operating system on the device) recognizes the cryptocurrency, and can even sign the transactions and operate, but it requires advanced technical knowledge.<br>\n</p>\n<p>Our goal is ultimately to have all supported coins (or at least as many as possible) natively integrated into our wallet.trezor.io<br>\nUnfortunately, we are not able to give you any specific timelines right now.</p>",
+		"text": "Feature request",
+		"slug": "feature-request",
+		"content": "<p><br></p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
 		"color": "#1e7ff0",
-		"fx": -1441.3427211216517,
-		"fy": -666.0790318080356,
+		"fx": -1453.4999476841517,
+		"fy": -432.6593235560824,
+		"connections": []
+	},
+	{
+		"id": 32,
+		"text": "Question ",
+		"slug": "question",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": -1457.600049205662,
+		"fy": -653.2777083878664,
 		"connections": []
 	}
 ]
