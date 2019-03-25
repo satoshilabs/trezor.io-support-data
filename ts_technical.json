@@ -255,7 +255,7 @@
 		"id": 9,
 		"text": "Wipe after the firmware update",
 		"slug": "wipe-after-the-firmware-update",
-		"content": "<p>Most likely something went wrong during the firmware update and your Trezor got wiped (this is a security feature). There is no need to worry, all you need to do now is run a recovery process using your recovery seed words. Please follow these instructions - https://wiki.trezor.io/User_manual:Recovery<br>\n</p>\n<p>Once this is done you should be able to access your wallet with all your coins.</p>",
+		"content": "<p>Most likely something went wrong during the firmware update and your Trezor got wiped (this is a security feature). There is no need to worry, all you need to do now is run a recovery process using your recovery seed words. Please follow these instructions - https://wiki.trezor.io/User_manual:Recovery<br>\n</p>\n<p>Once this is done you should be able to access your wallet with all your coins.</p>\n<p><br></p>\n<p>Also, if you were using passphrase protection prior to the firmware update then you need to re-enable it in the Advanced menu tab.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -347,15 +347,15 @@
 	},
 	{
 		"id": 13,
-		"text": "TECH FORM",
-		"slug": "tech-form",
+		"text": "TECH FORM - Issue",
+		"slug": "tech-form-issue",
 		"content": "",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
 		"color": "#1e7ff0",
-		"fx": -772.4202235828748,
-		"fy": 616.8918377269398,
+		"fx": -1192.293819774281,
+		"fy": 919.7508465160023,
 		"connections": []
 	},
 	{
@@ -402,13 +402,13 @@
 		"id": 16,
 		"text": "Unconfirmed transaction",
 		"slug": "unconfirmed-transaction",
-		"content": "<p>The bitcoin network might be overwhelmed and it may take quite a significant time for a new transaction to be confirmed, especially if a lower fee was set (it can be hours or even days). You just need to wait. Your transaction will be either confirmed or returned to your wallet.<br>\n</p>",
+		"content": "<p>The network might be overwhelmed and it may take quite a significant time for a new transaction to be confirmed, especially if a lower fee was set (it can be hours or even days). You just need to wait. Your transaction will be either confirmed or returned to your wallet.<br>\n</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -1152.751694228623,
-		"fy": 407.5979815472613,
+		"fx": -1055.1651463770604,
+		"fy": 375.0691119183551,
 		"connections": []
 	},
 	{
@@ -581,11 +581,11 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -23.265528202057112,
+		"fx": -26.201114058494795,
 		"fy": 1370.0905826453009,
 		"connections": [
 			{
-				"target": 26,
+				"target": 13,
 				"title": "This did not help",
 				"description": "",
 				"image": "",
@@ -598,19 +598,6 @@
 				}
 			}
 		]
-	},
-	{
-		"id": 26,
-		"text": "Tech form",
-		"slug": "tech-form-1",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -918.3768587112427,
-		"fy": 1435.8350524902344,
-		"connections": []
 	},
 	{
 		"id": 27,
