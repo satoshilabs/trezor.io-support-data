@@ -159,7 +159,7 @@
 			{
 				"target": 29,
 				"title": "Delivery information",
-				"description": "I want to know more about Trezor delivery",
+				"description": "I want to know more about Trezor delivery process and shipping options",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -172,7 +172,7 @@
 			{
 				"target": 28,
 				"title": "Customs and taxes",
-				"description": "I have an issue with customs",
+				"description": "General information about customs and taxes process.",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -406,8 +406,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#ed1212",
-		"fx": 358.5177675134996,
-		"fy": -1332.5255860721365,
+		"fx": 346.05481585334337,
+		"fy": -1344.9884766971365,
 		"connections": [
 			{
 				"target": 68,
@@ -443,19 +443,6 @@
 				"isLink": false,
 				"link": "",
 				"sort": 3,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 30,
-				"title": "My package is being held by the customs",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 4,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -1378,7 +1365,21 @@
 		"color": "#01B757",
 		"fx": 833.5324742051422,
 		"fy": -1406.1554085153048,
-		"connections": []
+		"connections": [
+			{
+				"target": 76,
+				"title": "Please, continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
 	},
 	{
 		"id": 71,
@@ -1478,7 +1479,7 @@
 		"id": 75,
 		"text": "Customs have my package",
 		"slug": "customs-have-my-package",
-		"content": "<p>Customs hold my package and I need your assistance.</p>",
+		"content": "<p>Customs hold my package and I need require your assistance.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
