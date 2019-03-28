@@ -141,7 +141,7 @@
 		"nosearch": false,
 		"color": "#01B757",
 		"fx": 24.396925988135386,
-		"fy": 471.2520563199923,
+		"fy": 473.2026178434298,
 		"connections": [
 			{
 				"target": 19,
@@ -255,7 +255,7 @@
 		"id": 9,
 		"text": "Wipe after the firmware update",
 		"slug": "wipe-after-the-firmware-update",
-		"content": "<p>Most likely something went wrong during the firmware update and your Trezor got wiped (this is a security feature). There is no need to worry, all you need to do now is run a recovery process using your recovery seed words. Please follow these instructions - https://wiki.trezor.io/User_manual:Recovery<br>\n</p>\n<p>Once this is done you should be able to access your wallet with all your coins.</p>\n<p><br></p>\n<p>Also, if you were using passphrase protection prior to the firmware update then you need to re-enable it in the Advanced menu tab.&nbsp;</p>",
+		"content": "<p>Most likely something went wrong during the firmware update and your Trezor got wiped (this is a security feature). There is no need to worry, all you need to do now is run a recovery process using your recovery seed words. You can find a manual on how to recover your wallet by following this <a href=\"https://wiki.trezor.io/User_manual:Recovery\">link</a>.<br>\n</p>\n<p>Once this is done you should be able to access your wallet with all your coins.</p>\n<p>Please, note that if you were using <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a> protection prior to the firmware update then you need to re-enable it in the Advanced menu tab.&nbsp;</p>",
 		"metadata": "wipe, firmware update",
 		"notes": "",
 		"nosearch": false,
@@ -282,7 +282,7 @@
 		"id": 10,
 		"text": "Passphrase protection",
 		"slug": "passphrase-protection",
-		"content": "<p>Do you use passphrase protection? (If you are not sure, learn more about passphrase in our <a href=\"https://wiki.trezor.io/Passphrase\">user manual</a>)</p>",
+		"content": "<p>Do you use passphrase protection? (If you are not sure, learn more about passphrase in our <a href=\"https://wiki.trezor.io/Passphrase\">user manual</a>).</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -415,7 +415,7 @@
 		"id": 17,
 		"text": "Clearing cache",
 		"slug": "clearing-cache",
-		"content": "<p>Please clear your browser's cache and refresh the page</p>",
+		"content": "<p>Please clear your browser's cache and refresh the page.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -515,7 +515,7 @@
 		"nosearch": true,
 		"color": "#01B757",
 		"fx": 1458.068120956421,
-		"fy": 845.3168573379517,
+		"fy": 841.4157342910767,
 		"connections": [
 			{
 				"target": 24,
@@ -549,7 +549,7 @@
 		"id": 24,
 		"text": "Problem might be with the drivers",
 		"slug": "problem-might-be-with-the-drivers",
-		"content": "<p>&nbsp;Try (re)installing the newest version from this source: https://wallet.trezor.io/#/bridge (once installed, please proceed by clearing your browser's cache). After successful installation, you should see \"trezord\" process running in your activity/system/task monitor.</p>",
+		"content": "<p>&nbsp;Try (re)installing the newest Trezor Bridge version from this <a href=\"https://wallet.trezor.io/#/bridge\">source</a> (once installed, please proceed by clearing your browser's cache). After successful installation, you should see \"trezord\" process running in your activity/system/task monitor.</p>",
 		"metadata": "drivers, not recognized, stuck",
 		"notes": "",
 		"nosearch": false,
@@ -559,7 +559,7 @@
 		"connections": [
 			{
 				"target": 25,
-				"title": "Bridge is running and the device is still not recognized by Trezor Wallet",
+				"title": "Trezor Bridge is running and the device is still not recognized by Trezor Wallet",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -608,8 +608,8 @@
 		"notes": "",
 		"nosearch": true,
 		"color": "#01B757",
-		"fx": 714.4725189208984,
-		"fy": -31.2957439422608,
+		"fx": 716.4230804443359,
+		"fy": -27.394605636596737,
 		"connections": [
 			{
 				"target": 28,
@@ -656,7 +656,7 @@
 		"id": 29,
 		"text": "Trezor Wallet access",
 		"slug": "trezor-wallet-access",
-		"content": "<p>Can you access <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet</a>?&nbsp;</p>\n<p>We need to know whether the issue is with the connection in general or if the issue is related to the given wallet only</p>",
+		"content": "<p>Can you access <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet</a>?&nbsp;</p>\n<p>We need to know whether the issue is with the connection in general or if the issue is related to the given wallet only.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -749,7 +749,7 @@
 		"id": 32,
 		"text": "I cannot initiate the firmware update",
 		"slug": "i-cannot-initiate-the-firmware-update",
-		"content": "<p>Please see our user manual section regarding the firmware update by following this <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">link</a></p>",
+		"content": "<p>Please see our user manual section regarding the firmware update by following this <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">link</a>.</p>",
 		"metadata": "firmware update",
 		"notes": "",
 		"nosearch": false,
@@ -781,7 +781,7 @@
 		"notes": "",
 		"nosearch": true,
 		"color": "#01B757",
-		"fx": 1634.4884528394014,
+		"fx": 1636.4390143628389,
 		"fy": -675.6833484577683,
 		"connections": [
 			{
@@ -816,7 +816,7 @@
 		"id": 34,
 		"text": "Drivers issue",
 		"slug": "drivers-issue",
-		"content": "<p>There is a problem with Windows USB drivers failing to recognize Trezor in the bootloader mode.<br>\n</p>\n<p>Please find a manual on how to fix this issue by following this <a href=\"https://wiki.trezor.io/Device_not_recognized_in_bootloader_mode_on_Windows_8_%26_10_(unable_to_get_to_the_firmware_update_screen)\">link</a></p>",
+		"content": "<p>There is a problem with Windows USB drivers failing to recognize Trezor in the bootloader mode.<br>\n</p>\n<p>Please find a manual on how to fix this issue by following this <a href=\"https://wiki.trezor.io/Device_not_recognized_in_bootloader_mode_on_Windows_8_%26_10_(unable_to_get_to_the_firmware_update_screen)\">link</a>.</p>",
 		"metadata": "drivers, windows, usb, not recognized, bootloader",
 		"notes": "",
 		"nosearch": false,
