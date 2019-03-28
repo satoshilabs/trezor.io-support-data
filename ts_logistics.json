@@ -3,7 +3,7 @@
 		"id": 3,
 		"text": "Main category",
 		"slug": "main-category",
-		"content": "<p>Here you can find basic information via links related to logistics.&nbsp;</p>",
+		"content": "<p>Here you can find basic information related to logistics &amp; shipping.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -49,7 +49,7 @@
 		"nosearch": true,
 		"color": "#1e7ff0",
 		"fx": -643.775470899499,
-		"fy": -1350.7543981800907,
+		"fy": -1352.4504431019657,
 		"connections": [
 			{
 				"target": 22,
@@ -159,7 +159,7 @@
 			{
 				"target": 29,
 				"title": "Delivery information",
-				"description": "I want to know more about Trezor delivery",
+				"description": "I want to know more about Trezor delivery process and shipping options",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -172,7 +172,7 @@
 			{
 				"target": 28,
 				"title": "Customs and taxes",
-				"description": "I have an issue with customs",
+				"description": "General information about customs and taxes process.",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -285,8 +285,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -1330.5231139513912,
-		"fy": -798.843974210778,
+		"fx": -1333.3498961779537,
+		"fy": -801.6706954021843,
 		"connections": [
 			{
 				"target": 76,
@@ -312,8 +312,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -1328.6204168146305,
-		"fy": -894.6551171505089,
+		"fx": -1333.331720525568,
+		"fy": -887.1170312130089,
 		"connections": [
 			{
 				"target": 76,
@@ -339,8 +339,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -1330.5167846679688,
-		"fy": -1013.0286560058594,
+		"fx": -1331.4590454101562,
+		"fy": -1033.7583312988281,
 		"connections": [
 			{
 				"target": 76,
@@ -379,8 +379,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -1328.4365737017465,
-		"fy": -688.0663825764377,
+		"fx": -1334.631275850184,
+		"fy": -688.2049323811252,
 		"connections": [
 			{
 				"target": 76,
@@ -406,8 +406,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#ed1212",
-		"fx": 358.5177675134996,
-		"fy": -1330.9496583377615,
+		"fx": 346.05481585334337,
+		"fy": -1344.9884766971365,
 		"connections": [
 			{
 				"target": 68,
@@ -443,19 +443,6 @@
 				"isLink": false,
 				"link": "",
 				"sort": 3,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 30,
-				"title": "My package is being held by the customs",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 4,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -598,8 +585,8 @@
 	},
 	{
 		"id": 33,
-		"text": "Issues with login / a wrong password",
-		"slug": "issues-with-login-a-wrong-password",
+		"text": "Issues with login / wrong password",
+		"slug": "issues-with-login-wrong-password",
 		"content": "<p>We suggest checking whether you created other e-shop accounts under different emails.</p>\n<p><strong>Restoring the password</strong></p>\n<p>To restore your password, please use this <a href=\"https://shop.trezor.io/user/login/\"><u>link</u></a> and click on the “<em>Recover your password</em>” button located on this website.</p>\n<p>In the next step you’ll need to enter an email address where the instructions for setting a new password will be sent and then hit the “<em>Reset my password</em>” button.</p>\n<p>If you didn’t receive the email with the instructions, please check your spam folder and whether you entered your email address correctly.</p>",
 		"metadata": "login, email, password, wrong",
 		"notes": "",
@@ -610,7 +597,7 @@
 		"connections": [
 			{
 				"target": 36,
-				"title": "Form",
+				"title": "I want to contact Trezor Support Team",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -637,7 +624,7 @@
 		"connections": [
 			{
 				"target": 36,
-				"title": "Form",
+				"title": "I want to contact Trezor Support Team",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -786,7 +773,7 @@
 		"id": 41,
 		"text": "Promo code",
 		"slug": "promo-code",
-		"content": "<p>A usable promo code must fulfill these criteria:</p>\n<p>1) <strong>The promo code needs to be active</strong> - We release promo codes during specific dates or events, always available for a limited period of time or number of uses. This detailed information is presented on our blog or in the newsletter.</p>\n<p>Please subscribe to our newsletter through our form that is located at the bottom of our <a href=\"http://trezor.io/\"><u>website</u></a>, and check out our <a href=\"https://blog.trezor.io/\"><u>blog</u></a> to stay on top of the news!</p>\n<p>2) <strong>The promo code needs to be valid</strong> - Only our own released promo codes can be used.&nbsp;</p>\n<p><strong>Unfortunately, we cannot apply a discount retroactively.</strong></p>\n<p>We believe the device is worth every penny of its original price, so we hope you won't feel too bad about buying it for full price like many other satisfied customers have.</p>",
+		"content": "<p>A usable promo code must fulfill these criteria:</p>\n<p>1) <strong>The promo code needs to be active</strong> - We release promo codes during specific dates or events, always available for a limited period of time or number of uses. This detailed information is presented on our blog or in the newsletter.</p>\n<p>Please subscribe to our newsletter through our form that is located at the bottom of our <a href=\"https://trezor.io/\"><u>website</u></a>, and check out our <a href=\"https://blog.trezor.io/\"><u>blog</u></a> to stay on top of the news!</p>\n<p>2) <strong>The promo code needs to be valid</strong> - Only our own released promo codes can be used.&nbsp;</p>\n<p><strong>Unfortunately, we cannot apply a discount retroactively.</strong></p>\n<p>We believe the device is worth every penny of its original price, so we hope you won't feel too bad about buying it for full price like many other satisfied customers have.</p>",
 		"metadata": "promo, code, discount, promotion",
 		"notes": "",
 		"nosearch": false,
@@ -998,7 +985,7 @@
 		"id": 54,
 		"text": "List of official resellers",
 		"slug": "list-of-official-resellers",
-		"content": "<p>Lastly, check out our official list of resellers. If they are on the list, it lowers the chances that the device is fake.</p>\n<p><a href=\"https://trezor.io/resellers/\">Trezor Official Resellers</a>.</p>\n<p>We also have official stores on <a href=\"https://www.amazon.com/stores/page/C198CDB2-A4DE-4E54-8B10-AE9904CCD33E?ingress=0&amp;visitId=8cbd4754-8c5d-498f-acbe-5fe6d26b66c4&amp;lp_slot=auto-sparkle-hsa-tetris&amp;store_ref=SB_A09929091FVOQVGZOWMRH\"><u>Amazon US</u></a>, <a href=\"https://www.amazon.de/stores/node/9501630031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=TREZOR&amp;ref_=bl_dp_s_web_9501630031\"><u>Amazon DE</u></a> and <a href=\"https://www.newegg.com/Trezor-Official-Store\"><u>Newegg</u></a> (<a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2312&amp;ignorebbr=1\"><u>Trezor One</u></a>, <a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2308&amp;cm_re=trezor-_-1BK-00UB-00004-_-Product?cm_sp=NeweggInsider-_-Article-_-Trezor\"><u>Trezor Model T</u></a>).</p>",
+		"content": "<p>Lastly, check out our official list of resellers. If they are on the list, it lowers the chances that the device is fake.</p>\n<p><a href=\"https://trezor.io/resellers/\">Trezor Official Resellers</a>.</p>\n<p>We also have official stores on <a href=\"https://www.amazon.com/stores/page/C198CDB2-A4DE-4E54-8B10-AE9904CCD33E?ingress=0&amp;visitId=8cbd4754-8c5d-498f-acbe-5fe6d26b66c4&amp;lp_slot=auto-sparkle-hsa-tetris&amp;store_ref=SB_A09929091FVOQVGZOWMRH\"><u>Amazon US</u></a>, <a href=\"https://www.amazon.de/stores/node/9501630031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=TREZOR&amp;ref_=bl_dp_s_web_9501630031\"><u>Amazon DE</u></a> and <a href=\"https://www.newegg.com/Trezor-Official-Store\"><u>Newegg</u></a> (<a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2312&amp;ignorebbr=1\"><u>Trezor One</u></a>, <a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2308&amp;cm_re=trezor-_-1BK-00UB-00004-_-Product?cm_sp=NeweggInsider-_-Article-_-Trezor\"><u>Trezor Model T</u></a>).</p>\n<p><strong>Note</strong>: Purchasing device from non-official reseller doesn't have to mean that the device is non-genuine.&nbsp;</p>\n<p>Reach out our Trezor Support Team below for assistance.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -1008,7 +995,7 @@
 		"connections": [
 			{
 				"target": 53,
-				"title": "Form - Fake Trezor",
+				"title": "I want to contact Trezor Support Team",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1135,8 +1122,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#9900ef",
-		"fx": -1327.099871635437,
-		"fy": -578.8655638694763,
+		"fx": -1338.407000541687,
+		"fy": -581.6923460960388,
 		"connections": [
 			{
 				"target": 76,
@@ -1378,13 +1365,27 @@
 		"color": "#01B757",
 		"fx": 833.5324742051422,
 		"fy": -1406.1554085153048,
-		"connections": []
+		"connections": [
+			{
+				"target": 76,
+				"title": "Please, continue to the form",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
 	},
 	{
 		"id": 71,
 		"text": "Crypto - BitcoinPay & Globee",
 		"slug": "crypto-bitcoinpay-and-globee",
-		"content": "<p>Please verify that your bitcoin transaction has already been confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://trezor.github.io/troubleshooter-editor/shop.trezor.io\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://blockchain.info/\"><u>https://blockchain.info</u></a></p>\n<p><a href=\"https://btc-explorer.trezor.io/\">https://btc-explorer.trezor.io</a></p>\n<p>If you have used a Globee option as form of payment. Please continue to the form.</p>",
+		"content": "<p>Please verify that your bitcoin transaction has already been confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://trezor.github.io/troubleshooter-editor/shop.trezor.io\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://btc-explorer.trezor.io/\">https://btc-explorer.trezor.io</a></p>\n<p><a href=\"https://blockchain.info/\">https://blockchain.info</a></p>\n<p>If you have used a Globee option as form of payment and facing payment issues. Please continue to the form.</p>",
 		"metadata": "crypto, bitcoinpay, btc, globee ",
 		"notes": "",
 		"nosearch": false,
@@ -1478,7 +1479,7 @@
 		"id": 75,
 		"text": "Customs have my package",
 		"slug": "customs-have-my-package",
-		"content": "<p>Customs hold my package and I need your assistance.</p>",
+		"content": "<p>Customs hold my package and I need require your assistance.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
