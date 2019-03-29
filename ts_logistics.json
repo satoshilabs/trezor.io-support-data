@@ -1385,7 +1385,7 @@
 		"id": 71,
 		"text": "Crypto - BitcoinPay & Globee",
 		"slug": "crypto-bitcoinpay-and-globee",
-		"content": "<p>Please verify that your bitcoin transaction has already been confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://trezor.github.io/troubleshooter-editor/shop.trezor.io\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://btc-explorer.trezor.io/\">https://btc-explorer.trezor.io</a></p>\n<p><a href=\"https://blockchain.info/\">https://blockchain.info</a></p>\n<p>If you have used a Globee option as form of payment and facing payment issues. Please continue to the form.</p>",
+		"content": "<p>Please verify that your bitcoin transaction has already been confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://shop.trezor.io/\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://btc-explorer.trezor.io/\">https://btc-explorer.trezor.io</a></p>\n<p><a href=\"https://blockchain.info/\">https://blockchain.info</a></p>\n<p>If you have used a Globee option as form of payment and facing payment issues. Please continue to the form.</p>",
 		"metadata": "crypto, bitcoinpay, btc, globee ",
 		"notes": "",
 		"nosearch": false,
