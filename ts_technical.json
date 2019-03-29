@@ -174,7 +174,7 @@
 	{
 		"id": 4,
 		"text": "What's wrong with the balance?",
-		"slug": "whats-wrong-with-the-balance?",
+		"slug": "whats-wrong-with-the-balance",
 		"content": "",
 		"metadata": "",
 		"notes": "",
@@ -695,7 +695,7 @@
 	{
 		"id": 31,
 		"text": "What's the problem with the firmware update?",
-		"slug": "whats-the-problem-with-the-firmware-update?",
+		"slug": "whats-the-problem-with-the-firmware-update",
 		"content": "",
 		"metadata": "",
 		"notes": "",
