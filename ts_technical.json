@@ -3,7 +3,7 @@
 		"id": 0,
 		"text": "Technical issues",
 		"slug": "technical-issues",
-		"content": "<p>Please specify the issue.<br>\n</p>\n<p>It's important to find out whether you can access <a href=\"https://wallet.trezor.io/\">Trezor Wallet</a>.</p>",
+		"content": "<p>Please specify the issue.<br>\n</p>\n<p>Let's find out if you can access <a href=\"https://wallet.trezor.io/\">Trezor Wallet</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
