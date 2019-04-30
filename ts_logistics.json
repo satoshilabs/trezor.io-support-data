@@ -1,8 +1,8 @@
 [
 	{
-		"id": 3,
-		"text": "Main category",
-		"slug": "main-category",
+		"id": 0,
+		"text": "Orders & Shipping",
+		"slug": "orders-shipping",
 		"content": "<p>Here you can find basic information related to logistics &amp; shipping.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
