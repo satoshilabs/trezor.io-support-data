@@ -1,8 +1,8 @@
 [
 	{
-		"id": 0,
-		"text": "Orders & Shipping",
-		"slug": "orders-shipping",
+		"id": 3,
+		"text": "Main category",
+		"slug": "main-category",
 		"content": "<p>Here you can find basic information related to logistics &amp; shipping.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
@@ -507,7 +507,7 @@
 		"id": 30,
 		"text": "Status of my order",
 		"slug": "status-of-my-order",
-		"content": "<p>Please verify if your order is in “<em><strong>Shipped</strong></em>” status. Check the email account that you used to place the order on our <a href=\"https://shop.trezor.io/\">Trezor Official Shop</a>.</p>",
+		"content": "<p>Please verify if your order is in “<em><strong>Shipped </strong></em>” status. Check the email account that you used to place the order on our <a href=\"https://shop.trezor.io/\">Trezor Official Shop</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -539,8 +539,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#ed1212",
-		"fx": -853.9068068018499,
-		"fy": -1101.9416331165241,
+		"fx": -848.2050245752874,
+		"fy": -1153.2577952258991,
 		"connections": [
 			{
 				"target": 33,
@@ -569,13 +569,26 @@
 				}
 			},
 			{
+				"target": 77,
+				"title": "I need to change the email address",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
 				"target": 45,
 				"title": "VAT ID issues",
 				"description": "",
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 3,
+				"sort": 4,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -592,8 +605,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#eb8a00",
-		"fx": -977.3987329786069,
-		"fy": -975.3154579590414,
+		"fx": -1028.0663355176694,
+		"fy": -978.9467445801351,
 		"connections": [
 			{
 				"target": 36,
@@ -619,8 +632,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#eb8a00",
-		"fx": -803.7789998185744,
-		"fy": -992.0986692096114,
+		"fx": -867.156075013887,
+		"fy": -993.914220967424,
 		"connections": [
 			{
 				"target": 36,
@@ -870,8 +883,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#eb8a00",
-		"fx": -647.4674056615584,
-		"fy": -992.7298360971304,
+		"fx": -725.5394271459334,
+		"fy": -860.1889425424429,
 		"connections": [
 			{
 				"target": 36,
@@ -918,12 +931,12 @@
 		"id": 51,
 		"text": "Authenticity",
 		"slug": "authenticity",
-		"content": "<p>Not sure your device is genuine?</p>\n<p>If you are concerned that your Trezor is not a genuine product from our company, please refer to this <a href=\"https://blog.trezor.io/psa-non-genuine-trezor-devices-979b64e359a7\"><u>blog article</u></a>, where you will find information about how to distinguish between an original and a fake Trezor.</p>\n<p>You can also check out the <a href=\"https://wiki.trezor.io/Trezor_packaging_timeline\"><u><strong>Trezor packaging timeline</strong></u></a><u><strong>.</strong></u><strong> </strong>There's a possibility that you might have received an older version of the package.</p>",
+		"content": "<p>Not sure If your device is genuine?</p>\n<p>If you are concerned that your Trezor is not a genuine product from our company, please refer to this <a href=\"https://blog.trezor.io/psa-non-genuine-trezor-devices-979b64e359a7\"><u>blog article</u></a>, where you will find information about how to distinguish between an original and a fake Trezor.</p>\n<p>You can also check out the <a href=\"https://wiki.trezor.io/Trezor_packaging_timeline\"><u><strong>Trezor packaging timeline</strong></u></a><u><strong>.</strong></u><strong> </strong>There's a possibility that you might have received an older version of the package.</p>",
 		"metadata": "fake, genuine, real, legit, legitimate, non genuine",
 		"notes": "",
 		"nosearch": false,
 		"color": "#ed1212",
-		"fx": -1066.0304699409298,
+		"fx": -1064.8939953315548,
 		"fy": -1341.481197450219,
 		"connections": [
 			{
@@ -1100,7 +1113,7 @@
 			},
 			{
 				"target": 75,
-				"title": "Customs in my country has my package",
+				"title": "Customs in my country have my package",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1225,12 +1238,12 @@
 		"id": 63,
 		"text": "Delivered status but no package in your possession",
 		"slug": "delivered-status-but-no-package-in-your-possession",
-		"content": "<p>If the tracking says 'delivered' and you haven't received the package, try to contact <a href=\"https://www.logistics.dhl/global-en/home/contact-us.html\">DHL</a> &amp; <a href=\"https://www.ups.com/us/en/help-support-center.page\">UPS</a> support first.</p>\n<p>For standard shipping delivered status, please contact us below.</p>",
+		"content": "<p>If the tracking says “<em><strong>Delivered </strong></em>” and you haven't received the package, try to contact <a href=\"https://www.logistics.dhl/global-en/home/contact-us.html\">DHL</a> &amp; <a href=\"https://www.ups.com/us/en/help-support-center.page\">UPS</a> support first.</p>\n<p>For standard shipping delivered status, please contact us below.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
 		"color": "#9900ef",
-		"fx": 316.99343178488994,
+		"fx": 315.67714760520244,
 		"fy": -1011.680946003307,
 		"connections": [
 			{
@@ -1484,7 +1497,7 @@
 		"notes": "",
 		"nosearch": true,
 		"color": "#9900ef",
-		"fx": 141.5407770983677,
+		"fx": 141.54079235715676,
 		"fy": -745.2947466878262,
 		"connections": [
 			{
@@ -1514,5 +1527,32 @@
 		"fx": -533.1975484808247,
 		"fy": -379.9898484134514,
 		"connections": []
+	},
+	{
+		"id": 77,
+		"text": "I need to change the email address",
+		"slug": "i-need-to-change-the-email-address",
+		"content": "<p>If you have entered your email address incorrectly, please continue to the form below.</p>",
+		"metadata": "change, email, typo, mail, bad",
+		"notes": "",
+		"nosearch": false,
+		"color": "#eb8a00",
+		"fx": -698.8861456073354,
+		"fy": -982.0138436368396,
+		"connections": [
+			{
+				"target": 36,
+				"title": "Form - Trezor Shop",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
 	}
 ]
