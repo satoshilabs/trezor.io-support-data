@@ -87,8 +87,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -741.0826988220215,
-		"fy": 94.0767822265625,
+		"fx": -746.3110313415527,
+		"fy": 97.56231689453125,
 		"connections": [
 			{
 				"target": 4,
@@ -258,8 +258,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -1066.6796639357942,
-		"fy": 328.8976197061659,
+		"fx": -1068.4224617873567,
+		"fy": 334.12592170811905,
 		"connections": [
 			{
 				"target": 11,
@@ -474,7 +474,7 @@
 		"nosearch": false,
 		"color": "#01B757",
 		"fx": 276.8078256160655,
-		"fy": 294.62070481320643,
+		"fy": 296.3634721471908,
 		"connections": []
 	},
 	{
@@ -486,8 +486,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": 428.98986977025083,
-		"fy": 289.2874675549959,
+		"fx": 427.24710243626646,
+		"fy": 292.77300222296464,
 		"connections": []
 	},
 	{
@@ -534,18 +534,18 @@
 		"text": "How to set up your new Trezor",
 		"slug": "how-to-set-up-your-new-trezor",
 		"content": "",
-		"metadata": "onboarding, beginning, getting started",
+		"metadata": "manual, onboarding, beginning, getting started",
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
 		"fx": 838.1706764914774,
-		"fy": 91.85361596309778,
+		"fy": 93.59639092647669,
 		"connections": []
 	},
 	{
 		"id": 27,
-		"text": "Sales link",
-		"slug": "sales-link",
+		"text": "Sales & Affiliate",
+		"slug": "sales-and-affiliate",
 		"content": "",
 		"metadata": "sales, affiliate",
 		"notes": "",
@@ -569,7 +569,7 @@
 		"connections": [
 			{
 				"target": 29,
-				"title": "Trezor Wiki - Security section",
+				"title": "Trezor User Manual - Security section",
 				"description": "",
 				"image": "",
 				"isLink": true,
@@ -610,8 +610,8 @@
 	},
 	{
 		"id": 29,
-		"text": "Security WIKI",
-		"slug": "security-wiki",
+		"text": "Trezor User Manual - Security section",
+		"slug": "trezor-user-manual-security-section",
 		"content": "",
 		"metadata": "wiki, manual, security",
 		"notes": "",
@@ -623,8 +623,8 @@
 	},
 	{
 		"id": 30,
-		"text": "trezor.io/security/",
-		"slug": "trezorio-security-",
+		"text": "Trezor security measures and responsible disclosure",
+		"slug": "trezor-security-measures-and-responsible-disclosure",
 		"content": "",
 		"metadata": "security",
 		"notes": "",
