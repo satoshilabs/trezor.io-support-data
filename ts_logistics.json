@@ -1,8 +1,8 @@
 [
 	{
 		"id": 0,
-        "text": "Orders & Shipping",
-        "slug": "orders-shipping",
+		"text": "Orders & Shipping",
+		"slug": "orders-and-shipping",
 		"content": "<p>Here you can find basic information related to logistics &amp; shipping.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
@@ -905,7 +905,7 @@
 		"id": 46,
 		"text": "Shipping options and handling time",
 		"slug": "shipping-options-and-handling-time",
-		"content": "<p>We have 3 options for shipping. The items will be dispatched within 2 days of the time of purchase.</p>\n<p>The options could vary depending on your country.</p>\n<p><strong>DHL express shipping</strong></p>\n<p>DHL shipping is a professional and fast delivery service. Your order is fully trackable, and this information is available for at least 30 days after the package has been handed to the DHL courier. This shipping method is not available in Russia.</p>\n<p>Delivery time may vary between two to five business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 90 days.</p>\n<p><strong>UPS shipping</strong></p>\n<p>UPS shipping is a professional and fast delivery service that is currently available only for the United Kingdom.</p>\n<p>Delivery time may vary between one to three business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 120 days.</p>\n<p><strong>Standard worldwide shipping</strong></p>\n<p>The standard shipping option is only available in EU countries and Russia. Its trackability is limited.</p>\n<p>Delivery time may vary between five days to six weeks depending on your location and your national post service.</p>\n<p>A parcel sent via standard shipping can be traced <a href=\"https://www.postaonline.cz/en/trackandtrace\">here</a> until it leaves the country of origin. After that, it can be traced on the website of the postal service in your country, if available.</p>",
+		"content": "<p>We have 3 options for shipping. The items will be dispatched within 2 days of the time of purchase.</p>\n<p>The options could vary depending on your country.</p>\n<p><strong>DHL express shipping</strong></p>\n<p>DHL shipping is a professional and fast delivery service. Your order is fully trackable, and this information is available for at least 30 days after the package has been handed to the DHL courier. This shipping method is not available in Russia.</p>\n<p>Delivery time may vary between two to five business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 90 days.</p>\n<p><strong>UPS shipping</strong></p>\n<p>UPS shipping is another professional and well known fast delivery service.</p>\n<p>Delivery time may vary between one to three business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 120 days.</p>\n<p><strong>Standard worldwide shipping</strong></p>\n<p>The standard shipping option is only available in EU countries and Russia. Its trackability is limited.</p>\n<p>Delivery time may vary between five days to six weeks depending on your location and your national post service.</p>\n<p>A parcel sent via standard shipping can be traced <a href=\"https://www.postaonline.cz/en/trackandtrace\">here</a> until it leaves the country of origin. After that, it can be traced on the website of the postal service in your country, if available.</p>",
 		"metadata": "ship, shipping, time, handling",
 		"notes": "",
 		"nosearch": false,
@@ -1025,7 +1025,7 @@
 		"id": 57,
 		"text": "Tracking number",
 		"slug": "tracking-number",
-		"content": "<p>There are three possible types of tracking IDs according to the shipping method you’ve chosen for your order.</p>\n<p><strong>Types of tracking IDs</strong></p>\n<p>Standard shipping: 13 characters (combination ID [letters and numbers] that starts with RR and ends with CZ)</p>\n<p>DHL shipping: 1234567890 (ten digit ID)</p>\n<p>UPS shipping: 18 characters (combination ID [letters and numbers] that always starts with 1Z)</p>\n<p><strong>Tracking portals</strong></p>\n<p><a href=\"https://www.postaonline.cz/en/trackandtrace\"><u>Standard shipping</u></a></p>\n<p><a href=\"http://www.dhl.com/en/express/tracking.html\"><u>DHL</u></a></p>\n<p><a href=\"https://www.ups.com/tracking/tracking.html\"><u>UPS</u></a></p>\n<p><strong>Note</strong>: Orders sent via Standard shipping can also be traced on the website of the postal service in your country, if available.</p>",
+		"content": "<p>There are three possible types of tracking IDs according to the shipping method you’ve chosen for your order.</p>\n<p><strong>Types of tracking IDs</strong></p>\n<p>Standard shipping: 13 characters (combination ID [letters and numbers] that starts with RR and ends with CZ)</p>\n<p>DHL shipping: 1234567890 (ten digit ID)</p>\n<p>UPS shipping: 18 characters (combination ID [letters and numbers] that always starts with 1Z)</p>\n<p><strong>Tracking portals</strong></p>\n<p><a href=\"https://www.postaonline.cz/en/trackandtrace\"><u>Standard shipping</u></a></p>\n<p><a href=\"http://www.dhl.com/en/express/tracking.html\"><u>DHL</u></a></p>\n<p><a href=\"https://www.ups.com/tracking/tracking.html\"><u>UPS</u></a></p>\n<p><strong>Note</strong>: Orders sent via Standard shipping can also be traced on the website of the postal service in your country, if available.</p>\n<p>For example, packages shipped to Russia can be traced with their <a href=\"https://pochta.ru/tracking\">local post tracker</a> for more exact location.&nbsp;</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -1470,7 +1470,7 @@
 		"notes": "",
 		"nosearch": true,
 		"color": "#9900ef",
-		"fx": 306.36247726950154,
+		"fx": 299.88201614889607,
 		"fy": -763.6374542197317,
 		"connections": [
 			{
