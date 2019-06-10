@@ -816,7 +816,7 @@
 		"id": 34,
 		"text": "Drivers issue",
 		"slug": "drivers-issue",
-		"content": "<p>There is a problem with Windows USB drivers failing to recognize Trezor in the bootloader mode.<br>\n</p>\n<p>Please find a manual on how to fix this issue by following this <a href=\"https://wiki.trezor.io/Device_not_recognized_in_bootloader_mode_on_Windows_8_%26_10_(unable_to_get_to_the_firmware_update_screen)\">link</a>.</p>",
+		"content": "<p>There is a problem with Windows USB drivers failing to recognize Trezor in the bootloader mode.<br>\n</p>\n<p>Please find a manual on how to fix this issue by following this <a href=\"https://wiki.trezor.io/Device_not_recognized_in_bootloader_mode\">link</a>.</p>",
 		"metadata": "drivers, windows, usb, not recognized, bootloader",
 		"notes": "",
 		"nosearch": false,
