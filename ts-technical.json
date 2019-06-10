@@ -1,0 +1,842 @@
+[
+	{
+		"id": 0,
+		"text": "Technical issues",
+		"slug": "technical-issues",
+		"content": "<p>Please specify the issue.<br>\n</p>\n<p>Let's find out if you can access <a href=\"https://wallet.trezor.io/\">Trezor Wallet</a>.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01b757",
+		"fx": 16.616064071655273,
+		"fy": -271.08845710754395,
+		"connections": [
+			{
+				"target": 1,
+				"title": "I can access Trezor Wallet at wallet.trezor.io but there is an issue",
+				"description": "Something is wrong with the Trezor Wallet interface, the balance is not correct etc.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 2,
+				"title": "I cannot access the wallet at all",
+				"description": "Trezor Wallet says \"Connect Trezor to continue\" or \"Loading\"",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 27,
+				"title": "I'm facing an issue with a 3rd party wallet",
+				"description": "MyEtherWallet, MyCrypto, Electrum, and others",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 31,
+				"title": "Firmware update issue",
+				"description": "Issues related to the firmware update of your Trezor",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 13,
+				"title": "The device is clearly physically broken",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 6,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 1,
+		"text": "I'm able to access the wallet but...",
+		"slug": "im-able-to-access-the-wallet-but",
+		"content": "<p>What type of issue are you facing?</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -540.999317369963,
+		"fy": -79.04208529622932,
+		"connections": [
+			{
+				"target": 4,
+				"title": "The balance is not correct",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 16,
+				"title": "Unconfirmed transaction",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 13,
+				"title": "There is an unauthorized transaction that I did not make",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 6,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 2,
+		"text": "I cannot access the wallet",
+		"slug": "i-cannot-access-the-wallet",
+		"content": "<p>What's <a href=\"https://wallet.trezor.io/\">Trezor Wallet</a> displaying?</p>",
+		"metadata": "connection, not recognized",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 24.396925988135386,
+		"fy": 473.2026178434298,
+		"connections": [
+			{
+				"target": 19,
+				"title": "Trezor Wallet says \"Connect Trezor to continue\"",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 20,
+				"title": "Trezor Wallet says \"Loading\"",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 4,
+		"text": "What's wrong with the balance?",
+		"slug": "whats-wrong-with-the-balance",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": -1141.7967873102502,
+		"fy": -83.56693364396878,
+		"connections": [
+			{
+				"target": 8,
+				"title": "Complete balance is gone",
+				"description": "There is no transaction history available\n",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 15,
+				"title": "I can see the balance, but it's not correct",
+				"description": "The transaction history is available but there is a transaction missing, for example",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 8,
+		"text": "Balance is zero",
+		"slug": "balance-is-zero",
+		"content": "<p>Did this issue occur after performing a firmware update?</p>",
+		"metadata": "balance, missing funds, zero",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1478.519430505224,
+		"fy": -79.45950147330043,
+		"connections": [
+			{
+				"target": 9,
+				"title": "Yes, this happened after a firmware update",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 10,
+				"title": "No, I did not perform a firmware update recently",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 9,
+		"text": "Wipe after the firmware update",
+		"slug": "wipe-after-the-firmware-update",
+		"content": "<p>Most likely something went wrong during the firmware update and your Trezor got wiped (this is a security feature). There is no need to worry, all you need to do now is run a recovery process using your recovery seed words. You can find a manual on how to recover your wallet by following this <a href=\"https://wiki.trezor.io/User_manual:Recovery\">link</a>.<br>\n</p>\n<p>Once this is done you should be able to access your wallet with all your coins.</p>\n<p>Please, note that if you were using <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a> protection prior to the firmware update then you need to re-enable it in the Advanced menu tab.&nbsp;</p>",
+		"metadata": "wipe, firmware update",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1473.5326647077286,
+		"fy": -703.8297816685268,
+		"connections": [
+			{
+				"target": 13,
+				"title": "This did not help, I want to contact Trezor support",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 10,
+		"text": "Passphrase protection",
+		"slug": "passphrase-protection",
+		"content": "<p>Do you use passphrase protection? (If you are not sure, learn more about passphrase in our <a href=\"https://wiki.trezor.io/Passphrase\">user manual</a>).</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": -1472.0087603400736,
+		"fy": 112.46366209142349,
+		"connections": [
+			{
+				"target": 12,
+				"title": "Yes, I'm using the passphrase protection",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 13,
+				"title": "No, I'm not using the passphrase protection",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 12,
+		"text": "Passphrase",
+		"slug": "passphrase",
+		"content": "<p>It is possible that you did not type the passphrase correctly.</p>\n<p><br></p>\n<p>1) Please check all possible variations for a mistype (Passphrase length can be 50 characters max, it is case-sensitive and all ASCII characters count - even an empty space is a character)<br>\n2) Make sure that you have set the correct keyboard layout<br>\n3) When typing the Passphrase please click on \"Show passphrase\" so you can see what you're typing<br>\n</p>\n<p>By \"mistyping\" the passphrase you will create a new wallet. For example, if you choose passphrase \"sea\", this wallet can be accessed only when \"sea\" is typed in. If you mistype the word and type for example \"see,\" then you will create a new wallet under passphrase \"see\" that is different from the one protected by passphrase \"sea\" (same with \"Sea\" or \"SEE\" etc. - Passphrase is case sensitive).<br>\n</p>\n<p>NOTE: Don't use these words, these are just examples.</p>",
+		"metadata": "passphrase",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1468.836972992996,
+		"fy": 249.47432103650328,
+		"connections": [
+			{
+				"target": 13,
+				"title": "This did not help, I want to contact Trezor support",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 13,
+		"text": "Issue",
+		"slug": "issue",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#1e7ff0",
+		"fx": -1192.293819774281,
+		"fy": 919.7508465160023,
+		"connections": []
+	},
+	{
+		"id": 15,
+		"text": "Incorrect balance",
+		"slug": "incorrect-balance",
+		"content": "<p>Is any transaction marked as \"uncofirmed\" in your transaction history?</p>",
+		"metadata": "balance",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1139.4420369466147,
+		"fy": 243.76746877034506,
+		"connections": [
+			{
+				"target": 16,
+				"title": "Yes, there is at least one unconfirmed transaction",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 17,
+				"title": "No, all transactions are confirmed",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 16,
+		"text": "Unconfirmed transaction",
+		"slug": "unconfirmed-transaction",
+		"content": "<p>The network might be overwhelmed and it may take quite a significant time for a new transaction to be confirmed, especially if a lower fee was set (it can be hours or even days). You just need to wait. Your transaction will be either confirmed or returned to your wallet.<br>\n</p>",
+		"metadata": "unconfirmed transaction",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1055.1651463770604,
+		"fy": 375.0691119183551,
+		"connections": []
+	},
+	{
+		"id": 17,
+		"text": "Clearing cache",
+		"slug": "clearing-cache",
+		"content": "<p>Please clear your browser's cache and refresh the page.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": -932.4421074908712,
+		"fy": 246.32930506830627,
+		"connections": [
+			{
+				"target": 13,
+				"title": "This did not help, I want to contact Trezor support",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 19,
+		"text": "Stuck at \"Connect Trezor to continue\"",
+		"slug": "stuck-at-connect-trezor-to-continue",
+		"content": "<p>Is the display lit when the device is plugged in?</p>",
+		"metadata": "connect trezor to continue, stuck, not recognized",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 7.357015363631717,
+		"fy": 803.838833716608,
+		"connections": [
+			{
+				"target": 22,
+				"title": "Yes, the display is lit",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 25,
+				"title": "No, the display is dead",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 20,
+		"text": "Stuck at \"Loading\"",
+		"slug": "stuck-at-loading",
+		"content": "<p>Please try clearing your browser's cache and refresh the page.</p>\n<p>Also, if you are using VPN, certain advanced Firewall or Antivirus settings, browser extensions (AdBlock, Privacy Badger etc.), or some cryptocurrency apps such as Geth or MetaMask, try disabling them. It is possible that some of these are clashing with Trezor Wallet.<br>\n</p>",
+		"metadata": "loading, stuck, not recognized",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -510.45768900120515,
+		"fy": 928.5421522424576,
+		"connections": [
+			{
+				"target": 13,
+				"title": "This did not help, I want to contact support",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 22,
+		"text": "Recognized by device manager",
+		"slug": "recognized-by-device-manager",
+		"content": "<p>Is the device recognized by the device manager of your computer?</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": 1458.068120956421,
+		"fy": 841.4157342910767,
+		"connections": [
+			{
+				"target": 24,
+				"title": "Yes, the device is recognized by the device manager",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 25,
+				"title": "No, the device is not recognized by the device manager",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 24,
+		"text": "Problem might be with the drivers",
+		"slug": "problem-might-be-with-the-drivers",
+		"content": "<p>&nbsp;Try (re)installing the newest Trezor Bridge version from this <a href=\"https://wallet.trezor.io/#/bridge\">source</a> (once installed, please proceed by clearing your browser's cache). After successful installation, you should see \"trezord\" process running in your activity/system/task monitor.</p>",
+		"metadata": "drivers, not recognized, stuck",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 908.8351853039799,
+		"fy": 1355.279371611926,
+		"connections": [
+			{
+				"target": 25,
+				"title": "Trezor Bridge is running and the device is still not recognized by Trezor Wallet",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 25,
+		"text": "Connectivity issue",
+		"slug": "connectivity-issue",
+		"content": "<p>Try using a different USB cable or USB port, and make sure that you are connecting your Trezor with the cable directly. Please don't use a USB hub or adapter. Also, if possible, try connecting your Trezor to another computer.<br>\n</p>",
+		"metadata": "connection, not recognized, connect Trezor",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -26.201114058494795,
+		"fy": 1370.0905826453009,
+		"connections": [
+			{
+				"target": 13,
+				"title": "This did not help",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 27,
+		"text": "3rd party wallet does not work properly",
+		"slug": "3rd-party-wallet-does-not-work-properly",
+		"content": "<p>Can you access your account in the 3rd party wallet?</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": 716.4230804443359,
+		"fy": -27.394605636596737,
+		"connections": [
+			{
+				"target": 28,
+				"title": "Yes, I can access my account",
+				"description": "The problem is with my balance, a token etc.",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 29,
+				"title": "No, I can't access my account",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 28,
+		"text": "3rd party wallet issue",
+		"slug": "3rd-party-wallet-issue",
+		"content": "<p>If you can access your account with the 3rd party wallet, then the Trezor integration seems to be working and the issue is most likely with the given wallet's interface. Please contact their support directly with your inquiry.</p>",
+		"metadata": "myetherwallet, mycrypto",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 1122.024740705936,
+		"fy": -1.3414187831492654,
+		"connections": []
+	},
+	{
+		"id": 29,
+		"text": "Trezor Wallet access",
+		"slug": "trezor-wallet-access",
+		"content": "<p>Can you access <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet</a>?&nbsp;</p>\n<p>We need to know whether the issue is with the connection in general or if the issue is related to the given wallet only.</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": 685.9984777113968,
+		"fy": 453.0729091868681,
+		"connections": [
+			{
+				"target": 2,
+				"title": "No, I cannot access Trezor Wallet",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 28,
+				"title": "Yes, I can access Trezor Wallet without any problem",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 31,
+		"text": "What's the problem with the firmware update?",
+		"slug": "whats-the-problem-with-the-firmware-update",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": 404.1518121866079,
+		"fy": -621.2384953132041,
+		"connections": [
+			{
+				"target": 32,
+				"title": "I cannot start the firmware update",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 9,
+				"title": "The whole balance is gone after I performed the firmware update",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 19,
+				"title": "Trezor stopped working after the firmware update",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 32,
+		"text": "I cannot initiate the firmware update",
+		"slug": "i-cannot-initiate-the-firmware-update",
+		"content": "<p>Please see our user manual section regarding the firmware update by following this <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">link</a>.</p>",
+		"metadata": "firmware update",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 1101.1536832536972,
+		"fy": -677.7473972865514,
+		"connections": [
+			{
+				"target": 33,
+				"title": "It's still not working",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 33,
+		"text": "I still cannot initiate the firmware update",
+		"slug": "i-still-cannot-initiate-the-firmware-update",
+		"content": "<p>Is there an error message saying that the USB cannot be recognized properly or that there is a problem with USB drivers?</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": true,
+		"color": "#01B757",
+		"fx": 1636.4390143628389,
+		"fy": -675.6833484577683,
+		"connections": [
+			{
+				"target": 34,
+				"title": "Yes, I can see that error message",
+				"description": "Applies to Windows users only",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 22,
+				"title": "No, there is no error message displayed",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 34,
+		"text": "Drivers issue",
+		"slug": "drivers-issue",
+		"content": "<p>There is a problem with Windows USB drivers failing to recognize Trezor in the bootloader mode.<br>\n</p>\n<p>Please find a manual on how to fix this issue by following this <a href=\"https://wiki.trezor.io/Device_not_recognized_in_bootloader_mode\">link</a>.</p>",
+		"metadata": "drivers, windows, usb, not recognized, bootloader",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 2149.3497086284324,
+		"fy": -670.9947920469481,
+		"connections": [
+			{
+				"target": 22,
+				"title": "This did not help",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	}
+]
