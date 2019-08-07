@@ -31,7 +31,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 3,
+				"sort": 2,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -44,7 +44,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 4,
+				"sort": 3,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -57,7 +57,7 @@
 				"image": "",
 				"isLink": true,
 				"link": "https://shop.trezor.io/sales/",
-				"sort": 5,
+				"sort": 4,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -66,6 +66,19 @@
 			{
 				"target": 28,
 				"title": "Security",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 33,
+				"title": "Sahmir Backup",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -658,6 +671,85 @@
 		"color": "#1e7ff0",
 		"fx": -1457.600049205662,
 		"fy": -653.2777083878664,
+		"connections": []
+	},
+	{
+		"id": 33,
+		"text": "Shamir Backup",
+		"slug": "shamir-backup",
+		"content": "<p>Here you can find detailed info about Shamir Backup</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01b757",
+		"fx": -1596.6762729566924,
+		"fy": -1143.6086354158363,
+		"connections": [
+			{
+				"target": 34,
+				"title": "How does Shamir Backup work",
+				"description": "",
+				"image": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/Shamir_Backup",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 32,
+				"title": "I have a question regarding Shamir Backup",
+				"description": "c",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 35,
+				"title": "I want to give you a feedback regarding Shamir Backup",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 34,
+		"text": "Shamir backup manual",
+		"slug": "shamir-backup-manual",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -1357.8542535955255,
+		"fy": -1516.3468091560133,
+		"connections": []
+	},
+	{
+		"id": 35,
+		"text": "Shamir",
+		"slug": "shamir",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": -1133.0001220703127,
+		"fy": -1145.3071594238284,
 		"connections": []
 	}
 ]
