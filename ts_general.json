@@ -88,6 +88,19 @@
 					"x": 0,
 					"y": 0
 				}
+			},
+			{
+				"target": 36,
+				"title": "Trezor beta testing feedback",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 7,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
 			}
 		]
 	},
@@ -750,6 +763,59 @@
 		"color": "#1e7ff0",
 		"fx": -1133.0001220703127,
 		"fy": -1145.3071594238284,
+		"connections": []
+	},
+	{
+		"id": 36,
+		"text": "Trezor beta testing feedback",
+		"slug": "trezor-beta-testing-feedback",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -940.2810006774138,
+		"fy": -1462.4557535303006,
+		"connections": [
+			{
+				"target": 35,
+				"title": "Shamir Backup feedback",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 37,
+				"title": "BTC Only Firmware feedback",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 37,
+		"text": "BTC Only Firmware ",
+		"slug": "btc-only-firmware",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": -1028.1571834788604,
+		"fy": -1935.599422679228,
 		"connections": []
 	}
 ]
