@@ -748,8 +748,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -1357.8542535955255,
-		"fy": -1516.3468091560133,
+		"fx": -1722.573858087713,
+		"fy": -1458.2703931403883,
 		"connections": []
 	},
 	{
@@ -802,6 +802,32 @@
 					"x": 0,
 					"y": 0
 				}
+			},
+			{
+				"target": 38,
+				"title": "Super Shamir feedback",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 39,
+				"title": "FIDO2 feedback",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
 			}
 		]
 	},
@@ -816,6 +842,32 @@
 		"color": "#1e7ff0",
 		"fx": -1028.1571834788604,
 		"fy": -1935.599422679228,
+		"connections": []
+	},
+	{
+		"id": 38,
+		"text": "Super Shamir feedback",
+		"slug": "super-shamir-feedback",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": -1299.3102719205099,
+		"fy": -1748.7648878375303,
+		"connections": []
+	},
+	{
+		"id": 39,
+		"text": "FIDO2 feedback",
+		"slug": "fido2-feedback",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": -1331.3300018310547,
+		"fy": -1437.0524333073545,
 		"connections": []
 	}
 ]
