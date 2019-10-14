@@ -828,6 +828,19 @@
 					"x": 0,
 					"y": 0
 				}
+			},
+			{
+				"target": 40,
+				"title": "Buy feature",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 5,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
 			}
 		]
 	},
@@ -866,8 +879,21 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#1e7ff0",
-		"fx": -1331.3300018310547,
-		"fy": -1437.0524333073545,
+		"fx": -1400.4290008544922,
+		"fy": -1590.605778033917,
+		"connections": []
+	},
+	{
+		"id": 40,
+		"text": "Buy feature",
+		"slug": "buy-feature",
+		"content": "",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#1e7ff0",
+		"fx": -1327.2614920479912,
+		"fy": -1377.9598737444198,
 		"connections": []
 	}
 ]
