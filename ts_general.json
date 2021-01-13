@@ -12,13 +12,26 @@
 		"fy": -554.0541610717773,
 		"connections": [
 			{
+				"target": 41,
+				"title": "GDPR requests",
+				"description": "General Data Protection Regulation info",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
 				"target": 2,
 				"title": "Supported coins",
 				"description": "Connection description.",
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 1,
+				"sort": 2,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -31,7 +44,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 2,
+				"sort": 3,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -44,7 +57,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 3,
+				"sort": 4,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -57,7 +70,7 @@
 				"image": "",
 				"isLink": true,
 				"link": "https://shop.trezor.io/sales/",
-				"sort": 4,
+				"sort": 5,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -70,7 +83,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 5,
+				"sort": 6,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -83,7 +96,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 6,
+				"sort": 7,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -96,7 +109,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 7,
+				"sort": 8,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -894,6 +907,19 @@
 		"color": "#1e7ff0",
 		"fx": -1327.2614920479912,
 		"fy": -1377.9598737444198,
+		"connections": []
+	},
+	{
+		"id": 41,
+		"text": "GDPR requests",
+		"slug": "gdpr-requests",
+		"content": "<p>Under the General Data Protection Regulation (GDPR), you have rights as a data subject, including:<br>\n</p>\n<ul>\n<li>The right to be informed</li>\n<li>The right of access</li>\n<li>The right to rectification</li>\n<li>The right to erasure</li>\n<li>The right to restrict processing</li>\n<li>The right to data portability</li>\n<li>The right to object</li>\n<li>And rights in relation to automated decision making and profiling.</li>\n</ul>\n<p>If you want to exercise any of these rights, please let us know by email: <a href=\"mailto:gdpr@satoshilabs.com\">gdpr@satoshilabs.com</a>.</p>",
+		"metadata": "gdpr",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -205.02703224038174,
+		"fy": -28.46872919910357,
 		"connections": []
 	}
 ]
