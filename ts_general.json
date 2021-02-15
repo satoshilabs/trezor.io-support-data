@@ -143,8 +143,8 @@
 				}
 			},
 			{
-				"target": 5,
-				"title": "I want a new coin to be supported by Trezor",
+				"target": 6,
+				"title": "I'm interested in information regarding a hardfork of supported coins",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -156,12 +156,12 @@
 				}
 			},
 			{
-				"target": 6,
-				"title": "I'm interested in information regarding a hardfork of supported coins",
+				"target": 5,
+				"title": "I want a new coin to be supported by Trezor",
 				"description": "",
 				"image": "",
-				"isLink": false,
-				"link": "",
+				"isLink": true,
+				"link": "https://wiki.trezor.io/Developers_guide:Contributing",
 				"sort": 3,
 				"curve": {
 					"x": 0,
@@ -319,41 +319,14 @@
 		"id": 5,
 		"text": "New coin support",
 		"slug": "new-coin-support",
-		"content": "<p>Please check the list of already supported coins by following this <a href=\"https://trezor.io/coins/\">link</a></p>\n<p><br></p>\n<p>and our <a href=\"https://wiki.trezor.io/Roadmap\">roadmap</a>.</p>\n<p><br></p>\n<p>If the coin in question is not listed, we need to know who you are:</p>",
+		"content": "",
 		"metadata": "supported coins, altcoin, coin",
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -821.5735054016113,
+		"fx": -501.6135444641113,
 		"fy": 317.2729015350342,
-		"connections": [
-			{
-				"target": 7,
-				"title": "I'm a user",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 8,
-				"title": "I'm a developer of the desired coin",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 2,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
+		"connections": []
 	},
 	{
 		"id": 6,
@@ -364,62 +337,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -399.7150607638888,
+		"fx": -784.0694308810763,
 		"fy": 335.1634318033854,
-		"connections": [
-			{
-				"target": 31,
-				"title": "I didn't find the answer and I want to contact Trezor support",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
-		"id": 7,
-		"text": "I want a new coin to be supported by Trezor",
-		"slug": "i-want-a-new-coin-to-be-supported-by-trezor",
-		"content": "<p>We are constantly working on improving our product; however, we need a bit of cooperation from the developers of your favorite coin. If your favorite coin is not listed among our supported coins, please contact its developers with a request; then they should reach out to us, and together we can work on an integration of your favorite coin.</p>\n<p><br></p>\n<p>Developers can find all necessary info on our <a href=\"https://wiki.trezor.io/Developers_guide\">Trezor Wiki page</a>.</p>",
-		"metadata": "",
-		"notes": "",
-		"nosearch": true,
-		"color": "#01B757",
-		"fx": -942.6171048792397,
-		"fy": 513.8839833329364,
-		"connections": [
-			{
-				"target": 31,
-				"title": "I didn't find the answer and I want to contact Trezor support",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
-		"id": 8,
-		"text": "Developer's guide",
-		"slug": "developers-guide",
-		"content": "<p>You can find all necessary info regarding integration of new coins in our <a href=\"https://wiki.trezor.io/Developers_guide:Contributing\">Developer's section</a></p>\n<p><br></p>\n<p>The best way to communicate with our developers during the project is through our <a href=\"https://github.com/trezor/\">GitHub</a>&nbsp;</p>",
-		"metadata": "developer, integration",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -648.5055545669004,
-		"fy": 483.5917119405355,
 		"connections": [
 			{
 				"target": 31,
