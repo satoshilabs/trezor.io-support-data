@@ -144,26 +144,13 @@
 		"fy": -1362.0508142286733,
 		"connections": [
 			{
-				"target": 78,
-				"title": "Order not shipped",
-				"description": "My Trezor Model T was not shipped yet",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
 				"target": 30,
 				"title": "Status of my order",
 				"description": "New orders",
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 2,
+				"sort": 1,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -176,7 +163,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 3,
+				"sort": 2,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -189,7 +176,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 4,
+				"sort": 3,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -1556,33 +1543,6 @@
 			{
 				"target": 36,
 				"title": "Form - Trezor Shop",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
-		"id": 78,
-		"text": "Order not shipped",
-		"slug": "order-not-shipped",
-		"content": "<p>Due to technical difficulties, some orders containing Trezor Model T wallets have been delayed.&nbsp;We apologize for the inconvenience and are working on a resolution. As soon as the parcel has been shipped you will be informed by email and provided with a tracking number.</p>\n<p><br></p>\n<p>If after two weeks you have not received confirmation that the order was shipped, please contact us by completing the form linked below.</p>",
-		"metadata": "delivery, information, shipping",
-		"notes": "",
-		"nosearch": false,
-		"color": "#ed1212",
-		"fx": 292.5864196777344,
-		"fy": -1535.1828857421876,
-		"connections": [
-			{
-				"target": 76,
-				"title": "Continue to the form",
 				"description": "",
 				"image": "",
 				"isLink": false,
