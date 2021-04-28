@@ -250,7 +250,7 @@
 			},
 			{
 				"target": 58,
-				"title": "I didn't receive the order",
+				"title": "I haven't received my order",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -1128,9 +1128,9 @@
 	},
 	{
 		"id": 58,
-		"text": "I didn't receive the order ",
+		"text": "I haven't received my order",
 		"slug": "i-didnt-receive-the-order",
-		"content": "<p>If the tracking says “<em><strong>delivered</strong></em> ” and you haven't received the package, contact <a href=\"https://www.logistics.dhl/global-en/home/contact-us.html\">DHL</a> or <a href=\"https://www.ups.com/us/en/help-support-center.page\">UPS</a> support first.</p>\n<p>For the standard shipping option, please reach out to us below.</p>",
+		"content": "<p>If entering the tracking code shows your package has been “<em><strong>delivered</strong></em> ” but you still haven't received it, please reach out to us below.</p>",
 		"metadata": "nothing, none, undelivered",
 		"notes": "",
 		"nosearch": false,
