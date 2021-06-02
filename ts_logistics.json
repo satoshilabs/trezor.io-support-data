@@ -543,19 +543,6 @@
 		"fy": -1153.2577952258991,
 		"connections": [
 			{
-				"target": 33,
-				"title": "Issues with login / Wrong password",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
 				"target": 35,
 				"title": "No confirmation email",
 				"description": "",
@@ -597,33 +584,6 @@
 		]
 	},
 	{
-		"id": 33,
-		"text": "Issues with login / Wrong password",
-		"slug": "issues-with-login-wrong-password",
-		"content": "<p>We suggest checking whether you created other e-shop accounts under different emails.</p>\n<p><strong>Restoring the password</strong></p>\n<p>To restore your password, please use this <a href=\"https://shop.trezor.io/user/login/\"><u>link</u></a> and click on the “<em>Recover your password</em>” button located on this website.</p>\n<p>In the next step you’ll need to enter an email address where the instructions for setting a new password will be sent and then hit the “<em>Reset my password</em>” button.</p>\n<p>If you didn’t receive the email with the instructions, please check your spam folder and whether you entered your email address correctly.</p>",
-		"metadata": "login, email, password, wrong",
-		"notes": "",
-		"nosearch": false,
-		"color": "#eb8a00",
-		"fx": -1028.0663355176694,
-		"fy": -978.9467445801351,
-		"connections": [
-			{
-				"target": 36,
-				"title": "I want to contact Trezor Support Team",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
 		"id": 35,
 		"text": "No confirmation email",
 		"slug": "no-confirmation-email",
@@ -632,8 +592,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#eb8a00",
-		"fx": -867.156075013887,
-		"fy": -993.914220967424,
+		"fx": -953.953194154512,
+		"fy": -995.041418233049,
 		"connections": [
 			{
 				"target": 36,
@@ -720,7 +680,7 @@
 		"id": 39,
 		"text": "Resellers",
 		"slug": "resellers",
-		"content": "<p>Here you can find a list of our official resellers.</p>\n<p><a href=\"https://trezor.io/resellers/\">Trezor Official resellers</a>.</p>\n<p>We also have official stores on <a href=\"https://www.amazon.com/stores/page/C198CDB2-A4DE-4E54-8B10-AE9904CCD33E?ingress=0&amp;visitId=8cbd4754-8c5d-498f-acbe-5fe6d26b66c4&amp;lp_slot=auto-sparkle-hsa-tetris&amp;store_ref=SB_A09929091FVOQVGZOWMRH\"><u>Amazon US</u></a>, <a href=\"https://www.amazon.de/stores/node/9501630031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=TREZOR&amp;ref_=bl_dp_s_web_9501630031\"><u>Amazon DE</u></a> and <a href=\"https://www.newegg.com/Trezor-Official-Store\"><u>Newegg</u></a> (<a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2312&amp;ignorebbr=1\"><u>Trezor One</u></a>, <a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2308&amp;cm_re=trezor-_-1BK-00UB-00004-_-Product?cm_sp=NeweggInsider-_-Article-_-Trezor\"><u>Trezor Model T</u></a>).</p>\n<p><strong>Note</strong>: Devices bought from resellers have their own warranty depending on the reseller's conditions. Please reach them out first If there's any issue with your order.</p>",
+		"content": "<p>Here you can find a list of our official resellers.</p>\n<p><a href=\"https://trezor.io/resellers/\">Trezor Official resellers</a>.</p>\n<p>We also have Amazon warehouses in the US, Canada, UK, and EU.</p>\n<p><strong>Note</strong>: Devices bought from resellers have their own warranty depending on the reseller's conditions. Please reach them out first If there's any issue with your order.</p>",
 		"metadata": "resellers",
 		"notes": "",
 		"nosearch": false,
@@ -905,7 +865,7 @@
 		"id": 46,
 		"text": "Shipping options and handling time",
 		"slug": "shipping-options-and-handling-time",
-		"content": "<p>We have 3 options for shipping. The items will be dispatched within 2 days of the time of purchase.</p>\n<p>The options could vary depending on your country.</p>\n<p><strong>DHL express shipping</strong></p>\n<p>DHL shipping is a professional and fast delivery service. Your order is fully trackable, and this information is available for at least 30 days after the package has been handed to the DHL courier. This shipping method is not available in Russia.</p>\n<p>Delivery time may vary between two to five business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 90 days.</p>\n<p><strong>UPS shipping</strong></p>\n<p>UPS shipping is another professional and well known fast delivery service.</p>\n<p>Delivery time may vary between one to three business days (it may be delayed by the customs procedure).</p>\n<p>The package tracking information is available for 120 days.</p>\n<p><strong>Standard worldwide shipping</strong></p>\n<p>The standard shipping option is only available in EU countries and Russia. Its trackability is limited.</p>\n<p>Delivery time may vary between five days to six weeks depending on your location and your national post service.</p>\n<p>A parcel sent via standard shipping can be traced <a href=\"https://www.postaonline.cz/en/trackandtrace\">here</a> until it leaves the country of origin. After that, it can be traced on the website of the postal service in your country, if available.</p>",
+		"content": "<p>Available shipping methods vary by country.</p>\n<p><u><strong>United States</strong></u></p>\n<p><strong>Standard</strong></p>\n<p>Delivery takes place within 2 to 5 business days after the order is processed and the package is sent. Packages are fully trackable.</p>\n<p><strong>Expedited</strong></p>\n<p>Delivery usually takes 2 business days after the order is processed and the package is sent. Packages are fully trackable.</p>\n<p><em>US customers can use</em> <a href=\"https://trezor.shiptracker.io/\"><u><em>https://trezor.shiptracker.io/</em></u></a> <em>to track their package.</em></p>\n<p><em>All US orders are shipped from our US warehouse, to ensure a fast hassle free delivery for our US customers.</em></p>\n<p><br></p>\n<p><u><strong>United Kingdom</strong></u></p>\n<p><strong>Standard</strong></p>\n<p>Delivery takes place within 1 to 2 business days after the order is processed and the package has been dispatched. Packages are fully trackable and can be traced <a href=\"https://www.dpd.co.uk/index.jsp\"><u>here</u></a>.</p>\n<p><em>All UK orders are shipped from our UK warehouse, to ensure a fast hassle free delivery for our UK customers.</em></p>\n<p><br></p>\n<p><u><strong>Internationally</strong></u></p>\n<p><strong>Standard</strong></p>\n<p>Outside the United States and United Kingdom, standard shipping is only available in EU countries and Russia. Its traceability is limited.</p>\n<p>Delivery time may vary between five days to six weeks depending on your location and your national post service.</p>\n<p>A parcel sent via Standard shipping can be traced <a href=\"https://www.postaonline.cz/trackandtrace\"><u>here</u></a> until it leaves the country of origin. After that, it can be traced on the website of the postal service in your country, if available.</p>\n<p><strong>UPS</strong></p>\n<p>UPS shipping is a professional and fast delivery service.</p>\n<p>Delivery time may vary between one and three business days (it may be delayed by the customs procedure). A parcel sent via UPS can be traced <a href=\"https://www.ups.com/track\"><u>here</u></a>.</p>\n<p>The package tracking information is available for 120 days.</p>",
 		"metadata": "ship, shipping, time, handling",
 		"notes": "",
 		"nosearch": false,
@@ -998,7 +958,7 @@
 		"id": 54,
 		"text": "List of official resellers",
 		"slug": "list-of-official-resellers",
-		"content": "<p>Lastly, check out our official list of resellers. If they are on the list, it lowers the chances that the device is fake.</p>\n<p><a href=\"https://trezor.io/resellers/\">Trezor Official Resellers</a>.</p>\n<p>We also have official stores on <a href=\"https://www.amazon.com/stores/page/C198CDB2-A4DE-4E54-8B10-AE9904CCD33E?ingress=0&amp;visitId=8cbd4754-8c5d-498f-acbe-5fe6d26b66c4&amp;lp_slot=auto-sparkle-hsa-tetris&amp;store_ref=SB_A09929091FVOQVGZOWMRH\"><u>Amazon US</u></a>, <a href=\"https://www.amazon.de/stores/node/9501630031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=TREZOR&amp;ref_=bl_dp_s_web_9501630031\"><u>Amazon DE</u></a> and <a href=\"https://www.newegg.com/Trezor-Official-Store\"><u>Newegg</u></a> (<a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2312&amp;ignorebbr=1\"><u>Trezor One</u></a>, <a href=\"https://www.newegg.com/Product/Product.aspx?Item=9SIAF1G7ZA2308&amp;cm_re=trezor-_-1BK-00UB-00004-_-Product?cm_sp=NeweggInsider-_-Article-_-Trezor\"><u>Trezor Model T</u></a>).</p>\n<p><strong>Note</strong>: Purchasing device from non-official reseller doesn't have to mean that the device is non-genuine.&nbsp;</p>\n<p>Reach out to our Trezor Support Team below for assistance.</p>",
+		"content": "<p>Lastly, check out our official list of resellers. If they are on the list, it lowers the chances that the device is fake.</p>\n<p><a href=\"https://trezor.io/resellers/\">Trezor Official Resellers</a>.</p>\n<p>We also have Amazon warehouses in the US, Canada, UK, and EU.</p>\n<p><strong>Note</strong>: Purchasing device from non-official reseller doesn't have to mean that the device is non-genuine.&nbsp;</p>\n<p>Reach out to our Trezor Support Team below for assistance.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -1129,7 +1089,7 @@
 	{
 		"id": 58,
 		"text": "I haven't received my order",
-		"slug": "i-didnt-receive-the-order",
+		"slug": "i-havent-received-my-order",
 		"content": "<p>If entering the tracking code shows your package has been “<em><strong>delivered</strong></em> ” but you still haven't received it, please reach out to us below.</p>",
 		"metadata": "nothing, none, undelivered",
 		"notes": "",
@@ -1396,10 +1356,10 @@
 	},
 	{
 		"id": 71,
-		"text": "Crypto - BitcoinPay & Globee",
-		"slug": "crypto-bitcoinpay-and-globee",
-		"content": "<p>Please verify that your bitcoin transaction has already been confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://shop.trezor.io/\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorers:&nbsp;</p>\n<p><a href=\"https://btc-explorer.trezor.io/\">https://btc-explorer.trezor.io</a></p>\n<p><a href=\"https://blockchain.info/\">https://blockchain.info</a></p>\n<p>If you have used a Globee option as form of payment and facing payment issues, please continue to the form.</p>",
-		"metadata": "crypto, bitcoinpay, btc, globee ",
+		"text": "Crypto - Confirmo",
+		"slug": "crypto-confirmo",
+		"content": "<p>Please verify that your bitcoin transaction has already been confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://shop.trezor.io/\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorer:</p>\n<p><a href=\"https://btc-explorer.trezor.io/\"><u>https://btc1.trezor.io/</u></a></p>",
+		"metadata": "crypto, confirmo, btc",
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
