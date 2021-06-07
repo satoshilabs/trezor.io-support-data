@@ -1358,7 +1358,7 @@
 		"id": 71,
 		"text": "Crypto - Confirmo",
 		"slug": "crypto-confirmo",
-		"content": "<p>Please verify that your bitcoin transaction has already been confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://shop.trezor.io/\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorer:</p>\n<p><a href=\"https://btc-explorer.trezor.io/\"><u>https://btc1.trezor.io/</u></a></p>",
+		"content": "<p>Please verify that your bitcoin transaction has already been confirmed on the blockchain.</p>\n<p>We recommend using one of the blockchain browsers where you need to type the destination address provided by our <a href=\"https://shop.trezor.io/\"><u>e-shop</u></a> when paying with Bitcoin.</p>\n<p>Suggested blockchain explorer:</p>\n<p><a href=\"https://btc1.trezor.io/\"><u>https://btc1.trezor.io/</u></a></p>",
 		"metadata": "crypto, confirmo, btc",
 		"notes": "",
 		"nosearch": false,
