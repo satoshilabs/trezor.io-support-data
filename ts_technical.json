@@ -75,6 +75,19 @@
 					"x": 0,
 					"y": 0
 				}
+			},
+			{
+				"target": 35,
+				"title": "Trezor Suite redirect - ETH, ETC, XRP",
+				"description": "Redirect to Trezor Suite",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 7,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
 			}
 		]
 	},
@@ -827,6 +840,33 @@
 			{
 				"target": 22,
 				"title": "This did not help",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 35,
+		"text": "Trezor Suite redirect - ETH, ETC, XRP",
+		"slug": "trezor-suite-redirect",
+		"content": "<p>Ethereum (ETH),&nbsp;Ethereum Classic (ETC) and Ripple (XRP) are now supported directly through <a href=\"https://suite.trezor.io/\">Trezor Suite</a>.</p>\n<p>The newest addition to the Trezor artillery brings an improved user interface and experience, unties more coins under one hood and brings new security and privacy features such as Tor, Replace-by-fee, Privacy mode among others.</p>\n<p>Trezor Suite is available as a standalone <a href=\"https://suite.trezor.io/\">desktop app</a> and through <a href=\"https://suite.trezor.io/web/\">web browser</a>.</p>\n<p>The desktop version of Trezor Suite can be downloaded here:&nbsp;<a href=\"https://suite.trezor.io/ \">https://suite.trezor.io/&nbsp;</a></p>\n<p>Trezor Suite browser version can be accessed&nbsp;here: <a href=\"https://suite.trezor.io/web/ \">https://suite.trezor.io/web/&nbsp;</a></p>\n<p>If you were previously accessing your ETH, ETC and XRP&nbsp;through&nbsp;our Beta and Next wallets, please do not have any concerns as Trezor Suite provides the same level of security with improved performance and new design.</p>\n<p>We recommend you download the desktop app of Trezor Suite,&nbsp;to prevent phishing attacks, however, it is possible to use the web version should you have the need for it.</p>",
+		"metadata": "suite, ethereum, eth, ethereum classic, etc, ripple, xrp",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -327.05418326637965,
+		"fy": 327.5984991824989,
+		"connections": [
+			{
+				"target": 13,
+				"title": "This did not help, I want to contact Trezor support",
 				"description": "",
 				"image": "",
 				"isLink": false,
