@@ -167,6 +167,19 @@
 					"x": 0,
 					"y": 0
 				}
+			},
+			{
+				"target": 42,
+				"title": "Trezor Suite redirect - ETH, ETC, XRP",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 4,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
 			}
 		]
 	},
@@ -840,5 +853,32 @@
 		"fx": -205.02703224038174,
 		"fy": -28.46872919910357,
 		"connections": []
-	}
+ },
+ {
+	 "id": 42,
+	 "text": "Trezor Suite redirect - ETH, ETC, XRP",
+	 "slug": "trezor-suite-redirect",
+	 "content": "<p>Ethereum (ETH), Ethereum Classic (ETC) and Ripple (XRP) are now supported directly through <a href=\"https://suite.trezor.io/\">Trezor Suite</a>.</p>\n<p>The newest addition to the Trezor artillery brings an improved user interface and experience, unites more coins under one hood and brings new security and privacy features such as Tor, Replace-by-fee, Privacy mode among others.</p>\n<p>Trezor Suite is available as a standalone <a href=\"https://suite.trezor.io/\">desktop app</a> and through <a href=\"https://suite.trezor.io/web/ \">web browser</a>.</p>\n<p>The desktop version of Trezor Suite can be downloaded here: <a href=\"https://suite.trezor.io/\">https://suite.trezor.io/</a>&nbsp;</p>\n<p>Trezor Suite browser version can be accessed here: <a href=\"https://suite.trezor.io/web/ \">https://suite.trezor.io/web/&nbsp;</a></p>\n<p>If you were previously accessing your ETH, ETC and XRP through our Beta and Next wallets, please do not have any concerns as Trezor Suite provides the same level of security with improved performance and new design.</p>\n<p>We recommend you download the desktop app of Trezor Suite, to prevent phishing attacks, however, it is possible to use the web version should you have the need for it.</p>",
+	 "metadata": "",
+	 "notes": "",
+	 "nosearch": false,
+	 "color": "#01B757",
+	 "fx": -266.6413072858538,
+	 "fy": 264.01045227050787,
+	 "connections": [
+		 {
+			 "target": 31,
+			 "title": "This did not help, I want to contact Trezor support",
+			 "description": "",
+			 "image": "",
+			 "isLink": false,
+			 "link": "",
+			 "sort": 1,
+			 "curve": {
+				 "x": 0,
+				 "y": 0
+			 }
+		 }
+	 ]
+	}	 
 ]
