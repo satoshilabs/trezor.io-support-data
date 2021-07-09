@@ -101,19 +101,6 @@
 					"x": 0,
 					"y": 0
 				}
-			},
-			{
-				"target": 36,
-				"title": "Trezor beta testing feedback",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 8,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
 			}
 		]
 	},
@@ -163,19 +150,6 @@
 				"isLink": true,
 				"link": "https://wiki.trezor.io/Developers_guide:Contributing",
 				"sort": 3,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 42,
-				"title": "Trezor Suite redirect - ETH, ETC, XRP",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 4,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -668,19 +642,6 @@
 					"x": 0,
 					"y": 0
 				}
-			},
-			{
-				"target": 35,
-				"title": "I want to give you a feedback regarding Shamir Backup",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 3,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
 			}
 		]
 	},
@@ -698,150 +659,6 @@
 		"connections": []
 	},
 	{
-		"id": 35,
-		"text": "Shamir",
-		"slug": "shamir",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#1e7ff0",
-		"fx": -1133.0001220703127,
-		"fy": -1145.3071594238284,
-		"connections": []
-	},
-	{
-		"id": 36,
-		"text": "Trezor beta testing feedback",
-		"slug": "trezor-beta-testing-feedback",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -940.2810006774138,
-		"fy": -1462.4557535303006,
-		"connections": [
-			{
-				"target": 35,
-				"title": "Shamir Backup feedback",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 37,
-				"title": "BTC Only Firmware feedback",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 2,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 38,
-				"title": "Super Shamir feedback",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 3,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 39,
-				"title": "FIDO2 feedback",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 4,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 40,
-				"title": "Buy feature",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 5,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
-		"id": 37,
-		"text": "BTC Only Firmware ",
-		"slug": "btc-only-firmware",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#1e7ff0",
-		"fx": -1028.1571834788604,
-		"fy": -1935.599422679228,
-		"connections": []
-	},
-	{
-		"id": 38,
-		"text": "Super Shamir feedback",
-		"slug": "super-shamir-feedback",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#1e7ff0",
-		"fx": -1299.3102719205099,
-		"fy": -1748.7648878375303,
-		"connections": []
-	},
-	{
-		"id": 39,
-		"text": "FIDO2 feedback",
-		"slug": "fido2-feedback",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#1e7ff0",
-		"fx": -1400.4290008544922,
-		"fy": -1590.605778033917,
-		"connections": []
-	},
-	{
-		"id": 40,
-		"text": "Buy feature",
-		"slug": "buy-feature",
-		"content": "",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#1e7ff0",
-		"fx": -1327.2614920479912,
-		"fy": -1377.9598737444198,
-		"connections": []
-	},
-	{
 		"id": 41,
 		"text": "GDPR requests",
 		"slug": "gdpr-requests",
@@ -853,32 +670,5 @@
 		"fx": -205.02703224038174,
 		"fy": -28.46872919910357,
 		"connections": []
- },
- {
-	 "id": 42,
-	 "text": "Trezor Suite redirect - ETH, ETC, XRP",
-	 "slug": "trezor-suite-redirect",
-	 "content": "<p>Ethereum (ETH), Ethereum Classic (ETC) and Ripple (XRP) are now supported directly through <a href=\"https://suite.trezor.io/\">Trezor Suite</a>.</p>\n<p>The newest addition to the Trezor artillery brings an improved user interface and experience, unites more coins under one hood and brings new security and privacy features such as Tor, Replace-by-fee, Privacy mode among others.</p>\n<p>Trezor Suite is available as a standalone <a href=\"https://suite.trezor.io/\">desktop app</a> and through <a href=\"https://suite.trezor.io/web/ \">web browser</a>.</p>\n<p>The desktop version of Trezor Suite can be downloaded here: <a href=\"https://suite.trezor.io/\">https://suite.trezor.io/</a>&nbsp;</p>\n<p>Trezor Suite browser version can be accessed here: <a href=\"https://suite.trezor.io/web/ \">https://suite.trezor.io/web/&nbsp;</a></p>\n<p>If you were previously accessing your ETH, ETC and XRP through our Beta and Next wallets, please do not have any concerns as Trezor Suite provides the same level of security with improved performance and new design.</p>\n<p>We recommend you download the desktop app of Trezor Suite, to prevent phishing attacks, however, it is possible to use the web version should you have the need for it.</p>",
-	 "metadata": "",
-	 "notes": "",
-	 "nosearch": false,
-	 "color": "#01B757",
-	 "fx": -266.6413072858538,
-	 "fy": 264.01045227050787,
-	 "connections": [
-		 {
-			 "target": 31,
-			 "title": "This did not help, I want to contact Trezor support",
-			 "description": "",
-			 "image": "",
-			 "isLink": false,
-			 "link": "",
-			 "sort": 1,
-			 "curve": {
-				 "x": 0,
-				 "y": 0
-			 }
-		 }
-	 ]
-	}	 
+	}
 ]
