@@ -373,7 +373,7 @@
 		"id": 11,
 		"text": "Firmware support",
 		"slug": "firmware-support",
-		"content": "<p>The coin in question is only supported in Trezor's (the hardware device) firmware at the moment.</p>\n<p><br>\nThis means that there is no user graphic interface (software wallet) to help a casual user use this cryptocurrency. In such a case, the firmware (operating system on the device) recognizes the cryptocurrency, and maybe it can even sign the transactions and operate, but it is only viable for very very technical users who can operate in this experience using a command line and programming.<br>\n</p>\n<p>Our goal is to have all of the supported coins (or at least as many as possible) natively integrated into our wallet.trezor.io<br>\nUnfortunately, I am not able to give you any specific timelines or promises right now.</p>",
+		"content": "<p>The coin in question is only supported in Trezor's (the hardware device) firmware at the moment.</p>\n<p><br>\nThis means that there is no user graphic interface (software wallet) to help a casual user use this cryptocurrency. In such a case, the firmware (operating system on the device) recognizes the cryptocurrency, and maybe it can even sign the transactions and operate, but it is only viable for very very technical users who can operate in this experience using a command line and programming.<br>\n</p>\n<p>Our goal is to have all of the supported coins (or at least as many as possible) natively integrated into our <a href=\"https://suite.trezor.io/\">Trezor Suite</a>.</p>\n<p><br>\nUnfortunately, We are not able to give you any specific timelines or promises right now.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
