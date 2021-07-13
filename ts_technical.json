@@ -3,7 +3,7 @@
 		"id": 0,
 		"text": "Technical issues",
 		"slug": "technical-issues",
-		"content": "<p>Please specify the issue.<br>\n</p>\n<p>Let's find out if you can access <a href=\"https://wallet.trezor.io/\">Trezor Wallet</a>.</p>",
+		"content": "<p>Please specify the issue.<br>\n</p>\n<p>Let's find out if you can access <a href=\"https://suite.trezor.io/\">Trezor Suite</a>.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": false,
@@ -13,8 +13,8 @@
 		"connections": [
 			{
 				"target": 1,
-				"title": "I can access Trezor Wallet at wallet.trezor.io but there is an issue",
-				"description": "Something is wrong with the Trezor Wallet interface, the balance is not correct etc.",
+				"title": "I can access Trezor Suite at suite.trezor.io but there is an issue",
+				"description": "Something is wrong with the Trezor Suite interface, the balance is not correct etc.",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -27,7 +27,7 @@
 			{
 				"target": 2,
 				"title": "I cannot access the wallet at all",
-				"description": "Trezor Wallet says \"Connect Trezor to continue\" or \"Loading\"",
+				"description": "Trezor Suite says \"Connect Trezor to continue\" or \"Loading\"",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -148,7 +148,7 @@
 		"id": 2,
 		"text": "I cannot access the wallet",
 		"slug": "i-cannot-access-the-wallet",
-		"content": "<p>What's <a href=\"https://wallet.trezor.io/\">Trezor Wallet</a> displaying?</p>",
+		"content": "<p>What's <a href=\"https://suite.trezor.io/\">Trezor Suite</a> displaying?</p>",
 		"metadata": "connection, not recognized",
 		"notes": "",
 		"nosearch": false,
@@ -158,7 +158,7 @@
 		"connections": [
 			{
 				"target": 19,
-				"title": "Trezor Wallet says \"Connect Trezor to continue\"",
+				"title": "Trezor Suite says \"Connect Trezor to continue\"",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -171,7 +171,7 @@
 			},
 			{
 				"target": 20,
-				"title": "Trezor Wallet says \"Loading\"",
+				"title": "Trezor Suite says \"Loading\"",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -495,7 +495,7 @@
 		"id": 20,
 		"text": "Stuck at \"Loading\"",
 		"slug": "stuck-at-loading",
-		"content": "<p>Please try clearing your browser's cache and refresh the page.</p>\n<p>Also, if you are using VPN, certain advanced Firewall or Antivirus settings, browser extensions (AdBlock, Privacy Badger etc.), or some cryptocurrency apps such as Geth or MetaMask, try disabling them. It is possible that some of these are clashing with Trezor Wallet.<br>\n</p>",
+		"content": "<p>Please try clearing your browser's cache and refresh the page.</p>\n<p>Also, if you are using VPN, certain advanced Firewall or Antivirus settings, browser extensions (AdBlock, Privacy Badger etc.), or some cryptocurrency apps such as Geth or MetaMask, try disabling them. It is possible that some of these are clashing with Trezor Suite.<br>\n</p>",
 		"metadata": "loading, stuck, not recognized",
 		"notes": "",
 		"nosearch": false,
@@ -562,7 +562,7 @@
 		"id": 24,
 		"text": "Problem might be with the drivers",
 		"slug": "problem-might-be-with-the-drivers",
-		"content": "<p>&nbsp;Try (re)installing the newest Trezor Bridge version from this <a href=\"https://wallet.trezor.io/#/bridge\">source</a> (once installed, please proceed by clearing your browser's cache). After successful installation, you should see \"trezord\" process running in your activity/system/task monitor.</p>",
+		"content": "<p>&nbsp;Try (re)installing the newest Trezor Bridge version from this <a href=\"https://suite.trezor.io/web/bridge/\">source</a> (once installed, please proceed by clearing your browser's cache). After successful installation, you should see \"trezord\" process running in your activity/system/task monitor.</p>",
 		"metadata": "drivers, not recognized, stuck",
 		"notes": "",
 		"nosearch": false,
@@ -572,7 +572,7 @@
 		"connections": [
 			{
 				"target": 25,
-				"title": "Trezor Bridge is running and the device is still not recognized by Trezor Wallet",
+				"title": "Trezor Bridge is running and the device is still not recognized by Trezor Suite",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -667,9 +667,9 @@
 	},
 	{
 		"id": 29,
-		"text": "Trezor Wallet access",
-		"slug": "trezor-wallet-access",
-		"content": "<p>Can you access <a href=\"https://wallet.trezor.io/#/\">Trezor Wallet</a>?&nbsp;</p>\n<p>We need to know whether the issue is with the connection in general or if the issue is related to the given wallet only.</p>",
+		"text": "Trezor Suite access",
+		"slug": "trezor-suite-access",
+		"content": "<p>Can you access <a href=\"https://suite.trezor.io/\">Trezor Suite</a>?&nbsp;</p>\n<p>We need to know whether the issue is with the connection in general or if the issue is related to the given wallet only.</p>",
 		"metadata": "",
 		"notes": "",
 		"nosearch": true,
@@ -679,7 +679,7 @@
 		"connections": [
 			{
 				"target": 2,
-				"title": "No, I cannot access Trezor Wallet",
+				"title": "No, I cannot access Trezor Suite",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -692,7 +692,7 @@
 			},
 			{
 				"target": 28,
-				"title": "Yes, I can access Trezor Wallet without any problem",
+				"title": "Yes, I can access Trezor Suite without any problem",
 				"description": "",
 				"image": "",
 				"isLink": false,
