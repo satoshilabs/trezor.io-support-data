@@ -13,7 +13,7 @@
 		"connections": [
 			{
 				"target": 1,
-				"title": "I can access Trezor Suite at suite.trezor.io but there is an issue",
+				"title": "I can access the wallet but there is an issue",
 				"description": "Something is wrong with the Trezor Suite interface, the balance is not correct etc.",
 				"image": "",
 				"isLink": false,
@@ -27,7 +27,7 @@
 			{
 				"target": 2,
 				"title": "I cannot access the wallet at all",
-				"description": "Trezor Suite says \"Connect Trezor to continue\" or \"Loading\"",
+				"description": "Trezor Suite says \"Connect your Trezor\" or \"DISCONNECTED\"",
 				"image": "",
 				"isLink": false,
 				"link": "",
@@ -44,7 +44,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 4,
+				"sort": 3,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -57,7 +57,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 5,
+				"sort": 4,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -70,7 +70,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 6,
+				"sort": 5,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -83,7 +83,7 @@
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 7,
+				"sort": 6,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -148,7 +148,7 @@
 		"id": 2,
 		"text": "I cannot access the wallet",
 		"slug": "i-cannot-access-the-wallet",
-		"content": "<p>What's <a href=\"https://suite.trezor.io/\">Trezor Suite</a> displaying?</p>",
+		"content": "<p>What's application are you using?</p>",
 		"metadata": "connection, not recognized",
 		"notes": "",
 		"nosearch": false,
@@ -157,8 +157,8 @@
 		"fy": 473.2026178434298,
 		"connections": [
 			{
-				"target": 19,
-				"title": "Trezor Suite says \"Connect Trezor to continue\"",
+				"target": 39,
+				"title": "I am using the desktop application Trezor Suite",
 				"description": "",
 				"image": "",
 				"isLink": false,
@@ -170,13 +170,26 @@
 				}
 			},
 			{
-				"target": 20,
-				"title": "Trezor Suite says \"Loading\"",
+				"target": 38,
+				"title": "I am using the web version at suite.trezor.io/web",
 				"description": "",
 				"image": "",
 				"isLink": false,
 				"link": "",
 				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 36,
+				"title": "I am using Trezor Wallet at wallet.trezor.io",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 3,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -867,6 +880,100 @@
 			{
 				"target": 13,
 				"title": "This did not help, I want to contact Trezor support",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 36,
+		"text": "I am using Trezor Wallet at wallet.trezor.io",
+		"slug": "I-am-using-trezor-wallet-at",
+		"content": "<p>What's <a href=\"https://wallet.trezor.io/\">Trezor Wallet</a> displaying?</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": 232.71785736083984,
+		"fy": 500.70960998535156,
+		"connections": [
+			{
+				"target": 20,
+				"title": "Stuck at \"Loading\"",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			{
+				"target": 19,
+				"title": "Stuck at \"Connect Trezor to continue\"",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 38,
+		"text": "I am using the web version at suite.trezor.io/web",
+		"slug": "I-am-using-the-web-version-at",
+		"content": "<p>What's <a href=\"https://suite.trezor.io/web/\">Trezor Suite</a> displaying?</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -41.25790528690119,
+		"fy": 500.82909617704513,
+		"connections": [
+			{
+				"target": 19,
+				"title": "Stuck at \"Connect your Trezor\"",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		]
+	},
+	{
+		"id": 39,
+		"text": "I am using the desktop application Trezor Suite",
+		"slug": "I-am-using-the-desktop-application-trezor-suite",
+		"content": "<p>What's the application Trezor Suite displaying?</p>",
+		"metadata": "",
+		"notes": "",
+		"nosearch": false,
+		"color": "#01B757",
+		"fx": -231.1684121524587,
+		"fy": 499.1606822294349,
+		"connections": [
+			{
+				"target": 25,
+				"title": "Stuck at \"DISCONNECTED\"",
 				"description": "",
 				"image": "",
 				"isLink": false,
