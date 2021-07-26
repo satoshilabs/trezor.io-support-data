@@ -227,7 +227,7 @@
 				"description": "",
 				"image": "",
 				"isLink": true,
-				"link": "https://wiki.trezor.io/User_manual:Making_payments",
+				"link": "https://wiki.trezor.io/Suite_manual:Making_payments",
 				"sort": 5,
 				"curve": {
 					"x": 0,
@@ -240,7 +240,7 @@
 				"description": "",
 				"image": "",
 				"isLink": true,
-				"link": "https://wiki.trezor.io/User_manual:Receiving_payments",
+				"link": "https://wiki.trezor.io/Suite_manual:Receiving_payments",
 				"sort": 6,
 				"curve": {
 					"x": 0,
