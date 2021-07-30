@@ -775,7 +775,7 @@
 		"id": 32,
 		"text": "I cannot initiate the firmware update",
 		"slug": "i-cannot-initiate-the-firmware-update",
-		"content": "<p>Please see our user manual section regarding the firmware update by following this <a href=\"https://wiki.trezor.io/User_manual:Updating_the_Trezor_device_firmware\">link</a>.</p>",
+		"content": "<p>Please see our user manual section regarding the firmware update by following this <a href=\"https://wiki.trezor.io/Suite_manual:Updating_the_Trezor_device_firmware\">link</a>.</p>",
 		"metadata": "firmware update",
 		"notes": "",
 		"nosearch": false,
