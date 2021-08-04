@@ -1261,13 +1261,39 @@
 		"fy": -1080.4260768691397,
 		"connections": [
 			{
+				"target": 78,
+				"title": "Shipping to Brazil",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 1,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},	
+			{
+				"target": 79,
+				"title": "Shipping to Philippines",
+				"description": "",
+				"image": "",
+				"isLink": false,
+				"link": "",
+				"sort": 2,
+				"curve": {
+					"x": 0,
+					"y": 0
+				}
+			},	
+			{
 				"target": 66,
 				"title": "Didn't find your country on the list? Continue to the form.",
 				"description": "",
 				"image": "",
 				"isLink": false,
 				"link": "",
-				"sort": 1,
+				"sort": 3,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -1514,5 +1540,31 @@
 				}
 			}
 		]
+	},
+	{
+		"id": 78,
+		"text": "Shipping to Brazil",
+		"slug": "shipping-to-brazil",
+		"content": "<p>Due to the problems with extra high customs taxes, we stop all the shipping to Brazil.</p>\n<p>You can purchase our product via Amazon or directly from our official <a href=\"https://trezor.io/resellers/\">resellers</a>.</p>\n<p><br></p>",
+		"metadata": "Brazil",
+		"notes": "",
+		"nosearch": false,
+		"color": "#eb8a00",
+		"fx": 917.7140886860511,
+		"fy": -1082.5958429151967,
+		"connections": []
+	},
+	{
+		"id": 79,
+		"text": "Shipping to Philippines",
+		"slug": "shipping-to-philippines",
+		"content": "<p>Due to the administrative difficulties with importing, we temporarily stop all the shipping to the Philippines.</p>\n<p>You can purchase our product directly from our official <a href=\"https://trezor.io/resellers/\">resellers</a>.</p>",
+		"metadata": "Philippines",
+		"notes": "",
+		"nosearch": false,
+		"color": "#eb8a00",
+		"fx": 921.0313232421875,
+		"fy": -969.5840942382811,
+		"connections": []
 	}
 ]
