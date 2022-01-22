@@ -130,19 +130,6 @@
 				}
 			},
 			{
-				"target": 6,
-				"title": "I'm interested in information regarding a hardfork of supported coins",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 2,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
 				"target": 5,
 				"title": "I want a new coin to be supported by Trezor",
 				"description": "",
@@ -284,8 +271,8 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -1068.4224617873567,
-		"fy": 334.12592170811905,
+		"fx": -953.9166024123567,
+		"fy": 307.0609192667128,
 		"connections": [
 			{
 				"target": 11,
@@ -311,36 +298,9 @@
 		"notes": "",
 		"nosearch": false,
 		"color": "#01B757",
-		"fx": -501.6135444641113,
-		"fy": 317.2729015350342,
+		"fx": -707.7240791320801,
+		"fy": 300.6175060272217,
 		"connections": []
-	},
-	{
-		"id": 6,
-		"text": "Hard forks",
-		"slug": "hard-forks",
-		"content": "<p>Generally, before we start working on implementing support of any hard fork, we first make sure that certain standards are met, such as several security and sustainability conditions.</p>\n<p>Our conditions are:&nbsp;</p>\n<ol>\n  <li>The forked currency must be open-source, to be verifiably safe to use alongside other currencies.</li>\n  <li>The Bitcoin fork must have strong two-way replay protection. Without replay protection, you could lose your bitcoins when trying to use the fork.</li>\n  <li>The blockchain of the fork must be online, active, and running. This requirement effectively means that miners are working to keep the blockchain alive and that blocks are found at regular intervals.</li>\n  <li>The forked coin must be backed by a development team which regularly updates the codebase. Without this assurance, the fork might just be a get-rich-quick scheme, at the expense of investors.</li>\n  <li>The cryptocurrency must be supported by reputable services, such as exchanges or wallets. No-name or previously unknown exchanges are not considered reputable.<br>\n</li>\n</ol>",
-		"metadata": "hard fork, fork",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -784.0694308810763,
-		"fy": 335.1634318033854,
-		"connections": [
-			{
-				"target": 31,
-				"title": "I didn't find the answer and I want to contact Trezor support",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
 	},
 	{
 		"id": 9,
@@ -378,8 +338,8 @@
 		"notes": "",
 		"nosearch": true,
 		"color": "#01B757",
-		"fx": -1194.5455755189407,
-		"fy": 508.94554209154705,
+		"fx": -1215.3647893861282,
+		"fy": 309.08076548021893,
 		"connections": [
 			{
 				"target": 31,
