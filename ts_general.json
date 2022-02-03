@@ -240,7 +240,7 @@
 				"description": "",
 				"image": "",
 				"isLink": true,
-				"link": "https://wiki.trezor.io/Getting_started_in_5_steps",
+				"link": "https://wiki.trezor.io/Initialization_process_for_Trezor_Model_T_in_Trezor_Suite",
 				"sort": 7,
 				"curve": {
 					"x": 0,
