@@ -181,19 +181,6 @@
 					"x": 0,
 					"y": 0
 				}
-			},
-			{
-				"target": 36,
-				"title": "I am using Trezor Wallet at wallet.trezor.io",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 3,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
 			}
 		]
 	},
@@ -281,7 +268,7 @@
 		"id": 9,
 		"text": "Wipe after the firmware update",
 		"slug": "wipe-after-the-firmware-update",
-		"content": "<p>Most likely something went wrong during the firmware update and your Trezor got wiped (this is a security feature). There is no need to worry, all you need to do now is run a recovery process using your recovery seed words. You can find a manual on how to recover your wallet by following this <a href=\"https://wiki.trezor.io/User_manual:Recovery\">link</a>.<br>\n</p>\n<p>Once this is done you should be able to access your wallet with all your coins.</p>\n<p>Please, note that if you were using <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a> protection prior to the firmware update then you need to re-enable it in the Advanced menu tab.&nbsp;</p>",
+		"content": "<p>Most likely something went wrong during the firmware update and your Trezor got wiped (this is a security feature). There is no need to worry, all you need to do now is run a recovery process using your recovery seed words. You can find a manual on how to recover your wallet by following this <a href=\"https://wiki.trezor.io/User_manual:Recovery\">link</a>.<br>\n</p>\n<p>Once this is done you should be able to access your wallet with all your coins.</p>\n<p>Please, note that if you were using <a href=\"https://wiki.trezor.io/Passphrase\">passphrase</a> protection prior to the firmware update then you need to re-enable it in the Settings.&nbsp;</p>",
 		"metadata": "wipe, firmware update",
 		"notes": "",
 		"nosearch": false,
@@ -497,33 +484,6 @@
 				"isLink": false,
 				"link": "",
 				"sort": 2,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
-		"id": 20,
-		"text": "Stuck at \"Loading\"",
-		"slug": "stuck-at-loading",
-		"content": "<p>Please try clearing your browser's cache and refresh the page.</p>\n<p>Also, if you are using VPN, certain advanced Firewall or Antivirus settings, browser extensions (AdBlock, Privacy Badger etc.), or some cryptocurrency apps such as Geth or MetaMask, try disabling them. It is possible that some of these are clashing with Trezor Suite.<br>\n</p>",
-		"metadata": "loading, stuck, not recognized",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": -510.45768900120515,
-		"fy": 928.5421522424576,
-		"connections": [
-			{
-				"target": 13,
-				"title": "This did not help, I want to contact support",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
 				"curve": {
 					"x": 0,
 					"y": 0
@@ -885,46 +845,6 @@
 				"isLink": false,
 				"link": "",
 				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			}
-		]
-	},
-	{
-		"id": 36,
-		"text": "I am using Trezor Wallet at wallet.trezor.io",
-		"slug": "I-am-using-trezor-wallet-at",
-		"content": "<p>What's <a href=\"https://wallet.trezor.io/\">Trezor Wallet</a> displaying?</p>",
-		"metadata": "",
-		"notes": "",
-		"nosearch": false,
-		"color": "#01B757",
-		"fx": 232.71785736083984,
-		"fy": 500.70960998535156,
-		"connections": [
-			{
-				"target": 20,
-				"title": "Stuck at \"Loading\"",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 1,
-				"curve": {
-					"x": 0,
-					"y": 0
-				}
-			},
-			{
-				"target": 19,
-				"title": "Stuck at \"Connect Trezor to continue\"",
-				"description": "",
-				"image": "",
-				"isLink": false,
-				"link": "",
-				"sort": 2,
 				"curve": {
 					"x": 0,
 					"y": 0
